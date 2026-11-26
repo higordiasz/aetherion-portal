@@ -5,7 +5,6 @@
   "proxima": 748,
   "dia": 88,
   "periodo": "Anoitecer",
-  "local": "Câmara de Registro CR-04 — arquivo restrito",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -88,8 +87,8 @@
       "id": "projetil-arcano",
       "nome": "Projétil Arcano",
       "mp": 4,
-      "custo_variavel": false,
       "efeito": "13 de dano mágico (base10, +3 potência INT14)",
+      "custo_variavel": false,
       "aperfeicoamentos": [
         {
           "condicao": "apenas contra alvo individual visível, ao efetuar teste de acerto deste feitiço",
@@ -102,8 +101,8 @@
       "id": "chama-errante",
       "nome": "Chama Errante",
       "mp": 7,
-      "custo_variavel": false,
       "efeito": "18 de dano de fogo (base15, +3 potência INT14)",
+      "custo_variavel": false,
       "aperfeicoamentos": [
         {
           "condicao": "apenas contra alvo individual visível, ao efetuar teste de acerto deste feitiço",
@@ -116,37 +115,37 @@
       "id": "barreira-runica",
       "nome": "Barreira Rúnica",
       "mp": 5,
-      "custo_variavel": false,
-      "efeito": "Bloqueia 14 de dano (base11, +3 potência INT14)"
+      "efeito": "Bloqueia 14 de dano (base11, +3 potência INT14)",
+      "custo_variavel": false
     },
     {
       "id": "restauracao",
       "nome": "Restauração",
       "mp": 7,
-      "custo_variavel": false,
-      "efeito": "Cura 16 HP (base13, +3 potência INT14) ou retarda temporariamente corrupção, não a cura"
+      "efeito": "Cura 16 HP (base13, +3 potência INT14) ou retarda temporariamente corrupção, não a cura",
+      "custo_variavel": false
     },
     {
       "id": "corte-runico",
       "nome": "Corte Rúnico",
       "mp": 5,
-      "custo_variavel": false,
-      "efeito": "19 de dano mágico com espada (base16, +3 potência INT14)"
+      "efeito": "19 de dano mágico com espada (base16, +3 potência INT14)",
+      "custo_variavel": false
     },
     {
       "id": "corte-da-chama-vazia",
       "nome": "Corte da Chama Vazia",
       "mp": 12,
-      "custo_variavel": false,
       "efeito": "26 de dano híbrido fogo/Vazio (base23, +3 potência INT14)",
-      "limite": "1x por combate"
+      "limite": "1x por combate",
+      "custo_variavel": false
     },
     {
       "id": "lume-errante",
       "nome": "Lume Errante",
       "mp": 2,
-      "custo_variavel": false,
-      "efeito": "Luz raio 6m por10min"
+      "efeito": "Luz raio 6m por10min",
+      "custo_variavel": false
     },
     {
       "id": "corte-do-elo",
@@ -159,31 +158,31 @@
       "id": "manto-da-chama-negra-ii",
       "nome": "Manto da Chama Negra III",
       "mp": 9,
-      "custo_variavel": false,
       "efeito": "+7 DEF por até6 turnos (base Manto III +4DEF, +3 potência INT14)",
-      "limite": "1x por combate; inativo; encerra antes se instabilidade anormal"
+      "limite": "1x por combate; inativo; encerra antes se instabilidade anormal",
+      "custo_variavel": false
     },
     {
       "id": "levitacao-runica-ii",
       "nome": "Levitação Rúnica II",
       "mp": 6,
-      "custo_variavel": false,
-      "efeito": "Permite levitar verticalmente o próprio corpo ou um objeto manejável e controlar subida e descida por até3 turnos; não concede deslocamento horizontal livre, transporte de outras pessoas ou de cargas pesadas."
+      "efeito": "Permite levitar verticalmente o próprio corpo ou um objeto manejável e controlar subida e descida por até3 turnos; não concede deslocamento horizontal livre, transporte de outras pessoas ou de cargas pesadas.",
+      "custo_variavel": false
     },
     {
       "id": "lanca-de-chama-negra-i",
       "nome": "Lança de Chama Negra I",
       "mp": 9,
-      "custo_variavel": false,
-      "efeito": "22 de dano mágico de Chama Negra (base19 +3 potência INT14) em um alvo visível mediante teste de acerto; sem área de efeito, dano contínuo ou ignição automática."
+      "efeito": "22 de dano mágico de Chama Negra (base19 +3 potência INT14) em um alvo visível mediante teste de acerto; sem área de efeito, dano contínuo ou ignição automática.",
+      "custo_variavel": false
     },
     {
       "id": "voo-gravito-eolico-i",
       "nome": "Voo Grávito-Eólico II",
       "mp": 8,
-      "custo_variavel": false,
       "efeito": "Voo autônomo individual por até5 turnos, deslocamento controlado até6m/turno com curvas e realinhamentos, pouso dinâmico por desaceleração; altitude segura demonstrada até2m. NÃO voo contínuo, viagem longa, altitude alta, passageiros, tempestades, esquiva automática ou recast seguro em pleno ar.",
-      "limite": "8MP por conjuração; 5turnos, até6m/turno, altura segura até2m. Exige novas pesquisas para travessias longas, grande altitude, vento forte ou prolongamento além de5 turnos."
+      "limite": "8MP por conjuração; 5turnos, até6m/turno, altura segura até2m. Exige novas pesquisas para travessias longas, grande altitude, vento forte ou prolongamento além de5 turnos.",
+      "custo_variavel": false
     }
   ],
   "prototipos": [
@@ -196,7 +195,9 @@
       "id": "janela-espiritual",
       "nome": "Janela Espiritual",
       "status": "experimental",
-      "efeito": "Comunicação visual e auditiva com observador consentido; C243–246 ~4min30s; C732 manifestação contínua12min para Serenya com adaptação e encerramento seguro."
+      "efeito": "Comunicação visual e auditiva com observador consentido; C243–246 ~4min30s; C732 manifestação contínua12min para Serenya com adaptação e encerramento seguro.",
+      "custo_mp_estimado": 38,
+      "limite": "C732 32MP sustentação +6MP encerramento, 20PE investidos; custo e duração referentes ao ensaio assistido, não parâmetros universais definitivos. Incorpórea, âncora original preservada, sem libertação. Reproduzir para validar versão permanente."
     },
     {
       "id": "sussurro-afinidade",
@@ -224,13 +225,17 @@
       "id": "manifestacao-espiritual-externa-i",
       "nome": "Manifestação Espiritual Externa I",
       "status": "experimental",
-      "efeito": "C708 cerca20s, C709 cerca60s estáveis para Theron e Lyra sem contato com espada."
+      "efeito": "C708 cerca20s, C709 cerca60s estáveis para Theron e Lyra sem contato com espada.",
+      "custo_mp_estimado": 10,
+      "limite": "Estabilizada em um ensaio C709; repetibilidade e custo definitivo não validados; sem libertação."
     },
     {
       "id": "materializacao-espiritual-parcial-i",
       "nome": "Materialização Espiritual Parcial I",
       "status": "experimental",
-      "efeito": "Mão direita de Vaelith moveu folha e tocou mão de Ashborn por poucos segundos."
+      "efeito": "Mão direita de Vaelith moveu folha e tocou mão de Ashborn por poucos segundos.",
+      "custo_mp_estimado": 16,
+      "limite": "Custo da etapa isolada, depende da sustentação anterior; primeira demonstração localizada, sem corpo completo, duração definitiva ou libertação."
     }
   ],
   "maestrias": [
@@ -239,252 +244,252 @@
       "nome": "Chamas",
       "titulo": "Mestre das Chamas",
       "grau": 3,
-      "bonus": 3,
       "proximo_marco": "Validar fragmentação, convergência e outras aplicações variadas.",
-      "justificativa": "Manto III, Lança I, Corte da Chama Vazia, pesquisa e combate."
+      "justificativa": "Manto III, Lança I, Corte da Chama Vazia, pesquisa e combate.",
+      "bonus": 3
     },
     {
       "id": "esgrima",
       "nome": "Esgrima",
       "titulo": "Mestre da Espada",
       "grau": 3,
-      "bonus": 3,
       "proximo_marco": "Validar estilos, defesa e adaptação a adversários diversos.",
-      "justificativa": "Guarda e Passada III, treino e combate."
+      "justificativa": "Guarda e Passada III, treino e combate.",
+      "bonus": 3
     },
     {
       "id": "gravito-eolica",
       "nome": "Magia Grávito-Eólica",
       "titulo": "Mestre Grávito-Eólico",
       "grau": 3,
-      "bonus": 3,
       "proximo_marco": "Validar controle e estabilidade em condições variadas.",
-      "justificativa": "Levitação II, Voo II, pesquisa e combate."
+      "justificativa": "Levitação II, Voo II, pesquisa e combate.",
+      "bonus": 3
     },
     {
       "id": "runas-engenharia-eterica",
       "nome": "Runas e Engenharia Etérica",
       "titulo": "Mestre das Runas",
       "grau": 3,
-      "bonus": 3,
       "proximo_marco": "Desenvolver circuitos próprios mais complexos e reproduzíveis.",
-      "justificativa": "Matriz adaptativa e reparos rúnicos validados."
+      "justificativa": "Matriz adaptativa e reparos rúnicos validados.",
+      "bonus": 3
     },
     {
       "id": "espiritual",
       "nome": "Magia Espiritual",
       "titulo": "Mestre dos Espíritos",
       "grau": 3,
-      "bonus": 3,
       "proximo_marco": "Demonstrar domínio em situações variadas e adversas, múltiplos avanços validados e adaptação avançada.",
-      "justificativa": "Estudo aprofundado, manifestações visuais/auditivas reproduzidas, materialização parcial C709, diagnóstico passivo reproduzido C724 e adaptação significativa da Janela C732 com12min de comunicação direta e encerramento seguro."
+      "justificativa": "Estudo aprofundado, manifestações visuais/auditivas reproduzidas, materialização parcial C709, diagnóstico passivo reproduzido C724 e adaptação significativa da Janela C732 com12min de comunicação direta e encerramento seguro.",
+      "bonus": 3
     },
     {
       "id": "restaurativa",
       "nome": "Magia Restaurativa",
       "titulo": "Aprendiz da Restauração",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Estudar mecanismos e validar cura aprimorada.",
-      "justificativa": "Restauração funcional em si e terceiros, sem pesquisa avançada."
+      "justificativa": "Restauração funcional em si e terceiros, sem pesquisa avançada.",
+      "bonus": 1
     },
     {
       "id": "influencia-arcana",
       "nome": "Influência Arcana",
       "titulo": "Aprendiz da Influência",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Validar influência reproduzível e seus limites.",
-      "justificativa": "Sussurros experimentais com confiabilidade limitada."
+      "justificativa": "Sussurros experimentais com confiabilidade limitada.",
+      "bonus": 1
     },
     {
       "id": "projecao-arcana",
       "nome": "Projeção Arcana",
       "titulo": "Estudioso da Projeção",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Validar nova projeção arcana genérica em aplicações variadas.",
-      "justificativa": "Projétil Arcano, Corte Rúnico e precisão ofensiva refinada."
+      "justificativa": "Projétil Arcano, Corte Rúnico e precisão ofensiva refinada.",
+      "bonus": 2
     },
     {
       "id": "combate-arcano",
       "nome": "Combate Arcano",
       "titulo": "Estudioso do Combate Arcano",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Validar uma técnica híbrida nova, repetível e adaptável.",
-      "justificativa": "Sincronia espada-magia, Convergência Controlada e aplicação real de voo e ataque."
+      "justificativa": "Sincronia espada-magia, Convergência Controlada e aplicação real de voo e ataque.",
+      "bonus": 2
     },
     {
       "id": "esquiva",
       "nome": "Esquiva",
       "titulo": "Estudioso da Esquiva",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Validar aperfeiçoamento defensivo significativo e reprodução em condições variadas ou combate real.",
-      "justificativa": "Evasão real C470 e treino de evasões variadas C738, sucesso26/17 e excepcional28/18."
+      "justificativa": "Evasão real C470 e treino de evasões variadas C738, sucesso26/17 e excepcional28/18.",
+      "bonus": 2
     },
     {
       "id": "furtividade",
       "nome": "Furtividade",
       "titulo": "Aprendiz da Furtividade",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Reproduzir infiltrações em condições distintas.",
-      "justificativa": "Reconhecimento furtivo e infiltração silenciosa no resgate."
+      "justificativa": "Reconhecimento furtivo e infiltração silenciosa no resgate.",
+      "bonus": 1
     },
     {
       "id": "montaria",
       "nome": "Montaria",
       "titulo": "Estudioso da Montaria",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Validar controle montado em situações adversas.",
-      "justificativa": "Viagens montadas, condução em terreno irregular e escolta concluída."
+      "justificativa": "Viagens montadas, condução em terreno irregular e escolta concluída.",
+      "bonus": 2
     },
     {
       "id": "tatica-combate",
       "nome": "Tática de Combate",
       "titulo": "Estudioso da Tática",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Validar estratégias variadas contra adversários distintos.",
-      "justificativa": "Planejamento de caçada, reconhecimento e uso de posicionamento e cobertura em combate."
+      "justificativa": "Planejamento de caçada, reconhecimento e uso de posicionamento e cobertura em combate.",
+      "bonus": 2
     },
     {
       "id": "sobrevivencia",
       "nome": "Sobrevivência",
       "titulo": "Estudioso da Sobrevivência",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Validar sobrevivência prolongada em terreno adverso.",
-      "justificativa": "Pesca, seleção de abrigo, água, fogueira e pernoites em expedições."
+      "justificativa": "Pesca, seleção de abrigo, água, fogueira e pernoites em expedições.",
+      "bonus": 2
     },
     {
       "id": "rastreamento",
       "nome": "Rastreamento",
       "titulo": "Estudioso do Rastreamento",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Distinguir rastros complexos e seguir alvos em condições difíceis.",
-      "justificativa": "Leitura de pegadas, vestígios de fauna e localização do cativeiro."
+      "justificativa": "Leitura de pegadas, vestígios de fauna e localização do cativeiro.",
+      "bonus": 2
     },
     {
       "id": "cartografia",
       "nome": "Cartografia",
       "titulo": "Estudioso da Cartografia",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Produzir mapa de nova região com referências verificadas.",
-      "justificativa": "Cotejo de mapas, reconhecimento do ramal e relatórios validados."
+      "justificativa": "Cotejo de mapas, reconhecimento do ramal e relatórios validados.",
+      "bonus": 2
     },
     {
       "id": "arqueologia",
       "nome": "Arqueologia",
       "titulo": "Estudioso da Arqueologia",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Investigar outro sítio com métodos reproduzíveis.",
-      "justificativa": "Identificação de Arven, escavação não invasiva, preservação e interpretação de evidências."
+      "justificativa": "Identificação de Arven, escavação não invasiva, preservação e interpretação de evidências.",
+      "bonus": 2
     },
     {
       "id": "erudicao",
       "nome": "Erudição",
       "titulo": "Estudioso da Erudição",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Validar interpretações de tradições e fontes independentes.",
-      "justificativa": "Leitura crítica de fontes e cruzamento documental, transcrições e estudos continuados."
+      "justificativa": "Leitura crítica de fontes e cruzamento documental, transcrições e estudos continuados.",
+      "bonus": 2
     },
     {
       "id": "diplomacia",
       "nome": "Diplomacia",
       "titulo": "Aprendiz da Diplomacia",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Demonstrar negociação difícil sem auxílio mágico.",
-      "justificativa": "Argumentação profissional, cooperação institucional e depoimento."
+      "justificativa": "Argumentação profissional, cooperação institucional e depoimento.",
+      "bonus": 1
     },
     {
       "id": "comercio",
       "nome": "Comércio",
       "titulo": "Aprendiz do Comércio",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Validar avaliação e negociação de preços sem influência arcana.",
-      "justificativa": "Contratos, vendas e negociação de empréstimo; influência mágica não prova domínio comercial avançado."
+      "justificativa": "Contratos, vendas e negociação de empréstimo; influência mágica não prova domínio comercial avançado.",
+      "bonus": 1
     },
     {
       "id": "intimidacao",
       "nome": "Intimidação",
       "titulo": "Aprendiz da Intimidação",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Validar uso controlado em contextos distintos.",
-      "justificativa": "Intimidação funcional em confronto, sem domínio independente de poderes arcanos demonstrado."
+      "justificativa": "Intimidação funcional em confronto, sem domínio independente de poderes arcanos demonstrado.",
+      "bonus": 1
     },
     {
       "id": "culinaria",
       "nome": "Culinária",
       "titulo": "Aprendiz da Culinária",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Aprender técnicas e receitas variadas.",
-      "justificativa": "Preparação funcional de peixe em acampamento; domínio avançado não demonstrado."
+      "justificativa": "Preparação funcional de peixe em acampamento; domínio avançado não demonstrado.",
+      "bonus": 1
     },
     {
       "id": "abjuracao",
       "nome": "Abjuração",
       "titulo": "Aprendiz da Abjuração",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Validar proteção distinta de chamas ou engenharia rúnica.",
-      "justificativa": "Barreira Rúnica e proteção arcana funcional; Manto e runas já têm disciplinas próprias."
+      "justificativa": "Barreira Rúnica e proteção arcana funcional; Manto e runas já têm disciplinas próprias.",
+      "bonus": 1
     },
     {
       "id": "metamagia",
       "nome": "Metamagia",
       "titulo": "Estudioso da Metamagia",
       "grau": 2,
-      "bonus": 2,
       "proximo_marco": "Validar modificação estrutural independente em novas famílias de feitiços.",
-      "justificativa": "Refinamento estrutural de feitiços e sustentação adaptativa em aplicações variadas."
+      "justificativa": "Refinamento estrutural de feitiços e sustentação adaptativa em aplicações variadas.",
+      "bonus": 2
     },
     {
       "id": "luz",
       "nome": "Luz",
       "titulo": "Aprendiz da Luz",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Validar aplicação luminosa distinta do Lume.",
-      "justificativa": "Lume Errante funcional e orientação de Lyra; sem outras técnicas de luz validadas."
+      "justificativa": "Lume Errante funcional e orientação de Lyra; sem outras técnicas de luz validadas.",
+      "bonus": 1
     },
     {
       "id": "pactuacao-ritual",
       "nome": "Pactuação Ritual",
       "titulo": "Aprendiz da Pactuação",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Concluir estudo e validar círculo ritual sem estabelecer contrato automático.",
-      "justificativa": "Fundamentos estudados em colaboração com Theron; pactos não validados."
+      "justificativa": "Fundamentos estudados em colaboração com Theron; pactos não validados.",
+      "bonus": 1
     },
     {
       "id": "transmutacao-eterica",
       "nome": "Transmutação Etérica",
       "titulo": "Aprendiz da Transmutação",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Consolidar isolamento e conversão e demonstrar transferência controlada.",
-      "justificativa": "Fundamentos de transferência compreendidos e transcritos; isolamento e conversão inconclusivos."
+      "justificativa": "Fundamentos de transferência compreendidos e transcritos; isolamento e conversão inconclusivos.",
+      "bonus": 1
     },
     {
       "id": "atletismo",
       "nome": "Atletismo",
       "titulo": "Aprendiz do Atletismo",
       "grau": 1,
-      "bonus": 1,
       "proximo_marco": "Reproduzir esforço prolongado em condições variadas, corrida, escalada ou transporte de carga pertinentes.",
-      "justificativa": "Condicionamento físico anterior C632 e treino prolongado C738 excepcional30/18, fundamentos atléticos comprovados."
+      "justificativa": "Condicionamento físico anterior C632 e treino prolongado C738 excepcional30/18, fundamentos atléticos comprovados.",
+      "bonus": 1
     }
   ],
   "inventario": [
@@ -493,13 +498,13 @@
       "nome": "Lâmina do Vazio",
       "categoria": "arma_artefato",
       "descricao": "Espada que ancora o espírito de Vaelith.",
+      "restricoes": [
+        "Não supor libertação física de Vaelith"
+      ],
       "propriedades": [
         "+9 de dano físico",
         "Pode atingir incorpóreos",
         "Vaelith está vinculada à arma"
-      ],
-      "restricoes": [
-        "Não supor libertação física de Vaelith"
       ],
       "quantidade": 1,
       "equipado": true
@@ -509,13 +514,13 @@
       "nome": "Grimório das Sete Chaves",
       "categoria": "grimorio",
       "descricao": "Antigo grimório cujas sete correntes físicas foram removidas.",
-      "propriedades": [
-        "Livro fechado, mas correntes não o prendem mais",
-        "Parte do conteúdo foi estudada"
-      ],
       "restricoes": [
         "Não presumir leitura total",
         "Não doado ou trocado ao Santuário"
+      ],
+      "propriedades": [
+        "Livro fechado, mas correntes não o prendem mais",
+        "Parte do conteúdo foi estudada"
       ],
       "quantidade": 1,
       "equipado": false
@@ -525,10 +530,10 @@
       "nome": "Correntes do Grimório das Sete Chaves",
       "categoria": "artefato",
       "descricao": "Sete correntes antigas removidas e guardadas.",
+      "restricoes": [],
       "propriedades": [
         "Sete unidades no inventário"
       ],
-      "restricoes": [],
       "quantidade": 7,
       "equipado": false
     },
@@ -537,13 +542,13 @@
       "nome": "Grimório da Vigília de Ferro",
       "categoria": "grimorio",
       "descricao": "Livro de fundamentos defensivos e caminhos rúnicos de distribuição de impactos.",
+      "restricoes": [
+        "Não concede magia nova nem DEF adicional"
+      ],
       "propriedades": [
         "Comprado de Berald Morn na Cena431 por oito ouros",
         "Lido parcialmente nas Cenas439 e440",
         "Malha Defensiva em Duas Camadas I compreendida apenas teoricamente"
-      ],
-      "restricoes": [
-        "Não concede magia nova nem DEF adicional"
       ],
       "quantidade": 1,
       "equipado": false
@@ -553,12 +558,12 @@
       "nome": "Poção de Vida",
       "categoria": "consumivel",
       "descricao": "Poção capaz de curar ferimentos.",
+      "restricoes": [
+        "Uma unidade consumida por uso"
+      ],
       "propriedades": [
         "+15 HP por unidade",
         "Ashborn possui duas"
-      ],
-      "restricoes": [
-        "Uma unidade consumida por uso"
       ],
       "quantidade": 2,
       "equipado": false
@@ -568,11 +573,11 @@
       "nome": "Odre de Água",
       "categoria": "recipiente",
       "descricao": "Dois recipientes de água.",
-      "propriedades": [
-        "C568 dois recipientes com ~2,5L total, parte água anterior e ~1,9L de nascente fervida/resfriada."
-      ],
       "restricoes": [
         "Descontar consumo em viagem quando ocorrer"
+      ],
+      "propriedades": [
+        "C568 dois recipientes com ~2,5L total, parte água anterior e ~1,9L de nascente fervida/resfriada."
       ],
       "quantidade": 2,
       "equipado": false
@@ -582,8 +587,8 @@
       "nome": "Faca Pequena",
       "categoria": "equipamento",
       "descricao": "Faca utilitária de Ashborn.",
-      "propriedades": [],
       "restricoes": [],
+      "propriedades": [],
       "quantidade": 1,
       "equipado": false
     },
@@ -592,8 +597,8 @@
       "nome": "Bolsa de Couro",
       "categoria": "recipiente",
       "descricao": "Bolsa pequena, vazia no checkpoint.",
-      "propriedades": [],
       "restricoes": [],
+      "propriedades": [],
       "quantidade": 1,
       "equipado": false
     },
@@ -602,16 +607,16 @@
       "nome": "Contrato assinado — Escolta dos Artífices a Pedravale",
       "categoria": "documento",
       "descricao": "Via oficial assinada de escolta para duas carroças de vidrarias especializadas, ferramentas e componentes rúnicos, rota Luméria–Pedravale–Luméria, partida prevista manhã do Dia72.",
+      "restricoes": [
+        "Sem pagamento24 ouro antes do retorno e validação; adiantamento8 já recebido e não pode ser recebido de novo.",
+        "Data72 é prevista, dependente de apresentação/organização e futura ação do jogador; assinatura não produz partida automática.",
+        "Não representa promessa de segurança da rota ou confirmação de criatura."
+      ],
       "propriedades": [
         "Contrato formalmente aceito e assinado na Associação dos Carreteiros com Elira Voss, Cena606 Dia70 manhã.",
         "Remuneração pactuada32ouro total, adiantamento8ouro ENTREGUE ao assinar, saldo24ouro somente após conclusão e validação.",
         "Duração prevista5–6 dias de viagem completa, variável por condições reais. Alimentação pela expedição apenas durante serviço.",
         "Duas carroças sob responsabilidade de escolta de ida e volta. A missão não exige investigar qualquer rumor de Pedravale."
-      ],
-      "restricoes": [
-        "Sem pagamento24 ouro antes do retorno e validação; adiantamento8 já recebido e não pode ser recebido de novo.",
-        "Data72 é prevista, dependente de apresentação/organização e futura ação do jogador; assinatura não produz partida automática.",
-        "Não representa promessa de segurança da rota ou confirmação de criatura."
       ],
       "quantidade": 1,
       "equipado": false
@@ -621,17 +626,17 @@
       "nome": "Ordem de Serviço — Núcleo do Depósito do Canal",
       "categoria": "documento",
       "descricao": "Via oficial da ordem de serviço técnico assinada por Ashborn no Quadro Público do Santuário de Luméria Dia77 tarde C638, para apresentação ao encarregado do Depósito do Canal, após confirmação do chamado e autorização por mensageiro.",
+      "restricoes": [
+        "A assinatura ORIGINAL de C638 isoladamente não comprovava reparo nem pagamento; somente a nova validação do encarregado C646 e quitação assinada os comprovam.",
+        "A assinatura não autoriza forçar núcleo instável nem trabalhar sem avaliação de segurança.",
+        "Não é contrato da Associação dos Carreteiros nem reabre relatório anterior do Vau."
+      ],
       "propriedades": [
         "C638 registro formal da aceitação por Ashborn para inspecionar a causa de aquecimento anormal e oscilação dos anéis do núcleo no Depósito do Canal.",
         "Local dentro de Luméria; apresentar via ao encarregado do depósito para receber briefing presencial, autorização de acesso e diagnóstico.",
         "Recompensa de6ouro condicionada a diagnóstico, reparo se seguro e validação do contratante, sem adiantamento; em caso de risco impeditivo, interromper e discutir remuneração eventual sem valor garantido.",
         "Material/equipamento só após diagnóstico e autorização local, não incluído na entrega da ordem, tempo de serviço estimado cerca de1dia, sem data de conclusão imposta.",
         "C646 o encarregado aprovou formalmente e assinou o reparo seguro do Núcleo, pagou INTEGRALMENTE os6ouro contratuais a Ashborn; a via original foi anotada como CONCLUÍDA, VALIDADA e QUITADA sem obrigação restante. Permanece1 com Ashborn como comprovante."
-      ],
-      "restricoes": [
-        "A assinatura ORIGINAL de C638 isoladamente não comprovava reparo nem pagamento; somente a nova validação do encarregado C646 e quitação assinada os comprovam.",
-        "A assinatura não autoriza forçar núcleo instável nem trabalhar sem avaliação de segurança.",
-        "Não é contrato da Associação dos Carreteiros nem reabre relatório anterior do Vau."
       ],
       "quantidade": 1,
       "equipado": false
@@ -641,13 +646,13 @@
       "nome": "Coração de Éter",
       "categoria": "artefato",
       "descricao": "Cristal etérico em posse de Ashborn.",
-      "propriedades": [
-        "C655 observação PASSIVA pelo Ashborn no quarto da Pousada Dia77: tênues linhas luminosas internas seguem trajetos recorrentes reconhecíveis em ciclos sucessivos, com organização aparente de circulação etérica. Observação sem canalizar mana, sem extração, sem acoplamento com outro objeto; a repetibilidade do padrão VISUAL/arcano foi identificada por teste excepcional34/DT22."
-      ],
       "restricoes": [
         "Ainda não comprovado como âncora substituta segura",
         "Não consumir sem ordem",
         "C655 recirculação interna observada NÃO demonstra reserva utilizável, fonte de éter PURO para Sifão, capacidade de transferir energia para outras peças, estabilizar sistema ativo ou preservar consciência/espírito de Vaelith; aplicações exigem novos instrumentos, testes de isolamento e protocolo seguro."
+      ],
+      "propriedades": [
+        "C655 observação PASSIVA pelo Ashborn no quarto da Pousada Dia77: tênues linhas luminosas internas seguem trajetos recorrentes reconhecíveis em ciclos sucessivos, com organização aparente de circulação etérica. Observação sem canalizar mana, sem extração, sem acoplamento com outro objeto; a repetibilidade do padrão VISUAL/arcano foi identificada por teste excepcional34/DT22."
       ],
       "quantidade": 1,
       "equipado": false
@@ -657,11 +662,11 @@
       "nome": "Estilhaço Abissal",
       "categoria": "material_artefato",
       "descricao": "Estilhaço associado ao Abismo.",
-      "propriedades": [],
       "restricoes": [
         "NÃO presumir ser fonte pura de éter para o Sifão",
         "C655 observação passiva INCONCLUSIVA não autoriza Sifão de Éter Puro, experimento direto de união com o Coração, fabricação de armas, encantamento, cura ou juízo de segurança; investigar em ambiente protegido e nunca presumir efeito pela associação ao Abismo."
       ],
+      "propriedades": [],
       "quantidade": 1,
       "equipado": false
     },
@@ -670,10 +675,10 @@
       "nome": "Contrato — Expedição Além do Vau dos Três Cedros",
       "categoria": "documentos",
       "descricao": "Via oficial assinada C737. Relatório atualizado da travessia, largura, pavimento, drenagem e obstáculos da via até Arven, reparos e limites; reaproveitar registros anteriores sem duplicar remuneração. Não exige carroça, certificar carga nem combate; se bloqueado, documentar evidências e retornar com segurança para avaliação.",
-      "propriedades": [],
       "restricoes": [
         "Remuneração 24ouro após validação, sem adiantamento. Entrega até Dia92."
       ],
+      "propriedades": [],
       "quantidade": 1,
       "equipado": false
     },
@@ -682,10 +687,10 @@
       "nome": "Contrato — Levantamento de materiais em Arven",
       "categoria": "documentos",
       "descricao": "Via oficial assinada C737. Parecer visual sobre materiais construtivos aproveitáveis, condição de estruturas acessíveis e riscos; sem retirada, demolição ou entrada em setor instável. Artefatos e documentos históricos excluídos.",
-      "propriedades": [],
       "restricoes": [
         "Remuneração 8ouro após validação, sem adiantamento. Entrega até Dia92."
       ],
+      "propriedades": [],
       "quantidade": 1,
       "equipado": false
     },
@@ -694,10 +699,10 @@
       "nome": "Contrato — Correspondência no Ramal",
       "categoria": "documentos",
       "descricao": "Via oficial assinada C737. Retirar pacote lacrado na Associação manhã Dia83, entrega prevista Dia83 à equipe de manutenção junto ao acesso Ramal e obter recibo. Se ausente, preservar pacote e comunicar no retorno; sem pagamento automático. Pacote ainda não recebido.",
-      "propriedades": [],
       "restricoes": [
         "Remuneração 3ouro após validação, sem adiantamento. Entrega até Dia92."
       ],
+      "propriedades": [],
       "quantidade": 1,
       "equipado": false
     },
@@ -706,10 +711,10 @@
       "nome": "Ração de Viagem",
       "categoria": "consumivel",
       "descricao": "Porção alimentar para deslocamento.",
+      "restricoes": [],
       "propriedades": [
         "Duas unidades no checkpoint V229"
       ],
-      "restricoes": [],
       "quantidade": 3,
       "equipado": false
     },
@@ -718,11 +723,11 @@
       "nome": "Recibo assinado — Correspondência no Ramal",
       "categoria": "documentos",
       "descricao": "Formulário de recebimento assinado pelo encarregado da equipe de manutenção junto ao acesso do Ramal da Vigília, Dia83.",
-      "propriedades": [
-        "Entrega lacrada registrada C739."
-      ],
       "restricoes": [
         "Apresentar a Elira para validação do contrato, não equivale a pagamento."
+      ],
+      "propriedades": [
+        "Entrega lacrada registrada C739."
       ],
       "quantidade": 1,
       "equipado": false
@@ -732,11 +737,11 @@
       "nome": "Fragmentos documentais PC-03",
       "categoria": "evidencia_arqueologica",
       "descricao": "Referências RCA117, custódia provisória, integridade e autorização.",
-      "propriedades": [
-        "Referências RCA117, custódia provisória, integridade e autorização."
-      ],
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Referências RCA117, custódia provisória, integridade e autorização."
       ],
       "quantidade": 1,
       "equipado": false
@@ -746,11 +751,11 @@
       "nome": "Plaqueta PC-03",
       "categoria": "evidencia_arqueologica",
       "descricao": "Identificação administrativa.",
-      "propriedades": [
-        "Identificação administrativa."
-      ],
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Identificação administrativa."
       ],
       "quantidade": 1,
       "equipado": false
@@ -760,11 +765,11 @@
       "nome": "Fragmento de lacre administrativo",
       "categoria": "evidencia_arqueologica",
       "descricao": "Fragmento deteriorado, sem função ativa demonstrada.",
-      "propriedades": [
-        "Fragmento deteriorado, sem função ativa demonstrada."
-      ],
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Fragmento deteriorado, sem função ativa demonstrada."
       ],
       "quantidade": 1,
       "equipado": false
@@ -774,11 +779,11 @@
       "nome": "Caderno de Procedimentos de Custódia",
       "categoria": "evidencia_arqueologica",
       "descricao": "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento.",
-      "propriedades": [
-        "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento."
-      ],
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento."
       ],
       "quantidade": 1,
       "equipado": false
@@ -788,11 +793,11 @@
       "nome": "Chave de Aferição Etérica",
       "categoria": "evidencia_arqueologica",
       "descricao": "Designação provisória; acoplamento geométrico, não testado.",
-      "propriedades": [
-        "Designação provisória; acoplamento geométrico, não testado."
-      ],
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Designação provisória; acoplamento geométrico, não testado."
       ],
       "quantidade": 1,
       "equipado": false
@@ -802,11 +807,11 @@
       "nome": "Folha de Instruções de Calibração",
       "categoria": "evidencia_arqueologica",
       "descricao": "Três referências, isolamento e interrupção.",
-      "propriedades": [
-        "Três referências, isolamento e interrupção."
-      ],
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Três referências, isolamento e interrupção."
       ],
       "quantidade": 1,
       "equipado": false
@@ -816,11 +821,11 @@
       "nome": "Possível Regulador Etérico",
       "categoria": "evidencia_arqueologica",
       "descricao": "Peça mineral metálica inativa na inspeção.",
-      "propriedades": [
-        "Peça mineral metálica inativa na inspeção."
-      ],
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Peça mineral metálica inativa na inspeção."
       ],
       "quantidade": 1,
       "equipado": false
@@ -830,11 +835,11 @@
       "nome": "Placa dos Três Parâmetros",
       "categoria": "evidencia_arqueologica",
       "descricao": "Integridade, estabilidade e continuidade.",
-      "propriedades": [
-        "Integridade, estabilidade e continuidade."
-      ],
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Integridade, estabilidade e continuidade."
       ],
       "quantidade": 1,
       "equipado": false
@@ -844,11 +849,11 @@
       "nome": "Estojo com três registros de trânsito",
       "categoria": "evidencia_arqueologica",
       "descricao": "Referências PC03 RCA109 RCA114 RCA117, destinos incompletos.",
-      "propriedades": [
-        "Referências PC03 RCA109 RCA114 RCA117, destinos incompletos."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Referências PC03 RCA109 RCA114 RCA117, destinos incompletos."
       ],
       "quantidade": 1,
       "equipado": false
@@ -858,11 +863,11 @@
       "nome": "Selo de Trânsito Etérico",
       "categoria": "evidencia_arqueologica",
       "descricao": "Autorização demonstrada na porta da ET02, não universal.",
-      "propriedades": [
-        "Autorização demonstrada na porta da ET02, não universal."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Autorização demonstrada na porta da ET02, não universal."
       ],
       "quantidade": 1,
       "equipado": false
@@ -872,11 +877,11 @@
       "nome": "Conector Etérico de Trânsito",
       "categoria": "evidencia_arqueologica",
       "descricao": "Três contatos, correspondência geométrica com bancada; não testado.",
-      "propriedades": [
-        "Três contatos, correspondência geométrica com bancada; não testado."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Três contatos, correspondência geométrica com bancada; não testado."
       ],
       "quantidade": 1,
       "equipado": false
@@ -886,11 +891,11 @@
       "nome": "Caixa metálica ET-02",
       "categoria": "evidencia_arqueologica",
       "descricao": "Recipiente mecânico recuperado.",
-      "propriedades": [
-        "Recipiente mecânico recuperado."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Recipiente mecânico recuperado."
       ],
       "quantidade": 1,
       "equipado": false
@@ -900,11 +905,11 @@
       "nome": "Instruções de Lacre e Transferência",
       "categoria": "evidencia_arqueologica",
       "descricao": "Trânsito autorizado não autoriza ruptura.",
-      "propriedades": [
-        "Trânsito autorizado não autoriza ruptura."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Trânsito autorizado não autoriza ruptura."
       ],
       "quantidade": 1,
       "equipado": false
@@ -914,11 +919,11 @@
       "nome": "Tabela Metálica de Encaminhamento",
       "categoria": "evidencia_arqueologica",
       "descricao": "PC, ET, CR, CI; referências CR04 e CI01.",
-      "propriedades": [
-        "PC, ET, CR, CI; referências CR04 e CI01."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "PC, ET, CR, CI; referências CR04 e CI01."
       ],
       "quantidade": 1,
       "equipado": false
@@ -928,11 +933,11 @@
       "nome": "Registros de Encaminhamento Restrito",
       "categoria": "evidencia_arqueologica",
       "descricao": "RCA117 Arven→PC03→ET02→CR04 autorizado; entrega ilegível.",
-      "propriedades": [
-        "RCA117 Arven→PC03→ET02→CR04 autorizado; entrega ilegível."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "RCA117 Arven→PC03→ET02→CR04 autorizado; entrega ilegível."
       ],
       "quantidade": 1,
       "equipado": false
@@ -942,11 +947,11 @@
       "nome": "Manual de Estabilização de Vínculos",
       "categoria": "evidencia_arqueologica",
       "descricao": "Diagramas de manutenção do vínculo durante transporte; estudo 0%.",
-      "propriedades": [
-        "Diagramas de manutenção do vínculo durante transporte; estudo 0%."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Diagramas de manutenção do vínculo durante transporte; estudo 0%."
       ],
       "quantidade": 1,
       "equipado": false
@@ -956,11 +961,11 @@
       "nome": "Possível Cristal de Estabilização",
       "categoria": "evidencia_arqueologica",
       "descricao": "Identificação provisória, sem emissão percebida.",
-      "propriedades": [
-        "Identificação provisória, sem emissão percebida."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Identificação provisória, sem emissão percebida."
       ],
       "quantidade": 1,
       "equipado": false
@@ -970,11 +975,11 @@
       "nome": "Credencial de Encaminhamento CR-04",
       "categoria": "evidencia_arqueologica",
       "descricao": "Função ainda não validada.",
-      "propriedades": [
-        "Função ainda não validada."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Função ainda não validada."
       ],
       "quantidade": 1,
       "equipado": false
@@ -984,11 +989,11 @@
       "nome": "Recipiente com Instruções de Percurso CR-04",
       "categoria": "evidencia_arqueologica",
       "descricao": "Passagem posterior, base elevação, marco duplo, curso de água.",
-      "propriedades": [
-        "Passagem posterior, base elevação, marco duplo, curso de água."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Passagem posterior, base elevação, marco duplo, curso de água."
       ],
       "quantidade": 1,
       "equipado": false
@@ -998,11 +1003,11 @@
       "nome": "Mapa Cartográfico das Rotas Esquecidas de Arven",
       "categoria": "evidencia_arqueologica",
       "descricao": "Qualidade excepcional; somente caminhos efetivamente percorridos até ET02, sem escala/cardinais confirmados; CR04 ainda não incorporada.",
-      "propriedades": [
-        "Qualidade excepcional; somente caminhos efetivamente percorridos até ET02, sem escala/cardinais confirmados; CR04 ainda não incorporada."
-      ],
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Qualidade excepcional; somente caminhos efetivamente percorridos até ET02, sem escala/cardinais confirmados; CR04 ainda não incorporada."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1012,11 +1017,11 @@
       "nome": "Índice Geral de Registros Vinculares",
       "categoria": "evidencia_arqueologica",
       "descricao": "Identificadores e referências documentais.",
-      "propriedades": [
-        "Identificadores e referências documentais."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Identificadores e referências documentais."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1026,11 +1031,11 @@
       "nome": "Fragmentos de Classificação Espiritual",
       "categoria": "evidencia_arqueologica",
       "descricao": "Natureza, suporte, continuidade.",
-      "propriedades": [
-        "Natureza, suporte, continuidade."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Natureza, suporte, continuidade."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1040,11 +1045,11 @@
       "nome": "Livro de Recebimentos CR-04",
       "categoria": "evidencia_arqueologica",
       "descricao": "RCA117 recebimento confirmado, procedência ET02, integridade e continuidade preservadas, referência RV117.",
-      "propriedades": [
-        "RCA117 recebimento confirmado, procedência ET02, integridade e continuidade preservadas, referência RV117."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "RCA117 recebimento confirmado, procedência ET02, integridade e continuidade preservadas, referência RV117."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1054,11 +1059,11 @@
       "nome": "Tratado sobre a Continuidade Espiritual",
       "categoria": "evidencia_arqueologica",
       "descricao": "Teoria consciência, identidade e suporte; estudo 0%.",
-      "propriedades": [
-        "Teoria consciência, identidade e suporte; estudo 0%."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Teoria consciência, identidade e suporte; estudo 0%."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1068,11 +1073,11 @@
       "nome": "Manual de Identificação Vincular",
       "categoria": "evidencia_arqueologica",
       "descricao": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%.",
-      "propriedades": [
-        "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1082,11 +1087,11 @@
       "nome": "Pranchas da Matriz de Identificação",
       "categoria": "evidencia_arqueologica",
       "descricao": "Três folhas, conexões plataforma e pilares.",
-      "propriedades": [
-        "Três folhas, conexões plataforma e pilares."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Três folhas, conexões plataforma e pilares."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1096,11 +1101,11 @@
       "nome": "Módulo rúnico",
       "categoria": "evidencia_arqueologica",
       "descricao": "Quatro unidades; hipótese reposição/calibração.",
-      "propriedades": [
-        "Quatro unidades; hipótese reposição/calibração."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Quatro unidades; hipótese reposição/calibração."
       ],
       "quantidade": 4,
       "equipado": false
@@ -1110,11 +1115,11 @@
       "nome": "Instrumento de Leitura Vincular",
       "categoria": "evidencia_arqueologica",
       "descricao": "Identificação provisória, inativo na inspeção.",
-      "propriedades": [
-        "Identificação provisória, inativo na inspeção."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Identificação provisória, inativo na inspeção."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1124,11 +1129,11 @@
       "nome": "Manual de Alimentação e Isolamento Etérico",
       "categoria": "evidencia_arqueologica",
       "descricao": "Distribuição, manutenção e interrupção; estudo 0%.",
-      "propriedades": [
-        "Distribuição, manutenção e interrupção; estudo 0%."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Distribuição, manutenção e interrupção; estudo 0%."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1138,11 +1143,11 @@
       "nome": "Diagramas do Circuito de Alimentação",
       "categoria": "evidencia_arqueologica",
       "descricao": "Duas folhas, arquitetura geral provável.",
-      "propriedades": [
-        "Duas folhas, arquitetura geral provável."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Duas folhas, arquitetura geral provável."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1152,11 +1157,11 @@
       "nome": "Componente de Isolamento Etérico",
       "categoria": "evidencia_arqueologica",
       "descricao": "Função provisória, sem atividade percebida.",
-      "propriedades": [
-        "Função provisória, sem atividade percebida."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Função provisória, sem atividade percebida."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1166,11 +1171,11 @@
       "nome": "Catálogo de Tipologias Vinculares",
       "categoria": "evidencia_arqueologica",
       "descricao": "Distingue intenção original e condições de manutenção; estudo 0%.",
-      "propriedades": [
-        "Distingue intenção original e condições de manutenção; estudo 0%."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Distingue intenção original e condições de manutenção; estudo 0%."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1180,11 +1185,11 @@
       "nome": "Registros de Avaliação de Suportes",
       "categoria": "evidencia_arqueologica",
       "descricao": "Fichas parcialmente preservadas.",
-      "propriedades": [
-        "Fichas parcialmente preservadas."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Fichas parcialmente preservadas."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1194,11 +1199,11 @@
       "nome": "Compêndio de Anomalias Vinculares",
       "categoria": "evidencia_arqueologica",
       "descricao": "Instabilidade e assinatura espiritual; estudo 0%.",
-      "propriedades": [
-        "Instabilidade e assinatura espiritual; estudo 0%."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Instabilidade e assinatura espiritual; estudo 0%."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1208,11 +1213,11 @@
       "nome": "Registro Vincular RV-117",
       "categoria": "evidencia_arqueologica",
       "descricao": "RCA117: lâmina de composição etérica; consciência individual sapiente; origem vínculo indeterminada; continuidade preservada; manifestação independente restrita; separação convencional contraindicada; nome remetido a anexo. Ruptura direta pode comprometer continuidade. Sem prova de identidade Vaelith ou Lâmina do Vazio.",
-      "propriedades": [
-        "RCA117: lâmina de composição etérica; consciência individual sapiente; origem vínculo indeterminada; continuidade preservada; manifestação independente restrita; separação convencional contraindicada; nome remetido a anexo. Ruptura direta pode comprometer continuidade. Sem prova de identidade Vaelith ou Lâmina do Vazio."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "RCA117: lâmina de composição etérica; consciência individual sapiente; origem vínculo indeterminada; continuidade preservada; manifestação independente restrita; separação convencional contraindicada; nome remetido a anexo. Ruptura direta pode comprometer continuidade. Sem prova de identidade Vaelith ou Lâmina do Vazio."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1222,11 +1227,11 @@
       "nome": "Diretrizes de Transferência Vincular Controlada",
       "categoria": "evidencia_arqueologica",
       "descricao": "Princípios para investigar transferência preservando continuidade; estudo 0%.",
-      "propriedades": [
-        "Princípios para investigar transferência preservando continuidade; estudo 0%."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Princípios para investigar transferência preservando continuidade; estudo 0%."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1236,21 +1241,16 @@
       "nome": "Relação de Anexos Individuais Remetidos",
       "categoria": "evidencia_arqueologica",
       "descricao": "Anexo RV117 remetido à custódia documental vinculada CI01; recebimento não confirmado.",
-      "propriedades": [
-        "Anexo RV117 remetido à custódia documental vinculada CI01; recebimento não confirmado."
-      ],
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Anexo RV117 remetido à custódia documental vinculada CI01; recebimento não confirmado."
       ],
       "quantidade": 1,
       "equipado": false
     }
   ],
-  "agua": {
-    "total": 2,
-    "tratada": 1.5,
-    "bruta": 0.5
-  },
   "cavalos": 2,
   "ausentes": [
     "poções de mana: 0",
@@ -1436,6 +1436,12 @@
       "progresso": "Diretrizes recuperadas; estudo e validação pendentes."
     }
   ],
+  "local": "Câmara de Registro CR-04 — arquivo restrito",
+  "agua": {
+    "total": 2,
+    "tratada": 1.5,
+    "bruta": 0.5
+  },
   "missoes": [
     {
       "nome": "Expedição Além do Vau dos Três Cedros",
