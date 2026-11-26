@@ -1,0 +1,1062 @@
+{
+  "schema": 1,
+  "checkpoint": "V539",
+  "cena": 747,
+  "proxima": 748,
+  "dia": 88,
+  "periodo": "Anoitecer",
+  "local": "Câmara de Registro CR-04 — arquivo restrito",
+  "personagem": {
+    "nome": "Ashborn",
+    "classe": "Espadachim Arcano",
+    "heranca": "Herança das Sombras",
+    "nivel": 11,
+    "aparencia": "Jovem espadachim arcano de cabelos negros, aspecto atlético, capa e roupas de mago/espadachim, cicatriz negra permanente da mão ao pescoço. Marca avermelhada do Abismo desapareceu C588. Retrato aprovado permanece referência histórica; não reintroduzir marca vermelha.",
+    "recursos": {
+      "hp": 115,
+      "hp_max": 115,
+      "mp": 62,
+      "mp_max": 78,
+      "pe": 0,
+      "pe_max": 50,
+      "xp_nivel": 390,
+      "xp_total": 5040,
+      "ouro": 58,
+      "xp_proximo_nivel": 1000
+    },
+    "atributos": {
+      "for": 6,
+      "des": 7,
+      "int": 14,
+      "res": 11,
+      "def": 17,
+      "rd": 7,
+      "pontos_livres": 0
+    },
+    "condicoes": [
+      {
+        "id": "corrupcao-abissal-i",
+        "status": "curada",
+        "efeito": "Curada C588; sem penalidade de controle arcano. Marca vermelha desapareceu; sem imunidade futura."
+      },
+      {
+        "id": "alma-una",
+        "status": "ativa",
+        "efeito": "+2 contra possessão e intrusão de identidade; cicatriz física permanente"
+      }
+    ],
+    "habilidades": [
+      {
+        "id": "sifao-eter-puro",
+        "usos_por_descanso_longo": 1,
+        "usos_disponiveis": 1,
+        "recuperacao_mp_max": 5,
+        "condicao": "Fonte de éter comprovadamente puro; não pode sugar fonte corrupta"
+      }
+    ],
+    "tecnicas": [
+      {
+        "id": "guarda-e-passada",
+        "nome": "Guarda e Passada — aperfeiçoada III",
+        "mp": 0,
+        "efeito": "+5 nos TESTES DE ACERTO de ataques FÍSICOS BÁSICOS com espada em postura equilibrada (antes +4); NÃO aumenta dano, DEF, esquiva, acerto mágico nem outros testes."
+      },
+      {
+        "id": "convergencia-arcana-controlada",
+        "nome": "Convergência Arcana Controlada",
+        "mp": 6,
+        "efeito": "+2 em testes de ataque com espada por 3 turnos, +3 no dano do PRIMEIRO golpe de espada que acertar durante duração; 1 vez por combate; sem HP gasto"
+      }
+    ],
+    "aperfeicoamentos": [
+      {
+        "id": "precisao-ofensiva-refinada",
+        "efeito": "+1 nos testes de ACERTO desses feitiços contra um alvo individual visível (alinhamento de mira); não modifica dano, custo, alcance ou controle arcano geral"
+      },
+      {
+        "id": "sustentacao-adaptativa-i",
+        "efeito": "+2 em testes futuros de pesquisa, projeto e desenvolvimento de magias em que estabilidade, recirculação ou sustentação adaptativa sejam diretamente pertinentes. Não é bônus universal de INT, acerto, dano, controle em combate ou conjuração comum; não altera feitiços automaticamente. Não duplicar o mesmo auxílio conceitual."
+      }
+    ],
+    "recuperacao": {
+      "noites": 1,
+      "necessarias": 2
+    }
+  },
+  "magias": [
+    {
+      "id": "projetil-arcano",
+      "nome": "Projétil Arcano",
+      "mp": 4,
+      "custo_variavel": false,
+      "efeito": "13 de dano mágico (base10, +3 potência INT14)",
+      "aperfeicoamentos": [
+        {
+          "condicao": "apenas contra alvo individual visível, ao efetuar teste de acerto deste feitiço",
+          "bonus_acerto": 1,
+          "limite": "Não modifica dano, custo MP ou outros feitiços"
+        }
+      ]
+    },
+    {
+      "id": "chama-errante",
+      "nome": "Chama Errante",
+      "mp": 7,
+      "custo_variavel": false,
+      "efeito": "18 de dano de fogo (base15, +3 potência INT14)",
+      "aperfeicoamentos": [
+        {
+          "condicao": "apenas contra alvo individual visível, ao efetuar teste de acerto deste feitiço",
+          "bonus_acerto": 1,
+          "limite": "Não modifica dano, custo MP ou outros feitiços"
+        }
+      ]
+    },
+    {
+      "id": "barreira-runica",
+      "nome": "Barreira Rúnica",
+      "mp": 5,
+      "custo_variavel": false,
+      "efeito": "Bloqueia 14 de dano (base11, +3 potência INT14)"
+    },
+    {
+      "id": "restauracao",
+      "nome": "Restauração",
+      "mp": 7,
+      "custo_variavel": false,
+      "efeito": "Cura 16 HP (base13, +3 potência INT14) ou retarda temporariamente corrupção, não a cura"
+    },
+    {
+      "id": "corte-runico",
+      "nome": "Corte Rúnico",
+      "mp": 5,
+      "custo_variavel": false,
+      "efeito": "19 de dano mágico com espada (base16, +3 potência INT14)"
+    },
+    {
+      "id": "corte-da-chama-vazia",
+      "nome": "Corte da Chama Vazia",
+      "mp": 12,
+      "custo_variavel": false,
+      "efeito": "26 de dano híbrido fogo/Vazio (base23, +3 potência INT14)",
+      "limite": "1x por combate"
+    },
+    {
+      "id": "lume-errante",
+      "nome": "Lume Errante",
+      "mp": 2,
+      "custo_variavel": false,
+      "efeito": "Luz raio 6m por10min"
+    },
+    {
+      "id": "corte-do-elo",
+      "nome": "Corte do Elo",
+      "mp": 12,
+      "custo_variavel": true,
+      "efeito": "Separação espiritual experimental, custa12+MP, alto risco"
+    },
+    {
+      "id": "manto-da-chama-negra-ii",
+      "nome": "Manto da Chama Negra III",
+      "mp": 9,
+      "custo_variavel": false,
+      "efeito": "+7 DEF por até6 turnos (base Manto III +4DEF, +3 potência INT14)",
+      "limite": "1x por combate; inativo; encerra antes se instabilidade anormal"
+    },
+    {
+      "id": "levitacao-runica-ii",
+      "nome": "Levitação Rúnica II",
+      "mp": 6,
+      "custo_variavel": false,
+      "efeito": "Permite levitar verticalmente o próprio corpo ou um objeto manejável e controlar subida e descida por até3 turnos; não concede deslocamento horizontal livre, transporte de outras pessoas ou de cargas pesadas."
+    },
+    {
+      "id": "lanca-de-chama-negra-i",
+      "nome": "Lança de Chama Negra I",
+      "mp": 9,
+      "custo_variavel": false,
+      "efeito": "22 de dano mágico de Chama Negra (base19 +3 potência INT14) em um alvo visível mediante teste de acerto; sem área de efeito, dano contínuo ou ignição automática."
+    },
+    {
+      "id": "voo-gravito-eolico-i",
+      "nome": "Voo Grávito-Eólico II",
+      "mp": 8,
+      "custo_variavel": false,
+      "efeito": "Voo autônomo individual por até5 turnos, deslocamento controlado até6m/turno com curvas e realinhamentos, pouso dinâmico por desaceleração; altitude segura demonstrada até2m. NÃO voo contínuo, viagem longa, altitude alta, passageiros, tempestades, esquiva automática ou recast seguro em pleno ar.",
+      "limite": "8MP por conjuração; 5turnos, até6m/turno, altura segura até2m. Exige novas pesquisas para travessias longas, grande altitude, vento forte ou prolongamento além de5 turnos."
+    }
+  ],
+  "prototipos": [
+    {
+      "id": "barreira-aterramento-eterico",
+      "nome": "Barreira de Aterramento Etérico",
+      "status": "experimental"
+    },
+    {
+      "id": "janela-espiritual",
+      "nome": "Janela Espiritual",
+      "status": "experimental",
+      "efeito": "Comunicação visual e auditiva com observador consentido; C243–246 ~4min30s; C732 manifestação contínua12min para Serenya com adaptação e encerramento seguro."
+    },
+    {
+      "id": "sussurro-afinidade",
+      "nome": "Sussurro da Afinidade",
+      "status": "experimental"
+    },
+    {
+      "id": "sussurro-medo",
+      "nome": "Sussurro de Medo",
+      "status": "experimental",
+      "observacao": "Variante do Sussurro"
+    },
+    {
+      "id": "faisca-chama-negra",
+      "nome": "Faísca ofensiva de Chama Negra",
+      "status": "experimental"
+    },
+    {
+      "id": "sussurro-confianca",
+      "nome": "Sussurro da Confiança",
+      "status": "experimental",
+      "observacao": "Primeira aplicação em Aldren, 50MP e40PE; duração além da negociação e repetibilidade não validadas."
+    },
+    {
+      "id": "manifestacao-espiritual-externa-i",
+      "nome": "Manifestação Espiritual Externa I",
+      "status": "experimental",
+      "efeito": "C708 cerca20s, C709 cerca60s estáveis para Theron e Lyra sem contato com espada."
+    },
+    {
+      "id": "materializacao-espiritual-parcial-i",
+      "nome": "Materialização Espiritual Parcial I",
+      "status": "experimental",
+      "efeito": "Mão direita de Vaelith moveu folha e tocou mão de Ashborn por poucos segundos."
+    }
+  ],
+  "maestrias": [
+    {
+      "id": "chamas",
+      "nome": "Chamas",
+      "titulo": "Mestre das Chamas",
+      "grau": 3,
+      "bonus": 3,
+      "proximo_marco": "Validar fragmentação, convergência e outras aplicações variadas.",
+      "justificativa": "Manto III, Lança I, Corte da Chama Vazia, pesquisa e combate."
+    },
+    {
+      "id": "esgrima",
+      "nome": "Esgrima",
+      "titulo": "Mestre da Espada",
+      "grau": 3,
+      "bonus": 3,
+      "proximo_marco": "Validar estilos, defesa e adaptação a adversários diversos.",
+      "justificativa": "Guarda e Passada III, treino e combate."
+    },
+    {
+      "id": "gravito-eolica",
+      "nome": "Magia Grávito-Eólica",
+      "titulo": "Mestre Grávito-Eólico",
+      "grau": 3,
+      "bonus": 3,
+      "proximo_marco": "Validar controle e estabilidade em condições variadas.",
+      "justificativa": "Levitação II, Voo II, pesquisa e combate."
+    },
+    {
+      "id": "runas-engenharia-eterica",
+      "nome": "Runas e Engenharia Etérica",
+      "titulo": "Mestre das Runas",
+      "grau": 3,
+      "bonus": 3,
+      "proximo_marco": "Desenvolver circuitos próprios mais complexos e reproduzíveis.",
+      "justificativa": "Matriz adaptativa e reparos rúnicos validados."
+    },
+    {
+      "id": "espiritual",
+      "nome": "Magia Espiritual",
+      "titulo": "Mestre dos Espíritos",
+      "grau": 3,
+      "bonus": 3,
+      "proximo_marco": "Demonstrar domínio em situações variadas e adversas, múltiplos avanços validados e adaptação avançada.",
+      "justificativa": "Estudo aprofundado, manifestações visuais/auditivas reproduzidas, materialização parcial C709, diagnóstico passivo reproduzido C724 e adaptação significativa da Janela C732 com12min de comunicação direta e encerramento seguro."
+    },
+    {
+      "id": "restaurativa",
+      "nome": "Magia Restaurativa",
+      "titulo": "Aprendiz da Restauração",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Estudar mecanismos e validar cura aprimorada.",
+      "justificativa": "Restauração funcional em si e terceiros, sem pesquisa avançada."
+    },
+    {
+      "id": "influencia-arcana",
+      "nome": "Influência Arcana",
+      "titulo": "Aprendiz da Influência",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Validar influência reproduzível e seus limites.",
+      "justificativa": "Sussurros experimentais com confiabilidade limitada."
+    },
+    {
+      "id": "projecao-arcana",
+      "nome": "Projeção Arcana",
+      "titulo": "Estudioso da Projeção",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Validar nova projeção arcana genérica em aplicações variadas.",
+      "justificativa": "Projétil Arcano, Corte Rúnico e precisão ofensiva refinada."
+    },
+    {
+      "id": "combate-arcano",
+      "nome": "Combate Arcano",
+      "titulo": "Estudioso do Combate Arcano",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Validar uma técnica híbrida nova, repetível e adaptável.",
+      "justificativa": "Sincronia espada-magia, Convergência Controlada e aplicação real de voo e ataque."
+    },
+    {
+      "id": "esquiva",
+      "nome": "Esquiva",
+      "titulo": "Estudioso da Esquiva",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Validar aperfeiçoamento defensivo significativo e reprodução em condições variadas ou combate real.",
+      "justificativa": "Evasão real C470 e treino de evasões variadas C738, sucesso26/17 e excepcional28/18."
+    },
+    {
+      "id": "furtividade",
+      "nome": "Furtividade",
+      "titulo": "Aprendiz da Furtividade",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Reproduzir infiltrações em condições distintas.",
+      "justificativa": "Reconhecimento furtivo e infiltração silenciosa no resgate."
+    },
+    {
+      "id": "montaria",
+      "nome": "Montaria",
+      "titulo": "Estudioso da Montaria",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Validar controle montado em situações adversas.",
+      "justificativa": "Viagens montadas, condução em terreno irregular e escolta concluída."
+    },
+    {
+      "id": "tatica-combate",
+      "nome": "Tática de Combate",
+      "titulo": "Estudioso da Tática",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Validar estratégias variadas contra adversários distintos.",
+      "justificativa": "Planejamento de caçada, reconhecimento e uso de posicionamento e cobertura em combate."
+    },
+    {
+      "id": "sobrevivencia",
+      "nome": "Sobrevivência",
+      "titulo": "Estudioso da Sobrevivência",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Validar sobrevivência prolongada em terreno adverso.",
+      "justificativa": "Pesca, seleção de abrigo, água, fogueira e pernoites em expedições."
+    },
+    {
+      "id": "rastreamento",
+      "nome": "Rastreamento",
+      "titulo": "Estudioso do Rastreamento",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Distinguir rastros complexos e seguir alvos em condições difíceis.",
+      "justificativa": "Leitura de pegadas, vestígios de fauna e localização do cativeiro."
+    },
+    {
+      "id": "cartografia",
+      "nome": "Cartografia",
+      "titulo": "Estudioso da Cartografia",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Produzir mapa de nova região com referências verificadas.",
+      "justificativa": "Cotejo de mapas, reconhecimento do ramal e relatórios validados."
+    },
+    {
+      "id": "arqueologia",
+      "nome": "Arqueologia",
+      "titulo": "Estudioso da Arqueologia",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Investigar outro sítio com métodos reproduzíveis.",
+      "justificativa": "Identificação de Arven, escavação não invasiva, preservação e interpretação de evidências."
+    },
+    {
+      "id": "erudicao",
+      "nome": "Erudição",
+      "titulo": "Estudioso da Erudição",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Validar interpretações de tradições e fontes independentes.",
+      "justificativa": "Leitura crítica de fontes e cruzamento documental, transcrições e estudos continuados."
+    },
+    {
+      "id": "diplomacia",
+      "nome": "Diplomacia",
+      "titulo": "Aprendiz da Diplomacia",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Demonstrar negociação difícil sem auxílio mágico.",
+      "justificativa": "Argumentação profissional, cooperação institucional e depoimento."
+    },
+    {
+      "id": "comercio",
+      "nome": "Comércio",
+      "titulo": "Aprendiz do Comércio",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Validar avaliação e negociação de preços sem influência arcana.",
+      "justificativa": "Contratos, vendas e negociação de empréstimo; influência mágica não prova domínio comercial avançado."
+    },
+    {
+      "id": "intimidacao",
+      "nome": "Intimidação",
+      "titulo": "Aprendiz da Intimidação",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Validar uso controlado em contextos distintos.",
+      "justificativa": "Intimidação funcional em confronto, sem domínio independente de poderes arcanos demonstrado."
+    },
+    {
+      "id": "culinaria",
+      "nome": "Culinária",
+      "titulo": "Aprendiz da Culinária",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Aprender técnicas e receitas variadas.",
+      "justificativa": "Preparação funcional de peixe em acampamento; domínio avançado não demonstrado."
+    },
+    {
+      "id": "abjuracao",
+      "nome": "Abjuração",
+      "titulo": "Aprendiz da Abjuração",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Validar proteção distinta de chamas ou engenharia rúnica.",
+      "justificativa": "Barreira Rúnica e proteção arcana funcional; Manto e runas já têm disciplinas próprias."
+    },
+    {
+      "id": "metamagia",
+      "nome": "Metamagia",
+      "titulo": "Estudioso da Metamagia",
+      "grau": 2,
+      "bonus": 2,
+      "proximo_marco": "Validar modificação estrutural independente em novas famílias de feitiços.",
+      "justificativa": "Refinamento estrutural de feitiços e sustentação adaptativa em aplicações variadas."
+    },
+    {
+      "id": "luz",
+      "nome": "Luz",
+      "titulo": "Aprendiz da Luz",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Validar aplicação luminosa distinta do Lume.",
+      "justificativa": "Lume Errante funcional e orientação de Lyra; sem outras técnicas de luz validadas."
+    },
+    {
+      "id": "pactuacao-ritual",
+      "nome": "Pactuação Ritual",
+      "titulo": "Aprendiz da Pactuação",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Concluir estudo e validar círculo ritual sem estabelecer contrato automático.",
+      "justificativa": "Fundamentos estudados em colaboração com Theron; pactos não validados."
+    },
+    {
+      "id": "transmutacao-eterica",
+      "nome": "Transmutação Etérica",
+      "titulo": "Aprendiz da Transmutação",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Consolidar isolamento e conversão e demonstrar transferência controlada.",
+      "justificativa": "Fundamentos de transferência compreendidos e transcritos; isolamento e conversão inconclusivos."
+    },
+    {
+      "id": "atletismo",
+      "nome": "Atletismo",
+      "titulo": "Aprendiz do Atletismo",
+      "grau": 1,
+      "bonus": 1,
+      "proximo_marco": "Reproduzir esforço prolongado em condições variadas, corrida, escalada ou transporte de carga pertinentes.",
+      "justificativa": "Condicionamento físico anterior C632 e treino prolongado C738 excepcional30/18, fundamentos atléticos comprovados."
+    }
+  ],
+  "inventario": [
+    {
+      "id": "lamina-do-vazio",
+      "quantidade": 1,
+      "equipado": true
+    },
+    {
+      "id": "grimorio-sete-chaves",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "correntes-sete-chaves",
+      "quantidade": 7,
+      "equipado": false
+    },
+    {
+      "id": "grimorio-vigilia-ferro",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "pocao-vida",
+      "quantidade": 2,
+      "equipado": false
+    },
+    {
+      "id": "odre-agua",
+      "quantidade": 2,
+      "equipado": false
+    },
+    {
+      "id": "faca-pequena",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "bolsa-couro",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "contrato-escolta-artifices-pedravale",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "ordem-servico-nucleo-deposito-canal",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "coracao-eter",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "estilhaco-abissal",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "contrato-expedicao-alem-vau",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "contrato-levantamento-materiais-arven",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "contrato-correspondencia-ramal",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "racao-viagem",
+      "quantidade": 3,
+      "equipado": false
+    },
+    {
+      "id": "recibo-correspondencia-ramal",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "fragmentos-documentais-pc03",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "plaqueta-pc03",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "fragmento-lacre-pc03",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "caderno-procedimentos-custodia",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "chave-afericao-eterica",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "folha-calibracao-pc03",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "possivel-regulador-eterico",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "placa-tres-parametros",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "estojo-registros-transito-et02",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "selo-transito-eterico",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "conector-eterico-transito",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "caixa-metalica-et02",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "instrucoes-lacre-transferencia",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "tabela-metalica-encaminhamento",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "registros-encaminhamento-restrito",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "manual-estabilizacao-vinculos",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "cristal-estabilizacao",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "credencial-encaminhamento-cr04",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "recipiente-instrucoes-percurso-cr04",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "mapa-rotas-esquecidas-arven",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "indice-geral-registros-vinculares",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "fragmentos-classificacao-espiritual",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "livro-recebimentos-cr04",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "tratado-continuidade-espiritual",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "manual-identificacao-vincular",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "pranchas-matriz-identificacao",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "modulo-runico-cr04",
+      "quantidade": 4,
+      "equipado": false
+    },
+    {
+      "id": "instrumento-leitura-vincular",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "manual-alimentacao-isolamento-eterico",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "diagramas-circuito-alimentacao",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "componente-isolamento-eterico",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "catalogo-tipologias-vinculares",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "registros-avaliacao-suportes",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "compendio-anomalias-vinculares",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "registro-vincular-rv117",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "diretrizes-transferencia-vincular-controlada",
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "relacao-anexos-individuais-remetidos",
+      "quantidade": 1,
+      "equipado": false
+    }
+  ],
+  "agua": {
+    "total": 2,
+    "tratada": 1.5,
+    "bruta": 0.5
+  },
+  "cavalos": 2,
+  "ausentes": [
+    "poções de mana: 0",
+    "Arco simples, aljava e cinco flechas: vendidos no Dia 23"
+  ],
+  "pesquisas": [
+    {
+      "id": "recirculacao-cadenciada-manto-i",
+      "nome": "Recirculação Cadenciada do Manto I",
+      "categoria": "concluida_validada_aprendida",
+      "objetivo": "Aumentar duração além de4 turnos SEM aumentar +4DEF, sem presumir alteração de MP ou frequência",
+      "progresso": "C508: DT20 d20=12+INT11+Theron2=25 sucesso; DT24 d20=19+INT11+Vaelith2=32 sucesso; MODELO TEÓRICO CONSOLIDADO SEM observação do Manto ativo, matriz executável, protótipo ou duração extra. C520: Serenya orientou verbalmente que só estudo teórico leve agora, ensaio ATIVO do Manto após reexame e liberação clínica, mais diagnóstico da causa real de término aos4turnos e supervisão/antirrefluxo. Nenhum feitiço/ensaio/alteração de duração. C521: Serenya EXAMINOU braço/flanco e constatou melhora, mas flanco profundo ainda dói à pequena torção; não autorizou teste ATIVO. Ashborn decidiu dedicar-se apenas à teoria por ora, nenhum estudo ou ensaio novo nesta cena. C540 alta clínica completa confirmada; C546 Theron aceitou orientar, propôs diagnóstico controlado Manto ORIGINAL antes de modificações, conferência de contenção, instrumentos e interrupção. Nenhum ensaio ainda. C547: preparação DT15 d20=16+INT11+Theron2=29 excepcional; diagnóstico ativo DT20 d20=18+INT11+Theron2+Vaelith2+preparação2−Corrupção2=33 excepcional. Manto original7MP por4 ciclos, descoerência gradual leve, energia residual ao término, lacre rúnico interrompe sustentação como causa imediata observada, sem refluxo perigoso. Função protetiva do lacre é hipótese fundamentada ainda a verificar; não remover sem avaliar estabilidade. Anel auxiliar isolado e válvula antirrefluxo propostos, sem matriz modificada executável ou protótipo validado. +20XP nova descoberta C547. C549: quatro testes bem-sucedidos, 23MP e12PE, matriz reduzida + dois ensaios completos; +40XP, Manto III e princípio aprendidos.",
+      "efeito_atual": "Manto da Chama Negra III: 9MP, +4DEF por até6 turnos, 1vez/combate. Circuito adaptativo pode encerrar antecipadamente em instabilidade anormal; sem manutenção ilimitada ou alimentação contínua. Substitui II, conserva ID histórico manto-da-chama-negra-ii para referências.",
+      "condicao_para_prosseguir": "Pesquisa concluída. Novas aplicações exigem projeto/ensaio próprios; limite6turnos validado."
+    },
+    {
+      "id": "autopurificacao-abissal",
+      "nome": "Autopurificação Abissal Assistida",
+      "categoria": "concluida_validada",
+      "objetivo": "Remover corrupção invasora preservando identidade, circulação e vínculo",
+      "progresso": "C586 diagnóstico excepcional, isolamento falhou por1, interrompido sem dano e sem cura; Theron propôs sustentação externa C587 isolamento 27/22 demonstrado; remoção falhou 18/25 e16/25 rerrolagem, encerramento seguro; -14MP,-5PE,+10XP. C588 estudo42/25 isolamento37/22 remoção35/25 verificação38/20; cura confirmada, −16MP −10PE +35XP. Reserva5PE não usada.",
+      "efeito_atual": "Corrupção Abissal I curada, −2 removido, Alma Una/herança/vínculo preservados; sem imunidade ou nova magia.",
+      "condicao_para_prosseguir": "Concluída para o caso próprio; novas condições exigem diagnóstico."
+    },
+    {
+      "id": "cartografia-interior-alma-una-i",
+      "nome": "Cartografia Interior da Alma Una I",
+      "categoria": "conhecimento_pratico_experimental",
+      "objetivo": "Compreender alma reunificada e cicatriz negra sem abrir vínculos, com referência corporal e separação de memória/observação/projeção",
+      "progresso": "C595 estudo31/20, mapeamento36/24, Limiar17/28 falha, reancoragem21/20, ressonância cicatriz35/25, retorno28/20; -52MP +35XP, 0HP/PE. C597 como suporte ao primeiro acesso liminar 39/30, XP novo da pesquisa Percepção Liminar Assistida I contado separadamente.",
+      "efeito_atual": "Compreende internamente unidade da própria essência e ressonância da cicatriz; nenhum bônus de combate, nova magia, projeção externa ou domínio de Visão do Limiar.",
+      "condicao_para_prosseguir": "Cartografia usada com sucesso em C597, mas outros acessos exigem ensaio e recuperação."
+    },
+    {
+      "id": "percepcao-liminar-assistida-i",
+      "nome": "Percepção Liminar Assistida I",
+      "categoria": "conhecimento_pratico_experimental_primeiro_acesso",
+      "objetivo": "Examinar além dos sentidos com âncora corporal segura sem assumir projeção livre.",
+      "progresso": "C597 DT22 total31, DT30 total39, DT32 total39, DT30 total40, DT22 total34, gastou52MP e20PE para +10 em cinco testes, 10PE reservado para duas rerrolagens não usado; +55XP. C598 Dia45/47/49 sucesso, Orla Opaca como limite; dia50 falha interpretação/retorno causa6HP, dia51 falha alcance, nível8 +45XP global.",
+      "efeito_atual": "Percepção assistida repetida com alto esforço; sem Visão permanente, entidade externa ou projeção.",
+      "condicao_para_prosseguir": "Recuperar HP e PE, elaborar contraprova segura antes de novo experimento profundo."
+    },
+    {
+      "id": "orla-opaca-limiar-i",
+      "nome": "Orla Opaca do Limiar I",
+      "categoria": "limite_perceptivo_sem_magia",
+      "objetivo": "Verificar se existe realidade além da fronteira por método independente.",
+      "progresso": "C598 Dia49 observação35/31 após rerrolagem; Dia50 oscilações inconclusivas e retorno falhou6HP; Dia51 não ultrapassou.",
+      "efeito_atual": "Fronteira perceptiva observada, nenhuma magia ou benefício em combate.",
+      "condicao_para_prosseguir": "Recuperar saúde e PE, preparar controle externo ou instrumentos."
+    },
+    {
+      "id": "ressonancias-alem-da-orla-i",
+      "nome": "Ressonâncias Além da Orla I",
+      "categoria": "estudo_experimental_nao_magia",
+      "objetivo": "Compreender origem dos três intervalos liminares e distinguir de ecos próprios sem risco vital.",
+      "progresso": "C599 5 testes46/30 47/36 46/41 48/48 rerrolado 38/38, 57MP+35PE+24HP e +60XP.",
+      "efeito_atual": "Observação única corroborada parcialmente, sem magia, entidade, plano, mensagem ou bônus.",
+      "condicao_para_prosseguir": "Recuperar saúde/MP/PE e buscar contraprova independente."
+    },
+    {
+      "id": "ancoragem-autonoma-retorno-i",
+      "nome": "Ancoragem Autônoma de Retorno I",
+      "categoria": "conhecimento_experimental_nao_magia",
+      "objetivo": "Retornar do Limiar por referência própria, independente de auxílio ativo Vaelith.",
+      "progresso": "C600 teste retorno d20 14+INT12+PE17+Cartografia2=45/38, +10XP após falha de discriminação das ressonâncias.",
+      "efeito_atual": "Uma validação de retorno ao corpo na região conhecida, sem magia nem bônus permanente.",
+      "condicao_para_prosseguir": "Recuperar MP/PE, validar repetição em condições seguras antes de confiar em regiões desconhecidas."
+    },
+    {
+      "id": "levitacao-runica-ii",
+      "nome": "Levitação Rúnica II",
+      "categoria": "concluida_validada_aprendida",
+      "objetivo": "Sustentação vertical do próprio corpo, cargas e pouso controlado.",
+      "progresso": "C602 carga estável31/24, autolevitação22/28 falhou. C608 autoerguimento44/28 e estabilização48/26, custos6+6MP e +25XP.",
+      "efeito_atual": "Permite levitar verticalmente o próprio corpo ou um objeto manejável e controlar subida e descida por até3 turnos; não concede deslocamento horizontal livre, transporte de outras pessoas ou de cargas pesadas.",
+      "condicao_para_prosseguir": "Magia6MP3turnos validada; carga e altitude grandes requerem novo ensaio."
+    },
+    {
+      "id": "lanca-de-chama-negra-i",
+      "nome": "Lança de Chama Negra I",
+      "categoria": "concluida_validada_aprendida",
+      "objetivo": "Ataque de Chama Negra estável reproduzível.",
+      "progresso": "C602 projeção parcial e falha de repetição. C608 compactação36/27, projeção45/28, repetição34/30, MP6+9+9, ajuda Vaelith+2, +45XP.",
+      "efeito_atual": "20 de dano mágico de Chama Negra (base19 +1 potência INT12) em um alvo visível mediante teste de acerto; sem área de efeito, dano contínuo ou ignição automática.",
+      "condicao_para_prosseguir": "Magia9MP20 dano individual; modificações precisam teste."
+    },
+    {
+      "id": "voo-gravito-eolico-i",
+      "nome": "Voo Grávito-Eólico I",
+      "categoria": "concluida_validada_aprendida",
+      "objetivo": "Desenvolver voo próprio e pouso sem cabos.",
+      "progresso": "C602 voo guiado34/32 sob cabos. C608 auto-suspensão d20 1 total32/30, direção primeira2 total33/34 falha e rerrolagem5PE d20 19 total50/34 sucesso, pouso12 total43/30, MP8+8+7, +70XP.",
+      "efeito_atual": "Voo individual autônomo por até3 turnos, deslocamento controlado até6m/turno, altitude segura demonstrada até2m, pouso voluntário; não concede esquiva/defesa automática nem uso em altitude elevada, tempestades ou transporte de outros.",
+      "condicao_para_prosseguir": "8MP por até3 turnos,6m/turno e2m altitude segura demonstrada, sem voo de longa distância ou transporte de terceiros."
+    },
+    {
+      "id": "sincronia-vetores-gravito-eolicos-i",
+      "nome": "Sincronia dos Vetores Grávito-Eólicos I",
+      "categoria": "conhecimento_teorico_sem_melhora_validada",
+      "objetivo": "Refinar controle da sustentação e da direção de voo sem alterar parâmetros até demonstrar.",
+      "progresso": "C609 teoria34/22 natural20, +15XP; três ensaios21/26,26/29,23/31 falharam, -24MP, sem PE.",
+      "efeito_atual": "Voo Grávito-Eólico I 8MP3turnos6m/turno altitude segura2m inalterado.",
+      "condicao_para_prosseguir": "Demonstração prática de estabilidade, extensão ou pouso antes de qualquer melhoria permanente."
+    },
+    {
+      "id": "projeto-libertacao-vaelith-c723",
+      "nome": "Projeto de Libertação de Vaelith",
+      "categoria": "diagnostico_passivo_validado_transferencia_nao_validada",
+      "objetivo": "Libertação voluntária preservando identidade, memórias, autonomia e segurança, sem substituir prisão por outra.",
+      "progresso": "C723 DT24 d20=3+INT12+Espiritual II2+Theron2+Vaelith2+Sustentação2=23 falha por1. Lacuna de discriminação entre suporte da identidade e manifestação. Roteiro preliminar de seis etapas, não validado. C724 refinamento44/24, diagnóstico37/25, reprodução31/26; protocolo passivo e referência qualitativa de vínculo/manifestação demonstrados sem alterações. Identidade independente não comprovada.",
+      "efeito_atual": "Protocolo e discriminação observacional adquiridos, sem bônus mecânico, alteração da espada ou magia.",
+      "condicao_para_prosseguir": "Reproduzir manifestação física ou testar transferência/conversão em estrutura inerte antes de conexão; investigar obrigação original/documentos. Qualquer intervenção exige consentimento específico, reserva de encerramento e critérios de interrupção. Núcleo, selos e transferência não autorizados."
+    },
+    {
+      "id": "estudo-caderno-custodia",
+      "nome": "Caderno de Procedimentos de Custódia",
+      "categoria": "estudo_documental",
+      "objetivo": "Compreender aferição e custódia",
+      "progresso": "5%; leitura introdutória, sem validação funcional"
+    },
+    {
+      "id": "estudo-manual-estabilizacao-vinculos",
+      "nome": "Manual de Estabilização de Vínculos",
+      "categoria": "estudo_documental",
+      "objetivo": "Compreender preservação em trânsito",
+      "progresso": "0%; recuperado, não estudado"
+    },
+    {
+      "id": "estudo-tratado-continuidade-espiritual",
+      "nome": "Tratado sobre a Continuidade Espiritual",
+      "categoria": "estudo_documental",
+      "objetivo": "Teoria consciência, identidade e suporte; estudo 0%.",
+      "progresso": "0%; recuperado; estudo aprofundado pendente"
+    },
+    {
+      "id": "estudo-manual-identificacao-vincular",
+      "nome": "Manual de Identificação Vincular",
+      "categoria": "estudo_documental",
+      "objetivo": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%.",
+      "progresso": "0%; recuperado; estudo aprofundado pendente"
+    },
+    {
+      "id": "estudo-manual-alimentacao-isolamento-eterico",
+      "nome": "Manual de Alimentação e Isolamento Etérico",
+      "categoria": "estudo_documental",
+      "objetivo": "Distribuição, manutenção e interrupção; estudo 0%.",
+      "progresso": "0%; recuperado; estudo aprofundado pendente"
+    },
+    {
+      "id": "estudo-catalogo-tipologias-vinculares",
+      "nome": "Catálogo de Tipologias Vinculares",
+      "categoria": "estudo_documental",
+      "objetivo": "Distingue intenção original e condições de manutenção; estudo 0%.",
+      "progresso": "0%; recuperado; estudo aprofundado pendente"
+    },
+    {
+      "id": "estudo-compendio-anomalias-vinculares",
+      "nome": "Compêndio de Anomalias Vinculares",
+      "categoria": "estudo_documental",
+      "objetivo": "Instabilidade e assinatura espiritual; estudo 0%.",
+      "progresso": "0%; recuperado; estudo aprofundado pendente"
+    },
+    {
+      "id": "estudo-diretrizes-transferencia-vincular-controlada",
+      "nome": "Diretrizes de Transferência Vincular Controlada",
+      "categoria": "estudo_documental",
+      "objetivo": "Princípios para investigar transferência preservando continuidade; estudo 0%.",
+      "progresso": "0%; recuperado; estudo aprofundado pendente"
+    },
+    {
+      "id": "matriz-propria-identificacao-vincular",
+      "nome": "Matriz Própria de Identificação Vincular",
+      "categoria": "fundamentacao_teorica_avancada",
+      "objetivo": "Reproduzir método de investigação não destrutiva de vínculos",
+      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído."
+    },
+    {
+      "id": "transferencia-vincular-controlada",
+      "nome": "Transferência Vincular Controlada",
+      "categoria": "linha-de-pesquisa",
+      "objetivo": "Investigar transferência segura preservando consciência",
+      "progresso": "Diretrizes recuperadas; estudo e validação pendentes."
+    }
+  ],
+  "missoes": [
+    {
+      "nome": "Expedição Além do Vau dos Três Cedros",
+      "ouro": 24,
+      "prazo": 92,
+      "status": "Relatório concluído",
+      "etapas": [
+        "Vistoria do Vau e da via até Arven",
+        "Consolidar relatório",
+        "Entregar à Associação e obter validação"
+      ],
+      "concluidas": 2
+    },
+    {
+      "nome": "Levantamento de Materiais de Arven",
+      "ouro": 8,
+      "prazo": 92,
+      "status": "Parecer concluído",
+      "etapas": [
+        "Vistoriar materiais e riscos",
+        "Consolidar parecer",
+        "Entregar e obter validação"
+      ],
+      "concluidas": 2
+    },
+    {
+      "nome": "Correspondência do Ramal",
+      "ouro": 3,
+      "prazo": 92,
+      "status": "Recibo em posse",
+      "etapas": [
+        "Entregar correspondência",
+        "Obter recibo",
+        "Apresentar recibo à Associação"
+      ],
+      "concluidas": 2
+    }
+  ],
+  "objetivos": [
+    {
+      "nome": "Libertação segura de Vaelith",
+      "texto": "Estudar os documentos recuperados, validar identificação sem ruptura e investigar transferência controlada. Não há prova de que RV-117 descreva Vaelith."
+    },
+    {
+      "nome": "Investigar a CI-01",
+      "texto": "Localizar a Custódia de Interdição; confirmar recebimento do anexo RV-117 e verificar identidade nominal."
+    },
+    {
+      "nome": "Matriz Própria de Identificação Vincular",
+      "texto": "Estudar manuais, fonte, calibração e componentes; projetar e validar um protótipo seguro."
+    },
+    {
+      "nome": "Cartografia comercial",
+      "texto": "Mapa excepcional até ET-02 concluído. Incorporar rota CR-04 e negociar com a Associação; nenhum preço acordado."
+    }
+  ],
+  "relacoes": [
+    {
+      "nome": "Vaelith",
+      "tipo": "Companheira espiritual",
+      "texto": "Amor recíproco. Vinculada à Lâmina do Vazio; manifestação física independente ainda não alcançada."
+    },
+    {
+      "nome": "Serenya",
+      "tipo": "Relacionamento amoroso",
+      "texto": "Romance assumido, aguarda retorno a Luméria."
+    },
+    {
+      "nome": "Lyra",
+      "tipo": "Irmã adotiva",
+      "texto": "Vínculo exclusivamente fraternal."
+    },
+    {
+      "nome": "Theron",
+      "tipo": "Mentor",
+      "texto": "Orienta estudos e técnicas arcanas."
+    },
+    {
+      "nome": "Aldren",
+      "tipo": "Contato comercial",
+      "texto": "Empréstimo encerrado e artefatos restituídos."
+    }
+  ],
+  "rota": [
+    {
+      "nome": "Entreposto de Arven",
+      "texto": "Vistoria e parecer concluídos."
+    },
+    {
+      "nome": "PC-03 · Vigília Alta",
+      "texto": "Posto de Custódia explorado."
+    },
+    {
+      "nome": "ET-02 · Passagem Inferior",
+      "texto": "Estação de Trânsito explorada."
+    },
+    {
+      "nome": "CR-04 · Câmara de Registro",
+      "texto": "Local atual. Trajeto desde ET-02: cerca de 2h40.",
+      "atual": true
+    }
+  ],
+  "descobertas": [
+    "RCA-117 recebido documentalmente na CR-04; registro RV-117 recuperado.",
+    "Suporte descrito como lâmina de composição etérica, consciência sapiente, continuidade preservada. Identidade indeterminada.",
+    "Anexo nominal remetido à CI-01; recebimento e localização não confirmados.",
+    "Matriz de identificação e circuito de alimentação documentados passivamente; nenhuma ativação.",
+    "Porta dupla e grade abertas mecanicamente; arquivo reforçado ainda fechado."
+  ],
+  "retomada": "Verificar cavalo, organizar pouso e atualizar mapa se o jogador decidir. Retorno planejado dia 89. A noite 88 ainda não transcorreu."
+}
