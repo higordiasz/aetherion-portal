@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V539",
-  "cena": 747,
-  "proxima": 748,
+  "checkpoint": "V540",
+  "cena": 748,
+  "proxima": 749,
   "dia": 88,
   "periodo": "Anoitecer",
   "personagem": {
@@ -1551,5 +1551,5 @@
     "Matriz de identificação e circuito de alimentação documentados passivamente; nenhuma ativação.",
     "Porta dupla e grade abertas mecanicamente; arquivo reforçado ainda fechado."
   ],
-  "retomada": "Verificar cavalo, organizar pouso e atualizar mapa se o jogador decidir. Retorno planejado dia 89. A noite 88 ainda não transcorreu."
+  "retomada": "Revisão concluída. Pendentes: gavetas reforçadas, perímetro externo, balcão/credencial, matriz e alimentação não validadas. Escolher investigação ou saída; verificar cavalo, organizar pouso e atualizar mapa se decidir. Retorno planejado dia 89; noite 88 ainda não transcorreu."
 }
