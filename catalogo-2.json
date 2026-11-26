@@ -1,0 +1,115 @@
+[
+  {
+    "id": "coracao-eter",
+    "nome": "Coração de Éter",
+    "categoria": "artefato",
+    "descricao": "Cristal etérico em posse de Ashborn.",
+    "propriedades": [
+      "C655 observação PASSIVA pelo Ashborn no quarto da Pousada Dia77: tênues linhas luminosas internas seguem trajetos recorrentes reconhecíveis em ciclos sucessivos, com organização aparente de circulação etérica. Observação sem canalizar mana, sem extração, sem acoplamento com outro objeto; a repetibilidade do padrão VISUAL/arcano foi identificada por teste excepcional34/DT22."
+    ],
+    "restricoes": [
+      "Ainda não comprovado como âncora substituta segura",
+      "Não consumir sem ordem",
+      "C655 recirculação interna observada NÃO demonstra reserva utilizável, fonte de éter PURO para Sifão, capacidade de transferir energia para outras peças, estabilizar sistema ativo ou preservar consciência/espírito de Vaelith; aplicações exigem novos instrumentos, testes de isolamento e protocolo seguro."
+    ]
+  },
+  {
+    "id": "estilhaco-abissal",
+    "nome": "Estilhaço Abissal",
+    "categoria": "material_artefato",
+    "descricao": "Estilhaço associado ao Abismo.",
+    "propriedades": [],
+    "restricoes": [
+      "NÃO presumir ser fonte pura de éter para o Sifão",
+      "C655 observação passiva INCONCLUSIVA não autoriza Sifão de Éter Puro, experimento direto de união com o Coração, fabricação de armas, encantamento, cura ou juízo de segurança; investigar em ambiente protegido e nunca presumir efeito pela associação ao Abismo."
+    ]
+  },
+  {
+    "id": "contrato-expedicao-alem-vau",
+    "nome": "Contrato — Expedição Além do Vau dos Três Cedros",
+    "categoria": "documentos",
+    "descricao": "Via oficial assinada C737. Relatório atualizado da travessia, largura, pavimento, drenagem e obstáculos da via até Arven, reparos e limites; reaproveitar registros anteriores sem duplicar remuneração. Não exige carroça, certificar carga nem combate; se bloqueado, documentar evidências e retornar com segurança para avaliação.",
+    "propriedades": [],
+    "restricoes": [
+      "Remuneração 24ouro após validação, sem adiantamento. Entrega até Dia92."
+    ]
+  },
+  {
+    "id": "contrato-levantamento-materiais-arven",
+    "nome": "Contrato — Levantamento de materiais em Arven",
+    "categoria": "documentos",
+    "descricao": "Via oficial assinada C737. Parecer visual sobre materiais construtivos aproveitáveis, condição de estruturas acessíveis e riscos; sem retirada, demolição ou entrada em setor instável. Artefatos e documentos históricos excluídos.",
+    "propriedades": [],
+    "restricoes": [
+      "Remuneração 8ouro após validação, sem adiantamento. Entrega até Dia92."
+    ]
+  },
+  {
+    "id": "contrato-correspondencia-ramal",
+    "nome": "Contrato — Correspondência no Ramal",
+    "categoria": "documentos",
+    "descricao": "Via oficial assinada C737. Retirar pacote lacrado na Associação manhã Dia83, entrega prevista Dia83 à equipe de manutenção junto ao acesso Ramal e obter recibo. Se ausente, preservar pacote e comunicar no retorno; sem pagamento automático. Pacote ainda não recebido.",
+    "propriedades": [],
+    "restricoes": [
+      "Remuneração 3ouro após validação, sem adiantamento. Entrega até Dia92."
+    ]
+  },
+  {
+    "id": "racao-viagem",
+    "nome": "Ração de Viagem",
+    "categoria": "consumivel",
+    "descricao": "Porção alimentar para deslocamento.",
+    "propriedades": [
+      "Duas unidades no checkpoint V229"
+    ],
+    "restricoes": []
+  },
+  {
+    "id": "recibo-correspondencia-ramal",
+    "nome": "Recibo assinado — Correspondência no Ramal",
+    "categoria": "documentos",
+    "descricao": "Formulário de recebimento assinado pelo encarregado da equipe de manutenção junto ao acesso do Ramal da Vigília, Dia83.",
+    "propriedades": [
+      "Entrega lacrada registrada C739."
+    ],
+    "restricoes": [
+      "Apresentar a Elira para validação do contrato, não equivale a pagamento."
+    ]
+  },
+  {
+    "id": "fragmentos-documentais-pc03",
+    "nome": "Fragmentos documentais PC-03",
+    "categoria": "evidencia_arqueologica",
+    "descricao": "Referências RCA117, custódia provisória, integridade e autorização.",
+    "propriedades": [
+      "Referências RCA117, custódia provisória, integridade e autorização."
+    ],
+    "restricoes": [
+      "Não presumir funcionamento ativo ou segurança."
+    ]
+  },
+  {
+    "id": "plaqueta-pc03",
+    "nome": "Plaqueta PC-03",
+    "categoria": "evidencia_arqueologica",
+    "descricao": "Identificação administrativa.",
+    "propriedades": [
+      "Identificação administrativa."
+    ],
+    "restricoes": [
+      "Não presumir funcionamento ativo ou segurança."
+    ]
+  },
+  {
+    "id": "fragmento-lacre-pc03",
+    "nome": "Fragmento de lacre administrativo",
+    "categoria": "evidencia_arqueologica",
+    "descricao": "Fragmento deteriorado, sem função ativa demonstrada.",
+    "propriedades": [
+      "Fragmento deteriorado, sem função ativa demonstrada."
+    ],
+    "restricoes": [
+      "Não presumir funcionamento ativo ou segurança."
+    ]
+  }
+]
