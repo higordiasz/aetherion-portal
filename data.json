@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V568",
-  "cena": 776,
-  "proxima": 777,
+  "checkpoint": "V569",
+  "cena": 777,
+  "proxima": 778,
   "dia": 91,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 78,
+      "mp": 74,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
@@ -1562,7 +1562,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Desfiladeiro Cinzento — ponto de observação, criatura a cerca de 50 m",
+  "local": "Desfiladeiro Cinzento — combate, criatura a cerca de 8 m",
   "agua": {
     "total": 2.1,
     "tratada": 2.1,
@@ -1608,7 +1608,7 @@
     {
       "nome": "A criatura do Desfiladeiro Cinzento",
       "ouro": 22,
-      "status": "Em execução — criatura localizada",
+      "status": "Em execução — combate em andamento",
       "etapas": [
         "Formalizar contratação",
         "Investigar locais dos ataques",
@@ -1678,7 +1678,7 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Local atual, criatura observada a~50m; um cavalo junto.",
+      "texto": "Combate em andamento, criatura hostil a~8m; cavalo atrás cobertura inicial.",
       "atual": true
     },
     {
@@ -1731,5 +1731,5 @@
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão.",
     "C776: quadrúpede robusto ~3,5m com placas dorsais cinzentas avistado no Desfiladeiro Cinzento, junto a restos de animal de carga. Espécie e capacidades desconhecidas."
   ],
-  "retomada": "Dia91 fim da tarde: criatura encouraçada localizada a~50m; sem combate. Cavalo pelas rédeas, cobertura rochosa. Contrato22ouro em execução."
+  "retomada": "Dia91 fim da tarde: rodada1 encerrada. Projétil Arcano acertou, 13 dano mágico, criatura levemente ferida e hostil a~8m. Cavalo preso atrás cobertura inicial. Próxima rodada2."
 }
