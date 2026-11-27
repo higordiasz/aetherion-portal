@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V590",
-  "cena": 798,
-  "proxima": 799,
+  "checkpoint": "V591",
+  "cena": 799,
+  "proxima": 800,
   "dia": 93,
   "periodo": "Fim da manha",
   "personagem": {
@@ -1658,7 +1658,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa quitada, reparos8ouro pagos por Serenya, teto do quarto Lyra seco nas partes acessíveis. Mobília27ouro entregue e instalada manhã93; faltam roupas de cama e pertences. Lyra e Theron chegaram para visita; surpresa e proposta de acolhimento ainda não reveladas."
+      "texto": "Casa quitada e mobiliada, reparos concluídos e teto de Lyra conferido. C799 quarto revelado a Lyra, ela deseja iniciar estadias e trazer livros; Theron concordou, horários e cuidados a combinar. Faltam roupas de cama e pertences. Sem mudança ou primeira noite."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1678,17 +1678,17 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Coproprietária Casa das Violetas; mobiliou casa com Ashborn, acolheu convite a Lyra e Theron. Primeira visita, proposta de acolhimento ainda não comunicada."
+      "texto": "Coproprietária Casa das Violetas; reafirmou acolhimento de Lyra e sugeriu decorar o quarto juntas."
     },
     {
       "nome": "Lyra",
       "tipo": "Irmã adotiva",
-      "texto": "Irmã adotiva, 13 anos. Lume comum independente10min uma vez; variante avançada não dominada. Aceitou convite para conhecer casa, chegou à entrada; não sabe do quarto preparado para ela."
+      "texto": "Irmã adotiva,13 anos. Lume comum independente10min uma vez, variante avançada não dominada. C799 recebeu quarto reservado na Casa das Violetas, emocionou-se e deseja iniciar estadias ocasionais mantendo estudos. Sem mudança ou data."
     },
     {
       "nome": "Theron",
       "tipo": "Mentor",
-      "texto": "Mentor de Ashborn e Lyra; aceitou visita à casa e chegou com Lyra, ainda não informado sobre acolhimento."
+      "texto": "Mentor de Ashborn e Lyra. Conheceu a casa e concordou com acolhimento de Lyra, preservando horários de aulas e práticas."
     },
     {
       "nome": "Aldren",
@@ -1704,7 +1704,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, fim da manhã Dia93, mobiliada; Lyra e Theron chegaram para primeira visita. Dois cavalos no Santuário.",
+      "texto": "Casa das Violetas, fim da manhã Dia93; quarto de Lyra revelado, todos juntos. Dois cavalos no Santuário.",
       "atual": true
     },
     {
@@ -1759,5 +1759,5 @@
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
     "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente."
   ],
-  "retomada": "Dia93 fim da manhã: casa mobiliada, Lyra e Theron chegaram para visita, surpresa não revelada. HP115 MP78 PE50 ouro10. Dois cavalos no Santuário."
+  "retomada": "Dia93 fim da manhã: quarto revelado a Lyra, ela deseja iniciar estadias e trazer livros; Theron concordou, rotina e datas a combinar. Todos no quarto. Ouro10, recursos completos."
 }
