@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V571",
-  "cena": 779,
-  "proxima": 780,
+  "checkpoint": "V572",
+  "cena": 780,
+  "proxima": 781,
   "dia": 91,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -12,9 +12,9 @@
     "nivel": 11,
     "aparencia": "Jovem espadachim arcano de cabelos negros, aspecto atlético, capa e roupas de mago/espadachim, cicatriz negra permanente da mão ao pescoço. Marca avermelhada do Abismo desapareceu C588. Retrato aprovado permanece referência histórica; não reintroduzir marca vermelha.",
     "recursos": {
-      "hp": 115,
+      "hp": 94,
       "hp_max": 115,
-      "mp": 56,
+      "mp": 44,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
@@ -1562,7 +1562,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Desfiladeiro Cinzento — combate, criatura a cerca de 1,5 m",
+  "local": "Desfiladeiro Cinzento — combate, criatura a cerca de 1 m",
   "agua": {
     "total": 2.1,
     "tratada": 2.1,
@@ -1678,7 +1678,7 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Combate em andamento, criatura a~1,5m, Manto III ativo; cavalo atrás cobertura inicial.",
+      "texto": "Combate em andamento, criatura a~1m, Manto ativo4 turnos; cavalo atrás cobertura inicial.",
       "atual": true
     },
     {
@@ -1729,7 +1729,8 @@
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida.",
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão.",
-    "C776: quadrúpede robusto ~3,5m com placas dorsais cinzentas avistado no Desfiladeiro Cinzento, junto a restos de animal de carga. Espécie e capacidades desconhecidas."
+    "C776: quadrúpede robusto ~3,5m com placas dorsais cinzentas avistado no Desfiladeiro Cinzento, junto a restos de animal de carga. Espécie e capacidades desconhecidas.",
+    "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada."
   ],
-  "retomada": "Dia91 fim da tarde: rodada3 encerrada. Manto III ativo (+7 DEF, DEF efetiva24; base17), cinco turnos restantes, uso único consumido. Mordida falhou; criatura ferida e hostil a~1,5m. Próxima rodada4."
+  "retomada": "Dia91 fim da tarde: rodada4 encerrada. Brecha dinâmica ombro identificada, Corte da Chama Vazia acertou26 (uso único consumido), mordida causou21HP. Manto III ativo +7DEF (24 efetiva), quatro turnos restantes. Criatura hostil ferida a~1m, dano acumulado61. Próxima rodada5."
 }
