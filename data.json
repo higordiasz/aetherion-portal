@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V581",
-  "cena": 789,
-  "proxima": 790,
+  "checkpoint": "V582",
+  "cena": 790,
+  "proxima": 791,
   "dia": 92,
-  "periodo": "Meio dia",
+  "periodo": "Inicio da tarde",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -20,7 +20,7 @@
       "pe_max": 50,
       "xp_nivel": 850,
       "xp_total": 5500,
-      "ouro": 3,
+      "ouro": 25,
       "xp_proximo_nivel": 1000
     },
     "atributos": {
@@ -1325,12 +1325,13 @@
       "id": "contrato-criatura-desfiladeiro-cinzento",
       "nome": "Contrato — Criatura do Desfiladeiro Cinzento",
       "categoria": "documento",
-      "descricao": "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados.",
+      "descricao": "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados. C790: anotação de quitação integral dos22ouro.",
       "restricoes": [
         "Não garante recompensa nem precisão integral dos relatos."
       ],
       "propriedades": [
-        "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados."
+        "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados.",
+        "C790: quitação integral registrada, pagamento22ouro recebido."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1631,7 +1632,7 @@
       "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
     }
   ],
-  "local": "Luméria — Associação dos Carreteiros",
+  "local": "Luméria — Praça dos Artesãos",
   "agua": {
     "total": 1.4,
     "tratada": 1.4,
@@ -1677,7 +1678,7 @@
     {
       "nome": "A criatura do Desfiladeiro Cinzento",
       "ouro": 22,
-      "status": "Validada — pagamento de 22 ouros pendente",
+      "status": "Concluída, validada e quitada",
       "etapas": [
         "Formalizar contratação",
         "Investigar locais dos ataques",
@@ -1760,7 +1761,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Associação dos Carreteiros, relatório validado, pagamento pendente; cavalo junto entrada.",
+      "texto": "Praça dos Artesãos, caçada quitada, oferta comercial13ouro sem venda; cavalo próximo.",
       "atual": true
     },
     {
@@ -1814,5 +1815,5 @@
     "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado.",
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado."
   ],
-  "retomada": "Dia92 meio-dia: relatório Desfiladeiro validado; fragmento de couraça e identificação comercial entregues. 22ouro autorizados, assinatura e recebimento pendentes. Espólios particulares em posse; cavalo junto entrada."
+  "retomada": "Dia92 início da tarde: contrato Desfiladeiro quitado22ouro, saldo25. Aldren ofertou9ouro lote; fabricante de armaduras13ouro (6+3+2+2), sem venda. Cavalo próximo."
 }
