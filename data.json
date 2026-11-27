@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V546",
-  "cena": 754,
-  "proxima": 755,
+  "checkpoint": "V547",
+  "cena": 755,
+  "proxima": 756,
   "dia": 88,
   "periodo": "Noite",
   "personagem": {
@@ -1481,10 +1481,10 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Passagem Inferior — margem da travessia, lado ET-02",
+  "local": "Entreposto de Arven — entrada do pátio",
   "agua": {
-    "total": 2,
-    "tratada": 1.5,
+    "total": 1.5,
+    "tratada": 1,
     "bruta": 0.5
   },
   "missoes": [
@@ -1577,16 +1577,16 @@
   "rota": [
     {
       "nome": "Entreposto de Arven",
-      "texto": "Vistoria e parecer concluídos."
+      "texto": "Local atual: chegada à entrada do pátio, pouso não iniciado.",
+      "atual": true
     },
     {
       "nome": "PC-03 · Vigília Alta",
-      "texto": "Posto de Custódia explorado."
+      "texto": "Ultrapassado no retorno C755, sem nova exploração."
     },
     {
       "nome": "Travessia da Passagem Inferior",
-      "texto": "Local atual: margem lado ET02, antes de cruzar; Lume expirado após3h de viagem.",
-      "atual": true
+      "texto": "Cruzada sem incidente C755."
     },
     {
       "nome": "ET-02 · Passagem Inferior",
@@ -1606,5 +1606,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Lume Longa Duração I aprendido e ativo (0/180min). Ashborn permanece na margem antes de cruzar, cavalo junto. Arven estimado3–4h via PC03; noite88 ainda não completada."
+  "retomada": "Chegou a Arven após6h totais de deslocamento desde CR04. Lume expirado; cavalo junto e cansado. Verificar segurança e organizar pouso se desejar; noite88 não completada."
 }
