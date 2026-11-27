@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V563",
-  "cena": 771,
-  "proxima": 772,
+  "checkpoint": "V564",
+  "cena": 772,
+  "proxima": 773,
   "dia": 91,
   "periodo": "Tarde",
   "personagem": {
@@ -1494,7 +1494,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Mercado das Arcadas — consulta de imóveis com Serenya",
+  "local": "Casa das Violetas — quintal, perto do Jardim Alvor",
   "agua": {
     "total": 1.2,
     "tratada": 1.2,
@@ -1565,7 +1565,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Cinco ofertas C771: Oleiros124, Salgueiro136, Violetas145, Mirante185, Camélias245ouro. Orçamento potencial148; primeira visita a escolher. Nenhuma compra ou transferência."
+      "texto": "Casa das Violetas visitada C772: preço145, defeitos visíveis em telhado/mancha, dobradiça e cerca, reparos8–12 estimados, mobília8–25. Sem aquisição; orçamento potencial148."
     }
   ],
   "relacoes": [
@@ -1577,7 +1577,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Procurando casa juntos no Mercado das Arcadas dia91. Serenya prefere espaço para ervas e estudo; pondera Violetas145 e Salgueiro136; até30ouro de contribuição condicional, não transferidos."
+      "texto": "Visitou Casa das Violetas com Ashborn, gostou do quintal e imaginou segundo quarto para visitas Lyra. Contribuição até30ouro condicional, sem transferência."
     },
     {
       "nome": "Lyra",
@@ -1598,7 +1598,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Local atual: Mercado das Arcadas; dois cavalos permanecem no Santuário.",
+      "texto": "Local atual: Casa das Violetas, perto Jardim Alvor; dois cavalos no Santuário.",
       "atual": true
     },
     {
@@ -1645,5 +1645,5 @@
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão."
   ],
-  "retomada": "Dia91 tarde: cinco anúncios recebidos; escolher qual conhecer primeiro. Sem compra, visita ou gasto."
+  "retomada": "Dia91 tarde: vistoria Casa das Violetas concluída; preço145, reparos estimados8–12, mobília8–25, sem compra. Intermediário aguarda opinião."
 }
