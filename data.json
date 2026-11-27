@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V558",
-  "cena": 766,
-  "proxima": 767,
+  "checkpoint": "V559",
+  "cena": 767,
+  "proxima": 768,
   "dia": 90,
   "periodo": "Noite",
   "personagem": {
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 10,
       "pe_max": 50,
-      "xp_nivel": 615,
-      "xp_total": 5265,
+      "xp_nivel": 635,
+      "xp_total": 5285,
       "ouro": 118,
       "xp_proximo_nivel": 1000
     },
@@ -1281,6 +1281,23 @@
       ],
       "quantidade": 1,
       "equipado": false
+    },
+    {
+      "id": "registro-fixacao-distante-prancha-i",
+      "nome": "Registro da Fixação Distante — Prancha I",
+      "categoria": "documento",
+      "descricao": "Anotações pessoais, desenho esquemático da percepção C766 e protocolo escrito de reprodução: convergência estável, duas camadas entrelaçadas, três pulsações e intervalo.",
+      "restricoes": [
+        "Não é selo funcional, magia, bônus automático, prova de localização física, origem histórica, autoria, identidade RCA117 ou relação CI01/Templo.",
+        "Protocolo não reexecutado; não divulgar sem decisão de Ashborn."
+      ],
+      "propriedades": [
+        "Reconstrução excepcional C767 30/18, sem escala ou inscrição literal.",
+        "Protocolo escrito: 1 repousar, reunir reservas e ambiente calmo, conferir referência corporal e critérios de interrupção; 2 estabelecer âncora própria, distinguir assinatura própria, Lâmina e manifestação de Vaelith, observar exterior sem infusão/penetração; 3 alcançar Orla, filtrar ecos comparando variações próprias e referências anteriores, isolar extensão distante; 4 seguir apenas extensão identificada, comparar convergência, duas camadas entrelaçadas e três pulsações/intervalo com prancha; 5 reservar energia de retorno desde início, interromper diante de perda de referência, instabilidade ou interferência, retornar pela Alma Una e registrar resultado. C766 referência78MP total,9MP retorno,40PE +20, sem rerrolagem; não assume custo reduzido ou segurança garantida. Não reexecutado.",
+        "Cotejo DT24 total23 falha por1: sem identificação ou correspondência de símbolos. Selo dourado histórico de oito símbolos sem equivalência demonstrada; três variações C599/C601 semelhança tríplice sem identidade; PC03 placa Integridade/Estabilidade/Continuidade sem mapeamento aos pulsos; manual CR04 distingue suporte, assinatura e manutenção, compatibilidade conceitual não estrutural; RV117 separação contraindicada pode ser compatível com contenção adicional SE caso for Vaelith; distinção obrigação/ancoragem dos Pactos Antigos não prova natureza das camadas. Sem leitura integral ou glifos não vistos. Buscar fontes independentes."
+      ],
+      "quantidade": 1,
+      "equipado": false
     }
   ],
   "cavalos": 2,
@@ -1524,7 +1541,7 @@
   "objetivos": [
     {
       "nome": "Libertação segura de Vaelith",
-      "texto": "C766: fixação distante percebida além da Orla, três pulsações/intervalo e duas camadas de contenção; cotejar fontes, sem localização/identidade confirmada. Vaelith não informada."
+      "texto": "Prancha I e protocolo escritos C767; comparação inconclusiva. Cotejar fontes independentes e validar com segurança. Vaelith não informada."
     },
     {
       "nome": "Investigar a CI-01",
@@ -1621,7 +1638,8 @@
     "Porta dupla e grade abertas mecanicamente; arquivo reforçado aberto mecanicamente C749.",
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida.",
-    "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu."
+    "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
+    "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão."
   ],
-  "retomada": "Madrugada noite90→91: retorno autônomo após rastrear fixação distante; MP0 PE10, +100XP. Vaelith recolhida não percebeu. Ashborn desperto no leito, noite não completa."
+  "retomada": "Madrugada noite90→91: Prancha I e protocolo escritos, cotejo inconclusivo; +20XP. Ashborn desperto junto à mesa, MP0 PE10; Vaelith não percebeu. Noite não completa."
 }
