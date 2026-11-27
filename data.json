@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V548",
-  "cena": 756,
-  "proxima": 757,
-  "dia": 89,
-  "periodo": "Manha avancada",
+  "checkpoint": "V549",
+  "cena": 757,
+  "proxima": 758,
+  "dia": 90,
+  "periodo": "Anoitecer",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -712,18 +712,6 @@
       ],
       "propriedades": [],
       "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "racao-viagem",
-      "nome": "Ração de Viagem",
-      "categoria": "consumivel",
-      "descricao": "Porção alimentar para deslocamento.",
-      "restricoes": [],
-      "propriedades": [
-        "Duas unidades no checkpoint V229"
-      ],
-      "quantidade": 2,
       "equipado": false
     },
     {
@@ -1496,11 +1484,11 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Entreposto de Arven — salão principal",
+  "local": "Luméria — entrada principal",
   "agua": {
-    "total": 1,
-    "tratada": 0.5,
-    "bruta": 0.5
+    "total": 1.2,
+    "tratada": 1.2,
+    "bruta": 0
   },
   "missoes": [
     {
@@ -1591,9 +1579,25 @@
   ],
   "rota": [
     {
-      "nome": "Entreposto de Arven",
-      "texto": "Local atual: salão principal, repouso concluído dia89.",
+      "nome": "Luméria",
+      "texto": "Local atual: entrada principal, chegada dia90 ao anoitecer.",
       "atual": true
+    },
+    {
+      "nome": "Ramal da Vigília e Marco",
+      "texto": "Percorridos no retorno dia90."
+    },
+    {
+      "nome": "Nascente conhecida",
+      "texto": "Pouso noite89 e abastecimento de água."
+    },
+    {
+      "nome": "Vau dos Três Cedros",
+      "texto": "Cruzado sem incidente dia89."
+    },
+    {
+      "nome": "Entreposto de Arven",
+      "texto": "Partida rumo a Luméria dia89."
     },
     {
       "nome": "PC-03 · Vigília Alta",
@@ -1621,5 +1625,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Dia89 manhã avançada; repouso em Arven concluído, MP e PE integrais, mapas original e ampliado em posse. Cavalo no pátio; escolher próxima ação ou retorno a Luméria. Contratos até dia92."
+  "retomada": "Dia90 anoitecer: chegada a Luméria, cavalo junto, 0 rações e1,2L tratados. Contratos até dia92 ainda não entregues, nenhum pagamento ou reencontro. Escolher próximo destino."
 }
