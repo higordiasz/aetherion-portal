@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V585",
-  "cena": 793,
-  "proxima": 794,
+  "checkpoint": "V586",
+  "cena": 794,
+  "proxima": 795,
   "dia": 92,
   "periodo": "Inicio da tarde",
   "personagem": {
@@ -20,7 +20,7 @@
       "pe_max": 50,
       "xp_nivel": 850,
       "xp_total": 5500,
-      "ouro": 38,
+      "ouro": 11,
       "xp_proximo_nivel": 1000
     },
     "atributos": {
@@ -1658,7 +1658,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa quitada; Serenya organiza reparos ainda não contratados. Missão Desfiladeiro concluída e quitada; casal consulta mobília, sete ofertas total23ouro, nenhuma compra."
+      "texto": "Casa quitada, mobília comprada por27ouro (31−4), entrega incluída a solicitar; dez conjuntos, incluindo cama casal, mesa e quatro cadeiras, armário, escrivaninha/cadeira, estante grande, utensílios, baú, cama solteiro, estante e mesa/cadeira para quarto de Lyra. Reparos não contratados, sem mudança."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1678,7 +1678,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Coproprietária Casa das Violetas, organiza reparos; aceitou escolher móveis com Ashborn e opiniões de Vaelith. Nenhuma compra."
+      "texto": "Coproprietária da Casa das Violetas. Participou da escolha de mobília e aprovou quarto para Lyra; reparos ainda não contratados."
     },
     {
       "nome": "Lyra",
@@ -1704,7 +1704,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Mercado das Arcadas, marcenaria; Ashborn e Serenya consultam móveis, Vaelith acompanha. Cavalo junto ao grupo.",
+      "texto": "Mercado das Arcadas, marcenaria; compra de mobília quitada, entrega pendente; cavalo junto ao grupo.",
       "atual": true
     },
     {
@@ -1758,5 +1758,5 @@
     "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado.",
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado."
   ],
-  "retomada": "Dia92 início da tarde: Ashborn, Serenya e Vaelith escolhem mobília em marcenaria; sete ofertas total23ouro, nenhuma compra. Serenya aguarda decisão. Ouro38."
+  "retomada": "Dia92 início da tarde: comprou dez conjuntos de mobília por27ouro, entrega incluída pendente. Saldo11. Nenhum reparo ou mudança. Ashborn com Serenya e Vaelith na marcenaria."
 }
