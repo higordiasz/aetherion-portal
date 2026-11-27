@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V592",
-  "cena": 800,
-  "proxima": 801,
+  "checkpoint": "V593",
+  "cena": 801,
+  "proxima": 802,
   "dia": 93,
   "periodo": "Inicio da tarde",
   "personagem": {
@@ -1683,9 +1683,7 @@
       "equipado": false,
       "local": "Casa das Violetas",
       "compartimento": "Arquivos do escritório"
-    }
-  ],
-  "inventario_custodia": [
+    },
     {
       "id": "cajado-carvalho",
       "nome": "Cajado de Carvalho",
@@ -1695,8 +1693,8 @@
       "propriedades": [],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Escritório — equipamentos"
     },
     {
       "id": "especiarias",
@@ -1707,8 +1705,8 @@
       "propriedades": [],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Cozinha"
     },
     {
       "id": "anotacoes",
@@ -1719,8 +1717,8 @@
       "propriedades": [],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
     },
     {
       "id": "convocacao-bibliotecario",
@@ -1733,8 +1731,8 @@
       "propriedades": [],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
     },
     {
       "id": "bilhete-serenya",
@@ -1747,8 +1745,8 @@
       "propriedades": [],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
     },
     {
       "id": "ficha-escolta",
@@ -1761,8 +1759,8 @@
       ],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
     },
     {
       "id": "contrato-predador-passo-pinheiros",
@@ -1782,8 +1780,8 @@
       ],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
     },
     {
       "id": "mapa-passo-pinheiros",
@@ -1801,8 +1799,8 @@
       ],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
     },
     {
       "id": "contrato-reconhecimento-ramal-vigilia",
@@ -1815,8 +1813,8 @@
       "propriedades": [],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
     },
     {
       "id": "termo-doacao-arven",
@@ -1836,10 +1834,11 @@
       ],
       "quantidade": 1,
       "equipado": false,
-      "local": "Santuário de Luméria",
-      "compartimento": ""
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
     }
   ],
+  "inventario_custodia": [],
   "local": "Luméria — Casa das Violetas",
   "agua": {
     "total": 1.4,
@@ -1923,7 +1922,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa mobiliada, Lyra tem quarto reservado e pode visitar quando quiser; deseja trazer livros, rotina de estudos a combinar. 54 tipos de pertences de Ashborn guardados na casa; inventário separado por localização. Faltam roupas de cama e pertences de uso pessoal."
+      "texto": "Casa mobiliada, Lyra tem quarto reservado e pode visitar quando quiser; deseja trazer livros, rotina de estudos a combinar. C801 todos os dez bens antes custodiados no Santuário recuperados e guardados em casa: total64 tipos/73 unidades. Mochila6 tipos, sem custódia ativa. Faltam roupas de cama e pertences de uso pessoal."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1969,7 +1968,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, início da tarde Dia93, Ashborn organizou grimórios, arquivos e artefatos em casa; dois cavalos no Santuário.",
+      "texto": "Casa das Violetas, início da tarde Dia93; pertences recuperados do Santuário e guardados em casa; dois cavalos continuam nos estábulos do Santuário.",
       "atual": true
     },
     {
@@ -2024,5 +2023,5 @@
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
     "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente."
   ],
-  "retomada": "Dia93 início da tarde: Lyra pode vir quando quiser; Ashborn guardou 54 tipos de pertences na casa, bagagem reduzida, bens Santuário inalterados. Ouro10, recursos completos."
+  "retomada": "Dia93 início da tarde: recuperou todos dez bens do Santuário, guardou em casa; casa64 tipos/73 unidades, mochila6, custódia ativa0. Dois cavalos Santuário. Ouro10, recursos completos."
 }
