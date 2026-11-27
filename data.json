@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V580",
-  "cena": 788,
-  "proxima": 789,
+  "checkpoint": "V581",
+  "cena": 789,
+  "proxima": 790,
   "dia": 92,
-  "periodo": "Fim da manha",
+  "periodo": "Meio dia",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -1362,22 +1362,6 @@
       "equipado": false
     },
     {
-      "id": "fragmento-couraca-desfiladeiro",
-      "nome": "Fragmento da Couraça — Prova da Caçada",
-      "categoria": "evidencia_de_missao",
-      "descricao": "Fragmento característico de placa cinzenta já danificada durante combate, recolhido da criatura abatida no Desfiladeiro Cinzento C786.",
-      "restricoes": [
-        "Manter separado dos espólios; validação da Associação ainda pendente.",
-        "Não vender nem consumir automaticamente."
-      ],
-      "propriedades": [
-        "Couraça rígida cinzenta, procedência observada por Ashborn.",
-        "Destinado à apresentação à Associação como evidência identificável da caçada."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
       "id": "placa-couraca-cinzenta",
       "nome": "Placa de Couraça Cinzenta",
       "categoria": "material",
@@ -1430,20 +1414,6 @@
       ],
       "propriedades": [
         "Material rígido, potencial matéria-prima artesanal; peso aproximado0,8kg."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "identificacao-animal-carga-desfiladeiro",
-      "nome": "Identificação do Animal de Carga",
-      "categoria": "evidencia_de_missao",
-      "descricao": "Pequena placa de identificação de latão com marca comercial gravada, encontrada entre restos do arreio junto à carcaça de provável mula C788.",
-      "restricoes": [
-        "Destinada à Associação para identificar o proprietário; não é espólio vendável, não se apropriar de bens de terceiros."
-      ],
-      "propriedades": [
-        "Marca comercial observável, proprietário não identificado; peso desprezível."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1661,7 +1631,7 @@
       "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
     }
   ],
-  "local": "Luméria — entrada da cidade",
+  "local": "Luméria — Associação dos Carreteiros",
   "agua": {
     "total": 1.4,
     "tratada": 1.4,
@@ -1707,14 +1677,14 @@
     {
       "nome": "A criatura do Desfiladeiro Cinzento",
       "ouro": 22,
-      "status": "Ameaça neutralizada — duas evidências recolhidas, retorno concluído, relatório pendente",
+      "status": "Validada — pagamento de 22 ouros pendente",
       "etapas": [
         "Formalizar contratação",
         "Investigar locais dos ataques",
         "Identificar e neutralizar ameaça",
         "Apresentar evidência e relatório"
       ],
-      "concluidas": 3
+      "concluidas": 4
     }
   ],
   "objetivos": [
@@ -1790,7 +1760,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Retorno concluído Dia92, cavalo com Ashborn na entrada; outro Santuário. Relatório pendente.",
+      "texto": "Associação dos Carreteiros, relatório validado, pagamento pendente; cavalo junto entrada.",
       "atual": true
     },
     {
@@ -1841,7 +1811,8 @@
     "C782: Ruptura Infernal, primeira explosão radial experimental de Chamas Negras (4m,34 mágico,18MP,6HP refluxo), sem aquisição permanente.",
     "C785: projeto teórico Sifão de Éter Puro II, capacidade pretendida10MP; nenhuma fonte pura comprovada ou ensaio ativo.",
     "C786: inspeção da criatura encouraçada confirmou placas resistentes, presas e garras aproveitáveis; nenhum núcleo exposto, espécie e natureza arcana pendentes.",
-    "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado."
+    "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado.",
+    "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado."
   ],
-  "retomada": "Dia92 fim da manhã: duas Restaurações, HP115 MP64 PE5; última inspeção excepcional, pequena placa adicional e identificação comercial da provável mula recolhidas. Chegou a Luméria montado; contrato22ouro pendente de relatório e validação."
+  "retomada": "Dia92 meio-dia: relatório Desfiladeiro validado; fragmento de couraça e identificação comercial entregues. 22ouro autorizados, assinatura e recebimento pendentes. Espólios particulares em posse; cavalo junto entrada."
 }
