@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V573",
-  "cena": 781,
-  "proxima": 782,
+  "checkpoint": "V574",
+  "cena": 782,
+  "proxima": 783,
   "dia": 91,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -12,14 +12,14 @@
     "nivel": 11,
     "aparencia": "Jovem espadachim arcano de cabelos negros, aspecto atlético, capa e roupas de mago/espadachim, cicatriz negra permanente da mão ao pescoço. Marca avermelhada do Abismo desapareceu C588. Retrato aprovado permanece referência histórica; não reintroduzir marca vermelha.",
     "recursos": {
-      "hp": 94,
+      "hp": 67,
       "hp_max": 115,
-      "mp": 35,
+      "mp": 17,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 645,
-      "xp_total": 5295,
+      "xp_nivel": 665,
+      "xp_total": 5315,
       "ouro": 3,
       "xp_proximo_nivel": 1000
     },
@@ -244,6 +244,15 @@
       "efeito": "Mão direita de Vaelith moveu folha e tocou mão de Ashborn por poucos segundos.",
       "custo_mp_estimado": 16,
       "limite": "Custo da etapa isolada, depende da sustentação anterior; primeira demonstração localizada, sem corpo completo, duração definitiva ou libertação."
+    },
+    {
+      "id": "ruptura-infernal",
+      "nome": "Ruptura Infernal",
+      "status": "experimental",
+      "observacao": "DT25, d20 real7+INT14+ChamasIII3+Sustentação Adaptativa I2=26 sucesso; 5PE reservados não gastos. 18MP e6HP de refluxo, +20XP por primeira demonstração.",
+      "efeito": "Primeira manifestação: explosão instantânea radial de Chamas Negras, raio4m centrado na palma, 34 de dano mágico à criatura dentro da área; refluxo6HP ao conjurador.",
+      "custo_mp_estimado": 18,
+      "limite": "Experimental, sem aquisição permanente ou conjuração segura garantida. Parâmetros do ensaio C782: sucesso34 mágico em raio4m, refluxo6HP; excepcional sem refluxo; falha dissipação sem dano ao alvo, refluxo12HP. Área indiscriminada; sem imunidade automática de aliados/conjurador, dano contínuo, ignição automática ou dano extra à couraça. Exige pesquisa, isolamento do conjurador e reprodução validada; custo/dano/raio definitivos pendentes."
     }
   ],
   "maestrias": [
@@ -1560,9 +1569,18 @@
       "progresso": "C751 tentativa improvisada de10m/90min falhou por1, 8MP. C752 projeto de20min, DT24 total41 (natural20), separação emissão/recirculação e estabilização; primeira conjuração DT26 total40, 14MP, raio15m inicialmente demonstrado. Duração e mobilidade pendentes; esquema fundamentado em Sustentação Adaptativa I. C753: DT22 total31, manteve raio15m e estabilidade por180min em viagem; dissipação segura ao limite. C754 reprodução DT24 total35 excepcional (d20=13),14MP, primeira conjuração reproduzida com estabilidade; aprendizado permanente confirmado.",
       "efeito_atual": "Magia permanente: raio15m, até180min,14MP; acompanha conjurador. Ativa ao fim C754 (0/180min). Lume convencional preservado.",
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
+    },
+    {
+      "id": "ruptura-infernal",
+      "nome": "Ruptura Infernal",
+      "categoria": "conhecimento_pratico_experimental",
+      "objetivo": "Desenvolver explosão radial autoral de Chamas Negras por compressão e liberação instantânea; estabilizar contenção e proteger o conjurador.",
+      "progresso": "C782 primeira manifestação DT25 total26,18MP,6HP refluxo,34 dano mágico em criatura a2m, raio4m, +20XP. Nenhuma rerrolagem usada.",
+      "efeito_atual": "Protótipo experimental Ruptura Infernal: raio4m, 34 mágico,18MP no ensaio, refluxo6HP. Não permanente.",
+      "condicao_para_prosseguir": "Após combate e recuperação, estudar isolamento/antirrefluxo, testar em área segura sem aliados, reproduzir e validar estabilidade e parâmetros; não presumir aprendizado."
     }
   ],
-  "local": "Desfiladeiro Cinzento — combate, criatura a cerca de 2 m",
+  "local": "Desfiladeiro Cinzento — combate, criatura a cerca de 1 m",
   "agua": {
     "total": 2.1,
     "tratada": 2.1,
@@ -1646,6 +1664,10 @@
     {
       "nome": "Lar em Luméria",
       "texto": "Casa adquirida e quitada; Serenya organiza reparos ainda não contratados. Ashborn aceitou contrato22ouro para mobília, criatura localizada sem combate."
+    },
+    {
+      "nome": "Ruptura Infernal",
+      "texto": "Primeiro ensaio bem-sucedido C782; estudar antirrefluxo e validar reprodução segura após combate e recuperação."
     }
   ],
   "relacoes": [
@@ -1678,7 +1700,7 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Combate em andamento, criatura a~2m, Manto ativo3 turnos; cavalo atrás cobertura inicial.",
+      "texto": "Combate em andamento, criatura gravemente ferida a~1m, Manto ativo2 turnos; cavalo atrás cobertura inicial.",
       "atual": true
     },
     {
@@ -1730,7 +1752,8 @@
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão.",
     "C776: quadrúpede robusto ~3,5m com placas dorsais cinzentas avistado no Desfiladeiro Cinzento, junto a restos de animal de carga. Espécie e capacidades desconhecidas.",
-    "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada."
+    "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada.",
+    "C782: Ruptura Infernal, primeira explosão radial experimental de Chamas Negras (4m,34 mágico,18MP,6HP refluxo), sem aquisição permanente."
   ],
-  "retomada": "Dia91 fim da tarde: rodada5 encerrada, esquiva falhou mas mordida não acertou; Lança de Chama Negra I acertou22 de dano mágico, total83. Criatura bastante ferida e hostil a~2m. Manto III +7DEF (24 efetiva), três turnos restantes. Próxima rodada6."
+  "retomada": "Dia91 fim da tarde: rodada6 encerrada. Ruptura Infernal experimental 34 mágico,18MP,6HP refluxo; mordida21HP; criatura gravemente ferida, total117 dano, a~1m. Manto III DEF24, dois turnos restantes. Próxima rodada7."
 }
