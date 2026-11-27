@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V594",
-  "cena": 802,
-  "proxima": 803,
+  "checkpoint": "V595",
+  "cena": 803,
+  "proxima": 804,
   "dia": 93,
-  "periodo": "Fim da tarde",
+  "periodo": "Inicio da noite",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 50,
       "pe_max": 50,
-      "xp_nivel": 865,
-      "xp_total": 5515,
+      "xp_nivel": 900,
+      "xp_total": 5550,
       "ouro": 10,
       "xp_proximo_nivel": 1000
     },
@@ -726,8 +726,10 @@
       "id": "estudo-manual-identificacao-vincular",
       "nome": "Manual de Identificação Vincular",
       "categoria": "estudo_documental",
-      "objetivo": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%.",
-      "progresso": "30%; C802 estudo aprofundado DT20 total24, distingue suporte, assinatura, continuidade e referência. Cotejo permite compreender teoricamente que assinatura momentaneamente indistinguível não prova perda da consciência; avaliar continuidade separadamente. Sem validação funcional."
+      "objetivo": "Compreender integralmente o conteúdo disponível do manual: natureza do suporte, assinatura da consciência, manutenção do elo, leitura sem ruptura, referência, calibração e interrupção preventiva.",
+      "progresso": "100%; conteúdo disponível compreendido e transcrito C803. DT20 total26 e DT25 total35 excepcional. Quatro fundamentos integrados: suporte (estrutura e função), assinatura (identidade e interferência), continuidade (integridade apesar de alteração de manifestação), referência (parâmetros anteriores à intervenção). Critérios teóricos de leitura não destrutiva e interrupção diante de parâmetros incompatíveis/inconclusivos. Não valida matriz, calibragem física, fonte, operação, segurança ou aplicação a Vaelith.",
+      "efeito_atual": "Domínio teórico do conteúdo disponível, sem bônus mecânico novo.",
+      "condicao_para_prosseguir": "Compreender manuais complementares, construir bancada isolada, validar referências inertes, calibração e segurança antes de qualquer ensaio com vínculo sapiente."
     },
     {
       "id": "estudo-manual-alimentacao-isolamento-eterico",
@@ -762,7 +764,7 @@
       "nome": "Matriz Própria de Identificação Vincular",
       "categoria": "fundamentacao_teorica_avancada",
       "objetivo": "Reproduzir método de investigação não destrutiva de vínculos",
-      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação."
+      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação. C803: Manual Identificação Vincular100% compreendido, transcrição e integração teórica dos quatro fundamentos, critérios de referência e interrupção; não valida funções dos pilares nem sequência de operação, alimentação, calibração física ou aplicação."
     },
     {
       "id": "transferencia-vincular-controlada",
@@ -1363,12 +1365,13 @@
       "id": "manual-identificacao-vincular",
       "nome": "Manual de Identificação Vincular",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 30%.",
+      "descricao": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 100% do conteúdo disponível, teoria compreendida.",
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
       ],
       "propriedades": [
-        "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 30%."
+        "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 100% do conteúdo disponível.",
+        "C803: princípios de referência, distinção de interferências e interrupção preventiva compreendidos em teoria; nenhuma validação física."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1968,7 +1971,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, fim da tarde Dia93; estudos dos manuais de Arven no escritório, dois cavalos Santuário.",
+      "texto": "Casa das Violetas, início da noite Dia93; Manual Identificação Vincular 100% compreendido, sem ativação; dois cavalos no Santuário.",
       "atual": true
     },
     {
@@ -2022,7 +2025,8 @@
     "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado.",
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
     "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente.",
-    "C802: assinatura momentaneamente indistinguível não demonstra perda da consciência; continuidade precisa ser avaliada separadamente. Manual Identificação 30%, Caderno Custódia 15%, Manual Alimentação 10%; sequência calibração/interrupção não resolvida, nenhuma validação ou ativação."
+    "C802: assinatura momentaneamente indistinguível não demonstra perda da consciência; continuidade precisa ser avaliada separadamente. Manual Identificação 30%, Caderno Custódia 15%, Manual Alimentação 10%; sequência calibração/interrupção não resolvida, nenhuma validação ou ativação.",
+    "C803: Manual de Identificação Vincular 100% do conteúdo disponível compreendido e transcrito. Integração suporte/assinatura/continuidade/referência, leitura sem ruptura e critérios teóricos de interrupção. Não prova funcionamento da matriz, sequência operacional, segurança ou aplicação a Vaelith."
   ],
-  "retomada": "Dia93 fim da tarde: estudou manuais Arven, identificação30%, caderno15%, alimentação10%, sequência operacional pendente. +15XP, sem ativação ou gasto; XP865/1000 ouro10."
+  "retomada": "Dia93 início da noite: Manual Identificação Vincular100% conteúdo disponível compreendido e transcrito; +35XP, XP900/1000, ouro10. Demais estudos e inventário inalterados."
 }
