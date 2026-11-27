@@ -11,3 +11,7 @@ Dados iniciais: V539 / C747. Imagens canônicas copiadas para assets/.
 ## Aba Combate
 
 A aba `#combat` organiza ações, magias permanentes, técnicas, consumíveis e habilidades a partir do snapshot canônico, sem escrita de dados, rolagens ou ativação de efeitos. Os valores de acerto são referências condicionais à cena; apenas uma maestria pertinente por teste. Protótipos continuam no Grimório.
+
+## Layout compacto
+
+A ficha ocupa exatamente a altura dinâmica da viewport (`100dvh`), sem rolagem global. A navegação horizontal, recursos, painel de atributos e índice de maestrias ficam fixos; a rolagem ocorre somente nos painéis internos. Em telas estreitas, maestrias continuam disponíveis na aba e os atributos viram uma faixa compacta. As ações de combate, magias, inventário e pesquisas usam detalhes expansíveis. Não altera data.json nem regras da campanha.
