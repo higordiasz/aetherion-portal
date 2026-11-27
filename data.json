@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V556",
-  "cena": 764,
-  "proxima": 765,
+  "checkpoint": "V557",
+  "cena": 765,
+  "proxima": 766,
   "dia": 90,
   "periodo": "Noite",
   "personagem": {
@@ -1622,5 +1622,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Dia90 noite: revisão C763 e conversa C764; Templo do Primeiro Limiar reintegrado à pesquisa. Nenhum pedido ou experimento; quarto pago, ainda não dormiu."
+  "retomada": "Madrugada da noite90→91: Ashborn dormiu e despertou discretamente (Furtividade17/15); Vaelith recolhida não percebeu o despertar. Permanece deitado imóvel, noite não completa."
 }
