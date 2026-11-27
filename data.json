@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V574",
-  "cena": 782,
-  "proxima": 783,
+  "checkpoint": "V575",
+  "cena": 783,
+  "proxima": 784,
   "dia": 91,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -12,9 +12,9 @@
     "nivel": 11,
     "aparencia": "Jovem espadachim arcano de cabelos negros, aspecto atlético, capa e roupas de mago/espadachim, cicatriz negra permanente da mão ao pescoço. Marca avermelhada do Abismo desapareceu C588. Retrato aprovado permanece referência histórica; não reintroduzir marca vermelha.",
     "recursos": {
-      "hp": 67,
+      "hp": 46,
       "hp_max": 115,
-      "mp": 17,
+      "mp": 12,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
@@ -1700,7 +1700,7 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Combate em andamento, criatura gravemente ferida a~1m, Manto ativo2 turnos; cavalo atrás cobertura inicial.",
+      "texto": "Combate em andamento, criatura criticamente ferida a~1m, Manto ativo1 turno; cavalo atrás cobertura inicial.",
       "atual": true
     },
     {
@@ -1755,5 +1755,5 @@
     "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada.",
     "C782: Ruptura Infernal, primeira explosão radial experimental de Chamas Negras (4m,34 mágico,18MP,6HP refluxo), sem aquisição permanente."
   ],
-  "retomada": "Dia91 fim da tarde: rodada6 encerrada. Ruptura Infernal experimental 34 mágico,18MP,6HP refluxo; mordida21HP; criatura gravemente ferida, total117 dano, a~1m. Manto III DEF24, dois turnos restantes. Próxima rodada7."
+  "retomada": "Dia91 fim da tarde: rodada7 encerrada. Corte Rúnico acertou19, dano acumulado136; criatura criticamente ferida e hostil a~1m. Mordida21HP; Ashborn46HP,12MP. Manto III DEF24, um turno restante. Próxima rodada8."
 }
