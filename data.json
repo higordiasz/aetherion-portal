@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V582",
-  "cena": 790,
-  "proxima": 791,
+  "checkpoint": "V583",
+  "cena": 791,
+  "proxima": 792,
   "dia": 92,
   "periodo": "Inicio da tarde",
   "personagem": {
@@ -20,7 +20,7 @@
       "pe_max": 50,
       "xp_nivel": 850,
       "xp_total": 5500,
-      "ouro": 25,
+      "ouro": 38,
       "xp_proximo_nivel": 1000
     },
     "atributos": {
@@ -1361,63 +1361,6 @@
       ],
       "quantidade": 1,
       "equipado": false
-    },
-    {
-      "id": "placa-couraca-cinzenta",
-      "nome": "Placa de Couraça Cinzenta",
-      "categoria": "material",
-      "descricao": "Placa natural íntegra, retirada de região acessível da criatura abatida C786.",
-      "restricoes": [
-        "Nenhum bônus de defesa, preço ou propriedade arcana confirmados.",
-        "Limpar, conservar e avaliar com artesão; evitar calor e umidade excessivos."
-      ],
-      "propriedades": [
-        "Rígida e resistente, potencial matéria-prima para armaduras; não testada por ferreiro."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "presa-criatura-desfiladeiro",
-      "nome": "Presa da Criatura do Desfiladeiro",
-      "categoria": "material",
-      "descricao": "Presa robusta íntegra recolhida da criatura abatida C786.",
-      "restricoes": [
-        "Avaliação e conservação pendentes; sem propriedade arcana comprovada."
-      ],
-      "propriedades": [
-        "Possível matéria-prima artesanal."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "garra-criatura-desfiladeiro",
-      "nome": "Garra da Criatura do Desfiladeiro",
-      "categoria": "material",
-      "descricao": "Garras aproveitáveis, extraídas da criatura abatida C786.",
-      "restricoes": [
-        "Avaliação e conservação pendentes; sem propriedade arcana comprovada."
-      ],
-      "propriedades": [
-        "Potencial de manufatura artesanal."
-      ],
-      "quantidade": 2,
-      "equipado": false
-    },
-    {
-      "id": "placa-pequena-couraca-cinzenta",
-      "nome": "Placa Pequena de Couraça Cinzenta",
-      "categoria": "material",
-      "descricao": "Pequena placa natural desprendida durante combate, localizada parcialmente sob carcaça C788; recolhida sem nova extração.",
-      "restricoes": [
-        "Conservar, limpar e avaliar; preço e propriedades arcanas não confirmados. Nenhum bônus automático."
-      ],
-      "propriedades": [
-        "Material rígido, potencial matéria-prima artesanal; peso aproximado0,8kg."
-      ],
-      "quantidade": 1,
-      "equipado": false
     }
   ],
   "cavalos": 2,
@@ -1761,7 +1704,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Praça dos Artesãos, caçada quitada, oferta comercial13ouro sem venda; cavalo próximo.",
+      "texto": "Praça dos Artesãos, venda dos espólios concluída13ouro, saldo38; cavalo próximo.",
       "atual": true
     },
     {
@@ -1815,5 +1758,5 @@
     "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado.",
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado."
   ],
-  "retomada": "Dia92 início da tarde: contrato Desfiladeiro quitado22ouro, saldo25. Aldren ofertou9ouro lote; fabricante de armaduras13ouro (6+3+2+2), sem venda. Cavalo próximo."
+  "retomada": "Dia92 início da tarde: venda das cinco peças por13ouro concluída, saldo38. Missão Desfiladeiro quitada. Cavalo próximo à praça, fabricante disponível para compras futuras sem compromisso."
 }
