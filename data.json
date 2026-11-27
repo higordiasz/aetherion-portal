@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V588",
-  "cena": 796,
-  "proxima": 797,
+  "checkpoint": "V589",
+  "cena": 797,
+  "proxima": 798,
   "dia": 92,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -1658,7 +1658,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa quitada; mobília27ouro paga, entrega agendada manhã93. Reparos8ouro pagos por Serenya. C796 secagem arcana bem-sucedida no teto do quarto de Lyra; conferir amanhã antes de instalar. Sem mudança ou pernoite."
+      "texto": "Casa quitada, mobília27ouro paga, entrega agendada manhã93. Reparos8ouro pagos por Serenya; teto de Lyra seco nas partes acessíveis, conferir antes de mobiliar. C797 Serenya e Vaelith concordaram em acolher Lyra se desejar; conversar com Lyra e Theron. Sem mudança ou pernoite."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1678,12 +1678,12 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Coproprietária Casa das Violetas. Pagou8ouro pelos reparos conforme combinado, trabalhou na limpeza com Ashborn; entrega móveis manhã93 agendada."
+      "texto": "Coproprietária Casa das Violetas. Concordou em acolher Lyra em visitas, estadias ou moradia voluntária, coordenando cuidados/estudos com Theron."
     },
     {
       "nome": "Lyra",
       "tipo": "Irmã adotiva",
-      "texto": "Irmã adotiva. C770 primeiro Lume comum independente10min, recebeu transcrição avançada; ainda não domina variante."
+      "texto": "Irmã adotiva. C770 primeiro Lume comum independente10min, recebeu transcrição avançada; ainda não domina variante. Quarto destinado a ela na Casa das Violetas, proposta de acolhimento aprovada por Serenya e Vaelith; Lyra ainda não informada."
     },
     {
       "nome": "Theron",
@@ -1704,7 +1704,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, fim da tarde Dia92, reparos, limpeza e secagem arcana realizados; entrega móveis amanhã cedo; cavalo junto acesso lateral.",
+      "texto": "Casa das Violetas, fim da tarde Dia92; reparos e secagem realizados, entrega amanhã cedo, proposta de acolher Lyra aprovada pelas companheiras.",
       "atual": true
     },
     {
@@ -1759,5 +1759,5 @@
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
     "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente."
   ],
-  "retomada": "Dia92 fim da tarde: Ashborn secou magicamente o teto de Lyra, partes acessíveis secas, conferir amanhã. MP59, ouro11, entrega manhã93 agendada, junto de Serenya e Vaelith. Sem noite."
+  "retomada": "Dia92 fim da tarde: Serenya e Vaelith concordaram em acolher Lyra caso queira. Convite ainda não transmitido; conversar com Lyra e Theron. Entrega manhã93 agendada; sem noite. Ouro11, MP59."
 }
