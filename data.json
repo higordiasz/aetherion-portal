@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V598",
-  "cena": 806,
-  "proxima": 807,
+  "checkpoint": "V599",
+  "cena": 807,
+  "proxima": 808,
   "dia": 94,
   "periodo": "Inicio da noite",
   "personagem": {
@@ -14,8 +14,8 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 83,
-      "mp_max": 83,
+      "mp": 85,
+      "mp_max": 85,
       "pe": 30,
       "pe_max": 50,
       "xp_nivel": 145,
@@ -25,12 +25,12 @@
     },
     "atributos": {
       "for": 6,
-      "des": 7,
-      "int": 14,
+      "des": 8,
+      "int": 15,
       "res": 11,
-      "def": 17,
+      "def": 18,
       "rd": 7,
-      "pontos_livres": 2
+      "pontos_livres": 0
     },
     "condicoes": [
       {
@@ -87,7 +87,7 @@
       "id": "projetil-arcano",
       "nome": "Projétil Arcano",
       "mp": 4,
-      "efeito": "13 de dano mágico (base10, +3 potência INT14)",
+      "efeito": "14 de dano mágico (base10, +4 potência INT15)",
       "custo_variavel": false,
       "aperfeicoamentos": [
         {
@@ -101,7 +101,7 @@
       "id": "chama-errante",
       "nome": "Chama Errante",
       "mp": 7,
-      "efeito": "18 de dano de fogo (base15, +3 potência INT14)",
+      "efeito": "19 de dano de fogo (base15, +4 potência INT15)",
       "custo_variavel": false,
       "aperfeicoamentos": [
         {
@@ -115,28 +115,28 @@
       "id": "barreira-runica",
       "nome": "Barreira Rúnica",
       "mp": 5,
-      "efeito": "Bloqueia 14 de dano (base11, +3 potência INT14)",
+      "efeito": "Bloqueia 15 de dano (base11, +4 potência INT15)",
       "custo_variavel": false
     },
     {
       "id": "restauracao",
       "nome": "Restauração",
       "mp": 7,
-      "efeito": "Cura 16 HP (base13, +3 potência INT14) ou retarda temporariamente corrupção, não a cura",
+      "efeito": "Cura 17 HP (base13, +4 potência INT15) ou retarda temporariamente corrupção, não a cura",
       "custo_variavel": false
     },
     {
       "id": "corte-runico",
       "nome": "Corte Rúnico",
       "mp": 5,
-      "efeito": "19 de dano mágico com espada (base16, +3 potência INT14)",
+      "efeito": "20 de dano mágico com espada (base16, +4 potência INT15)",
       "custo_variavel": false
     },
     {
       "id": "corte-da-chama-vazia",
       "nome": "Corte da Chama Vazia",
       "mp": 12,
-      "efeito": "26 de dano híbrido fogo/Vazio (base23, +3 potência INT14)",
+      "efeito": "27 de dano híbrido fogo/Vazio (base23, +4 potência INT15)",
       "limite": "1x por combate",
       "custo_variavel": false
     },
@@ -158,7 +158,7 @@
       "id": "manto-da-chama-negra-ii",
       "nome": "Manto da Chama Negra III",
       "mp": 9,
-      "efeito": "+7 DEF por até6 turnos (base Manto III +4DEF, +3 potência INT14)",
+      "efeito": "+8 DEF por até6 turnos (base Manto III +4DEF, +4 potência INT15)",
       "limite": "1x por combate; inativo; encerra antes se instabilidade anormal",
       "custo_variavel": false
     },
@@ -173,7 +173,7 @@
       "id": "lanca-de-chama-negra-i",
       "nome": "Lança de Chama Negra I",
       "mp": 9,
-      "efeito": "22 de dano mágico de Chama Negra (base19 +3 potência INT14) em um alvo visível mediante teste de acerto; sem área de efeito, dano contínuo ou ignição automática.",
+      "efeito": "23 de dano mágico de Chama Negra (base19 +4 potência INT15) em um alvo visível mediante teste de acerto; sem área de efeito, dano contínuo ou ignição automática.",
       "custo_variavel": false
     },
     {
@@ -2060,5 +2060,5 @@
     "C805: Manual de Alimentação e Isolamento Etérico 100% conteúdo disponível compreendido e transcrito. Arquitetura teórica fonte externa, regulação, distribuição, isolamento e interrupção; sequência preparação desenergizada, isolamento, alimentação controlada, calibração e aferição. Fonte independente do suporte como requisito. Nenhuma montagem, fonte ou segurança validada.",
     "C806: cinco documentos restantes 100% conteúdo disponível compreendido e transcrito: Estabilização, Continuidade Espiritual, Tipologias, Anomalias e Transferência Controlada. Todos oito estudos concluídos teoricamente. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo."
   ],
-  "retomada": "Dia94 início da noite: primeira noite em casa concluída, oito documentos100% e Projeto I conceitual. Nível12, XP145/1100, 2 pontos livres, PE30/50, ouro10. Sem ensaio."
+  "retomada": "Dia94 início da noite: pontos do nível12 distribuídos DES8 INT15, DEF18 MP85, potência elegível+1. XP145/1100 PE30/50 ouro10. Projeto I conceitual."
 }
