@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V575",
-  "cena": 783,
-  "proxima": 784,
+  "checkpoint": "V576",
+  "cena": 784,
+  "proxima": 785,
   "dia": 91,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -14,12 +14,12 @@
     "recursos": {
       "hp": 46,
       "hp_max": 115,
-      "mp": 12,
+      "mp": 3,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 665,
-      "xp_total": 5315,
+      "xp_nivel": 815,
+      "xp_total": 5465,
       "ouro": 3,
       "xp_proximo_nivel": 1000
     },
@@ -1580,7 +1580,7 @@
       "condicao_para_prosseguir": "Após combate e recuperação, estudar isolamento/antirrefluxo, testar em área segura sem aliados, reproduzir e validar estabilidade e parâmetros; não presumir aprendizado."
     }
   ],
-  "local": "Desfiladeiro Cinzento — combate, criatura a cerca de 1 m",
+  "local": "Desfiladeiro Cinzento — junto à criatura abatida",
   "agua": {
     "total": 2.1,
     "tratada": 2.1,
@@ -1626,14 +1626,14 @@
     {
       "nome": "A criatura do Desfiladeiro Cinzento",
       "ouro": 22,
-      "status": "Em execução — combate em andamento",
+      "status": "Ameaça neutralizada — evidência e relatório pendentes",
       "etapas": [
         "Formalizar contratação",
         "Investigar locais dos ataques",
         "Identificar e neutralizar ameaça",
         "Apresentar evidência e relatório"
       ],
-      "concluidas": 2
+      "concluidas": 3
     }
   ],
   "objetivos": [
@@ -1700,7 +1700,7 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Combate em andamento, criatura criticamente ferida a~1m, Manto ativo1 turno; cavalo atrás cobertura inicial.",
+      "texto": "Criatura abatida, evidência e relatório pendentes; cavalo atrás cobertura inicial.",
       "atual": true
     },
     {
@@ -1755,5 +1755,5 @@
     "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada.",
     "C782: Ruptura Infernal, primeira explosão radial experimental de Chamas Negras (4m,34 mágico,18MP,6HP refluxo), sem aquisição permanente."
   ],
-  "retomada": "Dia91 fim da tarde: rodada7 encerrada. Corte Rúnico acertou19, dano acumulado136; criatura criticamente ferida e hostil a~1m. Mordida21HP; Ashborn46HP,12MP. Manto III DEF24, um turno restante. Próxima rodada8."
+  "retomada": "Dia91 fim da tarde: criatura abatida por Lança de Chama Negra I após8 rodadas. +150XP combate. HP46 MP3 PE5, Manto expirado, DEF17. Evidência e relatório pendentes; cavalo atrás cobertura inicial."
 }
