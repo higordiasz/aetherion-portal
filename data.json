@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V591",
-  "cena": 799,
-  "proxima": 800,
+  "checkpoint": "V592",
+  "cena": 800,
+  "proxima": 801,
   "dia": 93,
-  "periodo": "Fim da manha",
+  "periodo": "Inicio da tarde",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -527,50 +527,6 @@
       "equipado": true
     },
     {
-      "id": "grimorio-sete-chaves",
-      "nome": "Grimório das Sete Chaves",
-      "categoria": "grimorio",
-      "descricao": "Antigo grimório cujas sete correntes físicas foram removidas.",
-      "restricoes": [
-        "Não presumir leitura total",
-        "Não doado ou trocado ao Santuário"
-      ],
-      "propriedades": [
-        "Livro fechado, mas correntes não o prendem mais",
-        "Parte do conteúdo foi estudada"
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "correntes-sete-chaves",
-      "nome": "Correntes do Grimório das Sete Chaves",
-      "categoria": "artefato",
-      "descricao": "Sete correntes antigas removidas e guardadas.",
-      "restricoes": [],
-      "propriedades": [
-        "Sete unidades no inventário"
-      ],
-      "quantidade": 7,
-      "equipado": false
-    },
-    {
-      "id": "grimorio-vigilia-ferro",
-      "nome": "Grimório da Vigília de Ferro",
-      "categoria": "grimorio",
-      "descricao": "Livro de fundamentos defensivos e caminhos rúnicos de distribuição de impactos.",
-      "restricoes": [
-        "Não concede magia nova nem DEF adicional"
-      ],
-      "propriedades": [
-        "Comprado de Berald Morn na Cena431 por oito ouros",
-        "Lido parcialmente nas Cenas439 e440",
-        "Malha Defensiva em Duas Camadas I compreendida apenas teoricamente"
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
       "id": "odre-agua",
       "nome": "Odre de Água",
       "categoria": "recipiente",
@@ -605,709 +561,6 @@
       "equipado": false
     },
     {
-      "id": "contrato-escolta-artifices-pedravale",
-      "nome": "Contrato assinado — Escolta dos Artífices a Pedravale",
-      "categoria": "documento",
-      "descricao": "Via oficial assinada de escolta para duas carroças de vidrarias especializadas, ferramentas e componentes rúnicos, rota Luméria–Pedravale–Luméria, partida prevista manhã do Dia72.",
-      "restricoes": [
-        "Sem pagamento24 ouro antes do retorno e validação; adiantamento8 já recebido e não pode ser recebido de novo.",
-        "Data72 é prevista, dependente de apresentação/organização e futura ação do jogador; assinatura não produz partida automática.",
-        "Não representa promessa de segurança da rota ou confirmação de criatura."
-      ],
-      "propriedades": [
-        "Contrato formalmente aceito e assinado na Associação dos Carreteiros com Elira Voss, Cena606 Dia70 manhã.",
-        "Remuneração pactuada32ouro total, adiantamento8ouro ENTREGUE ao assinar, saldo24ouro somente após conclusão e validação.",
-        "Duração prevista5–6 dias de viagem completa, variável por condições reais. Alimentação pela expedição apenas durante serviço.",
-        "Duas carroças sob responsabilidade de escolta de ida e volta. A missão não exige investigar qualquer rumor de Pedravale."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "ordem-servico-nucleo-deposito-canal",
-      "nome": "Ordem de Serviço — Núcleo do Depósito do Canal",
-      "categoria": "documento",
-      "descricao": "Via oficial da ordem de serviço técnico assinada por Ashborn no Quadro Público do Santuário de Luméria Dia77 tarde C638, para apresentação ao encarregado do Depósito do Canal, após confirmação do chamado e autorização por mensageiro.",
-      "restricoes": [
-        "A assinatura ORIGINAL de C638 isoladamente não comprovava reparo nem pagamento; somente a nova validação do encarregado C646 e quitação assinada os comprovam.",
-        "A assinatura não autoriza forçar núcleo instável nem trabalhar sem avaliação de segurança.",
-        "Não é contrato da Associação dos Carreteiros nem reabre relatório anterior do Vau."
-      ],
-      "propriedades": [
-        "C638 registro formal da aceitação por Ashborn para inspecionar a causa de aquecimento anormal e oscilação dos anéis do núcleo no Depósito do Canal.",
-        "Local dentro de Luméria; apresentar via ao encarregado do depósito para receber briefing presencial, autorização de acesso e diagnóstico.",
-        "Recompensa de6ouro condicionada a diagnóstico, reparo se seguro e validação do contratante, sem adiantamento; em caso de risco impeditivo, interromper e discutir remuneração eventual sem valor garantido.",
-        "Material/equipamento só após diagnóstico e autorização local, não incluído na entrega da ordem, tempo de serviço estimado cerca de1dia, sem data de conclusão imposta.",
-        "C646 o encarregado aprovou formalmente e assinou o reparo seguro do Núcleo, pagou INTEGRALMENTE os6ouro contratuais a Ashborn; a via original foi anotada como CONCLUÍDA, VALIDADA e QUITADA sem obrigação restante. Permanece1 com Ashborn como comprovante."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "coracao-eter",
-      "nome": "Coração de Éter",
-      "categoria": "artefato",
-      "descricao": "Cristal etérico em posse de Ashborn.",
-      "restricoes": [
-        "Ainda não comprovado como âncora substituta segura",
-        "Não consumir sem ordem",
-        "C655 recirculação interna observada NÃO demonstra reserva utilizável, fonte de éter PURO para Sifão, capacidade de transferir energia para outras peças, estabilizar sistema ativo ou preservar consciência/espírito de Vaelith; aplicações exigem novos instrumentos, testes de isolamento e protocolo seguro."
-      ],
-      "propriedades": [
-        "C655 observação PASSIVA pelo Ashborn no quarto da Pousada Dia77: tênues linhas luminosas internas seguem trajetos recorrentes reconhecíveis em ciclos sucessivos, com organização aparente de circulação etérica. Observação sem canalizar mana, sem extração, sem acoplamento com outro objeto; a repetibilidade do padrão VISUAL/arcano foi identificada por teste excepcional34/DT22."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "estilhaco-abissal",
-      "nome": "Estilhaço Abissal",
-      "categoria": "material_artefato",
-      "descricao": "Estilhaço associado ao Abismo.",
-      "restricoes": [
-        "NÃO presumir ser fonte pura de éter para o Sifão",
-        "C655 observação passiva INCONCLUSIVA não autoriza Sifão de Éter Puro, experimento direto de união com o Coração, fabricação de armas, encantamento, cura ou juízo de segurança; investigar em ambiente protegido e nunca presumir efeito pela associação ao Abismo."
-      ],
-      "propriedades": [],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "contrato-expedicao-alem-vau",
-      "nome": "Contrato — Expedição Além do Vau dos Três Cedros",
-      "categoria": "documentos",
-      "descricao": "Via oficial assinada C737. Relatório atualizado da travessia, largura, pavimento, drenagem e obstáculos da via até Arven, reparos e limites; reaproveitar registros anteriores sem duplicar remuneração. Não exige carroça, certificar carga nem combate; se bloqueado, documentar evidências e retornar com segurança para avaliação.",
-      "restricoes": [
-        "Remuneração 24ouro após validação, sem adiantamento. Entrega até Dia92."
-      ],
-      "propriedades": [
-        "C758: contrato validado e integralmente quitado, via pessoal preservada."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "contrato-levantamento-materiais-arven",
-      "nome": "Contrato — Levantamento de materiais em Arven",
-      "categoria": "documentos",
-      "descricao": "Via oficial assinada C737. Parecer visual sobre materiais construtivos aproveitáveis, condição de estruturas acessíveis e riscos; sem retirada, demolição ou entrada em setor instável. Artefatos e documentos históricos excluídos.",
-      "restricoes": [
-        "Remuneração 8ouro após validação, sem adiantamento. Entrega até Dia92."
-      ],
-      "propriedades": [
-        "C758: contrato validado e integralmente quitado, via pessoal preservada."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "contrato-correspondencia-ramal",
-      "nome": "Contrato — Correspondência no Ramal",
-      "categoria": "documentos",
-      "descricao": "Via oficial assinada C737. Retirar pacote lacrado na Associação manhã Dia83, entrega prevista Dia83 à equipe de manutenção junto ao acesso Ramal e obter recibo. Se ausente, preservar pacote e comunicar no retorno; sem pagamento automático. Pacote ainda não recebido.",
-      "restricoes": [
-        "Remuneração 3ouro após validação, sem adiantamento. Entrega até Dia92."
-      ],
-      "propriedades": [
-        "C758: contrato validado e integralmente quitado, via pessoal preservada."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "recibo-correspondencia-ramal",
-      "nome": "Recibo assinado — Correspondência no Ramal",
-      "categoria": "documentos",
-      "descricao": "Formulário de recebimento assinado pelo encarregado da equipe de manutenção junto ao acesso do Ramal da Vigília, Dia83.",
-      "restricoes": [
-        "Apresentar a Elira para validação do contrato, não equivale a pagamento."
-      ],
-      "propriedades": [
-        "Entrega lacrada registrada C739.",
-        "C758: comprovante conferido e validado por Elira, contrato quitado."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "fragmentos-documentais-pc03",
-      "nome": "Fragmentos documentais PC-03",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Referências RCA117, custódia provisória, integridade e autorização.",
-      "restricoes": [
-        "Não presumir funcionamento ativo ou segurança."
-      ],
-      "propriedades": [
-        "Referências RCA117, custódia provisória, integridade e autorização."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "plaqueta-pc03",
-      "nome": "Plaqueta PC-03",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Identificação administrativa.",
-      "restricoes": [
-        "Não presumir funcionamento ativo ou segurança."
-      ],
-      "propriedades": [
-        "Identificação administrativa."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "fragmento-lacre-pc03",
-      "nome": "Fragmento de lacre administrativo",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Fragmento deteriorado, sem função ativa demonstrada.",
-      "restricoes": [
-        "Não presumir funcionamento ativo ou segurança."
-      ],
-      "propriedades": [
-        "Fragmento deteriorado, sem função ativa demonstrada."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "caderno-procedimentos-custodia",
-      "nome": "Caderno de Procedimentos de Custódia",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento.",
-      "restricoes": [
-        "Não presumir funcionamento ativo ou segurança."
-      ],
-      "propriedades": [
-        "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "chave-afericao-eterica",
-      "nome": "Chave de Aferição Etérica",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Designação provisória; acoplamento geométrico, não testado.",
-      "restricoes": [
-        "Não presumir funcionamento ativo ou segurança."
-      ],
-      "propriedades": [
-        "Designação provisória; acoplamento geométrico, não testado."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "folha-calibracao-pc03",
-      "nome": "Folha de Instruções de Calibração",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Três referências, isolamento e interrupção.",
-      "restricoes": [
-        "Não presumir funcionamento ativo ou segurança."
-      ],
-      "propriedades": [
-        "Três referências, isolamento e interrupção."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "possivel-regulador-eterico",
-      "nome": "Possível Regulador Etérico",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Peça mineral metálica inativa na inspeção.",
-      "restricoes": [
-        "Não presumir funcionamento ativo ou segurança."
-      ],
-      "propriedades": [
-        "Peça mineral metálica inativa na inspeção."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "placa-tres-parametros",
-      "nome": "Placa dos Três Parâmetros",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Integridade, estabilidade e continuidade.",
-      "restricoes": [
-        "Não presumir funcionamento ativo ou segurança."
-      ],
-      "propriedades": [
-        "Integridade, estabilidade e continuidade."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "estojo-registros-transito-et02",
-      "nome": "Estojo com três registros de trânsito",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Referências PC03 RCA109 RCA114 RCA117, destinos incompletos.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Referências PC03 RCA109 RCA114 RCA117, destinos incompletos."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "selo-transito-eterico",
-      "nome": "Selo de Trânsito Etérico",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Autorização demonstrada na porta da ET02, não universal.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Autorização demonstrada na porta da ET02, não universal."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "conector-eterico-transito",
-      "nome": "Conector Etérico de Trânsito",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Três contatos, correspondência geométrica com bancada; não testado.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Três contatos, correspondência geométrica com bancada; não testado."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "caixa-metalica-et02",
-      "nome": "Caixa metálica ET-02",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Recipiente mecânico recuperado.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Recipiente mecânico recuperado."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "instrucoes-lacre-transferencia",
-      "nome": "Instruções de Lacre e Transferência",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Trânsito autorizado não autoriza ruptura.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Trânsito autorizado não autoriza ruptura."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "tabela-metalica-encaminhamento",
-      "nome": "Tabela Metálica de Encaminhamento",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "PC, ET, CR, CI; referências CR04 e CI01.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "PC, ET, CR, CI; referências CR04 e CI01."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "registros-encaminhamento-restrito",
-      "nome": "Registros de Encaminhamento Restrito",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "RCA117 Arven→PC03→ET02→CR04 autorizado; entrega ilegível.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "RCA117 Arven→PC03→ET02→CR04 autorizado; entrega ilegível."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "manual-estabilizacao-vinculos",
-      "nome": "Manual de Estabilização de Vínculos",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Diagramas de manutenção do vínculo durante transporte; estudo 0%.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Diagramas de manutenção do vínculo durante transporte; estudo 0%."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "cristal-estabilizacao",
-      "nome": "Possível Cristal de Estabilização",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Identificação provisória, sem emissão percebida.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Identificação provisória, sem emissão percebida."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "credencial-encaminhamento-cr04",
-      "nome": "Credencial de Encaminhamento CR-04",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Função ainda não validada.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Função ainda não validada."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "recipiente-instrucoes-percurso-cr04",
-      "nome": "Recipiente com Instruções de Percurso CR-04",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Passagem posterior, base elevação, marco duplo, curso de água.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Passagem posterior, base elevação, marco duplo, curso de água."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "indice-geral-registros-vinculares",
-      "nome": "Índice Geral de Registros Vinculares",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Identificadores e referências documentais.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Identificadores e referências documentais."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "fragmentos-classificacao-espiritual",
-      "nome": "Fragmentos de Classificação Espiritual",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Natureza, suporte, continuidade.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Natureza, suporte, continuidade."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "livro-recebimentos-cr04",
-      "nome": "Livro de Recebimentos CR-04",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "RCA117 recebimento confirmado, procedência ET02, integridade e continuidade preservadas, referência RV117.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "RCA117 recebimento confirmado, procedência ET02, integridade e continuidade preservadas, referência RV117."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "tratado-continuidade-espiritual",
-      "nome": "Tratado sobre a Continuidade Espiritual",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Teoria consciência, identidade e suporte; estudo 0%.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Teoria consciência, identidade e suporte; estudo 0%."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "manual-identificacao-vincular",
-      "nome": "Manual de Identificação Vincular",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "pranchas-matriz-identificacao",
-      "nome": "Pranchas da Matriz de Identificação",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Três folhas, conexões plataforma e pilares.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Três folhas, conexões plataforma e pilares."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "modulo-runico-cr04",
-      "nome": "Módulo rúnico",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Quatro unidades; hipótese reposição/calibração.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Quatro unidades; hipótese reposição/calibração."
-      ],
-      "quantidade": 4,
-      "equipado": false
-    },
-    {
-      "id": "instrumento-leitura-vincular",
-      "nome": "Instrumento de Leitura Vincular",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Identificação provisória, inativo na inspeção.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Identificação provisória, inativo na inspeção."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "manual-alimentacao-isolamento-eterico",
-      "nome": "Manual de Alimentação e Isolamento Etérico",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Distribuição, manutenção e interrupção; estudo 0%.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Distribuição, manutenção e interrupção; estudo 0%."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "diagramas-circuito-alimentacao",
-      "nome": "Diagramas do Circuito de Alimentação",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Duas folhas, arquitetura geral provável.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Duas folhas, arquitetura geral provável."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "componente-isolamento-eterico",
-      "nome": "Componente de Isolamento Etérico",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Função provisória, sem atividade percebida.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Função provisória, sem atividade percebida."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "catalogo-tipologias-vinculares",
-      "nome": "Catálogo de Tipologias Vinculares",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Distingue intenção original e condições de manutenção; estudo 0%.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Distingue intenção original e condições de manutenção; estudo 0%."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "registros-avaliacao-suportes",
-      "nome": "Registros de Avaliação de Suportes",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Fichas parcialmente preservadas.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Fichas parcialmente preservadas."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "compendio-anomalias-vinculares",
-      "nome": "Compêndio de Anomalias Vinculares",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Instabilidade e assinatura espiritual; estudo 0%.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Instabilidade e assinatura espiritual; estudo 0%."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "registro-vincular-rv117",
-      "nome": "Registro Vincular RV-117",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "RCA117: lâmina de composição etérica; consciência individual sapiente; origem vínculo indeterminada; continuidade preservada; manifestação independente restrita; separação convencional contraindicada; nome remetido a anexo. Ruptura direta pode comprometer continuidade. Sem prova de identidade Vaelith ou Lâmina do Vazio.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "RCA117: lâmina de composição etérica; consciência individual sapiente; origem vínculo indeterminada; continuidade preservada; manifestação independente restrita; separação convencional contraindicada; nome remetido a anexo. Ruptura direta pode comprometer continuidade. Sem prova de identidade Vaelith ou Lâmina do Vazio."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "diretrizes-transferencia-vincular-controlada",
-      "nome": "Diretrizes de Transferência Vincular Controlada",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Princípios para investigar transferência preservando continuidade; estudo 0%.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Princípios para investigar transferência preservando continuidade; estudo 0%."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "relacao-anexos-individuais-remetidos",
-      "nome": "Relação de Anexos Individuais Remetidos",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Anexo RV117 remetido à custódia documental vinculada CI01; recebimento não confirmado.",
-      "restricoes": [
-        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
-      ],
-      "propriedades": [
-        "Anexo RV117 remetido à custódia documental vinculada CI01; recebimento não confirmado."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "controle-remessas-retornos-cr04",
-      "nome": "Controle de Remessas e Retornos",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Conjunto administrativo com códigos de custódia, referências a instalações e colunas de confirmação de recebimento; interpretação cruzada ainda inconclusiva.",
-      "restricoes": [
-        "Não inferir conteúdo ainda não interpretado, identidade RCA117 ou confirmação de recebimento."
-      ],
-      "propriedades": [
-        "Conjunto administrativo com códigos de custódia, referências a instalações e colunas de confirmação de recebimento; interpretação cruzada ainda inconclusiva."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "fragmentos-protocolos-custodia-cr04",
-      "nome": "Fragmentos de Protocolos de Custódia",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Folhas deterioradas com inscrições incompletas e tabelas de classificação, parte recuperável; interpretação detalhada pendente.",
-      "restricoes": [
-        "Não inferir conteúdo ainda não interpretado, identidade RCA117 ou confirmação de recebimento."
-      ],
-      "propriedades": [
-        "Folhas deterioradas com inscrições incompletas e tabelas de classificação, parte recuperável; interpretação detalhada pendente."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "mapa-rotas-esquecidas-arven-ampliado",
-      "nome": "Mapa Cartográfico das Rotas Esquecidas de Arven — Edição ampliada",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Cópia independente de qualidade excepcional do mapa original até ET02, ampliada até CR04 com referências percorridas na ida e retorno. Sem escala ou orientação cardinal aferidas.",
-      "restricoes": [
-        "Sem escala, coordenadas, orientação cardinal, segurança garantida ou preço acordado. Não incluir detalhes privados RV117 nem rotas apenas presumidas."
-      ],
-      "propriedades": [
-        "Original preservado separadamente. Cópia inclui Arven, PC03, marco antigo, travessia Passagem Inferior, afloramento, ET02, base elevação, dois pilares, curso água e CR04; tempos aproximados e obstáculos observados.",
-        "Qualidade excepcional C756; somente rotas efetivamente percorridas."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "registro-fixacao-distante-prancha-i",
-      "nome": "Registro da Fixação Distante — Prancha I",
-      "categoria": "documento",
-      "descricao": "Anotações pessoais, desenho esquemático da percepção C766 e protocolo escrito de reprodução: convergência estável, duas camadas entrelaçadas, três pulsações e intervalo.",
-      "restricoes": [
-        "Não é selo funcional, magia, bônus automático, prova de localização física, origem histórica, autoria, identidade RCA117 ou relação CI01/Templo.",
-        "Protocolo não reexecutado; não divulgar sem decisão de Ashborn."
-      ],
-      "propriedades": [
-        "Reconstrução excepcional C767 30/18, sem escala ou inscrição literal.",
-        "Protocolo escrito: 1 repousar, reunir reservas e ambiente calmo, conferir referência corporal e critérios de interrupção; 2 estabelecer âncora própria, distinguir assinatura própria, Lâmina e manifestação de Vaelith, observar exterior sem infusão/penetração; 3 alcançar Orla, filtrar ecos comparando variações próprias e referências anteriores, isolar extensão distante; 4 seguir apenas extensão identificada, comparar convergência, duas camadas entrelaçadas e três pulsações/intervalo com prancha; 5 reservar energia de retorno desde início, interromper diante de perda de referência, instabilidade ou interferência, retornar pela Alma Una e registrar resultado. C766 referência78MP total,9MP retorno,40PE +20, sem rerrolagem; não assume custo reduzido ou segurança garantida. Não reexecutado.",
-        "Cotejo DT24 total23 falha por1: sem identificação ou correspondência de símbolos. Selo dourado histórico de oito símbolos sem equivalência demonstrada; três variações C599/C601 semelhança tríplice sem identidade; PC03 placa Integridade/Estabilidade/Continuidade sem mapeamento aos pulsos; manual CR04 distingue suporte, assinatura e manutenção, compatibilidade conceitual não estrutural; RV117 separação contraindicada pode ser compatível com contenção adicional SE caso for Vaelith; distinção obrigação/ancoragem dos Pactos Antigos não prova natureza das camadas. Sem leitura integral ou glifos não vistos. Buscar fontes independentes."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "escritura-casa-das-violetas",
-      "nome": "Escritura da Casa das Violetas",
-      "categoria": "documento",
-      "descricao": "Via da escritura registrada em nome de Ashborn e Serenya, comprova aquisição conjunta da casa e quintal por115ouro, quitados C775.",
-      "restricoes": [
-        "Sem efeito mágico ou valor de revenda estabelecido."
-      ],
-      "propriedades": [
-        "Via da escritura registrada em nome de Ashborn e Serenya, comprova aquisição conjunta da casa e quintal por115ouro, quitados C775."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
       "id": "chave-casa-das-violetas-ashborn",
       "nome": "Chave da Casa das Violetas",
       "categoria": "chave",
@@ -1317,35 +570,6 @@
       ],
       "propriedades": [
         "Chave pessoal de Ashborn, entregue por Beren após formalização C775."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "contrato-criatura-desfiladeiro-cinzento",
-      "nome": "Contrato — Criatura do Desfiladeiro Cinzento",
-      "categoria": "documento",
-      "descricao": "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados. C790: anotação de quitação integral dos22ouro.",
-      "restricoes": [
-        "Não garante recompensa nem precisão integral dos relatos."
-      ],
-      "propriedades": [
-        "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados.",
-        "C790: quitação integral registrada, pagamento22ouro recebido."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "esboco-desfiladeiro-cinzento",
-      "nome": "Esboço do Desfiladeiro Cinzento",
-      "categoria": "documento",
-      "descricao": "Esboço entregue pela Associação indicando locais de dois relatos de ataques e acesso pela estrada comercial; não mapeia interior da fenda nem posição atual de criatura.",
-      "restricoes": [
-        "Não garante recompensa nem precisão integral dos relatos."
-      ],
-      "propriedades": [
-        "Esboço entregue pela Associação indicando locais de dois relatos de ataques e acesso pela estrada comercial; não mapeia interior da fenda nem posição atual de criatura."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1575,6 +799,1047 @@
       "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
     }
   ],
+  "inventario_guardado": [
+    {
+      "id": "grimorio-sete-chaves",
+      "nome": "Grimório das Sete Chaves",
+      "categoria": "grimorio",
+      "descricao": "Antigo grimório cujas sete correntes físicas foram removidas.",
+      "restricoes": [
+        "Não presumir leitura total",
+        "Não doado ou trocado ao Santuário"
+      ],
+      "propriedades": [
+        "Livro fechado, mas correntes não o prendem mais",
+        "Parte do conteúdo foi estudada"
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "correntes-sete-chaves",
+      "nome": "Correntes do Grimório das Sete Chaves",
+      "categoria": "artefato",
+      "descricao": "Sete correntes antigas removidas e guardadas.",
+      "restricoes": [],
+      "propriedades": [
+        "Sete unidades no inventário"
+      ],
+      "quantidade": 7,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "grimorio-vigilia-ferro",
+      "nome": "Grimório da Vigília de Ferro",
+      "categoria": "grimorio",
+      "descricao": "Livro de fundamentos defensivos e caminhos rúnicos de distribuição de impactos.",
+      "restricoes": [
+        "Não concede magia nova nem DEF adicional"
+      ],
+      "propriedades": [
+        "Comprado de Berald Morn na Cena431 por oito ouros",
+        "Lido parcialmente nas Cenas439 e440",
+        "Malha Defensiva em Duas Camadas I compreendida apenas teoricamente"
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "contrato-escolta-artifices-pedravale",
+      "nome": "Contrato assinado — Escolta dos Artífices a Pedravale",
+      "categoria": "documento",
+      "descricao": "Via oficial assinada de escolta para duas carroças de vidrarias especializadas, ferramentas e componentes rúnicos, rota Luméria–Pedravale–Luméria, partida prevista manhã do Dia72.",
+      "restricoes": [
+        "Sem pagamento24 ouro antes do retorno e validação; adiantamento8 já recebido e não pode ser recebido de novo.",
+        "Data72 é prevista, dependente de apresentação/organização e futura ação do jogador; assinatura não produz partida automática.",
+        "Não representa promessa de segurança da rota ou confirmação de criatura."
+      ],
+      "propriedades": [
+        "Contrato formalmente aceito e assinado na Associação dos Carreteiros com Elira Voss, Cena606 Dia70 manhã.",
+        "Remuneração pactuada32ouro total, adiantamento8ouro ENTREGUE ao assinar, saldo24ouro somente após conclusão e validação.",
+        "Duração prevista5–6 dias de viagem completa, variável por condições reais. Alimentação pela expedição apenas durante serviço.",
+        "Duas carroças sob responsabilidade de escolta de ida e volta. A missão não exige investigar qualquer rumor de Pedravale."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "ordem-servico-nucleo-deposito-canal",
+      "nome": "Ordem de Serviço — Núcleo do Depósito do Canal",
+      "categoria": "documento",
+      "descricao": "Via oficial da ordem de serviço técnico assinada por Ashborn no Quadro Público do Santuário de Luméria Dia77 tarde C638, para apresentação ao encarregado do Depósito do Canal, após confirmação do chamado e autorização por mensageiro.",
+      "restricoes": [
+        "A assinatura ORIGINAL de C638 isoladamente não comprovava reparo nem pagamento; somente a nova validação do encarregado C646 e quitação assinada os comprovam.",
+        "A assinatura não autoriza forçar núcleo instável nem trabalhar sem avaliação de segurança.",
+        "Não é contrato da Associação dos Carreteiros nem reabre relatório anterior do Vau."
+      ],
+      "propriedades": [
+        "C638 registro formal da aceitação por Ashborn para inspecionar a causa de aquecimento anormal e oscilação dos anéis do núcleo no Depósito do Canal.",
+        "Local dentro de Luméria; apresentar via ao encarregado do depósito para receber briefing presencial, autorização de acesso e diagnóstico.",
+        "Recompensa de6ouro condicionada a diagnóstico, reparo se seguro e validação do contratante, sem adiantamento; em caso de risco impeditivo, interromper e discutir remuneração eventual sem valor garantido.",
+        "Material/equipamento só após diagnóstico e autorização local, não incluído na entrega da ordem, tempo de serviço estimado cerca de1dia, sem data de conclusão imposta.",
+        "C646 o encarregado aprovou formalmente e assinou o reparo seguro do Núcleo, pagou INTEGRALMENTE os6ouro contratuais a Ashborn; a via original foi anotada como CONCLUÍDA, VALIDADA e QUITADA sem obrigação restante. Permanece1 com Ashborn como comprovante."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "coracao-eter",
+      "nome": "Coração de Éter",
+      "categoria": "artefato",
+      "descricao": "Cristal etérico em posse de Ashborn.",
+      "restricoes": [
+        "Ainda não comprovado como âncora substituta segura",
+        "Não consumir sem ordem",
+        "C655 recirculação interna observada NÃO demonstra reserva utilizável, fonte de éter PURO para Sifão, capacidade de transferir energia para outras peças, estabilizar sistema ativo ou preservar consciência/espírito de Vaelith; aplicações exigem novos instrumentos, testes de isolamento e protocolo seguro."
+      ],
+      "propriedades": [
+        "C655 observação PASSIVA pelo Ashborn no quarto da Pousada Dia77: tênues linhas luminosas internas seguem trajetos recorrentes reconhecíveis em ciclos sucessivos, com organização aparente de circulação etérica. Observação sem canalizar mana, sem extração, sem acoplamento com outro objeto; a repetibilidade do padrão VISUAL/arcano foi identificada por teste excepcional34/DT22."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "estilhaco-abissal",
+      "nome": "Estilhaço Abissal",
+      "categoria": "material_artefato",
+      "descricao": "Estilhaço associado ao Abismo.",
+      "restricoes": [
+        "NÃO presumir ser fonte pura de éter para o Sifão",
+        "C655 observação passiva INCONCLUSIVA não autoriza Sifão de Éter Puro, experimento direto de união com o Coração, fabricação de armas, encantamento, cura ou juízo de segurança; investigar em ambiente protegido e nunca presumir efeito pela associação ao Abismo."
+      ],
+      "propriedades": [],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "contrato-expedicao-alem-vau",
+      "nome": "Contrato — Expedição Além do Vau dos Três Cedros",
+      "categoria": "documentos",
+      "descricao": "Via oficial assinada C737. Relatório atualizado da travessia, largura, pavimento, drenagem e obstáculos da via até Arven, reparos e limites; reaproveitar registros anteriores sem duplicar remuneração. Não exige carroça, certificar carga nem combate; se bloqueado, documentar evidências e retornar com segurança para avaliação.",
+      "restricoes": [
+        "Remuneração 24ouro após validação, sem adiantamento. Entrega até Dia92."
+      ],
+      "propriedades": [
+        "C758: contrato validado e integralmente quitado, via pessoal preservada."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "contrato-levantamento-materiais-arven",
+      "nome": "Contrato — Levantamento de materiais em Arven",
+      "categoria": "documentos",
+      "descricao": "Via oficial assinada C737. Parecer visual sobre materiais construtivos aproveitáveis, condição de estruturas acessíveis e riscos; sem retirada, demolição ou entrada em setor instável. Artefatos e documentos históricos excluídos.",
+      "restricoes": [
+        "Remuneração 8ouro após validação, sem adiantamento. Entrega até Dia92."
+      ],
+      "propriedades": [
+        "C758: contrato validado e integralmente quitado, via pessoal preservada."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "contrato-correspondencia-ramal",
+      "nome": "Contrato — Correspondência no Ramal",
+      "categoria": "documentos",
+      "descricao": "Via oficial assinada C737. Retirar pacote lacrado na Associação manhã Dia83, entrega prevista Dia83 à equipe de manutenção junto ao acesso Ramal e obter recibo. Se ausente, preservar pacote e comunicar no retorno; sem pagamento automático. Pacote ainda não recebido.",
+      "restricoes": [
+        "Remuneração 3ouro após validação, sem adiantamento. Entrega até Dia92."
+      ],
+      "propriedades": [
+        "C758: contrato validado e integralmente quitado, via pessoal preservada."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "recibo-correspondencia-ramal",
+      "nome": "Recibo assinado — Correspondência no Ramal",
+      "categoria": "documentos",
+      "descricao": "Formulário de recebimento assinado pelo encarregado da equipe de manutenção junto ao acesso do Ramal da Vigília, Dia83.",
+      "restricoes": [
+        "Apresentar a Elira para validação do contrato, não equivale a pagamento."
+      ],
+      "propriedades": [
+        "Entrega lacrada registrada C739.",
+        "C758: comprovante conferido e validado por Elira, contrato quitado."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "fragmentos-documentais-pc03",
+      "nome": "Fragmentos documentais PC-03",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Referências RCA117, custódia provisória, integridade e autorização.",
+      "restricoes": [
+        "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Referências RCA117, custódia provisória, integridade e autorização."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "plaqueta-pc03",
+      "nome": "Plaqueta PC-03",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Identificação administrativa.",
+      "restricoes": [
+        "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Identificação administrativa."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "fragmento-lacre-pc03",
+      "nome": "Fragmento de lacre administrativo",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Fragmento deteriorado, sem função ativa demonstrada.",
+      "restricoes": [
+        "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Fragmento deteriorado, sem função ativa demonstrada."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "caderno-procedimentos-custodia",
+      "nome": "Caderno de Procedimentos de Custódia",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento.",
+      "restricoes": [
+        "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "chave-afericao-eterica",
+      "nome": "Chave de Aferição Etérica",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Designação provisória; acoplamento geométrico, não testado.",
+      "restricoes": [
+        "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Designação provisória; acoplamento geométrico, não testado."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "folha-calibracao-pc03",
+      "nome": "Folha de Instruções de Calibração",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Três referências, isolamento e interrupção.",
+      "restricoes": [
+        "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Três referências, isolamento e interrupção."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "possivel-regulador-eterico",
+      "nome": "Possível Regulador Etérico",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Peça mineral metálica inativa na inspeção.",
+      "restricoes": [
+        "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Peça mineral metálica inativa na inspeção."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "placa-tres-parametros",
+      "nome": "Placa dos Três Parâmetros",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Integridade, estabilidade e continuidade.",
+      "restricoes": [
+        "Não presumir funcionamento ativo ou segurança."
+      ],
+      "propriedades": [
+        "Integridade, estabilidade e continuidade."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "estojo-registros-transito-et02",
+      "nome": "Estojo com três registros de trânsito",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Referências PC03 RCA109 RCA114 RCA117, destinos incompletos.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Referências PC03 RCA109 RCA114 RCA117, destinos incompletos."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "selo-transito-eterico",
+      "nome": "Selo de Trânsito Etérico",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Autorização demonstrada na porta da ET02, não universal.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Autorização demonstrada na porta da ET02, não universal."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "conector-eterico-transito",
+      "nome": "Conector Etérico de Trânsito",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Três contatos, correspondência geométrica com bancada; não testado.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Três contatos, correspondência geométrica com bancada; não testado."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "caixa-metalica-et02",
+      "nome": "Caixa metálica ET-02",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Recipiente mecânico recuperado.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Recipiente mecânico recuperado."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "instrucoes-lacre-transferencia",
+      "nome": "Instruções de Lacre e Transferência",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Trânsito autorizado não autoriza ruptura.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Trânsito autorizado não autoriza ruptura."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "tabela-metalica-encaminhamento",
+      "nome": "Tabela Metálica de Encaminhamento",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "PC, ET, CR, CI; referências CR04 e CI01.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "PC, ET, CR, CI; referências CR04 e CI01."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "registros-encaminhamento-restrito",
+      "nome": "Registros de Encaminhamento Restrito",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "RCA117 Arven→PC03→ET02→CR04 autorizado; entrega ilegível.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "RCA117 Arven→PC03→ET02→CR04 autorizado; entrega ilegível."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "manual-estabilizacao-vinculos",
+      "nome": "Manual de Estabilização de Vínculos",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Diagramas de manutenção do vínculo durante transporte; estudo 0%.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Diagramas de manutenção do vínculo durante transporte; estudo 0%."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "cristal-estabilizacao",
+      "nome": "Possível Cristal de Estabilização",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Identificação provisória, sem emissão percebida.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Identificação provisória, sem emissão percebida."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "credencial-encaminhamento-cr04",
+      "nome": "Credencial de Encaminhamento CR-04",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Função ainda não validada.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Função ainda não validada."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "recipiente-instrucoes-percurso-cr04",
+      "nome": "Recipiente com Instruções de Percurso CR-04",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Passagem posterior, base elevação, marco duplo, curso de água.",
+      "restricoes": [
+        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
+      ],
+      "propriedades": [
+        "Passagem posterior, base elevação, marco duplo, curso de água."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "indice-geral-registros-vinculares",
+      "nome": "Índice Geral de Registros Vinculares",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Identificadores e referências documentais.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Identificadores e referências documentais."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "fragmentos-classificacao-espiritual",
+      "nome": "Fragmentos de Classificação Espiritual",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Natureza, suporte, continuidade.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Natureza, suporte, continuidade."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "livro-recebimentos-cr04",
+      "nome": "Livro de Recebimentos CR-04",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "RCA117 recebimento confirmado, procedência ET02, integridade e continuidade preservadas, referência RV117.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "RCA117 recebimento confirmado, procedência ET02, integridade e continuidade preservadas, referência RV117."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "tratado-continuidade-espiritual",
+      "nome": "Tratado sobre a Continuidade Espiritual",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Teoria consciência, identidade e suporte; estudo 0%.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Teoria consciência, identidade e suporte; estudo 0%."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "manual-identificacao-vincular",
+      "nome": "Manual de Identificação Vincular",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "pranchas-matriz-identificacao",
+      "nome": "Pranchas da Matriz de Identificação",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Três folhas, conexões plataforma e pilares.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Três folhas, conexões plataforma e pilares."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "modulo-runico-cr04",
+      "nome": "Módulo rúnico",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Quatro unidades; hipótese reposição/calibração.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Quatro unidades; hipótese reposição/calibração."
+      ],
+      "quantidade": 4,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "instrumento-leitura-vincular",
+      "nome": "Instrumento de Leitura Vincular",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Identificação provisória, inativo na inspeção.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Identificação provisória, inativo na inspeção."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "manual-alimentacao-isolamento-eterico",
+      "nome": "Manual de Alimentação e Isolamento Etérico",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Distribuição, manutenção e interrupção; estudo 0%.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Distribuição, manutenção e interrupção; estudo 0%."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "diagramas-circuito-alimentacao",
+      "nome": "Diagramas do Circuito de Alimentação",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Duas folhas, arquitetura geral provável.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Duas folhas, arquitetura geral provável."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "componente-isolamento-eterico",
+      "nome": "Componente de Isolamento Etérico",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Função provisória, sem atividade percebida.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Função provisória, sem atividade percebida."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Baú da sala"
+    },
+    {
+      "id": "catalogo-tipologias-vinculares",
+      "nome": "Catálogo de Tipologias Vinculares",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Distingue intenção original e condições de manutenção; estudo 0%.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Distingue intenção original e condições de manutenção; estudo 0%."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "registros-avaliacao-suportes",
+      "nome": "Registros de Avaliação de Suportes",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Fichas parcialmente preservadas.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Fichas parcialmente preservadas."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "compendio-anomalias-vinculares",
+      "nome": "Compêndio de Anomalias Vinculares",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Instabilidade e assinatura espiritual; estudo 0%.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Instabilidade e assinatura espiritual; estudo 0%."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "registro-vincular-rv117",
+      "nome": "Registro Vincular RV-117",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "RCA117: lâmina de composição etérica; consciência individual sapiente; origem vínculo indeterminada; continuidade preservada; manifestação independente restrita; separação convencional contraindicada; nome remetido a anexo. Ruptura direta pode comprometer continuidade. Sem prova de identidade Vaelith ou Lâmina do Vazio.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "RCA117: lâmina de composição etérica; consciência individual sapiente; origem vínculo indeterminada; continuidade preservada; manifestação independente restrita; separação convencional contraindicada; nome remetido a anexo. Ruptura direta pode comprometer continuidade. Sem prova de identidade Vaelith ou Lâmina do Vazio."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "diretrizes-transferencia-vincular-controlada",
+      "nome": "Diretrizes de Transferência Vincular Controlada",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Princípios para investigar transferência preservando continuidade; estudo 0%.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Princípios para investigar transferência preservando continuidade; estudo 0%."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Estante do escritório"
+    },
+    {
+      "id": "relacao-anexos-individuais-remetidos",
+      "nome": "Relação de Anexos Individuais Remetidos",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Anexo RV117 remetido à custódia documental vinculada CI01; recebimento não confirmado.",
+      "restricoes": [
+        "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
+      ],
+      "propriedades": [
+        "Anexo RV117 remetido à custódia documental vinculada CI01; recebimento não confirmado."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "controle-remessas-retornos-cr04",
+      "nome": "Controle de Remessas e Retornos",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Conjunto administrativo com códigos de custódia, referências a instalações e colunas de confirmação de recebimento; interpretação cruzada ainda inconclusiva.",
+      "restricoes": [
+        "Não inferir conteúdo ainda não interpretado, identidade RCA117 ou confirmação de recebimento."
+      ],
+      "propriedades": [
+        "Conjunto administrativo com códigos de custódia, referências a instalações e colunas de confirmação de recebimento; interpretação cruzada ainda inconclusiva."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "fragmentos-protocolos-custodia-cr04",
+      "nome": "Fragmentos de Protocolos de Custódia",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Folhas deterioradas com inscrições incompletas e tabelas de classificação, parte recuperável; interpretação detalhada pendente.",
+      "restricoes": [
+        "Não inferir conteúdo ainda não interpretado, identidade RCA117 ou confirmação de recebimento."
+      ],
+      "propriedades": [
+        "Folhas deterioradas com inscrições incompletas e tabelas de classificação, parte recuperável; interpretação detalhada pendente."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "mapa-rotas-esquecidas-arven-ampliado",
+      "nome": "Mapa Cartográfico das Rotas Esquecidas de Arven — Edição ampliada",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Cópia independente de qualidade excepcional do mapa original até ET02, ampliada até CR04 com referências percorridas na ida e retorno. Sem escala ou orientação cardinal aferidas.",
+      "restricoes": [
+        "Sem escala, coordenadas, orientação cardinal, segurança garantida ou preço acordado. Não incluir detalhes privados RV117 nem rotas apenas presumidas."
+      ],
+      "propriedades": [
+        "Original preservado separadamente. Cópia inclui Arven, PC03, marco antigo, travessia Passagem Inferior, afloramento, ET02, base elevação, dois pilares, curso água e CR04; tempos aproximados e obstáculos observados.",
+        "Qualidade excepcional C756; somente rotas efetivamente percorridas."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "registro-fixacao-distante-prancha-i",
+      "nome": "Registro da Fixação Distante — Prancha I",
+      "categoria": "documento",
+      "descricao": "Anotações pessoais, desenho esquemático da percepção C766 e protocolo escrito de reprodução: convergência estável, duas camadas entrelaçadas, três pulsações e intervalo.",
+      "restricoes": [
+        "Não é selo funcional, magia, bônus automático, prova de localização física, origem histórica, autoria, identidade RCA117 ou relação CI01/Templo.",
+        "Protocolo não reexecutado; não divulgar sem decisão de Ashborn."
+      ],
+      "propriedades": [
+        "Reconstrução excepcional C767 30/18, sem escala ou inscrição literal.",
+        "Protocolo escrito: 1 repousar, reunir reservas e ambiente calmo, conferir referência corporal e critérios de interrupção; 2 estabelecer âncora própria, distinguir assinatura própria, Lâmina e manifestação de Vaelith, observar exterior sem infusão/penetração; 3 alcançar Orla, filtrar ecos comparando variações próprias e referências anteriores, isolar extensão distante; 4 seguir apenas extensão identificada, comparar convergência, duas camadas entrelaçadas e três pulsações/intervalo com prancha; 5 reservar energia de retorno desde início, interromper diante de perda de referência, instabilidade ou interferência, retornar pela Alma Una e registrar resultado. C766 referência78MP total,9MP retorno,40PE +20, sem rerrolagem; não assume custo reduzido ou segurança garantida. Não reexecutado.",
+        "Cotejo DT24 total23 falha por1: sem identificação ou correspondência de símbolos. Selo dourado histórico de oito símbolos sem equivalência demonstrada; três variações C599/C601 semelhança tríplice sem identidade; PC03 placa Integridade/Estabilidade/Continuidade sem mapeamento aos pulsos; manual CR04 distingue suporte, assinatura e manutenção, compatibilidade conceitual não estrutural; RV117 separação contraindicada pode ser compatível com contenção adicional SE caso for Vaelith; distinção obrigação/ancoragem dos Pactos Antigos não prova natureza das camadas. Sem leitura integral ou glifos não vistos. Buscar fontes independentes."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "escritura-casa-das-violetas",
+      "nome": "Escritura da Casa das Violetas",
+      "categoria": "documento",
+      "descricao": "Via da escritura registrada em nome de Ashborn e Serenya, comprova aquisição conjunta da casa e quintal por115ouro, quitados C775.",
+      "restricoes": [
+        "Sem efeito mágico ou valor de revenda estabelecido."
+      ],
+      "propriedades": [
+        "Via da escritura registrada em nome de Ashborn e Serenya, comprova aquisição conjunta da casa e quintal por115ouro, quitados C775."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "contrato-criatura-desfiladeiro-cinzento",
+      "nome": "Contrato — Criatura do Desfiladeiro Cinzento",
+      "categoria": "documento",
+      "descricao": "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados. C790: anotação de quitação integral dos22ouro.",
+      "restricoes": [
+        "Não garante recompensa nem precisão integral dos relatos."
+      ],
+      "propriedades": [
+        "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados.",
+        "C790: quitação integral registrada, pagamento22ouro recebido."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    },
+    {
+      "id": "esboco-desfiladeiro-cinzento",
+      "nome": "Esboço do Desfiladeiro Cinzento",
+      "categoria": "documento",
+      "descricao": "Esboço entregue pela Associação indicando locais de dois relatos de ataques e acesso pela estrada comercial; não mapeia interior da fenda nem posição atual de criatura.",
+      "restricoes": [
+        "Não garante recompensa nem precisão integral dos relatos."
+      ],
+      "propriedades": [
+        "Esboço entregue pela Associação indicando locais de dois relatos de ataques e acesso pela estrada comercial; não mapeia interior da fenda nem posição atual de criatura."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Casa das Violetas",
+      "compartimento": "Arquivos do escritório"
+    }
+  ],
+  "inventario_custodia": [
+    {
+      "id": "cajado-carvalho",
+      "nome": "Cajado de Carvalho",
+      "categoria": "arma",
+      "descricao": "Cajado de madeira de Ashborn.",
+      "restricoes": [],
+      "propriedades": [],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "especiarias",
+      "nome": "Especiarias",
+      "categoria": "consumivel",
+      "descricao": "Saquinho de temperos variados.",
+      "restricoes": [],
+      "propriedades": [],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "anotacoes",
+      "nome": "Cadernos e anotações",
+      "categoria": "documentos",
+      "descricao": "Registros técnicos de Caldrin, placa, lacres e Malha Defensiva em Duas Camadas I.",
+      "restricoes": [],
+      "propriedades": [],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "convocacao-bibliotecario",
+      "nome": "Convocação do Bibliotecário Cinzento",
+      "categoria": "documento",
+      "descricao": "Registro de contatos e pedido documental.",
+      "restricoes": [
+        "Não equivale a aprovação de documentos restritos"
+      ],
+      "propriedades": [],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "bilhete-serenya",
+      "nome": "Bilhete de Serenya",
+      "categoria": "documento",
+      "descricao": "Bilhete privado de Serenya.",
+      "restricoes": [
+        "Texto literal consultar o Registro I"
+      ],
+      "propriedades": [],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "ficha-escolta",
+      "nome": "Ficha da Escolta",
+      "categoria": "documento",
+      "descricao": "Registro de missão de escolta concluída.",
+      "restricoes": [],
+      "propriedades": [
+        "Serviço já realizado e pago"
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "contrato-predador-passo-pinheiros",
+      "nome": "Contrato Registrado — Predador do Passo dos Pinheiros",
+      "categoria": "documento",
+      "descricao": "Via oficial do contrato de caça aceito por Ashborn no Quadro Público do Santuário, em nome da Associação dos Carreteiros de Luméria, com partida declarada para Dia32.",
+      "restricoes": [
+        "A assinatura não comprova missão concluída nem autoriza pagamento antes da validação da Associação.",
+        "Não estabelece exclusividade perante todos os demais caçadores.",
+        "Condições de prova final serão avaliadas pela Associação no retorno."
+      ],
+      "propriedades": [
+        "Registro de aceite Dia31, Cena466, autorizado pelo funcionário responsável pelo quadro público.",
+        "Associação dos Carreteiros de Luméria: 18 moedas de ouro após neutralização verificável e comprovação de segurança da rota, sem adiantamento.",
+        "Destino Passo dos Pinheiros ao norte, duração estimada1–3 dias; registro de partida Dia32.",
+        "Não há companheiro contratado automaticamente."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "mapa-passo-pinheiros",
+      "nome": "Esboço da Rota Norte — Passo dos Pinheiros",
+      "categoria": "documento",
+      "descricao": "Mapa simples da estrada comercial norte de Luméria, destacando o Passo dos Pinheiros e área geral de ataques referidos.",
+      "restricoes": [
+        "Esboço não equivale a reconhecimento detalhado do terreno nem garante trilhas seguras.",
+        "Não identifica a espécie, quantidade nem posição atual de qualquer criatura."
+      ],
+      "propriedades": [
+        "Saída pela estrada norte de Luméria, direção ao Passo dos Pinheiros.",
+        "Passagem estreita entre encostas com áreas rochosas e pinheiros, trecho de risco marcado.",
+        "Relatos de ataques situados na região do passo, sem coordenadas exatas dos vestígios."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "contrato-reconhecimento-ramal-vigilia",
+      "nome": "Contrato — Reconhecimento do Ramal da Vigília",
+      "categoria": "documentos",
+      "descricao": "Via do contrato aceito e assinado C563 na Associação dos Carreteiros, 12 ouro após relatório validado. Examinar acesso e reconhecer até Marco, documentar condições/ameaças/obstáculos, retornar se perigoso ou bloqueado; não exige combate nem Arven.",
+      "restricoes": [
+        "Sem pagamento antecipado, recompensa condicionada à validação do relatório."
+      ],
+      "propriedades": [],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    },
+    {
+      "id": "termo-doacao-arven",
+      "nome": "Termo de Doação e Direito de Consulta — Arven",
+      "categoria": "documentos",
+      "descricao": "Via assinada do termo de doação dos cinco conjuntos de evidências recuperados do Entreposto de Arven ao Santuário de Luméria, registrados sob o lote ARV-D41-43, conservada por Ashborn.",
+      "restricoes": [
+        "Direito de consulta do lote não autoriza emprestar, remover, abrir ou manipular livremente os originais.",
+        "Não confere direito de ler CT-04, C-17 ou Registro de Custódia de Âncoras, que continuam aguardando decisões próprias.",
+        "Conservação e eventuais novas transcrições ainda não concluídas; agendamento pode ser necessário."
+      ],
+      "propriedades": [
+        "Doação formalizada C594: cinco itens separados sob lote ARV-D41-43, documentos e instrumentos de conferência.",
+        "Ashborn mantém o direito registrado de solicitar consulta gratuita supervisionada dos itens deste lote sem nova aprovação de acesso ao próprio lote; agendamento razoável e cuidado de conservação.",
+        "Apresentação dos originais quando o estado permitir; quando isso não for seguro, consulta de transcrições, reproduções e relatórios documentais disponíveis.",
+        "Termo registra Ashborn como responsável pelo achado, procedência e entrega."
+      ],
+      "quantidade": 1,
+      "equipado": false,
+      "local": "Santuário de Luméria",
+      "compartimento": ""
+    }
+  ],
   "local": "Luméria — Casa das Violetas",
   "agua": {
     "total": 1.4,
@@ -1658,7 +1923,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa quitada e mobiliada, reparos concluídos e teto de Lyra conferido. C799 quarto revelado a Lyra, ela deseja iniciar estadias e trazer livros; Theron concordou, horários e cuidados a combinar. Faltam roupas de cama e pertences. Sem mudança ou primeira noite."
+      "texto": "Casa mobiliada, Lyra tem quarto reservado e pode visitar quando quiser; deseja trazer livros, rotina de estudos a combinar. 54 tipos de pertences de Ashborn guardados na casa; inventário separado por localização. Faltam roupas de cama e pertences de uso pessoal."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1683,7 +1948,7 @@
     {
       "nome": "Lyra",
       "tipo": "Irmã adotiva",
-      "texto": "Irmã adotiva,13 anos. Lume comum independente10min uma vez, variante avançada não dominada. C799 recebeu quarto reservado na Casa das Violetas, emocionou-se e deseja iniciar estadias ocasionais mantendo estudos. Sem mudança ou data."
+      "texto": "Irmã adotiva,13 anos. Lume comum independente10min uma vez, variante avançada não dominada. Quarto reservado na Casa das Violetas, pode vir quando quiser, deseja trazer livros. Estadias e horários a combinar."
     },
     {
       "nome": "Theron",
@@ -1704,7 +1969,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, fim da manhã Dia93; quarto de Lyra revelado, todos juntos. Dois cavalos no Santuário.",
+      "texto": "Casa das Violetas, início da tarde Dia93, Ashborn organizou grimórios, arquivos e artefatos em casa; dois cavalos no Santuário.",
       "atual": true
     },
     {
@@ -1759,5 +2024,5 @@
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
     "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente."
   ],
-  "retomada": "Dia93 fim da manhã: quarto revelado a Lyra, ela deseja iniciar estadias e trazer livros; Theron concordou, rotina e datas a combinar. Todos no quarto. Ouro10, recursos completos."
+  "retomada": "Dia93 início da tarde: Lyra pode vir quando quiser; Ashborn guardou 54 tipos de pertences na casa, bagagem reduzida, bens Santuário inalterados. Ouro10, recursos completos."
 }
