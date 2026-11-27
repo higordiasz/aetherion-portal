@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V554",
-  "cena": 762,
-  "proxima": 763,
+  "checkpoint": "V555",
+  "cena": 763,
+  "proxima": 764,
   "dia": 90,
   "periodo": "Noite",
   "personagem": {
@@ -20,7 +20,7 @@
       "pe_max": 50,
       "xp_nivel": 515,
       "xp_total": 5165,
-      "ouro": 120,
+      "ouro": 118,
       "xp_proximo_nivel": 1000
     },
     "atributos": {
@@ -1477,7 +1477,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Pousada das Lanternas Azuis — balcão",
+  "local": "Pousada das Lanternas Azuis — quarto",
   "agua": {
     "total": 1.2,
     "tratada": 1.2,
@@ -1524,15 +1524,15 @@
   "objetivos": [
     {
       "nome": "Libertação segura de Vaelith",
-      "texto": "Estudar os documentos recuperados, validar identificação sem ruptura e investigar transferência controlada. Não há prova de que RV-117 descreva Vaelith."
+      "texto": "Plano C763: estudar identidade/RV117, natureza do vínculo, matriz segura e transferência controlada. Não comprova identidade. Doações somente após estudo e transcrição."
     },
     {
       "nome": "Investigar a CI-01",
-      "texto": "Localizar a Custódia de Interdição; confirmar recebimento do anexo RV-117 e verificar identidade nominal."
+      "texto": "Cruzar RV117, remessas/retornos, anexos e recebimentos; solicitar índices CI01 e campos protegidos RCA117 ao Santuário. Nenhum pedido efetivado ainda."
     },
     {
       "nome": "Matriz Própria de Identificação Vincular",
-      "texto": "Estudar manuais, fonte, calibração e componentes; projetar e validar um protótipo seguro."
+      "texto": "Estudar manuais, pranchas, diagramas, calibração e componentes; testar bancada isolada com referências inertes antes de diagnóstico consensual. Sem ativação."
     },
     {
       "nome": "Cartografia comercial",
@@ -1618,5 +1618,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Dia90 noite: venda do mapa original até ET02 concluída25ouro; ampliado preservado. Ashborn chegou à Pousada das Lanternas Azuis, cavalo junto à entrada; sem hospedagem ou refeição contratada."
+  "retomada": "Dia90 noite: quarto e jantar pagos2ouro; revisão investigação excepcional34/22, plano de estudos e doações condicionais registrado. Ashborn e Vaelith no quarto; nenhum pedido, doação, experimento ou noite concluída."
 }
