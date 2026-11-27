@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V564",
-  "cena": 772,
-  "proxima": 773,
+  "checkpoint": "V565",
+  "cena": 773,
+  "proxima": 774,
   "dia": 91,
   "periodo": "Tarde",
   "personagem": {
@@ -1565,7 +1565,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa das Violetas visitada C772: preço145, defeitos visíveis em telhado/mancha, dobradiça e cerca, reparos8–12 estimados, mobília8–25. Sem aquisição; orçamento potencial148."
+      "texto": "Casa das Violetas visitada e preferida; preço145, reparos8–12 e mobília8–25 estimados. Intermediário indica Beren Valdor, loja tecidos próxima Praça Artesãos, para negociar e verificar título. Sem proposta ou aquisição."
     }
   ],
   "relacoes": [
@@ -1577,7 +1577,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Visitou Casa das Violetas com Ashborn, gostou do quintal e imaginou segundo quarto para visitas Lyra. Contribuição até30ouro condicional, sem transferência."
+      "texto": "Gostou da Casa das Violetas e deseja morar ali se preço justo e documentação em ordem; contribuição até30ouro condicional, sem transferência."
     },
     {
       "nome": "Lyra",
@@ -1645,5 +1645,5 @@
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão."
   ],
-  "retomada": "Dia91 tarde: vistoria Casa das Violetas concluída; preço145, reparos estimados8–12, mobília8–25, sem compra. Intermediário aguarda opinião."
+  "retomada": "Dia91 tarde: Serenya e Vaelith gostam da Casa das Violetas. Intermediário oferece condução à loja de tecidos de Beren Valdor, alegado proprietário, para negociar e consultar documentos. Sem compra."
 }
