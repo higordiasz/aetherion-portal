@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V550",
-  "cena": 758,
-  "proxima": 759,
+  "checkpoint": "V551",
+  "cena": 759,
+  "proxima": 760,
   "dia": 90,
   "periodo": "Anoitecer",
   "personagem": {
@@ -1550,7 +1550,7 @@
     },
     {
       "nome": "Cartografia comercial",
-      "texto": "Dois mapas excepcionais: original até ET02 e cópia ampliada até CR04, ambos em posse. Negociação com Associação pendente, nenhum preço acordado."
+      "texto": "Oferta inicial de18 ouro pelo mapa original até ET02 e informações geográficas complementares. Não aceita, ambos mapas em posse; CR04 reservada."
     },
     {
       "nome": "Lume Errante — Longa Duração",
@@ -1632,5 +1632,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Dia90 anoitecer: três contratos validados e pagos (35+2ouro de bônus), Ashborn permanece com Elira. Mapas ainda em posse, negociação pendente; cavalo no pátio."
+  "retomada": "Dia90 anoitecer: Elira ofereceu18ouro pelo mapa original até ET02 e informações complementares. Aguarda resposta; nenhum mapa vendido, CR04 não revelada. Três contratos quitados."
 }
