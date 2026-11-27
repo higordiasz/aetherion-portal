@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V559",
-  "cena": 767,
-  "proxima": 768,
-  "dia": 90,
-  "periodo": "Noite",
+  "checkpoint": "V560",
+  "cena": 768,
+  "proxima": 769,
+  "dia": 91,
+  "periodo": "Manha",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 0,
+      "mp": 78,
       "mp_max": 78,
       "pe": 10,
       "pe_max": 50,
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 0,
+      "noites": 1,
       "necessarias": 2
     }
   },
@@ -1494,7 +1494,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Pousada das Lanternas Azuis — quarto",
+  "local": "Santuário de Luméria — jardim de ervas",
   "agua": {
     "total": 1.2,
     "tratada": 1.2,
@@ -1573,7 +1573,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Romance assumido, aguarda retorno a Luméria."
+      "texto": "Romance assumido. Reencontro afetuoso na manhã91, abraço e beijos recíprocos; conversa em andamento."
     },
     {
       "nome": "Lyra",
@@ -1594,7 +1594,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Local atual: Pousada das Lanternas Azuis, contratos e venda do mapa original quitados.",
+      "texto": "Local atual: Santuário de Luméria, dois cavalos nos estábulos.",
       "atual": true
     },
     {
@@ -1641,5 +1641,5 @@
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão."
   ],
-  "retomada": "Madrugada noite90→91: Prancha I e protocolo escritos, cotejo inconclusivo; +20XP. Ashborn desperto junto à mesa, MP0 PE10; Vaelith não percebeu. Noite não completa."
+  "retomada": "Dia91 manhã: noite concluída, MP recuperada, PE10 (1/2 noites); café e checkout concluídos. Dois cavalos Santuário. Reencontro com Serenya, ela perguntou como está. Pesquisa da madrugada reservada."
 }
