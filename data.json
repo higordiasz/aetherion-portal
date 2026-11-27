@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V547",
-  "cena": 755,
-  "proxima": 756,
-  "dia": 88,
-  "periodo": "Noite",
+  "checkpoint": "V548",
+  "cena": 756,
+  "proxima": 757,
+  "dia": 89,
+  "periodo": "Manha avancada",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -14,12 +14,12 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 22,
+      "mp": 78,
       "mp_max": 78,
-      "pe": 0,
+      "pe": 50,
       "pe_max": 50,
-      "xp_nivel": 490,
-      "xp_total": 5140,
+      "xp_nivel": 510,
+      "xp_total": 5160,
       "ouro": 58,
       "xp_proximo_nivel": 1000
     },
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 1,
+      "noites": 2,
       "necessarias": 2
     }
   },
@@ -723,7 +723,7 @@
       "propriedades": [
         "Duas unidades no checkpoint V229"
       ],
-      "quantidade": 3,
+      "quantidade": 2,
       "equipado": false
     },
     {
@@ -1285,6 +1285,21 @@
       ],
       "quantidade": 1,
       "equipado": false
+    },
+    {
+      "id": "mapa-rotas-esquecidas-arven-ampliado",
+      "nome": "Mapa Cartográfico das Rotas Esquecidas de Arven — Edição ampliada",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Cópia independente de qualidade excepcional do mapa original até ET02, ampliada até CR04 com referências percorridas na ida e retorno. Sem escala ou orientação cardinal aferidas.",
+      "restricoes": [
+        "Sem escala, coordenadas, orientação cardinal, segurança garantida ou preço acordado. Não incluir detalhes privados RV117 nem rotas apenas presumidas."
+      ],
+      "propriedades": [
+        "Original preservado separadamente. Cópia inclui Arven, PC03, marco antigo, travessia Passagem Inferior, afloramento, ET02, base elevação, dois pilares, curso água e CR04; tempos aproximados e obstáculos observados.",
+        "Qualidade excepcional C756; somente rotas efetivamente percorridas."
+      ],
+      "quantidade": 1,
+      "equipado": false
     }
   ],
   "cavalos": 2,
@@ -1481,10 +1496,10 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Entreposto de Arven — entrada do pátio",
+  "local": "Entreposto de Arven — salão principal",
   "agua": {
-    "total": 1.5,
-    "tratada": 1,
+    "total": 1,
+    "tratada": 0.5,
     "bruta": 0.5
   },
   "missoes": [
@@ -1540,7 +1555,7 @@
     },
     {
       "nome": "Cartografia comercial",
-      "texto": "Mapa excepcional até ET-02 concluído. Incorporar rota CR-04 e negociar com a Associação; nenhum preço acordado."
+      "texto": "Dois mapas excepcionais: original até ET02 e cópia ampliada até CR04, ambos em posse. Negociação com Associação pendente, nenhum preço acordado."
     },
     {
       "nome": "Lume Errante — Longa Duração",
@@ -1577,7 +1592,7 @@
   "rota": [
     {
       "nome": "Entreposto de Arven",
-      "texto": "Local atual: chegada à entrada do pátio, pouso não iniciado.",
+      "texto": "Local atual: salão principal, repouso concluído dia89.",
       "atual": true
     },
     {
@@ -1606,5 +1621,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Chegou a Arven após6h totais de deslocamento desde CR04. Lume expirado; cavalo junto e cansado. Verificar segurança e organizar pouso se desejar; noite88 não completada."
+  "retomada": "Dia89 manhã avançada; repouso em Arven concluído, MP e PE integrais, mapas original e ampliado em posse. Cavalo no pátio; escolher próxima ação ou retorno a Luméria. Contratos até dia92."
 }
