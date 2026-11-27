@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V600",
-  "cena": 808,
-  "proxima": 809,
-  "dia": 94,
-  "periodo": "Noite",
+  "checkpoint": "V601",
+  "cena": 809,
+  "proxima": 810,
+  "dia": 95,
+  "periodo": "Manha",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 57,
+      "mp": 85,
       "mp_max": 85,
       "pe": 10,
       "pe_max": 50,
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 0,
+      "noites": 1,
       "necessarias": 2
     }
   },
@@ -1889,7 +1889,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Luméria — Casa das Violetas, quintal",
+  "local": "Luméria — Quadro Público de Serviços",
   "agua": {
     "total": 1.4,
     "tratada": 1.4,
@@ -2022,7 +2022,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, Dia94 noite; treino no quintal e Serenya chegou após ensaios, dois cavalos Santuário.",
+      "texto": "Quadro Público de Serviços, manhã Dia95; quatro ofertas preliminares consultadas, nenhuma aceita. Dois cavalos Santuário.",
       "atual": true
     },
     {
@@ -2083,5 +2083,5 @@
     "C806: cinco documentos restantes 100% conteúdo disponível compreendido e transcrito: Estabilização, Continuidade Espiritual, Tipologias, Anomalias e Transferência Controlada. Todos oito estudos concluídos teoricamente. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo.",
     "C808: Manto da Égide Negra I, protótipo defensivo, união de Manto III e Barreira com reserva separada. Dois ensaios bem-sucedidos sob impactos leves, versão refinada16MP, +8DEF/6 ciclos e reserva15 projetadas, não validadas integralmente. Reproduzir e calibrar antes de aprender; sem acumular Manto ou Barreira no mesmo impacto."
   ],
-  "retomada": "Dia94 noite: Serenya chegou após treino; Manto Égide Negra I protótipo, +105XP, XP250/1100, HP120 MP57 PE10 ouro10. Sem magia ativa."
+  "retomada": "Dia95 manhã: descanso adequado, MP85, PE10/50 (1/2 noites), HP120 XP250/1100 ouro10; quatro ofertas preliminares 6/9/12/18 ouro, nenhuma aceita."
 }
