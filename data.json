@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V549",
-  "cena": 757,
-  "proxima": 758,
+  "checkpoint": "V550",
+  "cena": 758,
+  "proxima": 759,
   "dia": 90,
   "periodo": "Anoitecer",
   "personagem": {
@@ -18,9 +18,9 @@
       "mp_max": 78,
       "pe": 50,
       "pe_max": 50,
-      "xp_nivel": 510,
-      "xp_total": 5160,
-      "ouro": 58,
+      "xp_nivel": 515,
+      "xp_total": 5165,
+      "ouro": 95,
       "xp_proximo_nivel": 1000
     },
     "atributos": {
@@ -686,7 +686,9 @@
       "restricoes": [
         "Remuneração 24ouro após validação, sem adiantamento. Entrega até Dia92."
       ],
-      "propriedades": [],
+      "propriedades": [
+        "C758: contrato validado e integralmente quitado, via pessoal preservada."
+      ],
       "quantidade": 1,
       "equipado": false
     },
@@ -698,7 +700,9 @@
       "restricoes": [
         "Remuneração 8ouro após validação, sem adiantamento. Entrega até Dia92."
       ],
-      "propriedades": [],
+      "propriedades": [
+        "C758: contrato validado e integralmente quitado, via pessoal preservada."
+      ],
       "quantidade": 1,
       "equipado": false
     },
@@ -710,7 +714,9 @@
       "restricoes": [
         "Remuneração 3ouro após validação, sem adiantamento. Entrega até Dia92."
       ],
-      "propriedades": [],
+      "propriedades": [
+        "C758: contrato validado e integralmente quitado, via pessoal preservada."
+      ],
       "quantidade": 1,
       "equipado": false
     },
@@ -723,7 +729,8 @@
         "Apresentar a Elira para validação do contrato, não equivale a pagamento."
       ],
       "propriedades": [
-        "Entrega lacrada registrada C739."
+        "Entrega lacrada registrada C739.",
+        "C758: comprovante conferido e validado por Elira, contrato quitado."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1484,7 +1491,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Luméria — entrada principal",
+  "local": "Associação dos Carreteiros — salão de atendimento",
   "agua": {
     "total": 1.2,
     "tratada": 1.2,
@@ -1495,37 +1502,37 @@
       "nome": "Expedição Além do Vau dos Três Cedros",
       "ouro": 24,
       "prazo": 92,
-      "status": "Relatório concluído",
+      "status": "Quitada — 24 ouro + 2 bônus conjunto",
       "etapas": [
         "Vistoria do Vau e da via até Arven",
         "Consolidar relatório",
         "Entregar à Associação e obter validação"
       ],
-      "concluidas": 2
+      "concluidas": 3
     },
     {
       "nome": "Levantamento de Materiais de Arven",
       "ouro": 8,
       "prazo": 92,
-      "status": "Parecer concluído",
+      "status": "Quitada",
       "etapas": [
         "Vistoriar materiais e riscos",
         "Consolidar parecer",
         "Entregar e obter validação"
       ],
-      "concluidas": 2
+      "concluidas": 3
     },
     {
       "nome": "Correspondência do Ramal",
       "ouro": 3,
       "prazo": 92,
-      "status": "Recibo em posse",
+      "status": "Quitada",
       "etapas": [
         "Entregar correspondência",
         "Obter recibo",
         "Apresentar recibo à Associação"
       ],
-      "concluidas": 2
+      "concluidas": 3
     }
   ],
   "objetivos": [
@@ -1580,7 +1587,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Local atual: entrada principal, chegada dia90 ao anoitecer.",
+      "texto": "Local atual: Associação dos Carreteiros, contratos quitados.",
       "atual": true
     },
     {
@@ -1625,5 +1632,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Dia90 anoitecer: chegada a Luméria, cavalo junto, 0 rações e1,2L tratados. Contratos até dia92 ainda não entregues, nenhum pagamento ou reencontro. Escolher próximo destino."
+  "retomada": "Dia90 anoitecer: três contratos validados e pagos (35+2ouro de bônus), Ashborn permanece com Elira. Mapas ainda em posse, negociação pendente; cavalo no pátio."
 }
