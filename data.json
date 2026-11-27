@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V589",
-  "cena": 797,
-  "proxima": 798,
-  "dia": 92,
-  "periodo": "Fim da tarde",
+  "checkpoint": "V590",
+  "cena": 798,
+  "proxima": 799,
+  "dia": 93,
+  "periodo": "Fim da manha",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -14,13 +14,13 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 59,
+      "mp": 78,
       "mp_max": 78,
-      "pe": 5,
+      "pe": 50,
       "pe_max": 50,
       "xp_nivel": 850,
       "xp_total": 5500,
-      "ouro": 11,
+      "ouro": 10,
       "xp_proximo_nivel": 1000
     },
     "atributos": {
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 1,
+      "noites": 2,
       "necessarias": 2
     }
   },
@@ -1658,7 +1658,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa quitada, mobília27ouro paga, entrega agendada manhã93. Reparos8ouro pagos por Serenya; teto de Lyra seco nas partes acessíveis, conferir antes de mobiliar. C797 Serenya e Vaelith concordaram em acolher Lyra se desejar; conversar com Lyra e Theron. Sem mudança ou pernoite."
+      "texto": "Casa quitada, reparos8ouro pagos por Serenya, teto do quarto Lyra seco nas partes acessíveis. Mobília27ouro entregue e instalada manhã93; faltam roupas de cama e pertences. Lyra e Theron chegaram para visita; surpresa e proposta de acolhimento ainda não reveladas."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1678,17 +1678,17 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Coproprietária Casa das Violetas. Concordou em acolher Lyra em visitas, estadias ou moradia voluntária, coordenando cuidados/estudos com Theron."
+      "texto": "Coproprietária Casa das Violetas; mobiliou casa com Ashborn, acolheu convite a Lyra e Theron. Primeira visita, proposta de acolhimento ainda não comunicada."
     },
     {
       "nome": "Lyra",
       "tipo": "Irmã adotiva",
-      "texto": "Irmã adotiva. C770 primeiro Lume comum independente10min, recebeu transcrição avançada; ainda não domina variante. Quarto destinado a ela na Casa das Violetas, proposta de acolhimento aprovada por Serenya e Vaelith; Lyra ainda não informada."
+      "texto": "Irmã adotiva, 13 anos. Lume comum independente10min uma vez; variante avançada não dominada. Aceitou convite para conhecer casa, chegou à entrada; não sabe do quarto preparado para ela."
     },
     {
       "nome": "Theron",
       "tipo": "Mentor",
-      "texto": "Orienta estudos e técnicas arcanas."
+      "texto": "Mentor de Ashborn e Lyra; aceitou visita à casa e chegou com Lyra, ainda não informado sobre acolhimento."
     },
     {
       "nome": "Aldren",
@@ -1704,7 +1704,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, fim da tarde Dia92; reparos e secagem realizados, entrega amanhã cedo, proposta de acolher Lyra aprovada pelas companheiras.",
+      "texto": "Casa das Violetas, fim da manhã Dia93, mobiliada; Lyra e Theron chegaram para primeira visita. Dois cavalos no Santuário.",
       "atual": true
     },
     {
@@ -1759,5 +1759,5 @@
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
     "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente."
   ],
-  "retomada": "Dia92 fim da tarde: Serenya e Vaelith concordaram em acolher Lyra caso queira. Convite ainda não transmitido; conversar com Lyra e Theron. Entrega manhã93 agendada; sem noite. Ouro11, MP59."
+  "retomada": "Dia93 fim da manhã: casa mobiliada, Lyra e Theron chegaram para visita, surpresa não revelada. HP115 MP78 PE50 ouro10. Dois cavalos no Santuário."
 }
