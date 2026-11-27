@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V577",
-  "cena": 785,
-  "proxima": 786,
+  "checkpoint": "V578",
+  "cena": 786,
+  "proxima": 787,
   "dia": 91,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -12,14 +12,14 @@
     "nivel": 11,
     "aparencia": "Jovem espadachim arcano de cabelos negros, aspecto atlético, capa e roupas de mago/espadachim, cicatriz negra permanente da mão ao pescoço. Marca avermelhada do Abismo desapareceu C588. Retrato aprovado permanece referência histórica; não reintroduzir marca vermelha.",
     "recursos": {
-      "hp": 46,
+      "hp": 76,
       "hp_max": 115,
       "mp": 3,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 830,
-      "xp_total": 5480,
+      "xp_nivel": 840,
+      "xp_total": 5490,
       "ouro": 3,
       "xp_proximo_nivel": 1000
     },
@@ -568,21 +568,6 @@
         "Malha Defensiva em Duas Camadas I compreendida apenas teoricamente"
       ],
       "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "pocao-vida",
-      "nome": "Poção de Vida",
-      "categoria": "consumivel",
-      "descricao": "Poção capaz de curar ferimentos.",
-      "restricoes": [
-        "Uma unidade consumida por uso"
-      ],
-      "propriedades": [
-        "+15 HP por unidade",
-        "Ashborn possui duas"
-      ],
-      "quantidade": 2,
       "equipado": false
     },
     {
@@ -1375,6 +1360,65 @@
       ],
       "quantidade": 2,
       "equipado": false
+    },
+    {
+      "id": "fragmento-couraca-desfiladeiro",
+      "nome": "Fragmento da Couraça — Prova da Caçada",
+      "categoria": "evidencia_de_missao",
+      "descricao": "Fragmento característico de placa cinzenta já danificada durante combate, recolhido da criatura abatida no Desfiladeiro Cinzento C786.",
+      "restricoes": [
+        "Manter separado dos espólios; validação da Associação ainda pendente.",
+        "Não vender nem consumir automaticamente."
+      ],
+      "propriedades": [
+        "Couraça rígida cinzenta, procedência observada por Ashborn.",
+        "Destinado à apresentação à Associação como evidência identificável da caçada."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "placa-couraca-cinzenta",
+      "nome": "Placa de Couraça Cinzenta",
+      "categoria": "material",
+      "descricao": "Placa natural íntegra, retirada de região acessível da criatura abatida C786.",
+      "restricoes": [
+        "Nenhum bônus de defesa, preço ou propriedade arcana confirmados.",
+        "Limpar, conservar e avaliar com artesão; evitar calor e umidade excessivos."
+      ],
+      "propriedades": [
+        "Rígida e resistente, potencial matéria-prima para armaduras; não testada por ferreiro."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "presa-criatura-desfiladeiro",
+      "nome": "Presa da Criatura do Desfiladeiro",
+      "categoria": "material",
+      "descricao": "Presa robusta íntegra recolhida da criatura abatida C786.",
+      "restricoes": [
+        "Avaliação e conservação pendentes; sem propriedade arcana comprovada."
+      ],
+      "propriedades": [
+        "Possível matéria-prima artesanal."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "garra-criatura-desfiladeiro",
+      "nome": "Garra da Criatura do Desfiladeiro",
+      "categoria": "material",
+      "descricao": "Garras aproveitáveis, extraídas da criatura abatida C786.",
+      "restricoes": [
+        "Avaliação e conservação pendentes; sem propriedade arcana comprovada."
+      ],
+      "propriedades": [
+        "Potencial de manufatura artesanal."
+      ],
+      "quantidade": 2,
+      "equipado": false
     }
   ],
   "cavalos": 2,
@@ -1589,7 +1633,7 @@
       "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
     }
   ],
-  "local": "Desfiladeiro Cinzento — junto à criatura abatida",
+  "local": "Desfiladeiro Cinzento — junto à carcaça parcialmente coletada",
   "agua": {
     "total": 2.1,
     "tratada": 2.1,
@@ -1635,7 +1679,7 @@
     {
       "nome": "A criatura do Desfiladeiro Cinzento",
       "ouro": 22,
-      "status": "Ameaça neutralizada — evidência e relatório pendentes",
+      "status": "Ameaça neutralizada — prova recolhida, relatório pendente",
       "etapas": [
         "Formalizar contratação",
         "Investigar locais dos ataques",
@@ -1713,7 +1757,7 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Criatura abatida, evidência e relatório pendentes; cavalo atrás cobertura inicial.",
+      "texto": "Criatura abatida, prova e espólios recolhidos; fenda não explorada; cavalo atrás cobertura inicial.",
       "atual": true
     },
     {
@@ -1767,7 +1811,8 @@
     "C776: quadrúpede robusto ~3,5m com placas dorsais cinzentas avistado no Desfiladeiro Cinzento, junto a restos de animal de carga. Espécie e capacidades desconhecidas.",
     "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada.",
     "C782: Ruptura Infernal, primeira explosão radial experimental de Chamas Negras (4m,34 mágico,18MP,6HP refluxo), sem aquisição permanente.",
-    "C785: projeto teórico Sifão de Éter Puro II, capacidade pretendida10MP; nenhuma fonte pura comprovada ou ensaio ativo."
+    "C785: projeto teórico Sifão de Éter Puro II, capacidade pretendida10MP; nenhuma fonte pura comprovada ou ensaio ativo.",
+    "C786: inspeção da criatura encouraçada confirmou placas resistentes, presas e garras aproveitáveis; nenhum núcleo exposto, espécie e natureza arcana pendentes."
   ],
-  "retomada": "Dia91 fim da tarde: criatura abatida. Sifão II projeto teórico DT24 total33, meta10MP ainda não validada. Nenhuma fonte pura comprovada, Sifão atual até5MP e1 uso preservado, HP46 MP3 PE5. Evidência e relatório pendentes."
+  "retomada": "Dia91 fim da tarde: duas poções consumidas, HP76 MP3 PE5, zero poções. Inspeção excepcional, coleta parcial: fragmento de prova,1 placa,1 presa,2 garras (~3,5kg). Relatório e validação pendentes. Fenda não explorada."
 }
