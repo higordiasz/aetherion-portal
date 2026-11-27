@@ -19,3 +19,5 @@ A ficha ocupa exatamente a altura dinâmica da viewport (`100dvh`), sem rolagem 
 ### Combate em três colunas
 
 Em telas largas, ataques, defesa/suporte e técnicas/bônus possuem rolagem interna independente. Técnicas permanecem visíveis durante buscas e filtros de ações. Bônus rápidos usam valores atuais do snapshot e são condicionais à cena. Em telas estreitas o painel organiza técnicas primeiro, seguido das ações. Sem alterações de regras ou data.json.
+
+A aba Combate exibe apenas as três categorias, sem moldura externa, cabeçalho geral, busca ou filtros. Os filtros de outras abas são preservados.

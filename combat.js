@@ -47,7 +47,7 @@ function combatView(D,search="",filter=""){
   const left=group("physical")+group("magic");
   const middle=group("defense")+group("mobility")+group("special",rows.filter(x=>norm(x.name).includes("corte do elo")));
   const right=group("technique",entries,techCard)+quick+refined+group("special",entries.filter(x=>!norm(x.name).includes("corte do elo")));
-  return `<div class="combat-caption">Dano antes de resistências · Técnicas e bônus sempre disponíveis para consulta.</div><div class="combat-shortcuts">${cats.map(([id,label,icon])=>`<button type="button" class="combat-chip${filter===id?" selected":""}" data-combat-filter="${id}" aria-pressed="${filter===id}">${icon} ${e(label)} <small>${entries.filter(x=>x.cat===id).length}</small></button>`).join("")}</div><div class="combat-board">${lane("offense","Ataques","Espada e magias ofensivas",left||empty)}${lane("support","Defesa e suporte","Cura, proteção e mobilidade",middle||empty)}${lane("tech","Técnicas e bônus","Referência permanente de combate",right)}</div>`;
+  return `<div class="combat-board">${lane("offense","Ataques","Espada e magias ofensivas",left||empty)}${lane("support","Defesa e suporte","Cura, proteção e mobilidade",middle||empty)}${lane("tech","Técnicas e bônus","Referência permanente de combate",right)}</div>`;
 }
   return renderBoard();
 }

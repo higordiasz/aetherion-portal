@@ -36,3 +36,16 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:10px;pa
 @media(max-width:1100px){#results.combat-results{overflow-y:auto;display:block}.combat-board{grid-template-columns:repeat(2,minmax(0,1fr));min-height:auto}.combat-lane-tech{grid-column:1/-1;grid-row:1}.combat-lane{overflow:visible}.lane-scroll{overflow:visible;max-height:none}.combat-lane-tech .lane-scroll{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.combat-lane-tech .combat-group,.quick-combos{margin:0}}
 @media(max-width:620px){.combat-board,.combat-lane-tech .lane-scroll{grid-template-columns:minmax(0,1fr)}.combat-lane-tech{grid-column:1}.combat-lane .entry summary{display:flex;flex-wrap:wrap}.combat-lane .entry-name{flex:1}.combat-lane .entry-meta{max-width:52%;justify-content:flex-end}.combat-lane .chev{flex:none}#results.combat-results{padding:8px}}
 @media(max-height:520px) and (min-width:1151px){.top{padding-top:5px;padding-bottom:5px}.shell{padding-top:8px;padding-bottom:8px}nav{padding-top:3px;padding-bottom:3px}}
+
+/* Combat-only layout: three category panels directly in the workspace. */
+#content.combat-mode>.section{border:0;background:transparent;border-radius:0;box-shadow:none}
+#content.combat-mode .section-top{display:none}
+#content.combat-mode #panel{padding:0;background:transparent}
+#content.combat-mode .combat-results{display:flex;flex-direction:column;flex:1;min-height:0;min-width:0;overflow:hidden;padding:0}
+#content.combat-mode .combat-board{gap:12px}
+#content.combat-mode .combat-lane{min-height:0}
+#content.combat-mode .lane-heading p{display:none}
+#content.combat-mode .lane-heading{padding:12px 14px}
+#content.combat-mode .lane-scroll{padding:10px}
+@media(max-width:1100px){#content.combat-mode .combat-results{display:block;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:none}#content.combat-mode .combat-results::-webkit-scrollbar{display:none}#content.combat-mode .combat-board{gap:8px}}
+@media(max-width:620px){#content.combat-mode .lane-heading{padding:9px 10px}#content.combat-mode .lane-scroll{padding:7px}}
