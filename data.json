@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V584",
-  "cena": 792,
-  "proxima": 793,
+  "checkpoint": "V585",
+  "cena": 793,
+  "proxima": 794,
   "dia": 92,
   "periodo": "Inicio da tarde",
   "personagem": {
@@ -1575,7 +1575,7 @@
       "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
     }
   ],
-  "local": "Luméria — Casa das Violetas",
+  "local": "Luméria — Mercado das Arcadas",
   "agua": {
     "total": 1.4,
     "tratada": 1.4,
@@ -1658,7 +1658,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa adquirida e quitada; Serenya organiza reparos ainda não contratados. Ashborn aceitou contrato22ouro para mobília, criatura localizada sem combate."
+      "texto": "Casa quitada; Serenya organiza reparos ainda não contratados. Missão Desfiladeiro concluída e quitada; casal consulta mobília, sete ofertas total23ouro, nenhuma compra."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1678,7 +1678,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Coproprietária Casa das Violetas, organiza reparos. Reencontro no quintal Dia92, perguntou sobre missão e saúde."
+      "texto": "Coproprietária Casa das Violetas, organiza reparos; aceitou escolher móveis com Ashborn e opiniões de Vaelith. Nenhuma compra."
     },
     {
       "nome": "Lyra",
@@ -1704,7 +1704,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, reencontro com Serenya no quintal; cavalo próximo acesso lateral.",
+      "texto": "Mercado das Arcadas, marcenaria; Ashborn e Serenya consultam móveis, Vaelith acompanha. Cavalo junto ao grupo.",
       "atual": true
     },
     {
@@ -1758,5 +1758,5 @@
     "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado.",
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado."
   ],
-  "retomada": "Dia92 início da tarde: Ashborn reencontrou Serenya no quintal, ela organiza reparos e perguntou sobre missão/saúde. Ouro38, cavalo próximo acesso lateral; nenhuma obra, contratação ou mobília confirmada."
+  "retomada": "Dia92 início da tarde: Ashborn, Serenya e Vaelith escolhem mobília em marcenaria; sete ofertas total23ouro, nenhuma compra. Serenya aguarda decisão. Ouro38."
 }
