@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V542",
-  "cena": 750,
-  "proxima": 751,
+  "checkpoint": "V543",
+  "cena": 751,
+  "proxima": 752,
   "dia": 88,
   "periodo": "Anoitecer",
   "personagem": {
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 58,
+      "mp": 50,
       "mp_max": 78,
       "pe": 0,
       "pe_max": 50,
@@ -1464,7 +1464,7 @@
       "progresso": "Diretrizes recuperadas; estudo e validação pendentes."
     }
   ],
-  "local": "Câmara de Registro CR-04 — exterior",
+  "local": "Câmara de Registro CR-04 — exterior, montado",
   "agua": {
     "total": 2,
     "tratada": 1.5,
@@ -1581,5 +1581,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Documentos das gavetas recolhidos; vistoria externa concluída com reconhecimento parcial da encosta. Cavalo avistado amarrado, sem exame físico. Escolher pouso, atualização de mapa ou outra ação; retorno planejado dia89, noite88 não transcorreu."
+  "retomada": "Tentativa de Lume ampliado falhou por1, 8MP gastos, nenhum efeito ativo. Ashborn montado e ainda não partiu. Escolher nova tentativa ou estratégia de retorno a Arven; noite88 ainda não transcorreu."
 }
