@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V567",
-  "cena": 775,
-  "proxima": 776,
+  "checkpoint": "V568",
+  "cena": 776,
+  "proxima": 777,
   "dia": 91,
-  "periodo": "Tarde",
+  "periodo": "Fim da tarde",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 635,
-      "xp_total": 5285,
+      "xp_nivel": 645,
+      "xp_total": 5295,
       "ouro": 3,
       "xp_proximo_nivel": 1000
     },
@@ -1326,6 +1326,46 @@
       ],
       "quantidade": 1,
       "equipado": false
+    },
+    {
+      "id": "contrato-criatura-desfiladeiro-cinzento",
+      "nome": "Contrato — Criatura do Desfiladeiro Cinzento",
+      "categoria": "documento",
+      "descricao": "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados.",
+      "restricoes": [
+        "Não garante recompensa nem precisão integral dos relatos."
+      ],
+      "propriedades": [
+        "Via assinada C776: 22ouro após identificação e neutralização de ameaça confirmada, evidência identificável se abatida e relatório validado. Três rações fornecidas sem dedução; 2–3 dias estimados."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "esboco-desfiladeiro-cinzento",
+      "nome": "Esboço do Desfiladeiro Cinzento",
+      "categoria": "documento",
+      "descricao": "Esboço entregue pela Associação indicando locais de dois relatos de ataques e acesso pela estrada comercial; não mapeia interior da fenda nem posição atual de criatura.",
+      "restricoes": [
+        "Não garante recompensa nem precisão integral dos relatos."
+      ],
+      "propriedades": [
+        "Esboço entregue pela Associação indicando locais de dois relatos de ataques e acesso pela estrada comercial; não mapeia interior da fenda nem posição atual de criatura."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "racao-viagem",
+      "nome": "Ração de Viagem",
+      "categoria": "consumivel",
+      "descricao": "Porção alimentar para deslocamento.",
+      "restricoes": [],
+      "propriedades": [
+        "Duas unidades no checkpoint V229"
+      ],
+      "quantidade": 2,
+      "equipado": false
     }
   ],
   "cavalos": 2,
@@ -1522,10 +1562,10 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Associação dos Carreteiros — salão de atendimento",
+  "local": "Desfiladeiro Cinzento — ponto de observação, criatura a cerca de 50 m",
   "agua": {
-    "total": 1.2,
-    "tratada": 1.2,
+    "total": 2.1,
+    "tratada": 2.1,
     "bruta": 0
   },
   "missoes": [
@@ -1564,6 +1604,18 @@
         "Apresentar recibo à Associação"
       ],
       "concluidas": 3
+    },
+    {
+      "nome": "A criatura do Desfiladeiro Cinzento",
+      "ouro": 22,
+      "status": "Em execução — criatura localizada",
+      "etapas": [
+        "Formalizar contratação",
+        "Investigar locais dos ataques",
+        "Identificar e neutralizar ameaça",
+        "Apresentar evidência e relatório"
+      ],
+      "concluidas": 2
     }
   ],
   "objetivos": [
@@ -1593,7 +1645,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa das Violetas adquirida e quitada C775 por115ouro, copropriedade Ashborn/Serenya. Serenya assumiu futuros reparos; Ashborn busca mobília8–25. Sem mudança/pernoite. Ofertas Elira6/12/22ouro, nenhuma aceita."
+      "texto": "Casa adquirida e quitada; Serenya organiza reparos ainda não contratados. Ashborn aceitou contrato22ouro para mobília, criatura localizada sem combate."
     }
   ],
   "relacoes": [
@@ -1605,7 +1657,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Coproprietária da Casa das Violetas com Ashborn; ele pagou115, ela assumiu futuros reparos. Nenhuma alteração de casamento/exclusividade."
+      "texto": "Coproprietária Casa das Violetas, organiza reparos; informada da missão e partida de Ashborn."
     },
     {
       "nome": "Lyra",
@@ -1625,9 +1677,14 @@
   ],
   "rota": [
     {
-      "nome": "Luméria",
-      "texto": "Local atual: Associação dos Carreteiros; Casa das Violetas adquirida perto Jardim Alvor. Dois cavalos continuam Santuário.",
+      "nome": "Desfiladeiro Cinzento",
+      "texto": "Local atual, criatura observada a~50m; um cavalo junto.",
       "atual": true
+    },
+    {
+      "nome": "Luméria",
+      "texto": "Casa das Violetas; segundo cavalo no Santuário.",
+      "atual": false
     },
     {
       "nome": "Ramal da Vigília e Marco",
@@ -1671,7 +1728,8 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida.",
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
-    "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão."
+    "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão.",
+    "C776: quadrúpede robusto ~3,5m com placas dorsais cinzentas avistado no Desfiladeiro Cinzento, junto a restos de animal de carga. Espécie e capacidades desconhecidas."
   ],
-  "retomada": "Dia91 tarde: Casa das Violetas adquirida por115, copropriedade Ashborn/Serenya; saldo3. Serenya organiza reparos; Elira oferece serviços6/12/22ouro, nenhum aceito."
+  "retomada": "Dia91 fim da tarde: criatura encouraçada localizada a~50m; sem combate. Cavalo pelas rédeas, cobertura rochosa. Contrato22ouro em execução."
 }
