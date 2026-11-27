@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V555",
-  "cena": 763,
-  "proxima": 764,
+  "checkpoint": "V556",
+  "cena": 764,
+  "proxima": 765,
   "dia": 90,
   "periodo": "Noite",
   "personagem": {
@@ -1541,6 +1541,10 @@
     {
       "nome": "Lume Errante — Longa Duração",
       "texto": "Pesquisa concluída C754: Lume Errante — Longa Duração I permanente, raio15m/3h,14MP. Lume convencional preservado."
+    },
+    {
+      "nome": "Templo do Primeiro Limiar",
+      "texto": "Linha paralela C764: investigar localização, antiga função de Vaelith, Nome Verdadeiro e natureza do selo; cruzar com RCA117/RV117/CI01 sem presumir relação comprovada."
     }
   ],
   "relacoes": [
@@ -1618,5 +1622,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Dia90 noite: quarto e jantar pagos2ouro; revisão investigação excepcional34/22, plano de estudos e doações condicionais registrado. Ashborn e Vaelith no quarto; nenhum pedido, doação, experimento ou noite concluída."
+  "retomada": "Dia90 noite: revisão C763 e conversa C764; Templo do Primeiro Limiar reintegrado à pesquisa. Nenhum pedido ou experimento; quarto pago, ainda não dormiu."
 }
