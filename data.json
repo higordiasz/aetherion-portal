@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V557",
-  "cena": 765,
-  "proxima": 766,
+  "checkpoint": "V558",
+  "cena": 766,
+  "proxima": 767,
   "dia": 90,
   "periodo": "Noite",
   "personagem": {
@@ -14,12 +14,12 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 78,
+      "mp": 0,
       "mp_max": 78,
-      "pe": 50,
+      "pe": 10,
       "pe_max": 50,
-      "xp_nivel": 515,
-      "xp_total": 5165,
+      "xp_nivel": 615,
+      "xp_total": 5265,
       "ouro": 118,
       "xp_proximo_nivel": 1000
     },
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 2,
+      "noites": 0,
       "necessarias": 2
     }
   },
@@ -1524,7 +1524,7 @@
   "objetivos": [
     {
       "nome": "Libertação segura de Vaelith",
-      "texto": "Plano C763: estudar identidade/RV117, natureza do vínculo, matriz segura e transferência controlada. Não comprova identidade. Doações somente após estudo e transcrição."
+      "texto": "C766: fixação distante percebida além da Orla, três pulsações/intervalo e duas camadas de contenção; cotejar fontes, sem localização/identidade confirmada. Vaelith não informada."
     },
     {
       "nome": "Investigar a CI-01",
@@ -1544,7 +1544,7 @@
     },
     {
       "nome": "Templo do Primeiro Limiar",
-      "texto": "Linha paralela C764: investigar localização, antiga função de Vaelith, Nome Verdadeiro e natureza do selo; cruzar com RCA117/RV117/CI01 sem presumir relação comprovada."
+      "texto": "Comparar assinatura da fixação distante C766 com fontes do Primeiro Limiar; localização e relação ainda desconhecidas."
     }
   ],
   "relacoes": [
@@ -1620,7 +1620,8 @@
     "Matriz de identificação e circuito de alimentação documentados passivamente; nenhuma ativação.",
     "Porta dupla e grade abertas mecanicamente; arquivo reforçado aberto mecanicamente C749.",
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
-    "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
+    "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida.",
+    "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu."
   ],
-  "retomada": "Madrugada da noite90→91: Ashborn dormiu e despertou discretamente (Furtividade17/15); Vaelith recolhida não percebeu o despertar. Permanece deitado imóvel, noite não completa."
+  "retomada": "Madrugada noite90→91: retorno autônomo após rastrear fixação distante; MP0 PE10, +100XP. Vaelith recolhida não percebeu. Ashborn desperto no leito, noite não completa."
 }
