@@ -54,7 +54,7 @@ function workspaceView(tab){
    const equipped=carried.filter(x=>x.equipado), ordinary=carried.filter(x=>!x.equipado);
    const at=place=>stored.filter(x=>x.compartimento===place).map(item);
    const places=[...new Set(stored.map(x=>x.compartimento||"Outros"))];
-   return board(lane("gear","Com Ashborn",group("Equipados",equipped.map(item))+group("Na bagagem",ordinary.map(item)),carried.length),lane("documents","Casa das Violetas",p("Guardados em casa · recolher antes de utilizar.")+places.map(place=>group(place,at(place))).join(""),stored.length),lane("evidence","Santuário de Luméria",p("Custódia temporária · não estão na bagagem.")+custody.map(item).join(""),custody.length));
+   return board(lane("gear","Com Ashborn",group("Equipados",equipped.map(item))+group("Na bagagem",ordinary.map(item)),carried.length),lane("documents","Casa das Violetas",p("Guardados em casa · recolher antes de utilizar.")+places.map(place=>group(place,at(place))).join(""),stored.length),...((D.inventario_custodia??[]).length?[lane("evidence","Santuário de Luméria",p("Custódia temporária · não estão na bagagem.")+custody.map(item).join(""),custody.length)]:[]));
  }
  if(tab==="mastery"){
    const all=D.maestrias.filter(x=>(!filter||String(x.grau)===filter)&&matches(x.nome,x.titulo,x.justificativa)).sort((a,b)=>b.grau-a.grau||a.nome.localeCompare(b.nome,"pt-BR"));
