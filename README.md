@@ -15,3 +15,7 @@ A aba `#combat` organiza ações, magias permanentes, técnicas, consumíveis e 
 ## Layout compacto
 
 A ficha ocupa exatamente a altura dinâmica da viewport (`100dvh`), sem rolagem global. A navegação horizontal, recursos, painel de atributos e índice de maestrias ficam fixos; a rolagem ocorre somente nos painéis internos. Em telas estreitas, maestrias continuam disponíveis na aba e os atributos viram uma faixa compacta. As ações de combate, magias, inventário e pesquisas usam detalhes expansíveis. Não altera data.json nem regras da campanha.
+
+### Combate em três colunas
+
+Em telas largas, ataques, defesa/suporte e técnicas/bônus possuem rolagem interna independente. Técnicas permanecem visíveis durante buscas e filtros de ações. Bônus rápidos usam valores atuais do snapshot e são condicionais à cena. Em telas estreitas o painel organiza técnicas primeiro, seguido das ações. Sem alterações de regras ou data.json.
