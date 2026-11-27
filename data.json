@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V578",
-  "cena": 786,
-  "proxima": 787,
-  "dia": 91,
-  "periodo": "Fim da tarde",
+  "checkpoint": "V579",
+  "cena": 787,
+  "proxima": 788,
+  "dia": 92,
+  "periodo": "Manha",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -12,9 +12,9 @@
     "nivel": 11,
     "aparencia": "Jovem espadachim arcano de cabelos negros, aspecto atlético, capa e roupas de mago/espadachim, cicatriz negra permanente da mão ao pescoço. Marca avermelhada do Abismo desapareceu C588. Retrato aprovado permanece referência histórica; não reintroduzir marca vermelha.",
     "recursos": {
-      "hp": 76,
+      "hp": 91,
       "hp_max": 115,
-      "mp": 3,
+      "mp": 78,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 0,
+      "noites": 1,
       "necessarias": 2
     }
   },
@@ -1633,10 +1633,10 @@
       "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
     }
   ],
-  "local": "Desfiladeiro Cinzento — junto à carcaça parcialmente coletada",
+  "local": "Desfiladeiro Cinzento — acampamento temporário",
   "agua": {
-    "total": 2.1,
-    "tratada": 2.1,
+    "total": 1.8,
+    "tratada": 1.8,
     "bruta": 0
   },
   "missoes": [
@@ -1757,7 +1757,7 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Criatura abatida, prova e espólios recolhidos; fenda não explorada; cavalo atrás cobertura inicial.",
+      "texto": "Acampamento temporário rochoso ~15min da área de combate; manhã Dia92, cavalo próximo.",
       "atual": true
     },
     {
@@ -1814,5 +1814,5 @@
     "C785: projeto teórico Sifão de Éter Puro II, capacidade pretendida10MP; nenhuma fonte pura comprovada ou ensaio ativo.",
     "C786: inspeção da criatura encouraçada confirmou placas resistentes, presas e garras aproveitáveis; nenhum núcleo exposto, espécie e natureza arcana pendentes."
   ],
-  "retomada": "Dia91 fim da tarde: duas poções consumidas, HP76 MP3 PE5, zero poções. Inspeção excepcional, coleta parcial: fragmento de prova,1 placa,1 presa,2 garras (~3,5kg). Relatório e validação pendentes. Fenda não explorada."
+  "retomada": "Dia92 manhã: noite adequada sem incidente, HP91 MP78 PE5 (1/2 noites), 2 rações,1,8L água, zero poções. Cavalo próximo; prova e espólios em posse, relatório pendente. Fenda não explorada."
 }
