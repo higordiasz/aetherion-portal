@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V543",
-  "cena": 751,
-  "proxima": 752,
+  "checkpoint": "V544",
+  "cena": 752,
+  "proxima": 753,
   "dia": 88,
   "periodo": "Anoitecer",
   "personagem": {
@@ -14,12 +14,12 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 50,
+      "mp": 36,
       "mp_max": 78,
       "pe": 0,
       "pe_max": 50,
-      "xp_nivel": 415,
-      "xp_total": 5065,
+      "xp_nivel": 450,
+      "xp_total": 5100,
       "ouro": 58,
       "xp_proximo_nivel": 1000
     },
@@ -236,6 +236,14 @@
       "efeito": "Mão direita de Vaelith moveu folha e tocou mão de Ashborn por poucos segundos.",
       "custo_mp_estimado": 16,
       "limite": "Custo da etapa isolada, depende da sustentação anterior; primeira demonstração localizada, sem corpo completo, duração definitiva ou libertação."
+    },
+    {
+      "id": "lume-errante-longa-duracao-i",
+      "nome": "Lume Errante — Longa Duração I",
+      "status": "experimental",
+      "efeito": "Primeira conjuração bem-sucedida, raio de iluminação 15m demonstrado, núcleo estável inicialmente; duração projetada até180min; acompanhamento em deslocamento a testar.",
+      "custo_mp_estimado": 14,
+      "limite": "14MP no primeiro ensaio; 180min são meta, não duração comprovada. Dissipação segura pretendida em instabilidade; não ilumina através de obstáculos, não concede visão absoluta nem proteção. Repetibilidade, mobilidade e duração integral pendentes; não substitui Lume Errante convencional."
     }
   ],
   "maestrias": [
@@ -1462,6 +1470,15 @@
       "categoria": "linha-de-pesquisa",
       "objetivo": "Investigar transferência segura preservando consciência",
       "progresso": "Diretrizes recuperadas; estudo e validação pendentes."
+    },
+    {
+      "id": "lume-errante-longa-duracao-i",
+      "nome": "Lume Errante — Longa Duração I",
+      "categoria": "prototipo_experimental",
+      "objetivo": "Ampliar iluminação para raio15m, sustentar por até3h em deslocamento.",
+      "progresso": "C751 tentativa improvisada de10m/90min falhou por1, 8MP. C752 projeto de20min, DT24 total41 (natural20), separação emissão/recirculação e estabilização; primeira conjuração DT26 total40, 14MP, raio15m inicialmente demonstrado. Duração e mobilidade pendentes; esquema fundamentado em Sustentação Adaptativa I.",
+      "efeito_atual": "Protótipo ativo ao final C752, janela de observação0/180min; duração não comprovada. Nenhuma aquisição permanente.",
+      "condicao_para_prosseguir": "Observar estabilidade, alcance e duração em deslocamento até extinção; repetir e validar antes de tornar permanente."
     }
   ],
   "local": "Câmara de Registro CR-04 — exterior, montado",
@@ -1524,6 +1541,10 @@
     {
       "nome": "Cartografia comercial",
       "texto": "Mapa excepcional até ET-02 concluído. Incorporar rota CR-04 e negociar com a Associação; nenhum preço acordado."
+    },
+    {
+      "nome": "Lume Errante — Longa Duração",
+      "texto": "Protótipo experimental de raio15m inicialmente estável. Observar duração projetada de3h em deslocamento e validar repetibilidade."
     }
   ],
   "relacoes": [
@@ -1581,5 +1602,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Tentativa de Lume ampliado falhou por1, 8MP gastos, nenhum efeito ativo. Ashborn montado e ainda não partiu. Escolher nova tentativa ou estratégia de retorno a Arven; noite88 ainda não transcorreu."
+  "retomada": "Lume experimental ativo (raio15m, duração projetada3h, janela0/180min, 14MP gastos). Ashborn montado, retorno a Arven ainda não iniciado; observar estabilidade e duração durante viagem. Noite88 não transcorreu."
 }
