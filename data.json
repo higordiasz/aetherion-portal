@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V596",
-  "cena": 804,
-  "proxima": 805,
+  "checkpoint": "V597",
+  "cena": 805,
+  "proxima": 806,
   "dia": 93,
   "periodo": "Noite",
   "personagem": {
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 50,
       "pe_max": 50,
-      "xp_nivel": 940,
-      "xp_total": 5590,
+      "xp_nivel": 980,
+      "xp_total": 5630,
       "ouro": 10,
       "xp_proximo_nivel": 1000
     },
@@ -737,8 +737,10 @@
       "id": "estudo-manual-alimentacao-isolamento-eterico",
       "nome": "Manual de Alimentação e Isolamento Etérico",
       "categoria": "estudo_documental",
-      "objetivo": "Distribuição, manutenção e interrupção; estudo 0%.",
-      "progresso": "10%; C802 leitura inicial e cruzamento com diagramas CR04, caderno e folha PC03. DT25 total22 falhou na determinação da sequência correta de calibração/interrupção; arquitetura provável fonte externa→distribuição→matriz, isolamento independente aparente, não validado."
+      "objetivo": "Compreender integralmente conteúdo disponível sobre alimentação, regulação, distribuição, manutenção, isolamento e interrupção etérica.",
+      "progresso": "100%; conteúdo disponível compreendido e transcrito C805. DT20 total31 excepcional e DT25 total33 sucesso. Funções alimentação externa, regulação, distribuição, isolamento e interrupção distinguidas. Sequência teórica: conferir circuito desenergizado, estabelecer isolamento, alimentar de forma controlada, calibrar referências e só então aferir; manutenção após interromper alimentação e confirmar ausência de fluxo. Fonte independente do suporte investigado como requisito de projeto, sem provar compatibilidade, fonte exata ou ausência de consumo de energia da consciência em ensaio real. Nenhuma montagem ou validação física.",
+      "efeito_atual": "Compreensão teórica da arquitetura e sequência operacional; sem bônus mecânico novo.",
+      "condicao_para_prosseguir": "Análise passiva dos componentes, identificar fonte externa apropriada, projetar bancada isolada e validar circuito, calibração e interrupção com referências inertes."
     },
     {
       "id": "estudo-catalogo-tipologias-vinculares",
@@ -766,7 +768,7 @@
       "nome": "Matriz Própria de Identificação Vincular",
       "categoria": "fundamentacao_teorica_avancada",
       "objetivo": "Reproduzir método de investigação não destrutiva de vínculos",
-      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação. C803: Manual Identificação Vincular100% compreendido, transcrição e integração teórica dos quatro fundamentos, critérios de referência e interrupção; não valida funções dos pilares nem sequência de operação, alimentação, calibração física ou aplicação. C804: Caderno Custódia100% compreendido. Requisitos teóricos de aferição conjunta de integridade, estabilidade e continuidade, isolamento do processo sem ruptura, interrupção preventiva independente do vínculo, documentação e encaminhamento autorizado; configuração e operação ainda não validadas."
+      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação. C803: Manual Identificação Vincular100% compreendido, transcrição e integração teórica dos quatro fundamentos, critérios de referência e interrupção; não valida funções dos pilares nem sequência de operação, alimentação, calibração física ou aplicação. C804: Caderno Custódia100% compreendido. Requisitos teóricos de aferição conjunta de integridade, estabilidade e continuidade, isolamento do processo sem ruptura, interrupção preventiva independente do vínculo, documentação e encaminhamento autorizado; configuração e operação ainda não validadas. C805: Manual Alimentação/Isolamento100% conteúdo disponível compreendido. Arquitetura teórica fonte externa→regulação→distribuição→matriz, isolamento/interrupção independentes; sequência de preparação, alimentação controlada, calibração e aferição compreendida em teoria. Fonte, compatibilidade dos componentes, configuração física e segurança ainda não comprovadas; nenhuma montagem."
     },
     {
       "id": "transferencia-vincular-controlada",
@@ -1433,12 +1435,13 @@
       "id": "manual-alimentacao-isolamento-eterico",
       "nome": "Manual de Alimentação e Isolamento Etérico",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Distribuição, manutenção e interrupção; estudo 10%.",
+      "descricao": "Estudo 100% do conteúdo disponível; alimentação, regulação, distribuição, isolamento, interrupção e manutenção compreendidos teoricamente.",
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
       ],
       "propriedades": [
-        "Distribuição, manutenção e interrupção; estudo 10%."
+        "C805: conteúdo disponível integralmente compreendido e transcrito.",
+        "Arquitetura e sequência operacional teóricas compreendidas, alimentação externa ao suporte investigado como requisito; sem validação física."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1974,7 +1977,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, noite Dia93; Caderno Custódia100% compreendido, Manual Identificação100%, dois cavalos Santuário.",
+      "texto": "Casa das Violetas, noite avançada Dia93; Manual Alimentação100%, Identificação100%, Caderno Custódia100%, dois cavalos no Santuário.",
       "atual": true
     },
     {
@@ -2030,7 +2033,8 @@
     "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente.",
     "C802: assinatura momentaneamente indistinguível não demonstra perda da consciência; continuidade precisa ser avaliada separadamente. Manual Identificação 30%, Caderno Custódia 15%, Manual Alimentação 10%; sequência calibração/interrupção não resolvida, nenhuma validação ou ativação.",
     "C803: Manual de Identificação Vincular 100% do conteúdo disponível compreendido e transcrito. Integração suporte/assinatura/continuidade/referência, leitura sem ruptura e critérios teóricos de interrupção. Não prova funcionamento da matriz, sequência operacional, segurança ou aplicação a Vaelith.",
-    "C804: Caderno de Procedimentos de Custódia 100% do conteúdo disponível compreendido e transcrito. Preparação, calibração, isolamento, aferição conjunta integridade/estabilidade/continuidade, interrupção e encaminhamento autorizado. Requisito teórico: isolar/interromper aferição sem romper vínculo. Configuração e operação ainda não validadas."
+    "C804: Caderno de Procedimentos de Custódia 100% do conteúdo disponível compreendido e transcrito. Preparação, calibração, isolamento, aferição conjunta integridade/estabilidade/continuidade, interrupção e encaminhamento autorizado. Requisito teórico: isolar/interromper aferição sem romper vínculo. Configuração e operação ainda não validadas.",
+    "C805: Manual de Alimentação e Isolamento Etérico 100% conteúdo disponível compreendido e transcrito. Arquitetura teórica fonte externa, regulação, distribuição, isolamento e interrupção; sequência preparação desenergizada, isolamento, alimentação controlada, calibração e aferição. Fonte independente do suporte como requisito. Nenhuma montagem, fonte ou segurança validada."
   ],
-  "retomada": "Dia93 noite: Caderno Custódia100% compreendido e transcrito, +40XP, XP940/1000 ouro10. Manual Identificação100%, Alimentação10%, inventário inalterado."
+  "retomada": "Dia93 noite avançada: Manual Alimentação/Isolamento100%, Identificação100%, Caderno100%, +40XP, XP980/1000 ouro10. Sem ativação, inventário inalterado."
 }
