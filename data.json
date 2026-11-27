@@ -1,27 +1,27 @@
 {
   "schema": 1,
-  "checkpoint": "V597",
-  "cena": 805,
-  "proxima": 806,
-  "dia": 93,
-  "periodo": "Noite",
+  "checkpoint": "V598",
+  "cena": 806,
+  "proxima": 807,
+  "dia": 94,
+  "periodo": "Inicio da noite",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
     "heranca": "Herança das Sombras",
-    "nivel": 11,
+    "nivel": 12,
     "aparencia": "Jovem espadachim arcano de cabelos negros, aspecto atlético, capa e roupas de mago/espadachim, cicatriz negra permanente da mão ao pescoço. Marca avermelhada do Abismo desapareceu C588. Retrato aprovado permanece referência histórica; não reintroduzir marca vermelha.",
     "recursos": {
-      "hp": 115,
-      "hp_max": 115,
-      "mp": 78,
-      "mp_max": 78,
-      "pe": 50,
+      "hp": 120,
+      "hp_max": 120,
+      "mp": 83,
+      "mp_max": 83,
+      "pe": 30,
       "pe_max": 50,
-      "xp_nivel": 980,
-      "xp_total": 5630,
+      "xp_nivel": 145,
+      "xp_total": 5795,
       "ouro": 10,
-      "xp_proximo_nivel": 1000
+      "xp_proximo_nivel": 1100
     },
     "atributos": {
       "for": 6,
@@ -30,7 +30,7 @@
       "res": 11,
       "def": 17,
       "rd": 7,
-      "pontos_livres": 0
+      "pontos_livres": 2
     },
     "condicoes": [
       {
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 2,
+      "noites": 0,
       "necessarias": 2
     }
   },
@@ -714,15 +714,19 @@
       "id": "estudo-manual-estabilizacao-vinculos",
       "nome": "Manual de Estabilização de Vínculos",
       "categoria": "estudo_documental",
-      "objetivo": "Compreender preservação em trânsito",
-      "progresso": "0%; recuperado, não estudado"
+      "objetivo": "Compreender integralmente os trechos preservados: Estabilização de Vínculos",
+      "progresso": "100%; C806 conteúdo disponível compreendido e transcrito. DT25 total36 excepcional. Princípios de manutenção do elo durante transporte e alterações etéricas. Hipótese estrutura auxiliar para reduzir oscilações, preservando suporte original. Aplicação proposta: proteção de Vaelith durante intervenções, sem modificar ancoragem. Sem validação experimental.",
+      "efeito_atual": "Compreensão teórica, sem bônus mecânico permanente.",
+      "condicao_para_prosseguir": "Integrar e validar com referências inertes antes de qualquer ensaio sapiente; não presumir aplicação a Vaelith."
     },
     {
       "id": "estudo-tratado-continuidade-espiritual",
       "nome": "Tratado sobre a Continuidade Espiritual",
       "categoria": "estudo_documental",
-      "objetivo": "Teoria consciência, identidade e suporte; estudo 0%.",
-      "progresso": "0%; recuperado; estudo aprofundado pendente"
+      "objetivo": "Compreender integralmente os trechos preservados: Continuidade Espiritual",
+      "progresso": "100%; C806 conteúdo disponível compreendido e transcrito. DT25 total34 sucesso. Distinguir consciência, identidade e suporte; avaliar preservação de memórias, personalidade, autonomia e continuidade em eventual transferência. Não comprova que identidade sobreviva sem suporte. Sem validação experimental.",
+      "efeito_atual": "Compreensão teórica, sem bônus mecânico permanente.",
+      "condicao_para_prosseguir": "Integrar e validar com referências inertes antes de qualquer ensaio sapiente; não presumir aplicação a Vaelith."
     },
     {
       "id": "estudo-manual-identificacao-vincular",
@@ -746,36 +750,45 @@
       "id": "estudo-catalogo-tipologias-vinculares",
       "nome": "Catálogo de Tipologias Vinculares",
       "categoria": "estudo_documental",
-      "objetivo": "Distingue intenção original e condições de manutenção; estudo 0%.",
-      "progresso": "0%; recuperado; estudo aprofundado pendente"
+      "objetivo": "Compreender integralmente os trechos preservados: Tipologias Vinculares",
+      "progresso": "100%; C806 conteúdo disponível compreendido e transcrito. DT20 total35 excepcional. Distinguir intenção/origem e mecanismo atual de manutenção; retirada de consentimento não termina necessariamente o elo. Classificar antes de intervir, sem atribuir categoria a Vaelith. Sem validação experimental.",
+      "efeito_atual": "Compreensão teórica, sem bônus mecânico permanente.",
+      "condicao_para_prosseguir": "Integrar e validar com referências inertes antes de qualquer ensaio sapiente; não presumir aplicação a Vaelith."
     },
     {
       "id": "estudo-compendio-anomalias-vinculares",
       "nome": "Compêndio de Anomalias Vinculares",
       "categoria": "estudo_documental",
-      "objetivo": "Instabilidade e assinatura espiritual; estudo 0%.",
-      "progresso": "0%; recuperado; estudo aprofundado pendente"
+      "objetivo": "Compreender integralmente os trechos preservados: Anomalias Vinculares",
+      "progresso": "100%; C806 conteúdo disponível compreendido e transcrito. DT25 total34 sucesso. Distinguir oscilações de assinatura, interferência externa e instabilidade do suporte; formular critérios teóricos de diagnóstico diferencial e interrupção preventiva, sem interpretar leitura alterada como deterioração automaticamente. Sem validação experimental.",
+      "efeito_atual": "Compreensão teórica, sem bônus mecânico permanente.",
+      "condicao_para_prosseguir": "Integrar e validar com referências inertes antes de qualquer ensaio sapiente; não presumir aplicação a Vaelith."
     },
     {
       "id": "estudo-diretrizes-transferencia-vincular-controlada",
       "nome": "Diretrizes de Transferência Vincular Controlada",
       "categoria": "estudo_documental",
-      "objetivo": "Princípios para investigar transferência preservando continuidade; estudo 0%.",
-      "progresso": "0%; recuperado; estudo aprofundado pendente"
+      "objetivo": "Compreender integralmente os trechos preservados: Transferência Vincular Controlada",
+      "progresso": "100%; C806 conteúdo disponível compreendido e transcrito. DT30 total45 excepcional. Fundamentos teóricos de transferência gradual com possível ancoragem auxiliar antes de modificar a original, continuidade e identidade preservadas, possibilidade de retorno e nenhuma etapa sem suporte. Consentimento e validação necessários; dupla ancoragem apenas hipótese. Sem validação experimental.",
+      "efeito_atual": "Compreensão teórica, sem bônus mecânico permanente.",
+      "condicao_para_prosseguir": "Integrar e validar com referências inertes antes de qualquer ensaio sapiente; não presumir aplicação a Vaelith."
     },
     {
       "id": "matriz-propria-identificacao-vincular",
       "nome": "Matriz Própria de Identificação Vincular",
       "categoria": "fundamentacao_teorica_avancada",
       "objetivo": "Reproduzir método de investigação não destrutiva de vínculos",
-      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação. C803: Manual Identificação Vincular100% compreendido, transcrição e integração teórica dos quatro fundamentos, critérios de referência e interrupção; não valida funções dos pilares nem sequência de operação, alimentação, calibração física ou aplicação. C804: Caderno Custódia100% compreendido. Requisitos teóricos de aferição conjunta de integridade, estabilidade e continuidade, isolamento do processo sem ruptura, interrupção preventiva independente do vínculo, documentação e encaminhamento autorizado; configuração e operação ainda não validadas. C805: Manual Alimentação/Isolamento100% conteúdo disponível compreendido. Arquitetura teórica fonte externa→regulação→distribuição→matriz, isolamento/interrupção independentes; sequência de preparação, alimentação controlada, calibração e aferição compreendida em teoria. Fonte, compatibilidade dos componentes, configuração física e segurança ainda não comprovadas; nenhuma montagem."
+      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação. C803: Manual Identificação Vincular100% compreendido, transcrição e integração teórica dos quatro fundamentos, critérios de referência e interrupção; não valida funções dos pilares nem sequência de operação, alimentação, calibração física ou aplicação. C804: Caderno Custódia100% compreendido. Requisitos teóricos de aferição conjunta de integridade, estabilidade e continuidade, isolamento do processo sem ruptura, interrupção preventiva independente do vínculo, documentação e encaminhamento autorizado; configuração e operação ainda não validadas. C805: Manual Alimentação/Isolamento100% conteúdo disponível compreendido. Arquitetura teórica fonte externa→regulação→distribuição→matriz, isolamento/interrupção independentes; sequência de preparação, alimentação controlada, calibração e aferição compreendida em teoria. Fonte, compatibilidade dos componentes, configuração física e segurança ainda não comprovadas; nenhuma montagem. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo.",
+      "efeito_atual": "Projeto I conceitual, fundamentação documental dos oito volumes concluída; sem protótipo ou bônus.",
+      "condicao_para_prosseguir": "Analisar componentes passivamente, definir fonte/materiais, projetar bancada e validar com referências inertes. Limites e segurança não comprovados."
     },
     {
       "id": "transferencia-vincular-controlada",
       "nome": "Transferência Vincular Controlada",
       "categoria": "linha-de-pesquisa",
       "objetivo": "Investigar transferência segura preservando consciência",
-      "progresso": "Diretrizes recuperadas; estudo e validação pendentes."
+      "progresso": "C806 diretrizes100% estudadas; hipótese de ancoragem original→dupla temporária→nova, preservar identidade, continuidade, autonomia e retorno. Não demonstrada. Nenhuma transferência realizada.",
+      "condicao_para_prosseguir": "Diagnóstico e classificação individual, consentimento de Vaelith, validação de estabilização auxiliar e retorno, compatibilidade com selo, antes de intervenção."
     },
     {
       "id": "lume-errante-longa-duracao-i",
@@ -1242,12 +1255,14 @@
       "id": "manual-estabilizacao-vinculos",
       "nome": "Manual de Estabilização de Vínculos",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Diagramas de manutenção do vínculo durante transporte; estudo 0%.",
+      "descricao": "Estudo 100% do conteúdo disponível, compreendido teoricamente C806. Princípios de manutenção do elo durante transporte e alterações etéricas. Hipótese estrutura auxiliar para reduzir oscilações, preservando suporte original. Aplicação proposta: proteção de Vaelith durante intervenções, sem modificar ancoragem.",
       "restricoes": [
         "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
       ],
       "propriedades": [
-        "Diagramas de manutenção do vínculo durante transporte; estudo 0%."
+        "C806: conteúdo disponível compreendido e transcrito integralmente.",
+        "Princípios de manutenção do elo durante transporte e alterações etéricas. Hipótese estrutura auxiliar para reduzir oscilações, preservando suporte original. Aplicação proposta: proteção de Vaelith durante intervenções, sem modificar ancoragem.",
+        "Não validado experimentalmente."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1354,12 +1369,14 @@
       "id": "tratado-continuidade-espiritual",
       "nome": "Tratado sobre a Continuidade Espiritual",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Teoria consciência, identidade e suporte; estudo 0%.",
+      "descricao": "Estudo 100% do conteúdo disponível, compreendido teoricamente C806. Distinguir consciência, identidade e suporte; avaliar preservação de memórias, personalidade, autonomia e continuidade em eventual transferência. Não comprova que identidade sobreviva sem suporte.",
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
       ],
       "propriedades": [
-        "Teoria consciência, identidade e suporte; estudo 0%."
+        "C806: conteúdo disponível compreendido e transcrito integralmente.",
+        "Distinguir consciência, identidade e suporte; avaliar preservação de memórias, personalidade, autonomia e continuidade em eventual transferência. Não comprova que identidade sobreviva sem suporte.",
+        "Não validado experimentalmente."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1484,12 +1501,14 @@
       "id": "catalogo-tipologias-vinculares",
       "nome": "Catálogo de Tipologias Vinculares",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Distingue intenção original e condições de manutenção; estudo 0%.",
+      "descricao": "Estudo 100% do conteúdo disponível, compreendido teoricamente C806. Distinguir intenção/origem e mecanismo atual de manutenção; retirada de consentimento não termina necessariamente o elo. Classificar antes de intervir, sem atribuir categoria a Vaelith.",
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
       ],
       "propriedades": [
-        "Distingue intenção original e condições de manutenção; estudo 0%."
+        "C806: conteúdo disponível compreendido e transcrito integralmente.",
+        "Distinguir intenção/origem e mecanismo atual de manutenção; retirada de consentimento não termina necessariamente o elo. Classificar antes de intervir, sem atribuir categoria a Vaelith.",
+        "Não validado experimentalmente."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1516,12 +1535,14 @@
       "id": "compendio-anomalias-vinculares",
       "nome": "Compêndio de Anomalias Vinculares",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Instabilidade e assinatura espiritual; estudo 0%.",
+      "descricao": "Estudo 100% do conteúdo disponível, compreendido teoricamente C806. Distinguir oscilações de assinatura, interferência externa e instabilidade do suporte; formular critérios teóricos de diagnóstico diferencial e interrupção preventiva, sem interpretar leitura alterada como deterioração automaticamente.",
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
       ],
       "propriedades": [
-        "Instabilidade e assinatura espiritual; estudo 0%."
+        "C806: conteúdo disponível compreendido e transcrito integralmente.",
+        "Distinguir oscilações de assinatura, interferência externa e instabilidade do suporte; formular critérios teóricos de diagnóstico diferencial e interrupção preventiva, sem interpretar leitura alterada como deterioração automaticamente.",
+        "Não validado experimentalmente."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1548,12 +1569,14 @@
       "id": "diretrizes-transferencia-vincular-controlada",
       "nome": "Diretrizes de Transferência Vincular Controlada",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Princípios para investigar transferência preservando continuidade; estudo 0%.",
+      "descricao": "Estudo 100% do conteúdo disponível, compreendido teoricamente C806. Fundamentos teóricos de transferência gradual com possível ancoragem auxiliar antes de modificar a original, continuidade e identidade preservadas, possibilidade de retorno e nenhuma etapa sem suporte. Consentimento e validação necessários; dupla ancoragem apenas hipótese.",
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
       ],
       "propriedades": [
-        "Princípios para investigar transferência preservando continuidade; estudo 0%."
+        "C806: conteúdo disponível compreendido e transcrito integralmente.",
+        "Fundamentos teóricos de transferência gradual com possível ancoragem auxiliar antes de modificar a original, continuidade e identidade preservadas, possibilidade de retorno e nenhuma etapa sem suporte. Consentimento e validação necessários; dupla ancoragem apenas hipótese.",
+        "Não validado experimentalmente."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1915,7 +1938,7 @@
     },
     {
       "nome": "Matriz Própria de Identificação Vincular",
-      "texto": "Estudar manuais, pranchas, diagramas, calibração e componentes; testar bancada isolada com referências inertes antes de diagnóstico consensual. Sem ativação."
+      "texto": "C806 Projeto I conceitual de Identificação e Estabilização Vincular, oito documentos100%; balanço energético, comparação de três parâmetros e hipótese de dupla ancoragem. Análise passiva dos componentes, fonte, projeto detalhado, bancada e validação com referências inertes pendentes. Nenhum ensaio."
     },
     {
       "nome": "Cartografia comercial",
@@ -1931,7 +1954,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa mobiliada, Lyra tem quarto reservado e pode visitar quando quiser; deseja trazer livros, rotina de estudos a combinar. C801 todos os dez bens antes custodiados no Santuário recuperados e guardados em casa: total64 tipos/73 unidades. Mochila6 tipos, sem custódia ativa. Faltam roupas de cama e pertences de uso pessoal."
+      "texto": "Primeira noite do casal em casa Dia93→94 C806; café com mantimentos de Serenya. Lyra não pernoitou, quarto reservado e estudos preservados; horários a combinar. Depósito64 tipos/73 unidades, mochila6 tipos, custódia0. Roupas de cama adicionais e pertences pendentes."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1951,7 +1974,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Coproprietária Casa das Violetas; reafirmou acolhimento de Lyra e sugeriu decorar o quarto juntas."
+      "texto": "Coproprietária Casa das Violetas; primeira noite do casal em casa C806, café Dia94. Acolhimento de Lyra mantido, nenhum novo compromisso formal."
     },
     {
       "nome": "Lyra",
@@ -1977,7 +2000,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, noite avançada Dia93; Manual Alimentação100%, Identificação100%, Caderno Custódia100%, dois cavalos no Santuário.",
+      "texto": "Casa das Violetas, Dia94 início da noite; primeira noite na casa concluída, estudos oito documentos100% e Projeto I conceitual; dois cavalos no Santuário.",
       "atual": true
     },
     {
@@ -2034,7 +2057,8 @@
     "C802: assinatura momentaneamente indistinguível não demonstra perda da consciência; continuidade precisa ser avaliada separadamente. Manual Identificação 30%, Caderno Custódia 15%, Manual Alimentação 10%; sequência calibração/interrupção não resolvida, nenhuma validação ou ativação.",
     "C803: Manual de Identificação Vincular 100% do conteúdo disponível compreendido e transcrito. Integração suporte/assinatura/continuidade/referência, leitura sem ruptura e critérios teóricos de interrupção. Não prova funcionamento da matriz, sequência operacional, segurança ou aplicação a Vaelith.",
     "C804: Caderno de Procedimentos de Custódia 100% do conteúdo disponível compreendido e transcrito. Preparação, calibração, isolamento, aferição conjunta integridade/estabilidade/continuidade, interrupção e encaminhamento autorizado. Requisito teórico: isolar/interromper aferição sem romper vínculo. Configuração e operação ainda não validadas.",
-    "C805: Manual de Alimentação e Isolamento Etérico 100% conteúdo disponível compreendido e transcrito. Arquitetura teórica fonte externa, regulação, distribuição, isolamento e interrupção; sequência preparação desenergizada, isolamento, alimentação controlada, calibração e aferição. Fonte independente do suporte como requisito. Nenhuma montagem, fonte ou segurança validada."
+    "C805: Manual de Alimentação e Isolamento Etérico 100% conteúdo disponível compreendido e transcrito. Arquitetura teórica fonte externa, regulação, distribuição, isolamento e interrupção; sequência preparação desenergizada, isolamento, alimentação controlada, calibração e aferição. Fonte independente do suporte como requisito. Nenhuma montagem, fonte ou segurança validada.",
+    "C806: cinco documentos restantes 100% conteúdo disponível compreendido e transcrito: Estabilização, Continuidade Espiritual, Tipologias, Anomalias e Transferência Controlada. Todos oito estudos concluídos teoricamente. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo."
   ],
-  "retomada": "Dia93 noite avançada: Manual Alimentação/Isolamento100%, Identificação100%, Caderno100%, +40XP, XP980/1000 ouro10. Sem ativação, inventário inalterado."
+  "retomada": "Dia94 início da noite: primeira noite em casa concluída, oito documentos100% e Projeto I conceitual. Nível12, XP145/1100, 2 pontos livres, PE30/50, ouro10. Sem ensaio."
 }
