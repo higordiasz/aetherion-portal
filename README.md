@@ -21,3 +21,7 @@ A ficha ocupa exatamente a altura dinâmica da viewport (`100dvh`), sem rolagem 
 Em telas largas, ataques, defesa/suporte e técnicas/bônus possuem rolagem interna independente. Técnicas permanecem visíveis durante buscas e filtros de ações. Bônus rápidos usam valores atuais do snapshot e são condicionais à cena. Em telas estreitas o painel organiza técnicas primeiro, seguido das ações. Sem alterações de regras ou data.json.
 
 A aba Combate exibe apenas as três categorias, sem moldura externa, cabeçalho geral, busca ou filtros. Os filtros de outras abas são preservados.
+
+## Categorias em toda a ficha
+
+As dez abas usam painéis por categoria, com rolagem interna e sem moldura geral. Inventário agrupa equipamentos/recursos, evidências e documentos; Grimório separa magias ofensivas, demais magias permanentes e protótipos; Pesquisas distingue linhas em andamento, estudos documentais e validadas. Conhecimentos consulta descobertas, estudos consolidados, habilidades e teorias (sem conceder poderes). Missões separa contratos abertos, objetivos e histórico conforme status canônico. Maestrias, relações, mapas e visão geral também são organizados em painéis. Busca/filtros mantidos apenas nas listas extensas, sem busca no Combate. Dados preservados.
