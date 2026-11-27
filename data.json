@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V566",
-  "cena": 774,
-  "proxima": 775,
+  "checkpoint": "V567",
+  "cena": 775,
+  "proxima": 776,
   "dia": 91,
   "periodo": "Tarde",
   "personagem": {
@@ -20,7 +20,7 @@
       "pe_max": 50,
       "xp_nivel": 635,
       "xp_total": 5285,
-      "ouro": 118,
+      "ouro": 3,
       "xp_proximo_nivel": 1000
     },
     "atributos": {
@@ -1298,6 +1298,34 @@
       ],
       "quantidade": 1,
       "equipado": false
+    },
+    {
+      "id": "escritura-casa-das-violetas",
+      "nome": "Escritura da Casa das Violetas",
+      "categoria": "documento",
+      "descricao": "Via da escritura registrada em nome de Ashborn e Serenya, comprova aquisição conjunta da casa e quintal por115ouro, quitados C775.",
+      "restricoes": [
+        "Sem efeito mágico ou valor de revenda estabelecido."
+      ],
+      "propriedades": [
+        "Via da escritura registrada em nome de Ashborn e Serenya, comprova aquisição conjunta da casa e quintal por115ouro, quitados C775."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "chave-casa-das-violetas-ashborn",
+      "nome": "Chave da Casa das Violetas",
+      "categoria": "chave",
+      "descricao": "Chave pessoal de Ashborn, entregue por Beren após formalização C775.",
+      "restricoes": [
+        "Sem efeito mágico ou valor de revenda estabelecido."
+      ],
+      "propriedades": [
+        "Chave pessoal de Ashborn, entregue por Beren após formalização C775."
+      ],
+      "quantidade": 1,
+      "equipado": false
     }
   ],
   "cavalos": 2,
@@ -1494,7 +1522,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Loja de tecidos de Beren Valdor — Praça dos Artesãos",
+  "local": "Associação dos Carreteiros — salão de atendimento",
   "agua": {
     "total": 1.2,
     "tratada": 1.2,
@@ -1565,7 +1593,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Preço verbal115 aceito C774 (desconto30). Conferir documentos, condições e definir pagamento/contribuição; nenhuma aquisição. Reparos8–12, mobília8–25 estimados."
+      "texto": "Casa das Violetas adquirida e quitada C775 por115ouro, copropriedade Ashborn/Serenya. Serenya assumiu futuros reparos; Ashborn busca mobília8–25. Sem mudança/pernoite. Ofertas Elira6/12/22ouro, nenhuma aceita."
     }
   ],
   "relacoes": [
@@ -1577,7 +1605,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Feliz com aceitação verbal115ouro pela Casa das Violetas, até30 de contribuição condicional, sem transferência."
+      "texto": "Coproprietária da Casa das Violetas com Ashborn; ele pagou115, ela assumiu futuros reparos. Nenhuma alteração de casamento/exclusividade."
     },
     {
       "nome": "Lyra",
@@ -1598,7 +1626,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Local atual: loja de tecidos de Beren Valdor, Praça dos Artesãos; dois cavalos no Santuário.",
+      "texto": "Local atual: Associação dos Carreteiros; Casa das Violetas adquirida perto Jardim Alvor. Dois cavalos continuam Santuário.",
       "atual": true
     },
     {
@@ -1645,5 +1673,5 @@
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão."
   ],
-  "retomada": "Dia91 tarde: Beren aceitou verbalmente115ouro pela Casa das Violetas; documentos disponíveis para conferência. Sem compra. PE5/50, novo ciclo0/2."
+  "retomada": "Dia91 tarde: Casa das Violetas adquirida por115, copropriedade Ashborn/Serenya; saldo3. Serenya organiza reparos; Elira oferece serviços6/12/22ouro, nenhum aceito."
 }
