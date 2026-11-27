@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V595",
-  "cena": 803,
-  "proxima": 804,
+  "checkpoint": "V596",
+  "cena": 804,
+  "proxima": 805,
   "dia": 93,
-  "periodo": "Inicio da noite",
+  "periodo": "Noite",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 50,
       "pe_max": 50,
-      "xp_nivel": 900,
-      "xp_total": 5550,
+      "xp_nivel": 940,
+      "xp_total": 5590,
       "ouro": 10,
       "xp_proximo_nivel": 1000
     },
@@ -705,8 +705,10 @@
       "id": "estudo-caderno-custodia",
       "nome": "Caderno de Procedimentos de Custódia",
       "categoria": "estudo_documental",
-      "objetivo": "Compreender aferição e custódia",
-      "progresso": "15%; C802 leitura complementar e cotejo de procedimentos de aferição, isolamento e interrupção com manuais CR04 e folha PC03. Ordem operacional não resolvida."
+      "objetivo": "Compreender integralmente o conteúdo disponível dos procedimentos de custódia, preparação, calibração, isolamento, aferição, interrupção e encaminhamento autorizado.",
+      "progresso": "100%; conteúdo disponível compreendido e transcrito C804. DT20 total40 natural20 e DT25 total39 excepcionais. Seis etapas: preparação do suporte, calibração de referências independentes, isolamento do processo de aferição sem romper elo, aferição conjunta integridade/estabilidade/continuidade, interrupção preventiva preservando elo, registro e encaminhamento autorizado. Distinção teórica entre interromper aferição e interromper vínculo. Não valida configuração rúnica, operação ou segurança efetiva.",
+      "efeito_atual": "Compreensão teórica dos protocolos de custódia; requisito de projeto: isolar e interromper aferição sem romper vínculo. Sem bônus mecânico novo.",
+      "condicao_para_prosseguir": "Estudar alimentação e isolamento etérico, confirmar configuração rúnica, sequência operacional e validar referências inertes antes de qualquer ensaio sapiente."
     },
     {
       "id": "estudo-manual-estabilizacao-vinculos",
@@ -764,7 +766,7 @@
       "nome": "Matriz Própria de Identificação Vincular",
       "categoria": "fundamentacao_teorica_avancada",
       "objetivo": "Reproduzir método de investigação não destrutiva de vínculos",
-      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação. C803: Manual Identificação Vincular100% compreendido, transcrição e integração teórica dos quatro fundamentos, critérios de referência e interrupção; não valida funções dos pilares nem sequência de operação, alimentação, calibração física ou aplicação."
+      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação. C803: Manual Identificação Vincular100% compreendido, transcrição e integração teórica dos quatro fundamentos, critérios de referência e interrupção; não valida funções dos pilares nem sequência de operação, alimentação, calibração física ou aplicação. C804: Caderno Custódia100% compreendido. Requisitos teóricos de aferição conjunta de integridade, estabilidade e continuidade, isolamento do processo sem ruptura, interrupção preventiva independente do vínculo, documentação e encaminhamento autorizado; configuração e operação ainda não validadas."
     },
     {
       "id": "transferencia-vincular-controlada",
@@ -1045,12 +1047,13 @@
       "id": "caderno-procedimentos-custodia",
       "nome": "Caderno de Procedimentos de Custódia",
       "categoria": "evidencia_arqueologica",
-      "descricao": "estudo 15%; preparação, aferição, isolamento, encaminhamento.",
+      "descricao": "Estudo 100% do conteúdo disponível; preparação, calibração, aferição, isolamento, interrupção e encaminhamento autorizado compreendidos teoricamente.",
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
       ],
       "propriedades": [
-        "estudo 15%; preparação, aferição, isolamento, encaminhamento."
+        "Estudo 100% do conteúdo disponível; seis etapas de custódia compreendidas e transcritas C804.",
+        "Requisito teórico: isolamento e interrupção da aferição devem preservar vínculo original; nenhuma validação funcional."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1971,7 +1974,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, início da noite Dia93; Manual Identificação Vincular 100% compreendido, sem ativação; dois cavalos no Santuário.",
+      "texto": "Casa das Violetas, noite Dia93; Caderno Custódia100% compreendido, Manual Identificação100%, dois cavalos Santuário.",
       "atual": true
     },
     {
@@ -2026,7 +2029,8 @@
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
     "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente.",
     "C802: assinatura momentaneamente indistinguível não demonstra perda da consciência; continuidade precisa ser avaliada separadamente. Manual Identificação 30%, Caderno Custódia 15%, Manual Alimentação 10%; sequência calibração/interrupção não resolvida, nenhuma validação ou ativação.",
-    "C803: Manual de Identificação Vincular 100% do conteúdo disponível compreendido e transcrito. Integração suporte/assinatura/continuidade/referência, leitura sem ruptura e critérios teóricos de interrupção. Não prova funcionamento da matriz, sequência operacional, segurança ou aplicação a Vaelith."
+    "C803: Manual de Identificação Vincular 100% do conteúdo disponível compreendido e transcrito. Integração suporte/assinatura/continuidade/referência, leitura sem ruptura e critérios teóricos de interrupção. Não prova funcionamento da matriz, sequência operacional, segurança ou aplicação a Vaelith.",
+    "C804: Caderno de Procedimentos de Custódia 100% do conteúdo disponível compreendido e transcrito. Preparação, calibração, isolamento, aferição conjunta integridade/estabilidade/continuidade, interrupção e encaminhamento autorizado. Requisito teórico: isolar/interromper aferição sem romper vínculo. Configuração e operação ainda não validadas."
   ],
-  "retomada": "Dia93 início da noite: Manual Identificação Vincular100% conteúdo disponível compreendido e transcrito; +35XP, XP900/1000, ouro10. Demais estudos e inventário inalterados."
+  "retomada": "Dia93 noite: Caderno Custódia100% compreendido e transcrito, +40XP, XP940/1000 ouro10. Manual Identificação100%, Alimentação10%, inventário inalterado."
 }
