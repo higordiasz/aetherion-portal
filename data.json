@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V560",
-  "cena": 768,
-  "proxima": 769,
+  "checkpoint": "V561",
+  "cena": 769,
+  "proxima": 770,
   "dia": 91,
   "periodo": "Manha",
   "personagem": {
@@ -1562,6 +1562,10 @@
     {
       "nome": "Templo do Primeiro Limiar",
       "texto": "Comparar assinatura da fixação distante C766 com fontes do Primeiro Limiar; localização e relação ainda desconhecidas."
+    },
+    {
+      "nome": "Lar em Luméria",
+      "texto": "Procurar casas juntos após meio-dia91; orçamento potencial148ouro (Ashborn118, Serenya até30 oferecidos, não transferidos). Nenhuma oferta de imóvel confirmada."
     }
   ],
   "relacoes": [
@@ -1573,7 +1577,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Romance assumido. Reencontro afetuoso na manhã91, abraço e beijos recíprocos; conversa em andamento."
+      "texto": "Reencontro manhã91. Pretende procurar casa com Ashborn após meio-dia, oferece até30ouro de contribuição condicional, sem transferência."
     },
     {
       "nome": "Lyra",
@@ -1641,5 +1645,5 @@
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão."
   ],
-  "retomada": "Dia91 manhã: noite concluída, MP recuperada, PE10 (1/2 noites); café e checkout concluídos. Dois cavalos Santuário. Reencontro com Serenya, ela perguntou como está. Pesquisa da madrugada reservada."
+  "retomada": "Dia91 manhã: Serenya aceita procurar casa à tarde, oferece até30ouro de contribuição condicional; ainda juntos no jardim, sem compra ou gasto."
 }
