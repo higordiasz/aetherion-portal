@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V541",
-  "cena": 749,
-  "proxima": 750,
+  "checkpoint": "V542",
+  "cena": 750,
+  "proxima": 751,
   "dia": 88,
   "periodo": "Anoitecer",
   "personagem": {
@@ -14,12 +14,12 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 62,
+      "mp": 58,
       "mp_max": 78,
       "pe": 0,
       "pe_max": 50,
-      "xp_nivel": 405,
-      "xp_total": 5055,
+      "xp_nivel": 415,
+      "xp_total": 5065,
       "ouro": 58,
       "xp_proximo_nivel": 1000
     },
@@ -1249,6 +1249,34 @@
       ],
       "quantidade": 1,
       "equipado": false
+    },
+    {
+      "id": "controle-remessas-retornos-cr04",
+      "nome": "Controle de Remessas e Retornos",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Conjunto administrativo com códigos de custódia, referências a instalações e colunas de confirmação de recebimento; interpretação cruzada ainda inconclusiva.",
+      "restricoes": [
+        "Não inferir conteúdo ainda não interpretado, identidade RCA117 ou confirmação de recebimento."
+      ],
+      "propriedades": [
+        "Conjunto administrativo com códigos de custódia, referências a instalações e colunas de confirmação de recebimento; interpretação cruzada ainda inconclusiva."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "fragmentos-protocolos-custodia-cr04",
+      "nome": "Fragmentos de Protocolos de Custódia",
+      "categoria": "evidencia_arqueologica",
+      "descricao": "Folhas deterioradas com inscrições incompletas e tabelas de classificação, parte recuperável; interpretação detalhada pendente.",
+      "restricoes": [
+        "Não inferir conteúdo ainda não interpretado, identidade RCA117 ou confirmação de recebimento."
+      ],
+      "propriedades": [
+        "Folhas deterioradas com inscrições incompletas e tabelas de classificação, parte recuperável; interpretação detalhada pendente."
+      ],
+      "quantidade": 1,
+      "equipado": false
     }
   ],
   "cavalos": 2,
@@ -1436,7 +1464,7 @@
       "progresso": "Diretrizes recuperadas; estudo e validação pendentes."
     }
   ],
-  "local": "Câmara de Registro CR-04 — arquivo restrito",
+  "local": "Câmara de Registro CR-04 — exterior",
   "agua": {
     "total": 2,
     "tratada": 1.5,
@@ -1540,7 +1568,7 @@
     },
     {
       "nome": "CR-04 · Câmara de Registro",
-      "texto": "Local atual. Trajeto desde ET-02: cerca de 2h40.",
+      "texto": "Local atual: exterior. Trajeto desde ET-02: cerca de 2h40. Perímetro reconhecido, encosta parcialmente examinada.",
       "atual": true
     }
   ],
@@ -1550,7 +1578,8 @@
     "Anexo nominal remetido à CI-01; recebimento e localização não confirmados.",
     "Matriz de identificação e circuito de alimentação documentados passivamente; nenhuma ativação.",
     "Porta dupla e grade abertas mecanicamente; arquivo reforçado aberto mecanicamente C749.",
-    "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos ainda nas gavetas."
+    "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
+    "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Gavetas reforçadas abertas; documentos administrativos e fragmentos ainda no local, leitura inconclusiva. Decidir recolhimento, vistoria externa ou saída. Verificar cavalo e pouso se autorizado; retorno planejado dia89, noite88 não transcorreu."
+  "retomada": "Documentos das gavetas recolhidos; vistoria externa concluída com reconhecimento parcial da encosta. Cavalo avistado amarrado, sem exame físico. Escolher pouso, atualização de mapa ou outra ação; retorno planejado dia89, noite88 não transcorreu."
 }
