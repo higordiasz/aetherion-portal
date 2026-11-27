@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V545",
-  "cena": 753,
-  "proxima": 754,
+  "checkpoint": "V546",
+  "cena": 754,
+  "proxima": 755,
   "dia": 88,
   "periodo": "Noite",
   "personagem": {
@@ -14,12 +14,12 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 36,
+      "mp": 22,
       "mp_max": 78,
       "pe": 0,
       "pe_max": 50,
-      "xp_nivel": 470,
-      "xp_total": 5120,
+      "xp_nivel": 490,
+      "xp_total": 5140,
       "ouro": 58,
       "xp_proximo_nivel": 1000
     },
@@ -183,6 +183,14 @@
       "efeito": "Voo autônomo individual por até5 turnos, deslocamento controlado até6m/turno com curvas e realinhamentos, pouso dinâmico por desaceleração; altitude segura demonstrada até2m. NÃO voo contínuo, viagem longa, altitude alta, passageiros, tempestades, esquiva automática ou recast seguro em pleno ar.",
       "limite": "8MP por conjuração; 5turnos, até6m/turno, altura segura até2m. Exige novas pesquisas para travessias longas, grande altitude, vento forte ou prolongamento além de5 turnos.",
       "custo_variavel": false
+    },
+    {
+      "id": "lume-errante-longa-duracao-i",
+      "nome": "Lume Errante — Longa Duração I",
+      "mp": 14,
+      "efeito": "Esfera luminosa móvel acompanha conjurador, iluminação raio15m por até180min; dissipação segura ao término.",
+      "limite": "14MP por conjuração, até3h; não atravessa obstáculos, não concede visão absoluta ou proteção; sem manutenção ilimitada. Lume convencional continua disponível.",
+      "custo_variavel": false
     }
   ],
   "prototipos": [
@@ -236,14 +244,6 @@
       "efeito": "Mão direita de Vaelith moveu folha e tocou mão de Ashborn por poucos segundos.",
       "custo_mp_estimado": 16,
       "limite": "Custo da etapa isolada, depende da sustentação anterior; primeira demonstração localizada, sem corpo completo, duração definitiva ou libertação."
-    },
-    {
-      "id": "lume-errante-longa-duracao-i",
-      "nome": "Lume Errante — Longa Duração I",
-      "status": "experimental",
-      "efeito": "C752–753: raio15m, duração integral180min, deslocamento montado e dissipação segura demonstrados em um ensaio; custo14MP.",
-      "custo_mp_estimado": 14,
-      "limite": "Primeiro ensaio completo de180min, repetibilidade pendente. Não ilumina através de obstáculos, não concede visão absoluta nem proteção; não substitui Lume Errante convencional até aprendizado validado."
     }
   ],
   "maestrias": [
@@ -1474,11 +1474,11 @@
     {
       "id": "lume-errante-longa-duracao-i",
       "nome": "Lume Errante — Longa Duração I",
-      "categoria": "prototipo_experimental",
+      "categoria": "concluida_validada_aprendida",
       "objetivo": "Ampliar iluminação para raio15m, sustentar por até3h em deslocamento.",
-      "progresso": "C751 tentativa improvisada de10m/90min falhou por1, 8MP. C752 projeto de20min, DT24 total41 (natural20), separação emissão/recirculação e estabilização; primeira conjuração DT26 total40, 14MP, raio15m inicialmente demonstrado. Duração e mobilidade pendentes; esquema fundamentado em Sustentação Adaptativa I. C753: DT22 total31, manteve raio15m e estabilidade por180min em viagem; dissipação segura ao limite.",
-      "efeito_atual": "Primeiro ensaio integral validado; Lume expirado. Repetibilidade pendente.",
-      "condicao_para_prosseguir": "Reproduzir conjuração e validar repetibilidade antes de tornar permanente."
+      "progresso": "C751 tentativa improvisada de10m/90min falhou por1, 8MP. C752 projeto de20min, DT24 total41 (natural20), separação emissão/recirculação e estabilização; primeira conjuração DT26 total40, 14MP, raio15m inicialmente demonstrado. Duração e mobilidade pendentes; esquema fundamentado em Sustentação Adaptativa I. C753: DT22 total31, manteve raio15m e estabilidade por180min em viagem; dissipação segura ao limite. C754 reprodução DT24 total35 excepcional (d20=13),14MP, primeira conjuração reproduzida com estabilidade; aprendizado permanente confirmado.",
+      "efeito_atual": "Magia permanente: raio15m, até180min,14MP; acompanha conjurador. Ativa ao fim C754 (0/180min). Lume convencional preservado.",
+      "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
   "local": "Passagem Inferior — margem da travessia, lado ET-02",
@@ -1544,7 +1544,7 @@
     },
     {
       "nome": "Lume Errante — Longa Duração",
-      "texto": "Primeiro ensaio integral de raio15m por3h em viagem validado, dissipação segura. Repetibilidade pendente."
+      "texto": "Pesquisa concluída C754: Lume Errante — Longa Duração I permanente, raio15m/3h,14MP. Lume convencional preservado."
     }
   ],
   "relacoes": [
@@ -1606,5 +1606,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Após3h de retorno acelerado, Ashborn parou na margem da travessia antes de cruzar. Lume experimental expirado, duração e mobilidade comprovadas. Arven estimado3–4h via PC03. Escolher próxima ação; noite88 não completada."
+  "retomada": "Lume Longa Duração I aprendido e ativo (0/180min). Ashborn permanece na margem antes de cruzar, cavalo junto. Arven estimado3–4h via PC03; noite88 ainda não completada."
 }
