@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V599",
-  "cena": 807,
-  "proxima": 808,
+  "checkpoint": "V600",
+  "cena": 808,
+  "proxima": 809,
   "dia": 94,
-  "periodo": "Inicio da noite",
+  "periodo": "Noite",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -14,12 +14,12 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 85,
+      "mp": 57,
       "mp_max": 85,
-      "pe": 30,
+      "pe": 10,
       "pe_max": 50,
-      "xp_nivel": 145,
-      "xp_total": 5795,
+      "xp_nivel": 250,
+      "xp_total": 5900,
       "ouro": 10,
       "xp_proximo_nivel": 1100
     },
@@ -253,6 +253,15 @@
       "efeito": "Primeira manifestação: explosão instantânea radial de Chamas Negras, raio4m centrado na palma, 34 de dano mágico à criatura dentro da área; refluxo6HP ao conjurador.",
       "custo_mp_estimado": 18,
       "limite": "Experimental, sem aquisição permanente ou conjuração segura garantida. Parâmetros do ensaio C782: sucesso34 mágico em raio4m, refluxo6HP; excepcional sem refluxo; falha dissipação sem dano ao alvo, refluxo12HP. Área indiscriminada; sem imunidade automática de aliados/conjurador, dano contínuo, ignição automática ou dano extra à couraça. Exige pesquisa, isolamento do conjurador e reprodução validada; custo/dano/raio definitivos pendentes."
+    },
+    {
+      "id": "manto-da-egide-negra-i",
+      "nome": "Manto da Égide Negra I",
+      "status": "experimental",
+      "observacao": "C808: projeto41/25, reduzido43/25, revisão36/25, refinado46/28, todos excepcionais. 28MP total; 20PE na sequência, nenhuma rerrolagem. Sem lesões, nenhuma magia permanente.",
+      "efeito": "Dois ensaios bem-sucedidos: reduzido12MP, camada dupla3 ciclos; refinado16MP,6 ciclos, amortecimento leve sem desestabilizar chamas. Alvos teóricos +8 DEF e reserva cumulativa15 de absorção, não validados em carga representativa.",
+      "custo_mp_estimado": 16,
+      "limite": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados."
     }
   ],
   "maestrias": [
@@ -816,6 +825,15 @@
       "progresso": "C785 projeto DT24 total33, modelo de ampliação de fluxo estruturado. Fonte pura não identificada, nenhum ensaio ativo, +15XP projeto teórico.",
       "efeito_atual": "Sifão atual permanece até5MP,1 uso disponível por descanso longo; 10MP apenas meta de pesquisa.",
       "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
+    },
+    {
+      "id": "manto-da-egide-negra-i",
+      "nome": "Manto da Égide Negra I",
+      "categoria": "prototipo_magico",
+      "objetivo": "Integrar proteção defensiva sustentada com absorção de impactos em reserva independente.",
+      "progresso": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados.",
+      "efeito_atual": "Protótipo experimental, nenhuma alteração permanente de magias ou atributos.",
+      "condicao_para_prosseguir": "Reproduzir versão refinada, calibrar carga representativa, verificar esgotamento da reserva e dissipação segura antes de validação permanente."
     }
   ],
   "inventario_guardado": [
@@ -1871,7 +1889,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Luméria — Casa das Violetas, escritório",
+  "local": "Luméria — Casa das Violetas, quintal",
   "agua": {
     "total": 1.4,
     "tratada": 1.4,
@@ -1963,6 +1981,10 @@
     {
       "nome": "Sifão de Éter Puro II",
       "texto": "Modelo teórico de ampliação até10MP estruturado C785. Identificar fonte pura e validar transferência segura; habilidade atual permanece até5MP."
+    },
+    {
+      "nome": "Manto da Égide Negra I",
+      "texto": "Protótipo refinado C808, ensaios leves bem-sucedidos. Reproduzir versão16MP e testar carga representativa, esgotamento da reserva e estabilidade. Nenhuma aquisição permanente."
     }
   ],
   "relacoes": [
@@ -2000,7 +2022,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, Dia94 início da noite; primeira noite na casa concluída, estudos oito documentos100% e Projeto I conceitual; dois cavalos no Santuário.",
+      "texto": "Casa das Violetas, Dia94 noite; treino no quintal e Serenya chegou após ensaios, dois cavalos Santuário.",
       "atual": true
     },
     {
@@ -2058,7 +2080,8 @@
     "C803: Manual de Identificação Vincular 100% do conteúdo disponível compreendido e transcrito. Integração suporte/assinatura/continuidade/referência, leitura sem ruptura e critérios teóricos de interrupção. Não prova funcionamento da matriz, sequência operacional, segurança ou aplicação a Vaelith.",
     "C804: Caderno de Procedimentos de Custódia 100% do conteúdo disponível compreendido e transcrito. Preparação, calibração, isolamento, aferição conjunta integridade/estabilidade/continuidade, interrupção e encaminhamento autorizado. Requisito teórico: isolar/interromper aferição sem romper vínculo. Configuração e operação ainda não validadas.",
     "C805: Manual de Alimentação e Isolamento Etérico 100% conteúdo disponível compreendido e transcrito. Arquitetura teórica fonte externa, regulação, distribuição, isolamento e interrupção; sequência preparação desenergizada, isolamento, alimentação controlada, calibração e aferição. Fonte independente do suporte como requisito. Nenhuma montagem, fonte ou segurança validada.",
-    "C806: cinco documentos restantes 100% conteúdo disponível compreendido e transcrito: Estabilização, Continuidade Espiritual, Tipologias, Anomalias e Transferência Controlada. Todos oito estudos concluídos teoricamente. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo."
+    "C806: cinco documentos restantes 100% conteúdo disponível compreendido e transcrito: Estabilização, Continuidade Espiritual, Tipologias, Anomalias e Transferência Controlada. Todos oito estudos concluídos teoricamente. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo.",
+    "C808: Manto da Égide Negra I, protótipo defensivo, união de Manto III e Barreira com reserva separada. Dois ensaios bem-sucedidos sob impactos leves, versão refinada16MP, +8DEF/6 ciclos e reserva15 projetadas, não validadas integralmente. Reproduzir e calibrar antes de aprender; sem acumular Manto ou Barreira no mesmo impacto."
   ],
-  "retomada": "Dia94 início da noite: pontos do nível12 distribuídos DES8 INT15, DEF18 MP85, potência elegível+1. XP145/1100 PE30/50 ouro10. Projeto I conceitual."
+  "retomada": "Dia94 noite: Serenya chegou após treino; Manto Égide Negra I protótipo, +105XP, XP250/1100, HP120 MP57 PE10 ouro10. Sem magia ativa."
 }
