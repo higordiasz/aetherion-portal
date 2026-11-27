@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V552",
-  "cena": 760,
-  "proxima": 761,
+  "checkpoint": "V553",
+  "cena": 761,
+  "proxima": 762,
   "dia": 90,
   "periodo": "Anoitecer",
   "personagem": {
@@ -1550,7 +1550,7 @@
     },
     {
       "nome": "Cartografia comercial",
-      "texto": "Contraproposta30 ouro recusada (Comércio 20/24); oferta18 ouro pelo original até ET02 e informações geográficas mantida. Ambos mapas em posse; CR04 reservada."
+      "texto": "Argumentação técnica bem-sucedida (Diplomacia31/25); oferta final25ouro pelo original até ET02 e informações geográficas. Ambos mapas em posse; CR04 reservada."
     },
     {
       "nome": "Lume Errante — Longa Duração",
@@ -1632,5 +1632,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Dia90 anoitecer: Elira manteve oferta18ouro após contraproposta30 e falha no teste de Comércio. Aguarda decisão; nenhum mapa vendido, CR04 não revelada."
+  "retomada": "Dia90 anoitecer: Elira elevou oferta de18 para25ouro pelo original até ET02 e informações complementares. Aguarda decisão; nenhum mapa vendido, CR04 não revelada."
 }
