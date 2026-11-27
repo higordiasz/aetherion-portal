@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V544",
-  "cena": 752,
-  "proxima": 753,
+  "checkpoint": "V545",
+  "cena": 753,
+  "proxima": 754,
   "dia": 88,
-  "periodo": "Anoitecer",
+  "periodo": "Noite",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 0,
       "pe_max": 50,
-      "xp_nivel": 450,
-      "xp_total": 5100,
+      "xp_nivel": 470,
+      "xp_total": 5120,
       "ouro": 58,
       "xp_proximo_nivel": 1000
     },
@@ -241,9 +241,9 @@
       "id": "lume-errante-longa-duracao-i",
       "nome": "Lume Errante — Longa Duração I",
       "status": "experimental",
-      "efeito": "Primeira conjuração bem-sucedida, raio de iluminação 15m demonstrado, núcleo estável inicialmente; duração projetada até180min; acompanhamento em deslocamento a testar.",
+      "efeito": "C752–753: raio15m, duração integral180min, deslocamento montado e dissipação segura demonstrados em um ensaio; custo14MP.",
       "custo_mp_estimado": 14,
-      "limite": "14MP no primeiro ensaio; 180min são meta, não duração comprovada. Dissipação segura pretendida em instabilidade; não ilumina através de obstáculos, não concede visão absoluta nem proteção. Repetibilidade, mobilidade e duração integral pendentes; não substitui Lume Errante convencional."
+      "limite": "Primeiro ensaio completo de180min, repetibilidade pendente. Não ilumina através de obstáculos, não concede visão absoluta nem proteção; não substitui Lume Errante convencional até aprendizado validado."
     }
   ],
   "maestrias": [
@@ -1476,12 +1476,12 @@
       "nome": "Lume Errante — Longa Duração I",
       "categoria": "prototipo_experimental",
       "objetivo": "Ampliar iluminação para raio15m, sustentar por até3h em deslocamento.",
-      "progresso": "C751 tentativa improvisada de10m/90min falhou por1, 8MP. C752 projeto de20min, DT24 total41 (natural20), separação emissão/recirculação e estabilização; primeira conjuração DT26 total40, 14MP, raio15m inicialmente demonstrado. Duração e mobilidade pendentes; esquema fundamentado em Sustentação Adaptativa I.",
-      "efeito_atual": "Protótipo ativo ao final C752, janela de observação0/180min; duração não comprovada. Nenhuma aquisição permanente.",
-      "condicao_para_prosseguir": "Observar estabilidade, alcance e duração em deslocamento até extinção; repetir e validar antes de tornar permanente."
+      "progresso": "C751 tentativa improvisada de10m/90min falhou por1, 8MP. C752 projeto de20min, DT24 total41 (natural20), separação emissão/recirculação e estabilização; primeira conjuração DT26 total40, 14MP, raio15m inicialmente demonstrado. Duração e mobilidade pendentes; esquema fundamentado em Sustentação Adaptativa I. C753: DT22 total31, manteve raio15m e estabilidade por180min em viagem; dissipação segura ao limite.",
+      "efeito_atual": "Primeiro ensaio integral validado; Lume expirado. Repetibilidade pendente.",
+      "condicao_para_prosseguir": "Reproduzir conjuração e validar repetibilidade antes de tornar permanente."
     }
   ],
-  "local": "Câmara de Registro CR-04 — exterior, montado",
+  "local": "Passagem Inferior — margem da travessia, lado ET-02",
   "agua": {
     "total": 2,
     "tratada": 1.5,
@@ -1544,7 +1544,7 @@
     },
     {
       "nome": "Lume Errante — Longa Duração",
-      "texto": "Protótipo experimental de raio15m inicialmente estável. Observar duração projetada de3h em deslocamento e validar repetibilidade."
+      "texto": "Primeiro ensaio integral de raio15m por3h em viagem validado, dissipação segura. Repetibilidade pendente."
     }
   ],
   "relacoes": [
@@ -1584,13 +1584,17 @@
       "texto": "Posto de Custódia explorado."
     },
     {
+      "nome": "Travessia da Passagem Inferior",
+      "texto": "Local atual: margem lado ET02, antes de cruzar; Lume expirado após3h de viagem.",
+      "atual": true
+    },
+    {
       "nome": "ET-02 · Passagem Inferior",
-      "texto": "Estação de Trânsito explorada."
+      "texto": "Ultrapassada no retorno após cerca100min desde CR04."
     },
     {
       "nome": "CR-04 · Câmara de Registro",
-      "texto": "Local atual: exterior. Trajeto desde ET-02: cerca de 2h40. Perímetro reconhecido, encosta parcialmente examinada.",
-      "atual": true
+      "texto": "Exploração concluída; partida no retorno C753."
     }
   ],
   "descobertas": [
@@ -1602,5 +1606,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Lume experimental ativo (raio15m, duração projetada3h, janela0/180min, 14MP gastos). Ashborn montado, retorno a Arven ainda não iniciado; observar estabilidade e duração durante viagem. Noite88 não transcorreu."
+  "retomada": "Após3h de retorno acelerado, Ashborn parou na margem da travessia antes de cruzar. Lume experimental expirado, duração e mobilidade comprovadas. Arven estimado3–4h via PC03. Escolher próxima ação; noite88 não completada."
 }
