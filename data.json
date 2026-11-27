@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V553",
-  "cena": 761,
-  "proxima": 762,
+  "checkpoint": "V554",
+  "cena": 762,
+  "proxima": 763,
   "dia": 90,
-  "periodo": "Anoitecer",
+  "periodo": "Noite",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -20,7 +20,7 @@
       "pe_max": 50,
       "xp_nivel": 515,
       "xp_total": 5165,
-      "ouro": 95,
+      "ouro": 120,
       "xp_proximo_nivel": 1000
     },
     "atributos": {
@@ -1002,20 +1002,6 @@
       "equipado": false
     },
     {
-      "id": "mapa-rotas-esquecidas-arven",
-      "nome": "Mapa Cartográfico das Rotas Esquecidas de Arven",
-      "categoria": "evidencia_arqueologica",
-      "descricao": "Qualidade excepcional; somente caminhos efetivamente percorridos até ET02, sem escala/cardinais confirmados; CR04 ainda não incorporada.",
-      "restricoes": [
-        "Não presumir função ativa além do demonstrado, preço comercial ou segurança."
-      ],
-      "propriedades": [
-        "Qualidade excepcional; somente caminhos efetivamente percorridos até ET02, sem escala/cardinais confirmados; CR04 ainda não incorporada."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
       "id": "indice-geral-registros-vinculares",
       "nome": "Índice Geral de Registros Vinculares",
       "categoria": "evidencia_arqueologica",
@@ -1491,7 +1477,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Associação dos Carreteiros — salão de atendimento",
+  "local": "Pousada das Lanternas Azuis — balcão",
   "agua": {
     "total": 1.2,
     "tratada": 1.2,
@@ -1550,7 +1536,7 @@
     },
     {
       "nome": "Cartografia comercial",
-      "texto": "Argumentação técnica bem-sucedida (Diplomacia31/25); oferta final25ouro pelo original até ET02 e informações geográficas. Ambos mapas em posse; CR04 reservada."
+      "texto": "Venda original até ET02 e relatório complementar concluída por25ouro C762. Mapa ampliado até CR04 permanece em posse, informações reservadas."
     },
     {
       "nome": "Lume Errante — Longa Duração",
@@ -1587,7 +1573,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Local atual: Associação dos Carreteiros, contratos quitados.",
+      "texto": "Local atual: Pousada das Lanternas Azuis, contratos e venda do mapa original quitados.",
       "atual": true
     },
     {
@@ -1632,5 +1618,5 @@
     "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos recolhidos C750.",
     "Perímetro externo reconhecido sob Lume; sem sinais recentes de pessoas/grandes criaturas nos trechos examinados. Encosta parcialmente oculta, nenhum acesso secundário localizado; segurança não garantida."
   ],
-  "retomada": "Dia90 anoitecer: Elira elevou oferta de18 para25ouro pelo original até ET02 e informações complementares. Aguarda decisão; nenhum mapa vendido, CR04 não revelada."
+  "retomada": "Dia90 noite: venda do mapa original até ET02 concluída25ouro; ampliado preservado. Ashborn chegou à Pousada das Lanternas Azuis, cavalo junto à entrada; sem hospedagem ou refeição contratada."
 }
