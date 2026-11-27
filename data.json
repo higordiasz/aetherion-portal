@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V572",
-  "cena": 780,
-  "proxima": 781,
+  "checkpoint": "V573",
+  "cena": 781,
+  "proxima": 782,
   "dia": 91,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 94,
       "hp_max": 115,
-      "mp": 44,
+      "mp": 35,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
@@ -1562,7 +1562,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Desfiladeiro Cinzento — combate, criatura a cerca de 1 m",
+  "local": "Desfiladeiro Cinzento — combate, criatura a cerca de 2 m",
   "agua": {
     "total": 2.1,
     "tratada": 2.1,
@@ -1678,7 +1678,7 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Combate em andamento, criatura a~1m, Manto ativo4 turnos; cavalo atrás cobertura inicial.",
+      "texto": "Combate em andamento, criatura a~2m, Manto ativo3 turnos; cavalo atrás cobertura inicial.",
       "atual": true
     },
     {
@@ -1732,5 +1732,5 @@
     "C776: quadrúpede robusto ~3,5m com placas dorsais cinzentas avistado no Desfiladeiro Cinzento, junto a restos de animal de carga. Espécie e capacidades desconhecidas.",
     "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada."
   ],
-  "retomada": "Dia91 fim da tarde: rodada4 encerrada. Brecha dinâmica ombro identificada, Corte da Chama Vazia acertou26 (uso único consumido), mordida causou21HP. Manto III ativo +7DEF (24 efetiva), quatro turnos restantes. Criatura hostil ferida a~1m, dano acumulado61. Próxima rodada5."
+  "retomada": "Dia91 fim da tarde: rodada5 encerrada, esquiva falhou mas mordida não acertou; Lança de Chama Negra I acertou22 de dano mágico, total83. Criatura bastante ferida e hostil a~2m. Manto III +7DEF (24 efetiva), três turnos restantes. Próxima rodada6."
 }
