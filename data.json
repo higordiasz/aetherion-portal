@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V576",
-  "cena": 784,
-  "proxima": 785,
+  "checkpoint": "V577",
+  "cena": 785,
+  "proxima": 786,
   "dia": 91,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 815,
-      "xp_total": 5465,
+      "xp_nivel": 830,
+      "xp_total": 5480,
       "ouro": 3,
       "xp_proximo_nivel": 1000
     },
@@ -1578,6 +1578,15 @@
       "progresso": "C782 primeira manifestação DT25 total26,18MP,6HP refluxo,34 dano mágico em criatura a2m, raio4m, +20XP. Nenhuma rerrolagem usada.",
       "efeito_atual": "Protótipo experimental Ruptura Infernal: raio4m, 34 mágico,18MP no ensaio, refluxo6HP. Não permanente.",
       "condicao_para_prosseguir": "Após combate e recuperação, estudar isolamento/antirrefluxo, testar em área segura sem aliados, reproduzir e validar estabilidade e parâmetros; não presumir aprendizado."
+    },
+    {
+      "id": "ampliacao-sifao-eter-puro-ii",
+      "nome": "Sifão de Éter Puro II",
+      "categoria": "conhecimento_teorico_sem_melhora_validada",
+      "objetivo": "Ampliar capacidade de recuperação de até5 para até10MP por utilização, sem aumentar frequência.",
+      "progresso": "C785 projeto DT24 total33, modelo de ampliação de fluxo estruturado. Fonte pura não identificada, nenhum ensaio ativo, +15XP projeto teórico.",
+      "efeito_atual": "Sifão atual permanece até5MP,1 uso disponível por descanso longo; 10MP apenas meta de pesquisa.",
+      "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
     }
   ],
   "local": "Desfiladeiro Cinzento — junto à criatura abatida",
@@ -1668,6 +1677,10 @@
     {
       "nome": "Ruptura Infernal",
       "texto": "Primeiro ensaio bem-sucedido C782; estudar antirrefluxo e validar reprodução segura após combate e recuperação."
+    },
+    {
+      "nome": "Sifão de Éter Puro II",
+      "texto": "Modelo teórico de ampliação até10MP estruturado C785. Identificar fonte pura e validar transferência segura; habilidade atual permanece até5MP."
     }
   ],
   "relacoes": [
@@ -1753,7 +1766,8 @@
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão.",
     "C776: quadrúpede robusto ~3,5m com placas dorsais cinzentas avistado no Desfiladeiro Cinzento, junto a restos de animal de carga. Espécie e capacidades desconhecidas.",
     "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada.",
-    "C782: Ruptura Infernal, primeira explosão radial experimental de Chamas Negras (4m,34 mágico,18MP,6HP refluxo), sem aquisição permanente."
+    "C782: Ruptura Infernal, primeira explosão radial experimental de Chamas Negras (4m,34 mágico,18MP,6HP refluxo), sem aquisição permanente.",
+    "C785: projeto teórico Sifão de Éter Puro II, capacidade pretendida10MP; nenhuma fonte pura comprovada ou ensaio ativo."
   ],
-  "retomada": "Dia91 fim da tarde: criatura abatida por Lança de Chama Negra I após8 rodadas. +150XP combate. HP46 MP3 PE5, Manto expirado, DEF17. Evidência e relatório pendentes; cavalo atrás cobertura inicial."
+  "retomada": "Dia91 fim da tarde: criatura abatida. Sifão II projeto teórico DT24 total33, meta10MP ainda não validada. Nenhuma fonte pura comprovada, Sifão atual até5MP e1 uso preservado, HP46 MP3 PE5. Evidência e relatório pendentes."
 }
