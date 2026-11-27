@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V540",
-  "cena": 748,
-  "proxima": 749,
+  "checkpoint": "V541",
+  "cena": 749,
+  "proxima": 750,
   "dia": 88,
   "periodo": "Anoitecer",
   "personagem": {
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 0,
       "pe_max": 50,
-      "xp_nivel": 390,
-      "xp_total": 5040,
+      "xp_nivel": 405,
+      "xp_total": 5055,
       "ouro": 58,
       "xp_proximo_nivel": 1000
     },
@@ -1549,7 +1549,8 @@
     "Suporte descrito como lâmina de composição etérica, consciência sapiente, continuidade preservada. Identidade indeterminada.",
     "Anexo nominal remetido à CI-01; recebimento e localização não confirmados.",
     "Matriz de identificação e circuito de alimentação documentados passivamente; nenhuma ativação.",
-    "Porta dupla e grade abertas mecanicamente; arquivo reforçado ainda fechado."
+    "Porta dupla e grade abertas mecanicamente; arquivo reforçado aberto mecanicamente C749.",
+    "Arquivo reforçado: Controle de Remessas e Retornos e fragmentos de protocolos de custódia encontrados; interpretação pendente, documentos ainda nas gavetas."
   ],
-  "retomada": "Revisão concluída. Pendentes: gavetas reforçadas, perímetro externo, balcão/credencial, matriz e alimentação não validadas. Escolher investigação ou saída; verificar cavalo, organizar pouso e atualizar mapa se decidir. Retorno planejado dia 89; noite 88 ainda não transcorreu."
+  "retomada": "Gavetas reforçadas abertas; documentos administrativos e fragmentos ainda no local, leitura inconclusiva. Decidir recolhimento, vistoria externa ou saída. Verificar cavalo e pouso se autorizado; retorno planejado dia89, noite88 não transcorreu."
 }
