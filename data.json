@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V593",
-  "cena": 801,
-  "proxima": 802,
+  "checkpoint": "V594",
+  "cena": 802,
+  "proxima": 803,
   "dia": 93,
-  "periodo": "Inicio da tarde",
+  "periodo": "Fim da tarde",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -18,8 +18,8 @@
       "mp_max": 78,
       "pe": 50,
       "pe_max": 50,
-      "xp_nivel": 850,
-      "xp_total": 5500,
+      "xp_nivel": 865,
+      "xp_total": 5515,
       "ouro": 10,
       "xp_proximo_nivel": 1000
     },
@@ -706,7 +706,7 @@
       "nome": "Caderno de Procedimentos de Custódia",
       "categoria": "estudo_documental",
       "objetivo": "Compreender aferição e custódia",
-      "progresso": "5%; leitura introdutória, sem validação funcional"
+      "progresso": "15%; C802 leitura complementar e cotejo de procedimentos de aferição, isolamento e interrupção com manuais CR04 e folha PC03. Ordem operacional não resolvida."
     },
     {
       "id": "estudo-manual-estabilizacao-vinculos",
@@ -727,14 +727,14 @@
       "nome": "Manual de Identificação Vincular",
       "categoria": "estudo_documental",
       "objetivo": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%.",
-      "progresso": "0%; recuperado; estudo aprofundado pendente"
+      "progresso": "30%; C802 estudo aprofundado DT20 total24, distingue suporte, assinatura, continuidade e referência. Cotejo permite compreender teoricamente que assinatura momentaneamente indistinguível não prova perda da consciência; avaliar continuidade separadamente. Sem validação funcional."
     },
     {
       "id": "estudo-manual-alimentacao-isolamento-eterico",
       "nome": "Manual de Alimentação e Isolamento Etérico",
       "categoria": "estudo_documental",
       "objetivo": "Distribuição, manutenção e interrupção; estudo 0%.",
-      "progresso": "0%; recuperado; estudo aprofundado pendente"
+      "progresso": "10%; C802 leitura inicial e cruzamento com diagramas CR04, caderno e folha PC03. DT25 total22 falhou na determinação da sequência correta de calibração/interrupção; arquitetura provável fonte externa→distribuição→matriz, isolamento independente aparente, não validado."
     },
     {
       "id": "estudo-catalogo-tipologias-vinculares",
@@ -762,7 +762,7 @@
       "nome": "Matriz Própria de Identificação Vincular",
       "categoria": "fundamentacao_teorica_avancada",
       "objetivo": "Reproduzir método de investigação não destrutiva de vínculos",
-      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído."
+      "progresso": "Matriz, quatro pilares, esquema de alimentação e isolamento registrados; manuais e componentes recolhidos. Fonte, calibração e operação não validadas; protótipo não construído. C802: identificação30%, separação conceitual entre assinatura momentaneamente indistinguível e continuidade. Alimentação10%, caderno15%; sequência calibração/interrupção não determinada (22/25). Nenhuma montagem ou ativação."
     },
     {
       "id": "transferencia-vincular-controlada",
@@ -1043,12 +1043,12 @@
       "id": "caderno-procedimentos-custodia",
       "nome": "Caderno de Procedimentos de Custódia",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento.",
+      "descricao": "estudo 15%; preparação, aferição, isolamento, encaminhamento.",
       "restricoes": [
         "Não presumir funcionamento ativo ou segurança."
       ],
       "propriedades": [
-        "Estudo inicial 5%; preparação, aferição, isolamento, encaminhamento."
+        "estudo 15%; preparação, aferição, isolamento, encaminhamento."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1363,12 +1363,12 @@
       "id": "manual-identificacao-vincular",
       "nome": "Manual de Identificação Vincular",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%.",
+      "descricao": "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 30%.",
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
       ],
       "propriedades": [
-        "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 0%."
+        "Natureza suporte, assinatura consciência, manutenção elo, leitura sem ruptura; estudo 30%."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1427,12 +1427,12 @@
       "id": "manual-alimentacao-isolamento-eterico",
       "nome": "Manual de Alimentação e Isolamento Etérico",
       "categoria": "evidencia_arqueologica",
-      "descricao": "Distribuição, manutenção e interrupção; estudo 0%.",
+      "descricao": "Distribuição, manutenção e interrupção; estudo 10%.",
       "restricoes": [
         "Não presumir função ativa, identidade específica ou segurança além do demonstrado."
       ],
       "propriedades": [
-        "Distribuição, manutenção e interrupção; estudo 0%."
+        "Distribuição, manutenção e interrupção; estudo 10%."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -1839,7 +1839,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Luméria — Casa das Violetas",
+  "local": "Luméria — Casa das Violetas, escritório",
   "agua": {
     "total": 1.4,
     "tratada": 1.4,
@@ -1968,7 +1968,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, início da tarde Dia93; pertences recuperados do Santuário e guardados em casa; dois cavalos continuam nos estábulos do Santuário.",
+      "texto": "Casa das Violetas, fim da tarde Dia93; estudos dos manuais de Arven no escritório, dois cavalos Santuário.",
       "atual": true
     },
     {
@@ -2021,7 +2021,8 @@
     "C786: inspeção da criatura encouraçada confirmou placas resistentes, presas e garras aproveitáveis; nenhum núcleo exposto, espécie e natureza arcana pendentes.",
     "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado.",
     "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
-    "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente."
+    "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente.",
+    "C802: assinatura momentaneamente indistinguível não demonstra perda da consciência; continuidade precisa ser avaliada separadamente. Manual Identificação 30%, Caderno Custódia 15%, Manual Alimentação 10%; sequência calibração/interrupção não resolvida, nenhuma validação ou ativação."
   ],
-  "retomada": "Dia93 início da tarde: recuperou todos dez bens do Santuário, guardou em casa; casa64 tipos/73 unidades, mochila6, custódia ativa0. Dois cavalos Santuário. Ouro10, recursos completos."
+  "retomada": "Dia93 fim da tarde: estudou manuais Arven, identificação30%, caderno15%, alimentação10%, sequência operacional pendente. +15XP, sem ativação ou gasto; XP865/1000 ouro10."
 }
