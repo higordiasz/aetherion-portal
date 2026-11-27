@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V587",
-  "cena": 795,
-  "proxima": 796,
+  "checkpoint": "V588",
+  "cena": 796,
+  "proxima": 797,
   "dia": 92,
   "periodo": "Fim da tarde",
   "personagem": {
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 115,
       "hp_max": 115,
-      "mp": 64,
+      "mp": 59,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
@@ -1658,7 +1658,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa quitada; dez conjuntos de mobília comprados por27ouro, entrega agendada manhã93 incluída. Serenya pagou8ouro por reparos do telhado, tratamento inicial do teto, cerca e veneziana; casa limpa. Teto de Lyra em secagem, verificar antes de instalar. Sem mudança ou pernoite."
+      "texto": "Casa quitada; mobília27ouro paga, entrega agendada manhã93. Reparos8ouro pagos por Serenya. C796 secagem arcana bem-sucedida no teto do quarto de Lyra; conferir amanhã antes de instalar. Sem mudança ou pernoite."
     },
     {
       "nome": "Ruptura Infernal",
@@ -1704,7 +1704,7 @@
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas, fim da tarde Dia92, reparos e limpeza realizados, entrega dos móveis amanhã cedo; cavalo junto acesso lateral.",
+      "texto": "Casa das Violetas, fim da tarde Dia92, reparos, limpeza e secagem arcana realizados; entrega móveis amanhã cedo; cavalo junto acesso lateral.",
       "atual": true
     },
     {
@@ -1756,7 +1756,8 @@
     "C785: projeto teórico Sifão de Éter Puro II, capacidade pretendida10MP; nenhuma fonte pura comprovada ou ensaio ativo.",
     "C786: inspeção da criatura encouraçada confirmou placas resistentes, presas e garras aproveitáveis; nenhum núcleo exposto, espécie e natureza arcana pendentes.",
     "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado.",
-    "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado."
+    "C789: marca comercial da identificação corresponde a comerciante afetado nos registros da Associação, nome não informado.",
+    "C796: aplicação localizada experimental de calor arcano derivado de chamas comuns secou as partes acessíveis do teto afetado, com ventilação e controle; 5MP, sem dano aparente. Não constitui nova magia permanente."
   ],
-  "retomada": "Dia92 fim da tarde: reparos pagos por Serenya (8ouro), casa limpa; teto do quarto de Lyra em secagem. Entrega de móveis agendada manhã93. Ashborn com Serenya e Vaelith, ouro11, nenhuma noite ou mudança."
+  "retomada": "Dia92 fim da tarde: Ashborn secou magicamente o teto de Lyra, partes acessíveis secas, conferir amanhã. MP59, ouro11, entrega manhã93 agendada, junto de Serenya e Vaelith. Sem noite."
 }
