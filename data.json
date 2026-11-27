@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V601",
-  "cena": 809,
-  "proxima": 810,
+  "checkpoint": "V602",
+  "cena": 810,
+  "proxima": 811,
   "dia": 95,
-  "periodo": "Manha",
+  "periodo": "Fim da manha",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -18,8 +18,8 @@
       "mp_max": 85,
       "pe": 10,
       "pe_max": 50,
-      "xp_nivel": 250,
-      "xp_total": 5900,
+      "xp_nivel": 260,
+      "xp_total": 5910,
       "ouro": 10,
       "xp_proximo_nivel": 1100
     },
@@ -591,6 +591,21 @@
       "restricoes": [],
       "propriedades": [
         "Duas unidades no checkpoint V229"
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "contrato-ameaca-currais-vale-baixo",
+      "nome": "Contrato — Ameaça nos Currais do Vale Baixo",
+      "categoria": "documento",
+      "descricao": "Via assinada C810: 18ouro após identificação e neutralização de ameaça confirmada, evidências e validação; 1–2dias estimados.",
+      "restricoes": [
+        "Não comprova autoria dos ataques, conclusão ou pagamento."
+      ],
+      "propriedades": [
+        "Via assinada entregue gratuitamente por Garran C810, sem adiantamento.",
+        "Espólios da criatura permitidos respeitando bens dos proprietários."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1889,10 +1904,10 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Luméria — Quadro Público de Serviços",
+  "local": "Currais do Vale Baixo — área arborizada",
   "agua": {
-    "total": 1.4,
-    "tratada": 1.4,
+    "total": 2.3,
+    "tratada": 2.3,
     "bruta": 0
   },
   "missoes": [
@@ -1943,6 +1958,18 @@
         "Apresentar evidência e relatório"
       ],
       "concluidas": 4
+    },
+    {
+      "nome": "Ameaça nos Currais do Vale Baixo",
+      "ouro": 18,
+      "status": "Em execução — suspeito localizado, sem combate",
+      "etapas": [
+        "Formalizar contratação",
+        "Investigar local dos ataques",
+        "Identificar e neutralizar ameaça confirmada",
+        "Apresentar evidência e relatório"
+      ],
+      "concluidas": 2
     }
   ],
   "objetivos": [
@@ -2016,46 +2043,59 @@
   ],
   "rota": [
     {
+      "nome": "Currais do Vale Baixo",
+      "texto": "Fim da manhã95: contrato18ouro, rastros seguidos até depressão arborizada; criatura suspeita a~35m, sem confronto; cavalo junto.",
+      "atual": true
+    },
+    {
       "nome": "Desfiladeiro Cinzento",
       "texto": "Criatura abatida, prova e espólios recolhidos, fenda inexplorada.",
       "atual": false
     },
     {
       "nome": "Luméria",
-      "texto": "Quadro Público de Serviços, manhã Dia95; quatro ofertas preliminares consultadas, nenhuma aceita. Dois cavalos Santuário.",
-      "atual": true
+      "texto": "Partida manhã95, um cavalo permaneceu Santuário.",
+      "atual": false
     },
     {
       "nome": "Ramal da Vigília e Marco",
-      "texto": "Percorridos no retorno dia90."
+      "texto": "Percorridos no retorno dia90.",
+      "atual": false
     },
     {
       "nome": "Nascente conhecida",
-      "texto": "Pouso noite89 e abastecimento de água."
+      "texto": "Pouso noite89 e abastecimento de água.",
+      "atual": false
     },
     {
       "nome": "Vau dos Três Cedros",
-      "texto": "Cruzado sem incidente dia89."
+      "texto": "Cruzado sem incidente dia89.",
+      "atual": false
     },
     {
       "nome": "Entreposto de Arven",
-      "texto": "Partida rumo a Luméria dia89."
+      "texto": "Partida rumo a Luméria dia89.",
+      "atual": false
     },
     {
       "nome": "PC-03 · Vigília Alta",
-      "texto": "Ultrapassado no retorno C755, sem nova exploração."
+      "texto": "Ultrapassado no retorno C755, sem nova exploração.",
+      "atual": false
     },
     {
       "nome": "Travessia da Passagem Inferior",
-      "texto": "Cruzada sem incidente C755."
+      "texto": "Cruzada sem incidente C755.",
+      "atual": false
     },
     {
       "nome": "ET-02 · Passagem Inferior",
-      "texto": "Ultrapassada no retorno após cerca100min desde CR04."
+      "texto": "Ultrapassada no retorno após cerca100min desde CR04.",
+      "atual": false
     },
     {
       "nome": "CR-04 · Câmara de Registro",
-      "texto": "Exploração concluída; partida no retorno C753."
+      "texto": "Exploração concluída; partida no retorno C753.",
+      "atual": false
     }
   ],
   "descobertas": [
@@ -2081,7 +2121,8 @@
     "C804: Caderno de Procedimentos de Custódia 100% do conteúdo disponível compreendido e transcrito. Preparação, calibração, isolamento, aferição conjunta integridade/estabilidade/continuidade, interrupção e encaminhamento autorizado. Requisito teórico: isolar/interromper aferição sem romper vínculo. Configuração e operação ainda não validadas.",
     "C805: Manual de Alimentação e Isolamento Etérico 100% conteúdo disponível compreendido e transcrito. Arquitetura teórica fonte externa, regulação, distribuição, isolamento e interrupção; sequência preparação desenergizada, isolamento, alimentação controlada, calibração e aferição. Fonte independente do suporte como requisito. Nenhuma montagem, fonte ou segurança validada.",
     "C806: cinco documentos restantes 100% conteúdo disponível compreendido e transcrito: Estabilização, Continuidade Espiritual, Tipologias, Anomalias e Transferência Controlada. Todos oito estudos concluídos teoricamente. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo.",
-    "C808: Manto da Égide Negra I, protótipo defensivo, união de Manto III e Barreira com reserva separada. Dois ensaios bem-sucedidos sob impactos leves, versão refinada16MP, +8DEF/6 ciclos e reserva15 projetadas, não validadas integralmente. Reproduzir e calibrar antes de aprender; sem acumular Manto ou Barreira no mesmo impacto."
+    "C808: Manto da Égide Negra I, protótipo defensivo, união de Manto III e Barreira com reserva separada. Dois ensaios bem-sucedidos sob impactos leves, versão refinada16MP, +8DEF/6 ciclos e reserva15 projetadas, não validadas integralmente. Reproduzir e calibrar antes de aprender; sem acumular Manto ou Barreira no mesmo impacto.",
+    "C810: Vale Baixo, relatos de ataques noturnos a animais de criação; pegadas quadrúpedes de garras alongadas e criatura escura pouco mais2m avistada próxima a restos de ovelha. Autoria integral e espécie desconhecidas."
   ],
-  "retomada": "Dia95 manhã: descanso adequado, MP85, PE10/50 (1/2 noites), HP120 XP250/1100 ouro10; quatro ofertas preliminares 6/9/12/18 ouro, nenhuma aceita."
+  "retomada": "Dia95 fim da manhã, contrato18ouro em execução, criatura suspeita a~35m, sem combate. HP120 MP85 PE10 XP260/1100 ouro10, água2,3L, cavalo junto."
 }
