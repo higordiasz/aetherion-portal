@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V565",
-  "cena": 773,
-  "proxima": 774,
+  "checkpoint": "V566",
+  "cena": 774,
+  "proxima": 775,
   "dia": 91,
   "periodo": "Tarde",
   "personagem": {
@@ -16,7 +16,7 @@
       "hp_max": 115,
       "mp": 78,
       "mp_max": 78,
-      "pe": 10,
+      "pe": 5,
       "pe_max": 50,
       "xp_nivel": 635,
       "xp_total": 5285,
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 1,
+      "noites": 0,
       "necessarias": 2
     }
   },
@@ -1494,7 +1494,7 @@
       "condicao_para_prosseguir": "Pesquisa concluída. Expansões além dos parâmetros validados exigem nova pesquisa."
     }
   ],
-  "local": "Casa das Violetas — quintal, perto do Jardim Alvor",
+  "local": "Loja de tecidos de Beren Valdor — Praça dos Artesãos",
   "agua": {
     "total": 1.2,
     "tratada": 1.2,
@@ -1565,7 +1565,7 @@
     },
     {
       "nome": "Lar em Luméria",
-      "texto": "Casa das Violetas visitada e preferida; preço145, reparos8–12 e mobília8–25 estimados. Intermediário indica Beren Valdor, loja tecidos próxima Praça Artesãos, para negociar e verificar título. Sem proposta ou aquisição."
+      "texto": "Preço verbal115 aceito C774 (desconto30). Conferir documentos, condições e definir pagamento/contribuição; nenhuma aquisição. Reparos8–12, mobília8–25 estimados."
     }
   ],
   "relacoes": [
@@ -1577,7 +1577,7 @@
     {
       "nome": "Serenya",
       "tipo": "Relacionamento amoroso",
-      "texto": "Gostou da Casa das Violetas e deseja morar ali se preço justo e documentação em ordem; contribuição até30ouro condicional, sem transferência."
+      "texto": "Feliz com aceitação verbal115ouro pela Casa das Violetas, até30 de contribuição condicional, sem transferência."
     },
     {
       "nome": "Lyra",
@@ -1598,7 +1598,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Local atual: Casa das Violetas, perto Jardim Alvor; dois cavalos no Santuário.",
+      "texto": "Local atual: loja de tecidos de Beren Valdor, Praça dos Artesãos; dois cavalos no Santuário.",
       "atual": true
     },
     {
@@ -1645,5 +1645,5 @@
     "C766: Ashborn seguiu prolongamento distante até convergência estável, assinatura de três pulsações/intervalo e duas camadas entrelaçadas de contenção; observação única, sem localização física ou autoria. Vaelith não percebeu.",
     "C767: Prancha I e protocolo de reprodução registrados; cotejo de símbolos inconclusivo, nenhuma nova incursão."
   ],
-  "retomada": "Dia91 tarde: Serenya e Vaelith gostam da Casa das Violetas. Intermediário oferece condução à loja de tecidos de Beren Valdor, alegado proprietário, para negociar e consultar documentos. Sem compra."
+  "retomada": "Dia91 tarde: Beren aceitou verbalmente115ouro pela Casa das Violetas; documentos disponíveis para conferência. Sem compra. PE5/50, novo ciclo0/2."
 }
