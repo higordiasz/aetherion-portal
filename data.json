@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V579",
-  "cena": 787,
-  "proxima": 788,
+  "checkpoint": "V580",
+  "cena": 788,
+  "proxima": 789,
   "dia": 92,
-  "periodo": "Manha",
+  "periodo": "Fim da manha",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -12,14 +12,14 @@
     "nivel": 11,
     "aparencia": "Jovem espadachim arcano de cabelos negros, aspecto atlético, capa e roupas de mago/espadachim, cicatriz negra permanente da mão ao pescoço. Marca avermelhada do Abismo desapareceu C588. Retrato aprovado permanece referência histórica; não reintroduzir marca vermelha.",
     "recursos": {
-      "hp": 91,
+      "hp": 115,
       "hp_max": 115,
-      "mp": 78,
+      "mp": 64,
       "mp_max": 78,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 840,
-      "xp_total": 5490,
+      "xp_nivel": 850,
+      "xp_total": 5500,
       "ouro": 3,
       "xp_proximo_nivel": 1000
     },
@@ -1358,7 +1358,7 @@
       "propriedades": [
         "Duas unidades no checkpoint V229"
       ],
-      "quantidade": 2,
+      "quantidade": 1,
       "equipado": false
     },
     {
@@ -1418,6 +1418,34 @@
         "Potencial de manufatura artesanal."
       ],
       "quantidade": 2,
+      "equipado": false
+    },
+    {
+      "id": "placa-pequena-couraca-cinzenta",
+      "nome": "Placa Pequena de Couraça Cinzenta",
+      "categoria": "material",
+      "descricao": "Pequena placa natural desprendida durante combate, localizada parcialmente sob carcaça C788; recolhida sem nova extração.",
+      "restricoes": [
+        "Conservar, limpar e avaliar; preço e propriedades arcanas não confirmados. Nenhum bônus automático."
+      ],
+      "propriedades": [
+        "Material rígido, potencial matéria-prima artesanal; peso aproximado0,8kg."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "identificacao-animal-carga-desfiladeiro",
+      "nome": "Identificação do Animal de Carga",
+      "categoria": "evidencia_de_missao",
+      "descricao": "Pequena placa de identificação de latão com marca comercial gravada, encontrada entre restos do arreio junto à carcaça de provável mula C788.",
+      "restricoes": [
+        "Destinada à Associação para identificar o proprietário; não é espólio vendável, não se apropriar de bens de terceiros."
+      ],
+      "propriedades": [
+        "Marca comercial observável, proprietário não identificado; peso desprezível."
+      ],
+      "quantidade": 1,
       "equipado": false
     }
   ],
@@ -1633,10 +1661,10 @@
       "condicao_para_prosseguir": "Identificar fonte comprovadamente pura com reserva suficiente, projetar isolamento e validar transferência reproduzível; não energizar Coração de Éter/Estilhaço Abissal sem protocolo seguro."
     }
   ],
-  "local": "Desfiladeiro Cinzento — acampamento temporário",
+  "local": "Luméria — entrada da cidade",
   "agua": {
-    "total": 1.8,
-    "tratada": 1.8,
+    "total": 1.4,
+    "tratada": 1.4,
     "bruta": 0
   },
   "missoes": [
@@ -1679,7 +1707,7 @@
     {
       "nome": "A criatura do Desfiladeiro Cinzento",
       "ouro": 22,
-      "status": "Ameaça neutralizada — prova recolhida, relatório pendente",
+      "status": "Ameaça neutralizada — duas evidências recolhidas, retorno concluído, relatório pendente",
       "etapas": [
         "Formalizar contratação",
         "Investigar locais dos ataques",
@@ -1757,13 +1785,13 @@
   "rota": [
     {
       "nome": "Desfiladeiro Cinzento",
-      "texto": "Acampamento temporário rochoso ~15min da área de combate; manhã Dia92, cavalo próximo.",
-      "atual": true
+      "texto": "Criatura abatida, prova e espólios recolhidos, fenda inexplorada.",
+      "atual": false
     },
     {
       "nome": "Luméria",
-      "texto": "Casa das Violetas; segundo cavalo no Santuário.",
-      "atual": false
+      "texto": "Retorno concluído Dia92, cavalo com Ashborn na entrada; outro Santuário. Relatório pendente.",
+      "atual": true
     },
     {
       "nome": "Ramal da Vigília e Marco",
@@ -1812,7 +1840,8 @@
     "C780: abertura dinâmica entre placas do ombro da criatura encouraçada ao erguer pata dianteira, explorada pelo Corte da Chama Vazia; sem espécie confirmada.",
     "C782: Ruptura Infernal, primeira explosão radial experimental de Chamas Negras (4m,34 mágico,18MP,6HP refluxo), sem aquisição permanente.",
     "C785: projeto teórico Sifão de Éter Puro II, capacidade pretendida10MP; nenhuma fonte pura comprovada ou ensaio ativo.",
-    "C786: inspeção da criatura encouraçada confirmou placas resistentes, presas e garras aproveitáveis; nenhum núcleo exposto, espécie e natureza arcana pendentes."
+    "C786: inspeção da criatura encouraçada confirmou placas resistentes, presas e garras aproveitáveis; nenhum núcleo exposto, espécie e natureza arcana pendentes.",
+    "C788: provável mula de carga encontrada junto à fenda, identificação comercial de latão recolhida para Associação; proprietário não identificado."
   ],
-  "retomada": "Dia92 manhã: noite adequada sem incidente, HP91 MP78 PE5 (1/2 noites), 2 rações,1,8L água, zero poções. Cavalo próximo; prova e espólios em posse, relatório pendente. Fenda não explorada."
+  "retomada": "Dia92 fim da manhã: duas Restaurações, HP115 MP64 PE5; última inspeção excepcional, pequena placa adicional e identificação comercial da provável mula recolhidas. Chegou a Luméria montado; contrato22ouro pendente de relatório e validação."
 }
