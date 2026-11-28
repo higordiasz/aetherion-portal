@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V614",
-  "cena": 822,
-  "proxima": 823,
+  "checkpoint": "V615",
+  "cena": 823,
+  "proxima": 824,
   "dia": 96,
   "periodo": "Manha",
   "personagem": {
@@ -2072,7 +2072,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Manhã96: descanso adequado concluído em casa; mana restaurada, PE1/2 noites.",
+      "texto": "Manhã96: Ashborn despertou descansado, Serenya dorme ao lado; retorno dela na noite95 esclarecido.",
       "atual": true
     },
     {
@@ -2158,5 +2158,5 @@
     "C817: prova e identificação de ovelha entregues a Garran; marca reconhecida, contrato Vale Baixo quitado. Égide dissipou-se sem refluxo.",
     "C821: Princípio da Dissipação Seletiva de Impactos I, distinguir redirecionamento/armazenamento/dissipação e isolar sustentação na saturação. Teórico, sem bônus ou magia."
   ],
-  "retomada": "Dia96 manhã, Casa das Violetas, Ashborn despertou no quarto após noite95 completa adequada. HP120 MP85 PE5/50 XP405/1100 total6055 ouro39 nível12 DEF18 RD7, 1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários; PE1/2 noites completas após C814, sem recuperação parcial. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0. Cavalo acomodado junto acesso lateral, outro Santuário. Serenya última presença confirmada café95, não observada C822, localização atual desconhecida; Lyra/Theron última presença Santuário. Nenhum café tomado. Próxima ação livre."
+  "retomada": "Dia96 manhã, quarto principal Casa das Violetas. Ashborn acordado após descanso adequado noite95, Serenya dorme ao lado, retornou à casa depois que ele adormeceu. HP120 MP85 PE5/50 XP405/1100 total6055 ouro39 nível12 DEF18 RD7, 1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários; PE1/2 noites completas após C814, sem recuperação parcial. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0. Cavalo acomodado junto acesso lateral, outro Santuário. Lyra/Theron última presença Santuário. Nenhum café tomado. Próxima ação livre."
 }
