@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V607",
-  "cena": 815,
-  "proxima": 816,
+  "checkpoint": "V608",
+  "cena": 816,
+  "proxima": 817,
   "dia": 95,
   "periodo": "Fim da manha",
   "personagem": {
@@ -14,12 +14,12 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 29,
+      "mp": 24,
       "mp_max": 85,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 260,
-      "xp_total": 5910,
+      "xp_nivel": 360,
+      "xp_total": 6010,
       "ouro": 10,
       "xp_proximo_nivel": 1100
     },
@@ -267,10 +267,10 @@
       "id": "convergencia-arcana-controlada-ii",
       "nome": "Convergência Arcana Controlada II",
       "status": "experimental",
-      "observacao": "DT28 d20=6 total26 falha, rerrolagem18 total38 excepcional, 5PE gastos, segunda preservada; ativação estável junto à Égide. Ainda não houve golpe para validar descarga. C815 golpe híbrido confirmado com +3 acerto e +9 dano, reserva consumida, resta1 turno de +3 acerto.",
-      "efeito": "Primeiro ensaio em combate bem-sucedido: 10MP, +3 nos testes de acerto com espada por três turnos iniciais, +9 no dano do primeiro golpe de espada que acertar durante duração. C815: primeira descarga bem-sucedida, Corte da Chama Vazia27+9=36 efetivo, acerto25/18, sem refluxo observado.",
+      "observacao": "DT28 d20=6 total26 falha, rerrolagem18 total38 excepcional, 5PE gastos, segunda preservada; ativação estável junto à Égide. Ainda não houve golpe para validar descarga. C815 golpe híbrido confirmado com +3 acerto e +9 dano, reserva consumida, resta1 turno de +3 acerto. C816: último turno +3 acerto no Corte Rúnico, término natural estável, sem refluxo; +20XP pela primeira demonstração completa C814–816, reprodução independente pendente.",
+      "efeito": "Primeiro ensaio em combate bem-sucedido: 10MP, +3 nos testes de acerto com espada por três turnos iniciais, +9 no dano do primeiro golpe de espada que acertar durante duração. C815: primeira descarga bem-sucedida, Corte da Chama Vazia27+9=36 efetivo, acerto25/18, sem refluxo observado. C816: dissipação natural estável após terceiro turno.",
       "custo_mp_estimado": 10,
-      "limite": "Experimental, não permanente. Uso1/combate compartilhado com técnica original, não acumula seus bônus. +9 em um único primeiro golpe com espada bem-sucedido, sem multiplicação por impacto ou projétil. Duração de três turnos incluindo ativação, sem HP gasto. Falha final após rerrolagens dissiparia energia sem bônus, custo10MP. Necessário validar golpe e descarga, sustentação e reprodução independente; técnica original preservada. Primeira descarga validada em C815; falta reprodução independente e encerramento estável. Não adquirida permanentemente."
+      "limite": "Experimental, não permanente. Uso1/combate compartilhado com técnica original, não acumula seus bônus. +9 em um único primeiro golpe com espada bem-sucedido, sem multiplicação por impacto ou projétil. Duração de três turnos incluindo ativação, sem HP gasto. Falha final após rerrolagens dissiparia energia sem bônus, custo10MP. Necessário validar golpe e descarga, sustentação e reprodução independente; técnica original preservada. Primeira descarga validada em C815; falta reprodução independente e encerramento estável. Não adquirida permanentemente. C816 encerrou sem refluxo; ainda requer reprodução independente para aquisição permanente."
     }
   ],
   "maestrias": [
@@ -1913,7 +1913,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Currais do Vale Baixo — combate na depressão arborizada",
+  "local": "Currais do Vale Baixo — depressão arborizada, exemplar abatido",
   "agua": {
     "total": 2.3,
     "tratada": 2.3,
@@ -1971,7 +1971,7 @@
     {
       "nome": "Ameaça nos Currais do Vale Baixo",
       "ouro": 18,
-      "status": "Em execução — criatura gravemente ferida, confronto em andamento",
+      "status": "Em execução — exemplar abatido; confirmar causa, coletar prova e relatar",
       "etapas": [
         "Formalizar contratação",
         "Investigar local dos ataques",
@@ -2020,11 +2020,11 @@
     },
     {
       "nome": "Manto da Égide Negra I",
-      "texto": "C813 reprodução em combate, estável C814–815. +8DEF reserva15/15, restam3 turnos. Testar carga representativa, esgotamento e dissipação."
+      "texto": "C813 reprodução em combate, estável C814–816. +8DEF reserva15/15, restam2 ciclos breves após vitória. Testar carga representativa, esgotamento e dissipação."
     },
     {
       "nome": "Convergência Arcana Controlada II",
-      "texto": "C814 ativação experimental excepcional; C815 descarga +9 confirmada no Corte da Chama Vazia, 36 dano total; resta1 turno de +3 acerto espada, descarga consumida. Reprodução e dissipação pendentes."
+      "texto": "C814 ativação, C815 descarga+9 e C816 dissipação estável confirmadas. Expirada. Reprodução independente necessária para aprender permanentemente."
     }
   ],
   "relacoes": [
@@ -2057,7 +2057,7 @@
   "rota": [
     {
       "nome": "Currais do Vale Baixo",
-      "texto": "Fim da manhã95: criatura gravemente ferida a~1m; Égide e Convergência II experimentais ativas, descarga consumida, cavalo amarrado.",
+      "texto": "Fim da manhã95: exemplar abatido, combate encerrado sem ferimentos; inspeção e evidência pendentes, cavalo amarrado.",
       "atual": true
     },
     {
@@ -2138,7 +2138,8 @@
     "C810: Vale Baixo, relatos de ataques noturnos a animais de criação; pegadas quadrúpedes de garras alongadas e criatura escura pouco mais2m avistada próxima a restos de ovelha. Autoria integral e espécie desconhecidas.",
     "C812: primeira conjuração simultânea experimental de duas Lanças de Chama Negra I, 18MP, ambas atingiram,46 dano. Sem aprendizado permanente.",
     "C814: Convergência Arcana Controlada II experimental, 10MP, +3 acerto espada, +9 dano primeiro acerto. Ativação excepcional; descarga não testada.",
-    "C815: primeira descarga de Convergência II bem-sucedida, +9 dano no Corte da Chama Vazia, 36 total. Sem aquisição permanente."
+    "C815: primeira descarga de Convergência II bem-sucedida, +9 dano no Corte da Chama Vazia, 36 total. Sem aquisição permanente.",
+    "C816: vitória contra exemplar suspeito no Vale Baixo, carcaça não examinada. Convergência II expirou estavelmente; reprodução pendente."
   ],
-  "retomada": "Dia95 fim da manhã, Vale Baixo, rodada4 encerrada C815. Criatura gravemente ferida hostil a~1m, 82 dano acumulado. Ashborn armado, iniciativa28 contra22, Égide experimental DEF26 RD7 reserva15/15 restam3 turnos; Convergência II experimental +3 acerto espada resta1 turno, descarga +9 já consumida. Corte da Chama Vazia uso único consumido; usos compartilhados Manto III e Convergência original consumidos. HP120 MP29 PE5/50 XP260/1100 total5910 ouro10,1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa, corrupção curada, PE0/2 noites após C814. Cavalo amarrado atrás de árvores, outro Santuário. Contrato18ouro em execução. Rodada5 ação exclusiva jogador."
+  "retomada": "Dia95 fim da manhã, Vale Baixo, combate encerrado vitória C816. Criatura morta a~1m, carcaça e restos de ovelha ainda não inspecionados; identidade, autoria integral dos ataques e outros exemplares não confirmados. Ashborn armado, Égide experimental ainda ativa por até2 ciclos breves, DEF26 RD7 reserva15/15, Convergência II expirada. HP120 MP24 PE5/50 XP360/1100 total6010 ouro10, 1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa, corrupção curada, PE0/2 noites após C814. Cavalo amarrado atrás de árvores, outro Santuário. Contrato18ouro em execução, evidência e relatório pendentes. Próxima ação livre."
 }
