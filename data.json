@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V603",
-  "cena": 811,
-  "proxima": 812,
+  "checkpoint": "V604",
+  "cena": 812,
+  "proxima": 813,
   "dia": 95,
   "periodo": "Fim da manha",
   "personagem": {
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 85,
+      "mp": 67,
       "mp_max": 85,
       "pe": 10,
       "pe_max": 50,
@@ -1904,7 +1904,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Currais do Vale Baixo — atrás de rocha a~8m da criatura",
+  "local": "Currais do Vale Baixo — combate na depressão arborizada",
   "agua": {
     "total": 2.3,
     "tratada": 2.3,
@@ -1962,7 +1962,7 @@
     {
       "nome": "Ameaça nos Currais do Vale Baixo",
       "ouro": 18,
-      "status": "Em execução — aproximação furtiva a~8m, sem combate",
+      "status": "Em execução — criatura ferida, confronto em andamento",
       "etapas": [
         "Formalizar contratação",
         "Investigar local dos ataques",
@@ -2044,7 +2044,7 @@
   "rota": [
     {
       "nome": "Currais do Vale Baixo",
-      "texto": "Fim da manhã95: contrato18ouro, criatura suspeita a~8m; aproximação furtiva bem-sucedida, Lâmina desembainhada, cavalo amarrado atrás de árvores, sem confronto.",
+      "texto": "Fim da manhã95: combate iniciado, duas lanças atingiram criatura, ameaça ferida a~2m; cavalo amarrado atrás de árvores.",
       "atual": true
     },
     {
@@ -2122,7 +2122,8 @@
     "C805: Manual de Alimentação e Isolamento Etérico 100% conteúdo disponível compreendido e transcrito. Arquitetura teórica fonte externa, regulação, distribuição, isolamento e interrupção; sequência preparação desenergizada, isolamento, alimentação controlada, calibração e aferição. Fonte independente do suporte como requisito. Nenhuma montagem, fonte ou segurança validada.",
     "C806: cinco documentos restantes 100% conteúdo disponível compreendido e transcrito: Estabilização, Continuidade Espiritual, Tipologias, Anomalias e Transferência Controlada. Todos oito estudos concluídos teoricamente. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo.",
     "C808: Manto da Égide Negra I, protótipo defensivo, união de Manto III e Barreira com reserva separada. Dois ensaios bem-sucedidos sob impactos leves, versão refinada16MP, +8DEF/6 ciclos e reserva15 projetadas, não validadas integralmente. Reproduzir e calibrar antes de aprender; sem acumular Manto ou Barreira no mesmo impacto.",
-    "C810: Vale Baixo, relatos de ataques noturnos a animais de criação; pegadas quadrúpedes de garras alongadas e criatura escura pouco mais2m avistada próxima a restos de ovelha. Autoria integral e espécie desconhecidas."
+    "C810: Vale Baixo, relatos de ataques noturnos a animais de criação; pegadas quadrúpedes de garras alongadas e criatura escura pouco mais2m avistada próxima a restos de ovelha. Autoria integral e espécie desconhecidas.",
+    "C812: primeira conjuração simultânea experimental de duas Lanças de Chama Negra I, 18MP, ambas atingiram,46 dano. Sem aprendizado permanente."
   ],
-  "retomada": "Dia95 fim da manhã, Vale Baixo, atrás de rocha a~8m da criatura suspeita, Lâmina do Vazio desembainhada, Ashborn não percebido; cavalo amarrado a tronco firme atrás de árvores, outro no Santuário. Fera deitada, pelagem negra espessa, pelagem mais fina sob pescoço, sem fraqueza mecânica confirmada. Contrato18ouro em execução. Sem ataque, iniciativa ou combate iniciado; próxima decisão livre. HP120 MP85 PE10/50 XP260/1100 total5910 ouro10,1ração2,3L tratada, zero poções, Sifão1/1 até5MP, Alma Una ativa, PE1/2 noites."
+  "retomada": "Dia95 fim da manhã, Vale Baixo, abertura C812 concluída. Criatura ferida hostil a~2m, 46 dano mágico recebido, Ashborn com Lâmina desembainhada, nenhum buff. Iniciativa regular pendente, próxima ação jogador. Cavalo amarrado atrás de árvores, outro Santuário. HP120/120 MP67/85 PE10/50 XP260/1100 total5910 ouro10 DEF18 RD7, 1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa sem corrupção, PE1/2 noites. Contrato18ouro em execução."
 }
