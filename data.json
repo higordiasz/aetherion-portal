@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V604",
-  "cena": 812,
-  "proxima": 813,
+  "checkpoint": "V605",
+  "cena": 813,
+  "proxima": 814,
   "dia": 95,
   "periodo": "Fim da manha",
   "personagem": {
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 67,
+      "mp": 51,
       "mp_max": 85,
       "pe": 10,
       "pe_max": 50,
@@ -258,10 +258,10 @@
       "id": "manto-da-egide-negra-i",
       "nome": "Manto da Égide Negra I",
       "status": "experimental",
-      "observacao": "C808: projeto41/25, reduzido43/25, revisão36/25, refinado46/28, todos excepcionais. 28MP total; 20PE na sequência, nenhuma rerrolagem. Sem lesões, nenhuma magia permanente.",
-      "efeito": "Dois ensaios bem-sucedidos: reduzido12MP, camada dupla3 ciclos; refinado16MP,6 ciclos, amortecimento leve sem desestabilizar chamas. Alvos teóricos +8 DEF e reserva cumulativa15 de absorção, não validados em carga representativa.",
+      "observacao": "C808: projeto41/25, reduzido43/25, revisão36/25, refinado46/28, todos excepcionais. 28MP total; 20PE na sequência, nenhuma rerrolagem. Sem lesões, nenhuma magia permanente. C813: d20 real11+INT15+RunasIII3+Sustentação2=31/28, sem PE gasto, 16MP, primeira reprodução em combate bem-sucedida; absorção íntegra15/15, 5 turnos restantes.",
+      "efeito": "Dois ensaios bem-sucedidos: reduzido12MP, camada dupla3 ciclos; refinado16MP,6 ciclos, amortecimento leve sem desestabilizar chamas. Alvos teóricos +8 DEF e reserva cumulativa15 de absorção, não validados em carga representativa. C813 reprodução refinada em combate, 16MP, DT28 total31, ativa +8DEF, reserva15, seis turnos iniciais. Primeira patada errou; reserva não testada sob impacto.",
       "custo_mp_estimado": 16,
-      "limite": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados."
+      "limite": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados. C813 reprodução bem-sucedida, ainda falta teste de carga representativa, esgotamento e dissipação; sem aquisição permanente."
     }
   ],
   "maestrias": [
@@ -1962,7 +1962,7 @@
     {
       "nome": "Ameaça nos Currais do Vale Baixo",
       "ouro": 18,
-      "status": "Em execução — criatura ferida, confronto em andamento",
+      "status": "Em execução — criatura ferida a~1m, confronto em andamento",
       "etapas": [
         "Formalizar contratação",
         "Investigar local dos ataques",
@@ -2011,7 +2011,7 @@
     },
     {
       "nome": "Manto da Égide Negra I",
-      "texto": "Protótipo refinado C808, ensaios leves bem-sucedidos. Reproduzir versão16MP e testar carga representativa, esgotamento da reserva e estabilidade. Nenhuma aquisição permanente."
+      "texto": "C813: reprodução refinada em combate bem-sucedida (16MP,31/28), +8DEF, reserva15/15, restam5 turnos. Ataque errou; testar carga representativa, esgotamento e dissipação. Sem aquisição permanente."
     }
   ],
   "relacoes": [
@@ -2044,7 +2044,7 @@
   "rota": [
     {
       "nome": "Currais do Vale Baixo",
-      "texto": "Fim da manhã95: combate iniciado, duas lanças atingiram criatura, ameaça ferida a~2m; cavalo amarrado atrás de árvores.",
+      "texto": "Fim da manhã95: confronto em andamento, criatura ferida a~1m; Égide ativa, cavalo amarrado.",
       "atual": true
     },
     {
@@ -2125,5 +2125,5 @@
     "C810: Vale Baixo, relatos de ataques noturnos a animais de criação; pegadas quadrúpedes de garras alongadas e criatura escura pouco mais2m avistada próxima a restos de ovelha. Autoria integral e espécie desconhecidas.",
     "C812: primeira conjuração simultânea experimental de duas Lanças de Chama Negra I, 18MP, ambas atingiram,46 dano. Sem aprendizado permanente."
   ],
-  "retomada": "Dia95 fim da manhã, Vale Baixo, abertura C812 concluída. Criatura ferida hostil a~2m, 46 dano mágico recebido, Ashborn com Lâmina desembainhada, nenhum buff. Iniciativa regular pendente, próxima ação jogador. Cavalo amarrado atrás de árvores, outro Santuário. HP120/120 MP67/85 PE10/50 XP260/1100 total5910 ouro10 DEF18 RD7, 1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa sem corrupção, PE1/2 noites. Contrato18ouro em execução."
+  "retomada": "Dia95 fim da manhã, Vale Baixo, rodada2 encerrada C813. Ashborn empunha Lâmina, Égide experimental ativa DEF26 RD7, restam5 turnos, reserva15/15, uso compartilhado Manto III consumido; criatura ferida hostil a~1m, 46 dano acumulado. Iniciativa Ashborn28 criatura22. HP120 MP51 PE10/50 XP260/1100 total5910 ouro10,1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa sem corrupção, PE1/2 noites. Cavalo amarrado atrás de árvores, outro Santuário. Contrato18ouro em execução. Rodada3 exclusiva decisão jogador."
 }
