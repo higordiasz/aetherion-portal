@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V605",
-  "cena": 813,
-  "proxima": 814,
+  "checkpoint": "V606",
+  "cena": 814,
+  "proxima": 815,
   "dia": 95,
   "periodo": "Fim da manha",
   "personagem": {
@@ -14,9 +14,9 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 51,
+      "mp": 41,
       "mp_max": 85,
-      "pe": 10,
+      "pe": 5,
       "pe_max": 50,
       "xp_nivel": 260,
       "xp_total": 5910,
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 1,
+      "noites": 0,
       "necessarias": 2
     }
   },
@@ -262,6 +262,15 @@
       "efeito": "Dois ensaios bem-sucedidos: reduzido12MP, camada dupla3 ciclos; refinado16MP,6 ciclos, amortecimento leve sem desestabilizar chamas. Alvos teóricos +8 DEF e reserva cumulativa15 de absorção, não validados em carga representativa. C813 reprodução refinada em combate, 16MP, DT28 total31, ativa +8DEF, reserva15, seis turnos iniciais. Primeira patada errou; reserva não testada sob impacto.",
       "custo_mp_estimado": 16,
       "limite": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados. C813 reprodução bem-sucedida, ainda falta teste de carga representativa, esgotamento e dissipação; sem aquisição permanente."
+    },
+    {
+      "id": "convergencia-arcana-controlada-ii",
+      "nome": "Convergência Arcana Controlada II",
+      "status": "experimental",
+      "observacao": "DT28 d20=6 total26 falha, rerrolagem18 total38 excepcional, 5PE gastos, segunda preservada; ativação estável junto à Égide. Ainda não houve golpe para validar descarga.",
+      "efeito": "Primeiro ensaio em combate bem-sucedido: 10MP, +3 nos testes de acerto com espada por três turnos iniciais, +9 no dano do primeiro golpe de espada que acertar durante duração.",
+      "custo_mp_estimado": 10,
+      "limite": "Experimental, não permanente. Uso1/combate compartilhado com técnica original, não acumula seus bônus. +9 em um único primeiro golpe com espada bem-sucedido, sem multiplicação por impacto ou projétil. Duração de três turnos incluindo ativação, sem HP gasto. Falha final após rerrolagens dissiparia energia sem bônus, custo10MP. Necessário validar golpe e descarga, sustentação e reprodução independente; técnica original preservada."
     }
   ],
   "maestrias": [
@@ -2011,7 +2020,11 @@
     },
     {
       "nome": "Manto da Égide Negra I",
-      "texto": "C813: reprodução refinada em combate bem-sucedida (16MP,31/28), +8DEF, reserva15/15, restam5 turnos. Ataque errou; testar carga representativa, esgotamento e dissipação. Sem aquisição permanente."
+      "texto": "C813 reprodução em combate bem-sucedida, C814 estável junto à Convergência II, +8DEF, reserva15/15, restam4 turnos. Testar carga representativa, esgotamento e dissipação."
+    },
+    {
+      "nome": "Convergência Arcana Controlada II",
+      "texto": "C814 primeira ativação experimental excepcional38/28, 10MP, +3 acerto espada, +9 dano primeiro acerto, restam2 turnos. Validar descarga e reproduzir antes de aprendizado permanente."
     }
   ],
   "relacoes": [
@@ -2044,7 +2057,7 @@
   "rota": [
     {
       "nome": "Currais do Vale Baixo",
-      "texto": "Fim da manhã95: confronto em andamento, criatura ferida a~1m; Égide ativa, cavalo amarrado.",
+      "texto": "Fim da manhã95: confronto em andamento, criatura ferida a~1m; Égide e Convergência II experimentais ativas, cavalo amarrado.",
       "atual": true
     },
     {
@@ -2123,7 +2136,8 @@
     "C806: cinco documentos restantes 100% conteúdo disponível compreendido e transcrito: Estabilização, Continuidade Espiritual, Tipologias, Anomalias e Transferência Controlada. Todos oito estudos concluídos teoricamente. Matriz de Identificação e Estabilização Vincular — Projeto I (C806): síntese conceitual dos oito documentos, fonte etérica externa independente, regulação/distribuição/isolamento/interrupção, quatro fundamentos de identificação (suporte, assinatura, continuidade, referência), estabilização auxiliar e interrupção preventiva. Formulações de trabalho: E_fonte = soma(E_módulos) + E_perdas; ΔV=(I−I0,S−S0,C−C0), I integridade, S estabilidade, C continuidade, referências iniciais; hipótese A_original→A_dupla→A_nova, ancoragem simultânea temporária antes de transferência, retorno e consentimento. Variáveis, tolerâncias, compatibilidade, materiais, fonte e dupla ancoragem não validados; nenhuma lei arcana nova comprovada. Fases futuras: análise passiva de peças, seleção da fonte, projeto detalhado, bancada isolada sem consciência, calibração e reprodução com referências inertes, interrupção segura, só depois avaliação consensual de eventual diagnóstico. Não energizar artefatos nem interferir no selo/vínculo.",
     "C808: Manto da Égide Negra I, protótipo defensivo, união de Manto III e Barreira com reserva separada. Dois ensaios bem-sucedidos sob impactos leves, versão refinada16MP, +8DEF/6 ciclos e reserva15 projetadas, não validadas integralmente. Reproduzir e calibrar antes de aprender; sem acumular Manto ou Barreira no mesmo impacto.",
     "C810: Vale Baixo, relatos de ataques noturnos a animais de criação; pegadas quadrúpedes de garras alongadas e criatura escura pouco mais2m avistada próxima a restos de ovelha. Autoria integral e espécie desconhecidas.",
-    "C812: primeira conjuração simultânea experimental de duas Lanças de Chama Negra I, 18MP, ambas atingiram,46 dano. Sem aprendizado permanente."
+    "C812: primeira conjuração simultânea experimental de duas Lanças de Chama Negra I, 18MP, ambas atingiram,46 dano. Sem aprendizado permanente.",
+    "C814: Convergência Arcana Controlada II experimental, 10MP, +3 acerto espada, +9 dano primeiro acerto. Ativação excepcional; descarga não testada."
   ],
-  "retomada": "Dia95 fim da manhã, Vale Baixo, rodada2 encerrada C813. Ashborn empunha Lâmina, Égide experimental ativa DEF26 RD7, restam5 turnos, reserva15/15, uso compartilhado Manto III consumido; criatura ferida hostil a~1m, 46 dano acumulado. Iniciativa Ashborn28 criatura22. HP120 MP51 PE10/50 XP260/1100 total5910 ouro10,1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa sem corrupção, PE1/2 noites. Cavalo amarrado atrás de árvores, outro Santuário. Contrato18ouro em execução. Rodada3 exclusiva decisão jogador."
+  "retomada": "Dia95 fim da manhã, Vale Baixo, rodada3 encerrada C814. Criatura ferida hostil a~1m, 46 dano acumulado. Ashborn armado, iniciativa28 contra22, Égide experimental DEF26 RD7, reserva15/15, restam4 turnos; Convergência II experimental +3 acerto espada, +9 dano primeiro acerto, restam2 turnos, bônus não consumido. Usos compartilhados Manto III e Convergência original consumidos. HP120 MP41 PE5/50 XP260/1100 total5910 ouro10, 1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa, corrupção curada, PE0/2 noites após C814. Cavalo amarrado atrás de árvores, outro Santuário. Contrato18ouro em execução. Rodada4 ação exclusiva jogador."
 }
