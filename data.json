@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V611",
-  "cena": 819,
-  "proxima": 820,
+  "checkpoint": "V612",
+  "cena": 820,
+  "proxima": 821,
   "dia": 95,
   "periodo": "Inicio da tarde",
   "personagem": {
@@ -1914,7 +1914,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Luméria — Casa das Violetas",
+  "local": "Luméria — Casa das Violetas, escritório",
   "agua": {
     "total": 2,
     "tratada": 2,
@@ -2026,6 +2026,10 @@
     {
       "nome": "Convergência Arcana Controlada II",
       "texto": "C814 ativação, C815 descarga+9 e C816 dissipação estável confirmadas. Expirada. Reprodução independente necessária para aprender permanentemente."
+    },
+    {
+      "nome": "Biblioteca pessoal",
+      "texto": "C820: Sete Chaves e Vigília de Ferro parcialmente estudados (percentual não registrado); Controle de Remessas e Retornos e Fragmentos de Protocolos de Custódia CR04 interpretação pendente. Oito documentos 100% conteúdo disponível C803–806."
     }
   ],
   "relacoes": [
@@ -2058,7 +2062,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Início da tarde95: espólios vendidos por11ouro, retorno à Casa das Violetas. Cavalo junto acesso lateral.",
+      "texto": "Início da tarde95: em casa após venda; acervo pessoal conferido, estudo não iniciado.",
       "atual": true
     },
     {
@@ -2143,5 +2147,5 @@
     "C816: vitória contra exemplar suspeito no Vale Baixo, carcaça não examinada. Convergência II expirou estavelmente; reprodução pendente.",
     "C817: prova e identificação de ovelha entregues a Garran; marca reconhecida, contrato Vale Baixo quitado. Égide dissipou-se sem refluxo."
   ],
-  "retomada": "Dia95 início da tarde, Casa das Violetas, Ashborn em casa após venda integral dos espólios por11ouro, saldo39ouro. Casa silenciosa, Serenya não parece presente, localização atual desconhecida, última presença confirmada café95. Vaelith junto, cavalo acomodado no acesso lateral, outro Santuário. HP120 MP24 PE5/50 XP370/1100 total6020 nível12 DEF18 RD7,1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários, PE0/2 noites após C814. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0; nenhum item depositado. Contrato Vale Baixo quitado C817. Próxima ação livre."
+  "retomada": "Dia95 início da tarde, escritório Casa das Violetas, Ashborn conferiu biblioteca sem estudar; dois grimórios parcialmente estudados e dois conjuntos CR04 com interpretação pendente identificados. Oito documentos 100% conteúdo disponível C803–806; demais registros de referência cotejo pendente sem percentual definido. HP120 MP24 PE5/50 XP370/1100 total6020 ouro39 DEF18 RD7,1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários, PE0/2 noites após C814. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0; nenhum item movido. Cavalo junto acesso lateral, outro Santuário. Serenya não observada em casa, última presença confirmada café95; Lyra/Theron Santuário. Próxima ação escolher estudo ou outra atividade."
 }
