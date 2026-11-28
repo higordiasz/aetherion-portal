@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V602",
-  "cena": 810,
-  "proxima": 811,
+  "checkpoint": "V603",
+  "cena": 811,
+  "proxima": 812,
   "dia": 95,
   "periodo": "Fim da manha",
   "personagem": {
@@ -1904,7 +1904,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Currais do Vale Baixo — área arborizada",
+  "local": "Currais do Vale Baixo — atrás de rocha a~8m da criatura",
   "agua": {
     "total": 2.3,
     "tratada": 2.3,
@@ -1962,7 +1962,7 @@
     {
       "nome": "Ameaça nos Currais do Vale Baixo",
       "ouro": 18,
-      "status": "Em execução — suspeito localizado, sem combate",
+      "status": "Em execução — aproximação furtiva a~8m, sem combate",
       "etapas": [
         "Formalizar contratação",
         "Investigar local dos ataques",
@@ -2044,7 +2044,7 @@
   "rota": [
     {
       "nome": "Currais do Vale Baixo",
-      "texto": "Fim da manhã95: contrato18ouro, rastros seguidos até depressão arborizada; criatura suspeita a~35m, sem confronto; cavalo junto.",
+      "texto": "Fim da manhã95: contrato18ouro, criatura suspeita a~8m; aproximação furtiva bem-sucedida, Lâmina desembainhada, cavalo amarrado atrás de árvores, sem confronto.",
       "atual": true
     },
     {
@@ -2124,5 +2124,5 @@
     "C808: Manto da Égide Negra I, protótipo defensivo, união de Manto III e Barreira com reserva separada. Dois ensaios bem-sucedidos sob impactos leves, versão refinada16MP, +8DEF/6 ciclos e reserva15 projetadas, não validadas integralmente. Reproduzir e calibrar antes de aprender; sem acumular Manto ou Barreira no mesmo impacto.",
     "C810: Vale Baixo, relatos de ataques noturnos a animais de criação; pegadas quadrúpedes de garras alongadas e criatura escura pouco mais2m avistada próxima a restos de ovelha. Autoria integral e espécie desconhecidas."
   ],
-  "retomada": "Dia95 fim da manhã, contrato18ouro em execução, criatura suspeita a~35m, sem combate. HP120 MP85 PE10 XP260/1100 ouro10, água2,3L, cavalo junto."
+  "retomada": "Dia95 fim da manhã, Vale Baixo, atrás de rocha a~8m da criatura suspeita, Lâmina do Vazio desembainhada, Ashborn não percebido; cavalo amarrado a tronco firme atrás de árvores, outro no Santuário. Fera deitada, pelagem negra espessa, pelagem mais fina sob pescoço, sem fraqueza mecânica confirmada. Contrato18ouro em execução. Sem ataque, iniciativa ou combate iniciado; próxima decisão livre. HP120 MP85 PE10/50 XP260/1100 total5910 ouro10,1ração2,3L tratada, zero poções, Sifão1/1 até5MP, Alma Una ativa, PE1/2 noites."
 }
