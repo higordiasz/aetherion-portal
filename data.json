@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V610",
-  "cena": 818,
-  "proxima": 819,
+  "checkpoint": "V611",
+  "cena": 819,
+  "proxima": 820,
   "dia": 95,
   "periodo": "Inicio da tarde",
   "personagem": {
@@ -20,7 +20,7 @@
       "pe_max": 50,
       "xp_nivel": 370,
       "xp_total": 6020,
-      "ouro": 28,
+      "ouro": 39,
       "xp_proximo_nivel": 1100
     },
     "atributos": {
@@ -616,48 +616,6 @@
         "Via assinada entregue gratuitamente por Garran C810, sem adiantamento.",
         "Espólios da criatura permitidos respeitando bens dos proprietários.",
         "C817: relatório e evidências validados por Garran, pagamento18ouro recebido."
-      ],
-      "quantidade": 1,
-      "equipado": false
-    },
-    {
-      "id": "presa-predador-vale-baixo",
-      "nome": "Presa de Predador do Vale Baixo",
-      "categoria": "material",
-      "descricao": "Duas presas resistentes extraídas do quadrúpede abatido C816.",
-      "restricoes": [
-        "Material bruto; avaliação e conservação pendentes, sem propriedade arcana comprovada."
-      ],
-      "propriedades": [
-        "Potencial de manufatura artesanal."
-      ],
-      "quantidade": 2,
-      "equipado": false
-    },
-    {
-      "id": "garra-predador-vale-baixo",
-      "nome": "Garra de Predador do Vale Baixo",
-      "categoria": "material",
-      "descricao": "Quatro garras rígidas extraídas da criatura.",
-      "restricoes": [
-        "Material bruto; avaliação e conservação pendentes."
-      ],
-      "propriedades": [
-        "Potencial de manufatura artesanal."
-      ],
-      "quantidade": 4,
-      "equipado": false
-    },
-    {
-      "id": "pelagem-predador-vale-baixo",
-      "nome": "Pelagem Negra Aproveitável do Vale Baixo",
-      "categoria": "material",
-      "descricao": "Lote de trechos aproveitáveis da pelagem negra, parcialmente danificada pelas chamas.",
-      "restricoes": [
-        "Perecível em estado bruto; necessita tratamento, sem avaliação de preço ou propriedade arcana."
-      ],
-      "propriedades": [
-        "Material para tratamento artesanal."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1956,7 +1914,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Luméria — Praça dos Artesãos",
+  "local": "Luméria — Casa das Violetas",
   "agua": {
     "total": 2,
     "tratada": 2,
@@ -2100,7 +2058,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Início da tarde95: Praça dos Artesãos, oferta negociada11ouro pelos espólios do Vale Baixo, sem venda.",
+      "texto": "Início da tarde95: espólios vendidos por11ouro, retorno à Casa das Violetas. Cavalo junto acesso lateral.",
       "atual": true
     },
     {
@@ -2185,5 +2143,5 @@
     "C816: vitória contra exemplar suspeito no Vale Baixo, carcaça não examinada. Convergência II expirou estavelmente; reprodução pendente.",
     "C817: prova e identificação de ovelha entregues a Garran; marca reconhecida, contrato Vale Baixo quitado. Égide dissipou-se sem refluxo."
   ],
-  "retomada": "Dia95 início da tarde, Praça dos Artesãos, diante do fabricante de armaduras não nomeado. Oferta negociada11ouro pelo lote2 presas,4 garras,1 pelagem negra; inicial10, Comércio21/20 sucesso, sem PE. Aguardando aceitação explícita da oferta; nenhum item vendido, saldo28ouro. HP120 MP24 PE5/50 XP370/1100 total6020 nível12 DEF18 RD7,1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou buffs, PE0/2 noites após C814. Cavalo acomodado próximo à praça, outro Santuário. Contrato Vale Baixo quitado C817. Próxima ação exclusiva jogador."
+  "retomada": "Dia95 início da tarde, Casa das Violetas, Ashborn em casa após venda integral dos espólios por11ouro, saldo39ouro. Casa silenciosa, Serenya não parece presente, localização atual desconhecida, última presença confirmada café95. Vaelith junto, cavalo acomodado no acesso lateral, outro Santuário. HP120 MP24 PE5/50 XP370/1100 total6020 nível12 DEF18 RD7,1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários, PE0/2 noites após C814. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0; nenhum item depositado. Contrato Vale Baixo quitado C817. Próxima ação livre."
 }
