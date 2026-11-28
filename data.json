@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V609",
-  "cena": 817,
-  "proxima": 818,
+  "checkpoint": "V610",
+  "cena": 818,
+  "proxima": 819,
   "dia": 95,
   "periodo": "Inicio da tarde",
   "personagem": {
@@ -1956,7 +1956,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Luméria — Quadro Público de Serviços",
+  "local": "Luméria — Praça dos Artesãos",
   "agua": {
     "total": 2,
     "tratada": 2,
@@ -2100,7 +2100,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Início da tarde95: Quadro Público, Garran validou e pagou18ouro.",
+      "texto": "Início da tarde95: Praça dos Artesãos, oferta negociada11ouro pelos espólios do Vale Baixo, sem venda.",
       "atual": true
     },
     {
@@ -2185,5 +2185,5 @@
     "C816: vitória contra exemplar suspeito no Vale Baixo, carcaça não examinada. Convergência II expirou estavelmente; reprodução pendente.",
     "C817: prova e identificação de ovelha entregues a Garran; marca reconhecida, contrato Vale Baixo quitado. Égide dissipou-se sem refluxo."
   ],
-  "retomada": "Dia95 início da tarde, Quadro Público de Serviços em Luméria, diante de Garran após contrato Vale Baixo concluído e pago18ouro. Exemplar abatido, pata-prova e identificação de ovelha entregues a Garran; espólios comerciais em bolsa:2 presas,4 garras,1 lote pelagem negra parcialmente danificada (~3kg total), valor não avaliado, sem venda. HP120 MP24 PE5/50 XP370/1100 total6020 ouro28 nível12 DEF18 RD7,1ração2,0L tratada, zero poções, Sifão1/1, Alma Una ativa, corrupção curada, PE0/2 noites após C814. Égide e Convergência II encerradas, nenhuma magia nova permanente. Um cavalo acomodado junto ao Quadro, outro Santuário. Próxima ação livre."
+  "retomada": "Dia95 início da tarde, Praça dos Artesãos, diante do fabricante de armaduras não nomeado. Oferta negociada11ouro pelo lote2 presas,4 garras,1 pelagem negra; inicial10, Comércio21/20 sucesso, sem PE. Aguardando aceitação explícita da oferta; nenhum item vendido, saldo28ouro. HP120 MP24 PE5/50 XP370/1100 total6020 nível12 DEF18 RD7,1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou buffs, PE0/2 noites após C814. Cavalo acomodado próximo à praça, outro Santuário. Contrato Vale Baixo quitado C817. Próxima ação exclusiva jogador."
 }
