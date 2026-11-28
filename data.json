@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V612",
-  "cena": 820,
-  "proxima": 821,
+  "checkpoint": "V613",
+  "cena": 821,
+  "proxima": 822,
   "dia": 95,
-  "periodo": "Inicio da tarde",
+  "periodo": "Inicio da noite",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -18,8 +18,8 @@
       "mp_max": 85,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 370,
-      "xp_total": 6020,
+      "xp_nivel": 405,
+      "xp_total": 6055,
       "ouro": 39,
       "xp_proximo_nivel": 1100
     },
@@ -258,7 +258,7 @@
       "id": "manto-da-egide-negra-i",
       "nome": "Manto da Égide Negra I",
       "status": "experimental",
-      "observacao": "C808: projeto41/25, reduzido43/25, revisão36/25, refinado46/28, todos excepcionais. 28MP total; 20PE na sequência, nenhuma rerrolagem. Sem lesões, nenhuma magia permanente. C813: d20 real11+INT15+RunasIII3+Sustentação2=31/28, sem PE gasto, 16MP, primeira reprodução em combate bem-sucedida; absorção íntegra15/15, 5 turnos restantes. C817 dissipação voluntária controlada estável após combate, reserva15/15 não testada, sem refluxo; falta absorção representativa e esgotamento.",
+      "observacao": "C808: projeto41/25, reduzido43/25, revisão36/25, refinado46/28, todos excepcionais. 28MP total; 20PE na sequência, nenhuma rerrolagem. Sem lesões, nenhuma magia permanente. C813: d20 real11+INT15+RunasIII3+Sustentação2=31/28, sem PE gasto, 16MP, primeira reprodução em combate bem-sucedida; absorção íntegra15/15, 5 turnos restantes. C817 dissipação voluntária controlada estável após combate, reserva15/15 não testada, sem refluxo; falta absorção representativa e esgotamento. C821: teoria Dissipação Seletiva de Impactos I fundamenta ensaio de saturação e isolamento; nenhuma mudança de parâmetros ou validação de absorção.",
       "efeito": "Dois ensaios bem-sucedidos: reduzido12MP, camada dupla3 ciclos; refinado16MP,6 ciclos, amortecimento leve sem desestabilizar chamas. Alvos teóricos +8 DEF e reserva cumulativa15 de absorção, não validados em carga representativa. C813 reprodução refinada em combate, 16MP, DT28 total31, ativa +8DEF, reserva15, seis turnos iniciais. Primeira patada errou; reserva não testada sob impacto.",
       "custo_mp_estimado": 16,
       "limite": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados. C813 reprodução bem-sucedida, ainda falta teste de carga representativa, esgotamento e dissipação; sem aquisição permanente. C817 dissipação voluntária estável observada, falta carga representativa e esgotamento; não permanente."
@@ -856,9 +856,18 @@
       "nome": "Manto da Égide Negra I",
       "categoria": "prototipo_magico",
       "objetivo": "Integrar proteção defensiva sustentada com absorção de impactos em reserva independente.",
-      "progresso": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados.",
+      "progresso": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados. C813–817 reprodução em combate e dissipação voluntária estável, sem absorção real. C821 estudo de dissipação seletiva, projeto teórico de isolamento sob saturação.",
       "efeito_atual": "Protótipo experimental, nenhuma alteração permanente de magias ou atributos.",
-      "condicao_para_prosseguir": "Reproduzir versão refinada, calibrar carga representativa, verificar esgotamento da reserva e dissipação segura antes de validação permanente."
+      "condicao_para_prosseguir": "Testar carga representativa, medir absorção e excedente, verificar esgotamento e estabilidade após saturação em condições seguras; parâmetros inalterados."
+    },
+    {
+      "id": "dissipacao-seletiva-impactos-i",
+      "nome": "Princípio da Dissipação Seletiva de Impactos I",
+      "categoria": "conhecimento_teorico_sem_melhora_validada",
+      "objetivo": "Compreender refluxo e distribuir impactos preservando circuitos de sustentação.",
+      "progresso": "C821 DT20 total30 e DT25 total26, +35XP. Teoria consolidada, sem teste ativo.",
+      "efeito_atual": "Modelo teórico, nenhum bônus mecânico novo.",
+      "condicao_para_prosseguir": "Validar absorção/esgotamento Égide e projeto antirrefluxo Ruptura separadamente."
     }
   ],
   "inventario_guardado": [
@@ -905,7 +914,8 @@
       "propriedades": [
         "Comprado de Berald Morn na Cena431 por oito ouros",
         "Lido parcialmente nas Cenas439 e440",
-        "Malha Defensiva em Duas Camadas I compreendida apenas teoricamente"
+        "Malha Defensiva em Duas Camadas I compreendida apenas teoricamente",
+        "C821: estudo do conteúdo acessível concluído após leituras anteriores; esquema de refluxo avançado e distribuição de impactos compreendidos teoricamente. Não equivale a domínio experimental."
       ],
       "quantidade": 1,
       "equipado": false,
@@ -2021,7 +2031,7 @@
     },
     {
       "nome": "Manto da Égide Negra I",
-      "texto": "C813 reprodução em combate, C817 dissipação voluntária estável; reserva não testada. Validar carga representativa e esgotamento antes de aprender."
+      "texto": "C813 reprodução em combate, C817 dissipação estável, C821 fundamentação teórica de dissipação seletiva. Validar carga representativa e esgotamento; não permanente."
     },
     {
       "nome": "Convergência Arcana Controlada II",
@@ -2029,7 +2039,7 @@
     },
     {
       "nome": "Biblioteca pessoal",
-      "texto": "C820: Sete Chaves e Vigília de Ferro parcialmente estudados (percentual não registrado); Controle de Remessas e Retornos e Fragmentos de Protocolos de Custódia CR04 interpretação pendente. Oito documentos 100% conteúdo disponível C803–806."
+      "texto": "C821 Vigília de Ferro: conteúdo acessível estudado, esquema avançado compreendido; Sete Chaves parcial, percentual histórico não definido. Dois conjuntos CR04 interpretação pendente, oito documentos100% C803–806."
     }
   ],
   "relacoes": [
@@ -2062,7 +2072,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Início da tarde95: em casa após venda; acervo pessoal conferido, estudo não iniciado.",
+      "texto": "Início da noite95: estudo Vigília de Ferro concluído quanto ao conteúdo acessível; teoria de dissipação seletiva.",
       "atual": true
     },
     {
@@ -2145,7 +2155,8 @@
     "C814: Convergência Arcana Controlada II experimental, 10MP, +3 acerto espada, +9 dano primeiro acerto. Ativação excepcional; descarga não testada.",
     "C815: primeira descarga de Convergência II bem-sucedida, +9 dano no Corte da Chama Vazia, 36 total. Sem aquisição permanente.",
     "C816: vitória contra exemplar suspeito no Vale Baixo, carcaça não examinada. Convergência II expirou estavelmente; reprodução pendente.",
-    "C817: prova e identificação de ovelha entregues a Garran; marca reconhecida, contrato Vale Baixo quitado. Égide dissipou-se sem refluxo."
+    "C817: prova e identificação de ovelha entregues a Garran; marca reconhecida, contrato Vale Baixo quitado. Égide dissipou-se sem refluxo.",
+    "C821: Princípio da Dissipação Seletiva de Impactos I, distinguir redirecionamento/armazenamento/dissipação e isolar sustentação na saturação. Teórico, sem bônus ou magia."
   ],
-  "retomada": "Dia95 início da tarde, escritório Casa das Violetas, Ashborn conferiu biblioteca sem estudar; dois grimórios parcialmente estudados e dois conjuntos CR04 com interpretação pendente identificados. Oito documentos 100% conteúdo disponível C803–806; demais registros de referência cotejo pendente sem percentual definido. HP120 MP24 PE5/50 XP370/1100 total6020 ouro39 DEF18 RD7,1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários, PE0/2 noites após C814. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0; nenhum item movido. Cavalo junto acesso lateral, outro Santuário. Serenya não observada em casa, última presença confirmada café95; Lyra/Theron Santuário. Próxima ação escolher estudo ou outra atividade."
+  "retomada": "Dia95 início da noite, escritório Casa das Violetas, Ashborn terminou estudo da Vigília de Ferro (conteúdo acessível lido, esquemas avançados compreendidos), novo Princípio da Dissipação Seletiva de Impactos I teórico, +35XP. HP120 MP24 PE5/50 XP405/1100 total6055 ouro39 DEF18 RD7,1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários, PE0/2 noites após C814. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0; grimório consultado e devolvido à estante. Cavalo junto acesso lateral, outro Santuário. Serenya última presença confirmada café95, localização atual não verificada; Lyra/Theron Santuário. Nenhuma noite concluída, próximo marco estratégico95. Próxima ação livre."
 }
