@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V613",
-  "cena": 821,
-  "proxima": 822,
-  "dia": 95,
-  "periodo": "Inicio da noite",
+  "checkpoint": "V614",
+  "cena": 822,
+  "proxima": 823,
+  "dia": 96,
+  "periodo": "Manha",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 24,
+      "mp": 85,
       "mp_max": 85,
       "pe": 5,
       "pe_max": 50,
@@ -78,7 +78,7 @@
       }
     ],
     "recuperacao": {
-      "noites": 0,
+      "noites": 1,
       "necessarias": 2
     }
   },
@@ -1924,7 +1924,7 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Luméria — Casa das Violetas, escritório",
+  "local": "Luméria — Casa das Violetas, quarto principal",
   "agua": {
     "total": 2,
     "tratada": 2,
@@ -2072,7 +2072,7 @@
   "rota": [
     {
       "nome": "Luméria",
-      "texto": "Início da noite95: estudo Vigília de Ferro concluído quanto ao conteúdo acessível; teoria de dissipação seletiva.",
+      "texto": "Manhã96: descanso adequado concluído em casa; mana restaurada, PE1/2 noites.",
       "atual": true
     },
     {
@@ -2158,5 +2158,5 @@
     "C817: prova e identificação de ovelha entregues a Garran; marca reconhecida, contrato Vale Baixo quitado. Égide dissipou-se sem refluxo.",
     "C821: Princípio da Dissipação Seletiva de Impactos I, distinguir redirecionamento/armazenamento/dissipação e isolar sustentação na saturação. Teórico, sem bônus ou magia."
   ],
-  "retomada": "Dia95 início da noite, escritório Casa das Violetas, Ashborn terminou estudo da Vigília de Ferro (conteúdo acessível lido, esquemas avançados compreendidos), novo Princípio da Dissipação Seletiva de Impactos I teórico, +35XP. HP120 MP24 PE5/50 XP405/1100 total6055 ouro39 DEF18 RD7,1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários, PE0/2 noites após C814. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0; grimório consultado e devolvido à estante. Cavalo junto acesso lateral, outro Santuário. Serenya última presença confirmada café95, localização atual não verificada; Lyra/Theron Santuário. Nenhuma noite concluída, próximo marco estratégico95. Próxima ação livre."
+  "retomada": "Dia96 manhã, Casa das Violetas, Ashborn despertou no quarto após noite95 completa adequada. HP120 MP85 PE5/50 XP405/1100 total6055 ouro39 nível12 DEF18 RD7, 1ração2L tratada, zero poções, Sifão1/1, Alma Una ativa, sem corrupção ou efeitos temporários; PE1/2 noites completas após C814, sem recuperação parcial. Mochila7 tipos8 unidades, casa64 tipos73 unidades, custódia0. Cavalo acomodado junto acesso lateral, outro Santuário. Serenya última presença confirmada café95, não observada C822, localização atual desconhecida; Lyra/Theron última presença Santuário. Nenhum café tomado. Próxima ação livre."
 }
