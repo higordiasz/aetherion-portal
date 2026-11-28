@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "checkpoint": "V606",
-  "cena": 814,
-  "proxima": 815,
+  "checkpoint": "V607",
+  "cena": 815,
+  "proxima": 816,
   "dia": 95,
   "periodo": "Fim da manha",
   "personagem": {
@@ -14,7 +14,7 @@
     "recursos": {
       "hp": 120,
       "hp_max": 120,
-      "mp": 41,
+      "mp": 29,
       "mp_max": 85,
       "pe": 5,
       "pe_max": 50,
@@ -267,10 +267,10 @@
       "id": "convergencia-arcana-controlada-ii",
       "nome": "Convergência Arcana Controlada II",
       "status": "experimental",
-      "observacao": "DT28 d20=6 total26 falha, rerrolagem18 total38 excepcional, 5PE gastos, segunda preservada; ativação estável junto à Égide. Ainda não houve golpe para validar descarga.",
-      "efeito": "Primeiro ensaio em combate bem-sucedido: 10MP, +3 nos testes de acerto com espada por três turnos iniciais, +9 no dano do primeiro golpe de espada que acertar durante duração.",
+      "observacao": "DT28 d20=6 total26 falha, rerrolagem18 total38 excepcional, 5PE gastos, segunda preservada; ativação estável junto à Égide. Ainda não houve golpe para validar descarga. C815 golpe híbrido confirmado com +3 acerto e +9 dano, reserva consumida, resta1 turno de +3 acerto.",
+      "efeito": "Primeiro ensaio em combate bem-sucedido: 10MP, +3 nos testes de acerto com espada por três turnos iniciais, +9 no dano do primeiro golpe de espada que acertar durante duração. C815: primeira descarga bem-sucedida, Corte da Chama Vazia27+9=36 efetivo, acerto25/18, sem refluxo observado.",
       "custo_mp_estimado": 10,
-      "limite": "Experimental, não permanente. Uso1/combate compartilhado com técnica original, não acumula seus bônus. +9 em um único primeiro golpe com espada bem-sucedido, sem multiplicação por impacto ou projétil. Duração de três turnos incluindo ativação, sem HP gasto. Falha final após rerrolagens dissiparia energia sem bônus, custo10MP. Necessário validar golpe e descarga, sustentação e reprodução independente; técnica original preservada."
+      "limite": "Experimental, não permanente. Uso1/combate compartilhado com técnica original, não acumula seus bônus. +9 em um único primeiro golpe com espada bem-sucedido, sem multiplicação por impacto ou projétil. Duração de três turnos incluindo ativação, sem HP gasto. Falha final após rerrolagens dissiparia energia sem bônus, custo10MP. Necessário validar golpe e descarga, sustentação e reprodução independente; técnica original preservada. Primeira descarga validada em C815; falta reprodução independente e encerramento estável. Não adquirida permanentemente."
     }
   ],
   "maestrias": [
@@ -1971,7 +1971,7 @@
     {
       "nome": "Ameaça nos Currais do Vale Baixo",
       "ouro": 18,
-      "status": "Em execução — criatura ferida a~1m, confronto em andamento",
+      "status": "Em execução — criatura gravemente ferida, confronto em andamento",
       "etapas": [
         "Formalizar contratação",
         "Investigar local dos ataques",
@@ -2020,11 +2020,11 @@
     },
     {
       "nome": "Manto da Égide Negra I",
-      "texto": "C813 reprodução em combate bem-sucedida, C814 estável junto à Convergência II, +8DEF, reserva15/15, restam4 turnos. Testar carga representativa, esgotamento e dissipação."
+      "texto": "C813 reprodução em combate, estável C814–815. +8DEF reserva15/15, restam3 turnos. Testar carga representativa, esgotamento e dissipação."
     },
     {
       "nome": "Convergência Arcana Controlada II",
-      "texto": "C814 primeira ativação experimental excepcional38/28, 10MP, +3 acerto espada, +9 dano primeiro acerto, restam2 turnos. Validar descarga e reproduzir antes de aprendizado permanente."
+      "texto": "C814 ativação experimental excepcional; C815 descarga +9 confirmada no Corte da Chama Vazia, 36 dano total; resta1 turno de +3 acerto espada, descarga consumida. Reprodução e dissipação pendentes."
     }
   ],
   "relacoes": [
@@ -2057,7 +2057,7 @@
   "rota": [
     {
       "nome": "Currais do Vale Baixo",
-      "texto": "Fim da manhã95: confronto em andamento, criatura ferida a~1m; Égide e Convergência II experimentais ativas, cavalo amarrado.",
+      "texto": "Fim da manhã95: criatura gravemente ferida a~1m; Égide e Convergência II experimentais ativas, descarga consumida, cavalo amarrado.",
       "atual": true
     },
     {
@@ -2137,7 +2137,8 @@
     "C808: Manto da Égide Negra I, protótipo defensivo, união de Manto III e Barreira com reserva separada. Dois ensaios bem-sucedidos sob impactos leves, versão refinada16MP, +8DEF/6 ciclos e reserva15 projetadas, não validadas integralmente. Reproduzir e calibrar antes de aprender; sem acumular Manto ou Barreira no mesmo impacto.",
     "C810: Vale Baixo, relatos de ataques noturnos a animais de criação; pegadas quadrúpedes de garras alongadas e criatura escura pouco mais2m avistada próxima a restos de ovelha. Autoria integral e espécie desconhecidas.",
     "C812: primeira conjuração simultânea experimental de duas Lanças de Chama Negra I, 18MP, ambas atingiram,46 dano. Sem aprendizado permanente.",
-    "C814: Convergência Arcana Controlada II experimental, 10MP, +3 acerto espada, +9 dano primeiro acerto. Ativação excepcional; descarga não testada."
+    "C814: Convergência Arcana Controlada II experimental, 10MP, +3 acerto espada, +9 dano primeiro acerto. Ativação excepcional; descarga não testada.",
+    "C815: primeira descarga de Convergência II bem-sucedida, +9 dano no Corte da Chama Vazia, 36 total. Sem aquisição permanente."
   ],
-  "retomada": "Dia95 fim da manhã, Vale Baixo, rodada3 encerrada C814. Criatura ferida hostil a~1m, 46 dano acumulado. Ashborn armado, iniciativa28 contra22, Égide experimental DEF26 RD7, reserva15/15, restam4 turnos; Convergência II experimental +3 acerto espada, +9 dano primeiro acerto, restam2 turnos, bônus não consumido. Usos compartilhados Manto III e Convergência original consumidos. HP120 MP41 PE5/50 XP260/1100 total5910 ouro10, 1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa, corrupção curada, PE0/2 noites após C814. Cavalo amarrado atrás de árvores, outro Santuário. Contrato18ouro em execução. Rodada4 ação exclusiva jogador."
+  "retomada": "Dia95 fim da manhã, Vale Baixo, rodada4 encerrada C815. Criatura gravemente ferida hostil a~1m, 82 dano acumulado. Ashborn armado, iniciativa28 contra22, Égide experimental DEF26 RD7 reserva15/15 restam3 turnos; Convergência II experimental +3 acerto espada resta1 turno, descarga +9 já consumida. Corte da Chama Vazia uso único consumido; usos compartilhados Manto III e Convergência original consumidos. HP120 MP29 PE5/50 XP260/1100 total5910 ouro10,1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa, corrupção curada, PE0/2 noites após C814. Cavalo amarrado atrás de árvores, outro Santuário. Contrato18ouro em execução. Rodada5 ação exclusiva jogador."
 }
