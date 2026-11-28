@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "checkpoint": "V608",
-  "cena": 816,
-  "proxima": 817,
+  "checkpoint": "V609",
+  "cena": 817,
+  "proxima": 818,
   "dia": 95,
-  "periodo": "Fim da manha",
+  "periodo": "Inicio da tarde",
   "personagem": {
     "nome": "Ashborn",
     "classe": "Espadachim Arcano",
@@ -18,9 +18,9 @@
       "mp_max": 85,
       "pe": 5,
       "pe_max": 50,
-      "xp_nivel": 360,
-      "xp_total": 6010,
-      "ouro": 10,
+      "xp_nivel": 370,
+      "xp_total": 6020,
+      "ouro": 28,
       "xp_proximo_nivel": 1100
     },
     "atributos": {
@@ -258,10 +258,10 @@
       "id": "manto-da-egide-negra-i",
       "nome": "Manto da Égide Negra I",
       "status": "experimental",
-      "observacao": "C808: projeto41/25, reduzido43/25, revisão36/25, refinado46/28, todos excepcionais. 28MP total; 20PE na sequência, nenhuma rerrolagem. Sem lesões, nenhuma magia permanente. C813: d20 real11+INT15+RunasIII3+Sustentação2=31/28, sem PE gasto, 16MP, primeira reprodução em combate bem-sucedida; absorção íntegra15/15, 5 turnos restantes.",
+      "observacao": "C808: projeto41/25, reduzido43/25, revisão36/25, refinado46/28, todos excepcionais. 28MP total; 20PE na sequência, nenhuma rerrolagem. Sem lesões, nenhuma magia permanente. C813: d20 real11+INT15+RunasIII3+Sustentação2=31/28, sem PE gasto, 16MP, primeira reprodução em combate bem-sucedida; absorção íntegra15/15, 5 turnos restantes. C817 dissipação voluntária controlada estável após combate, reserva15/15 não testada, sem refluxo; falta absorção representativa e esgotamento.",
       "efeito": "Dois ensaios bem-sucedidos: reduzido12MP, camada dupla3 ciclos; refinado16MP,6 ciclos, amortecimento leve sem desestabilizar chamas. Alvos teóricos +8 DEF e reserva cumulativa15 de absorção, não validados em carga representativa. C813 reprodução refinada em combate, 16MP, DT28 total31, ativa +8DEF, reserva15, seis turnos iniciais. Primeira patada errou; reserva não testada sob impacto.",
       "custo_mp_estimado": 16,
-      "limite": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados. C813 reprodução bem-sucedida, ainda falta teste de carga representativa, esgotamento e dissipação; sem aquisição permanente."
+      "limite": "Manto da Égide Negra I — protótipo: união Manto da Chama Negra III e Barreira Rúnica mediante sustentação adaptativa e reserva de absorção separada. Primeiro ensaio reduzido 12MP, +5DEF projetada, reserva8 pontos, três ciclos, camada dupla observada sob contatos leves; segundo 16MP, +8DEF projetada até6 ciclos e reserva total15 pontos, seis ciclos, amortecimento leve controlado e dissipação sem lesão. Números de DEF e absorção integral são parâmetros teóricos, não medidos sob ameaça; impactos representativos, esgotamento da reserva e reprodução independente da versão refinada pendentes. Sem aprender magia permanente. Projeto: absorção após RD física quando aplicável, até esgotar pool único por conjuração, sem regenerar; se reserva acabar Manto pode persistir até prazo se estabilidade mantida. Não acumula com Manto III nem Barreira no mesmo impacto; compartilha uso1/combate com Manto III. Não absorve custos de recurso, condições ou efeitos sem dano; sem reflexão ou imunidade. Custo16MP estimado para versão completa. Não ativar automaticamente; só ensaio explícito com parâmetros declarados. C813 reprodução bem-sucedida, ainda falta teste de carga representativa, esgotamento e dissipação; sem aquisição permanente. C817 dissipação voluntária estável observada, falta carga representativa e esgotamento; não permanente."
     },
     {
       "id": "convergencia-arcana-controlada-ii",
@@ -608,13 +608,56 @@
       "id": "contrato-ameaca-currais-vale-baixo",
       "nome": "Contrato — Ameaça nos Currais do Vale Baixo",
       "categoria": "documento",
-      "descricao": "Via assinada C810: 18ouro após identificação e neutralização de ameaça confirmada, evidências e validação; 1–2dias estimados.",
+      "descricao": "Via assinada C810: 18ouro após identificação e neutralização de ameaça confirmada, evidências e validação; 1–2dias estimados. C817: quitação integral18ouro.",
       "restricoes": [
-        "Não comprova autoria dos ataques, conclusão ou pagamento."
+        "Não certifica autoria de todos ataques ou ausência de outras criaturas."
       ],
       "propriedades": [
         "Via assinada entregue gratuitamente por Garran C810, sem adiantamento.",
-        "Espólios da criatura permitidos respeitando bens dos proprietários."
+        "Espólios da criatura permitidos respeitando bens dos proprietários.",
+        "C817: relatório e evidências validados por Garran, pagamento18ouro recebido."
+      ],
+      "quantidade": 1,
+      "equipado": false
+    },
+    {
+      "id": "presa-predador-vale-baixo",
+      "nome": "Presa de Predador do Vale Baixo",
+      "categoria": "material",
+      "descricao": "Duas presas resistentes extraídas do quadrúpede abatido C816.",
+      "restricoes": [
+        "Material bruto; avaliação e conservação pendentes, sem propriedade arcana comprovada."
+      ],
+      "propriedades": [
+        "Potencial de manufatura artesanal."
+      ],
+      "quantidade": 2,
+      "equipado": false
+    },
+    {
+      "id": "garra-predador-vale-baixo",
+      "nome": "Garra de Predador do Vale Baixo",
+      "categoria": "material",
+      "descricao": "Quatro garras rígidas extraídas da criatura.",
+      "restricoes": [
+        "Material bruto; avaliação e conservação pendentes."
+      ],
+      "propriedades": [
+        "Potencial de manufatura artesanal."
+      ],
+      "quantidade": 4,
+      "equipado": false
+    },
+    {
+      "id": "pelagem-predador-vale-baixo",
+      "nome": "Pelagem Negra Aproveitável do Vale Baixo",
+      "categoria": "material",
+      "descricao": "Lote de trechos aproveitáveis da pelagem negra, parcialmente danificada pelas chamas.",
+      "restricoes": [
+        "Perecível em estado bruto; necessita tratamento, sem avaliação de preço ou propriedade arcana."
+      ],
+      "propriedades": [
+        "Material para tratamento artesanal."
       ],
       "quantidade": 1,
       "equipado": false
@@ -1913,10 +1956,10 @@
     }
   ],
   "inventario_custodia": [],
-  "local": "Currais do Vale Baixo — depressão arborizada, exemplar abatido",
+  "local": "Luméria — Quadro Público de Serviços",
   "agua": {
-    "total": 2.3,
-    "tratada": 2.3,
+    "total": 2,
+    "tratada": 2,
     "bruta": 0
   },
   "missoes": [
@@ -1971,14 +2014,14 @@
     {
       "nome": "Ameaça nos Currais do Vale Baixo",
       "ouro": 18,
-      "status": "Em execução — exemplar abatido; confirmar causa, coletar prova e relatar",
+      "status": "Concluída, validada e paga — 18 ouro",
       "etapas": [
         "Formalizar contratação",
         "Investigar local dos ataques",
         "Identificar e neutralizar ameaça confirmada",
         "Apresentar evidência e relatório"
       ],
-      "concluidas": 2
+      "concluidas": 4
     }
   ],
   "objetivos": [
@@ -2020,7 +2063,7 @@
     },
     {
       "nome": "Manto da Égide Negra I",
-      "texto": "C813 reprodução em combate, estável C814–816. +8DEF reserva15/15, restam2 ciclos breves após vitória. Testar carga representativa, esgotamento e dissipação."
+      "texto": "C813 reprodução em combate, C817 dissipação voluntária estável; reserva não testada. Validar carga representativa e esgotamento antes de aprender."
     },
     {
       "nome": "Convergência Arcana Controlada II",
@@ -2056,18 +2099,18 @@
   ],
   "rota": [
     {
-      "nome": "Currais do Vale Baixo",
-      "texto": "Fim da manhã95: exemplar abatido, combate encerrado sem ferimentos; inspeção e evidência pendentes, cavalo amarrado.",
+      "nome": "Luméria",
+      "texto": "Início da tarde95: Quadro Público, Garran validou e pagou18ouro.",
       "atual": true
+    },
+    {
+      "nome": "Currais do Vale Baixo",
+      "texto": "Dia95: exemplar abatido, materiais e evidências recolhidos; contrato pago após retorno.",
+      "atual": false
     },
     {
       "nome": "Desfiladeiro Cinzento",
       "texto": "Criatura abatida, prova e espólios recolhidos, fenda inexplorada.",
-      "atual": false
-    },
-    {
-      "nome": "Luméria",
-      "texto": "Partida manhã95, um cavalo permaneceu Santuário.",
       "atual": false
     },
     {
@@ -2139,7 +2182,8 @@
     "C812: primeira conjuração simultânea experimental de duas Lanças de Chama Negra I, 18MP, ambas atingiram,46 dano. Sem aprendizado permanente.",
     "C814: Convergência Arcana Controlada II experimental, 10MP, +3 acerto espada, +9 dano primeiro acerto. Ativação excepcional; descarga não testada.",
     "C815: primeira descarga de Convergência II bem-sucedida, +9 dano no Corte da Chama Vazia, 36 total. Sem aquisição permanente.",
-    "C816: vitória contra exemplar suspeito no Vale Baixo, carcaça não examinada. Convergência II expirou estavelmente; reprodução pendente."
+    "C816: vitória contra exemplar suspeito no Vale Baixo, carcaça não examinada. Convergência II expirou estavelmente; reprodução pendente.",
+    "C817: prova e identificação de ovelha entregues a Garran; marca reconhecida, contrato Vale Baixo quitado. Égide dissipou-se sem refluxo."
   ],
-  "retomada": "Dia95 fim da manhã, Vale Baixo, combate encerrado vitória C816. Criatura morta a~1m, carcaça e restos de ovelha ainda não inspecionados; identidade, autoria integral dos ataques e outros exemplares não confirmados. Ashborn armado, Égide experimental ainda ativa por até2 ciclos breves, DEF26 RD7 reserva15/15, Convergência II expirada. HP120 MP24 PE5/50 XP360/1100 total6010 ouro10, 1ração2,3L tratada, zero poções, Sifão1/1, Alma Una ativa, corrupção curada, PE0/2 noites após C814. Cavalo amarrado atrás de árvores, outro Santuário. Contrato18ouro em execução, evidência e relatório pendentes. Próxima ação livre."
+  "retomada": "Dia95 início da tarde, Quadro Público de Serviços em Luméria, diante de Garran após contrato Vale Baixo concluído e pago18ouro. Exemplar abatido, pata-prova e identificação de ovelha entregues a Garran; espólios comerciais em bolsa:2 presas,4 garras,1 lote pelagem negra parcialmente danificada (~3kg total), valor não avaliado, sem venda. HP120 MP24 PE5/50 XP370/1100 total6020 ouro28 nível12 DEF18 RD7,1ração2,0L tratada, zero poções, Sifão1/1, Alma Una ativa, corrupção curada, PE0/2 noites após C814. Égide e Convergência II encerradas, nenhuma magia nova permanente. Um cavalo acomodado junto ao Quadro, outro Santuário. Próxima ação livre."
 }
